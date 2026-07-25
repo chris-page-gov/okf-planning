@@ -1,0 +1,65 @@
+{
+  "@context": {
+    "Catalog": "dcat:Catalog",
+    "Dataset": "dcat:Dataset",
+    "alignmentClaim": "okf:alignmentClaim",
+    "bundlePublisher": {
+      "@id": "okf:bundlePublisher",
+      "@type": "@id"
+    },
+    "conformsTo": {
+      "@id": "dct:conformsTo",
+      "@type": "@id"
+    },
+    "contextSet": {
+      "@id": "okf:contextSet",
+      "@type": "@id"
+    },
+    "dataset": {
+      "@id": "dcat:dataset",
+      "@type": "@id"
+    },
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dct": "http://purl.org/dc/terms/",
+    "description": "dct:description",
+    "identifier": "dct:identifier",
+    "landingPage": {
+      "@id": "dcat:landingPage",
+      "@type": "@id"
+    },
+    "nonEndorsementStatement": "okf:nonEndorsementStatement",
+    "notEndorsedBySource": "okf:notEndorsedBySource",
+    "okf": "https://chris-page-gov.github.io/okg-planning/vocab/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "publisher": {
+      "@id": "dct:publisher",
+      "@type": "@id"
+    },
+    "reviewedBy": {
+      "@id": "okf:reviewedBy",
+      "@type": "@id"
+    },
+    "semanticAuthority": {
+      "@id": "okf:semanticAuthority",
+      "@type": "@id"
+    },
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sourcePublisher": {
+      "@id": "okf:sourcePublisher",
+      "@type": "@id"
+    },
+    "title": "dct:title",
+    "wasAttributedTo": {
+      "@id": "prov:wasAttributedTo",
+      "@type": "@id"
+    },
+    "wasDerivedFrom": {
+      "@id": "prov:wasDerivedFrom",
+      "@type": "@id"
+    },
+    "wasGeneratedBy": {
+      "@id": "prov:wasGeneratedBy",
+      "@type": "@id"
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "schema": "okf-analysis-overview.v1",
+  "hierarchies": [
+    {
+      "id": "typology-hierarchy",
+      "label": "Planning Typology Hierarchy",
+      "levels": [
+        "typology",
+        "collection"
+      ],
+      "values": [
+        {
+          "id": "geography",
+          "label": "Geography",
+          "count": 108
+        },
+        {
+          "id": "category",
+          "label": "Category",
+          "count": 54
+        },
+        {
+          "id": "legal-instrument",
+          "label": "Legal-Instrument",
+          "count": 12
+        },
+        {
+          "id": "document",
+          "label": "Document",
+          "count": 12
+        },
+        {
+          "id": "pipeline",
+          "label": "Pipeline",
+          "count": 6
+        },
+        {
+          "id": "organisation",
+          "label": "Organisation",
+          "count": 15
+        },
+        {
+          "id": "policy",
+          "label": "Policy",
+          "count": 8
+        },
+        {
+          "id": "metric",
+          "label": "Metric",
+          "count": 3
+        },
+        {
+          "id": "timetable",
+          "label": "Timetable",
+          "count": 5
+        },
+        {
+          "id": "entity",
+          "label": "Entity",
+          "count": 3
+        },
+        {
+          "id": "value",
+          "label": "Value",
+          "count": 4
+        }
+      ]
+    }
+  ]
+}

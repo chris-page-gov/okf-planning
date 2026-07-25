@@ -1,0 +1,3962 @@
+{
+  "search_entries": [
+    {
+      "id": "address",
+      "route": "dataset/address",
+      "title": "Address",
+      "summary": "Planning dataset for Address",
+      "typology": "geography",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "planning-data",
+        "alpha",
+        "administrative"
+      ],
+      "hash_bucket": 3
+    },
+    {
+      "id": "agricultural-land-classification",
+      "route": "dataset/agricultural-land-classification",
+      "title": "Agricultural land classification",
+      "summary": "land graded by its quality for agricultural use",
+      "typology": "geography",
+      "collection": "agricultural-land-classification",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "agricultural-land-classification",
+        "alpha",
+        "environment"
+      ],
+      "hash_bucket": 15
+    },
+    {
+      "id": "air-quality-management-area",
+      "route": "dataset/air-quality-management-area",
+      "title": "Air quality management area",
+      "summary": "Areas where air pollution levels have exceeded the national air quality objectives",
+      "typology": "geography",
+      "collection": "air-quality-management-area",
+      "phase": "live",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "air-quality-management-area",
+        "live",
+        "environment"
+      ],
+      "hash_bucket": 13
+    },
+    {
+      "id": "ancient-woodland",
+      "route": "dataset/ancient-woodland",
+      "title": "Ancient woodland",
+      "summary": "An area that\u2019s been wooded continuously since at least 1600 AD",
+      "typology": "geography",
+      "collection": "ancient-woodland",
+      "phase": "live",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "ancient-woodland",
+        "live",
+        "environment"
+      ],
+      "hash_bucket": 2
+    },
+    {
+      "id": "ancient-woodland-status",
+      "route": "dataset/ancient-woodland-status",
+      "title": "Ancient woodland status",
+      "summary": "The status assigned to an area of [ancient woodland](/dataset/ancient-woodland) by Natural England.",
+      "typology": "category",
+      "collection": "ancient-woodland",
+      "phase": "beta",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "category",
+        "ancient-woodland",
+        "beta",
+        "environment"
+      ],
+      "hash_bucket": 7
+    },
+    {
+      "id": "archaeological-priority-area",
+      "route": "dataset/archaeological-priority-area",
+      "title": "Archaeological priority area",
+      "summary": "Areas of Greater London where there is significant known archaeological interest or potential for new discoveries",
+      "typology": "geography",
+      "collection": "archaeological-priority-area",
+      "phase": "live",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "archaeological-priority-area",
+        "live",
+        "environment",
+        "heritage"
+      ],
+      "hash_bucket": 0
+    },
+    {
+      "id": "area-of-outstanding-natural-beauty",
+      "route": "dataset/area-of-outstanding-natural-beauty",
+      "title": "Area of outstanding natural beauty",
+      "summary": "Land protected by law to conserve and enhance its natural beauty",
+      "typology": "geography",
+      "collection": "area-of-outstanding-natural-beauty",
+      "phase": "live",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "area-of-outstanding-natural-beauty",
+        "live",
+        "environment"
+      ],
+      "hash_bucket": 2
+    },
+    {
+      "id": "article-4-direction",
+      "route": "dataset/article-4-direction",
+      "title": "Article 4 direction",
+      "summary": "A local planning authority may create an [article 4 direction](https://www.gov.uk/guidance/when-is-permission-required#article-4-direction) to alter o",
+      "typology": "legal-instrument",
+      "collection": "article-4-direction",
+      "phase": "beta",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "legal-instrument",
+        "article-4-direction",
+        "beta",
+        "heritage"
+      ],
+      "hash_bucket": 8
+    },
+    {
+      "id": "article-4-direction-area",
+      "route": "dataset/article-4-direction-area",
+      "title": "Article 4 direction area",
+      "summary": "Orders made by the local planning authority to remove all or some of the permitted development rights on a site in order to protect it",
+      "typology": "geography",
+      "collection": "article-4-direction",
+      "phase": "beta",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "article-4-direction",
+        "beta",
+        "heritage"
+      ],
+      "hash_bucket": 2
+    },
+    {
+      "id": "article-4-direction-rule",
+      "route": "dataset/article-4-direction-rule",
+      "title": "Article 4 direction rule",
+      "summary": "the set of changes to permitted development rights affecting an article 4 direction area",
+      "typology": "category",
+      "collection": "planning-data",
+      "phase": "beta",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "category",
+        "planning-data",
+        "beta",
+        "heritage"
+      ],
+      "hash_bucket": 1
+    },
+    {
+      "id": "asset-of-community-value",
+      "route": "dataset/asset-of-community-value",
+      "title": "Asset of community value",
+      "summary": "Buildings or pieces of land that are used for the social wellbeing and interests of the local community",
+      "typology": "geography",
+      "collection": "asset-of-community-value",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "asset-of-community-value",
+        "alpha",
+        "heritage"
+      ],
+      "hash_bucket": 7
+    },
+    {
+      "id": "attribution",
+      "route": "dataset/attribution",
+      "title": "Attribution",
+      "summary": "Planning dataset for Attribution",
+      "typology": "category",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "category",
+        "planning-data",
+        "alpha",
+        "specification"
+      ],
+      "hash_bucket": 6
+    },
+    {
+      "id": "battlefield",
+      "route": "dataset/battlefield",
+      "title": "Battlefield",
+      "summary": "Battlefields as designated by [Historic England](https://historicengland.org.uk) in their [Register of Historic Battlefields](https://historicengland.",
+      "typology": "geography",
+      "collection": "historic-england",
+      "phase": "live",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "historic-england",
+        "live",
+        "heritage"
+      ],
+      "hash_bucket": 9
+    },
+    {
+      "id": "best-and-most-versatile-agricultural-land",
+      "route": "dataset/best-and-most-versatile-agricultural-land",
+      "title": "Best and most versatile agricultural land",
+      "summary": "Planning dataset for Best and most versatile agricultural land",
+      "typology": "geography",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "planning-data",
+        "alpha",
+        "environment"
+      ],
+      "hash_bucket": 7
+    },
+    {
+      "id": "biodiversity-net-gain-assessment",
+      "route": "dataset/biodiversity-net-gain-assessment",
+      "title": "Biodiversity net gain assesment",
+      "summary": "Planning dataset for Biodiversity net gain assesment",
+      "typology": "document",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "document",
+        "planning-data",
+        "alpha",
+        "environment"
+      ],
+      "hash_bucket": 7
+    },
+    {
+      "id": "border",
+      "route": "dataset/border",
+      "title": "Border",
+      "summary": "The boundary of England as provided by the ONS for the purposes of producing statistics.",
+      "typology": "geography",
+      "collection": "border",
+      "phase": "beta",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "border",
+        "beta",
+        "administrative"
+      ],
+      "hash_bucket": 7
+    },
+    {
+      "id": "brownfield-land",
+      "route": "dataset/brownfield-land",
+      "title": "Brownfield land",
+      "summary": "land that has been previously been developed",
+      "typology": "geography",
+      "collection": "brownfield-land",
+      "phase": "live",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "brownfield-land",
+        "live",
+        "development"
+      ],
+      "hash_bucket": 1
+    },
+    {
+      "id": "brownfield-site",
+      "route": "dataset/brownfield-site",
+      "title": "Brownfield site",
+      "summary": "This is an experimental dataset of the boundaries of brownfield sites found on [data.gov.uk](https://www.data.gov.uk/search?q=brownfield)\nand local pl",
+      "typology": "geography",
+      "collection": "brownfield-site",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "brownfield-site",
+        "alpha",
+        "development"
+      ],
+      "hash_bucket": 15
+    },
+    {
+      "id": "buffer-zone",
+      "route": "dataset/buffer-zone",
+      "title": "Buffer zone",
+      "summary": "Planning dataset for Buffer zone",
+      "typology": "geography",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "planning-data",
+        "alpha",
+        "heritage"
+      ],
+      "hash_bucket": 12
+    },
+    {
+      "id": "building-preservation-notice",
+      "route": "dataset/building-preservation-notice",
+      "title": "Building preservation notice",
+      "summary": "Local planning authorities can serve a Building Preservation Notice (BPN) on a building owner if they consider a building\nis in danger of demolition o",
+      "typology": "geography",
+      "collection": "historic-england",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "historic-england",
+        "alpha",
+        "development"
+      ],
+      "hash_bucket": 5
+    },
+    {
+      "id": "built-up-area",
+      "route": "dataset/built-up-area",
+      "title": "Built up area",
+      "summary": "built-up areas equal to or greater than 20 hectares",
+      "typology": "geography",
+      "collection": "built-up-area",
+      "phase": "beta",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "built-up-area",
+        "beta",
+        "housing"
+      ],
+      "hash_bucket": 11
+    },
+    {
+      "id": "category",
+      "route": "dataset/category",
+      "title": "Category",
+      "summary": "Planning dataset for Category",
+      "typology": "category",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "category",
+        "planning-data",
+        "alpha",
+        "specification"
+      ],
+      "hash_bucket": 1
+    },
+    {
+      "id": "central-activities-zone",
+      "route": "dataset/central-activities-zone",
+      "title": "Central activities zone",
+      "summary": "The [Greater London Authority](https://www.london.gov.uk/) (GLA) designates a central area of London with [implications for planning](https://www.lond",
+      "typology": "geography",
+      "collection": "central-activities-zone",
+      "phase": "beta",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "central-activities-zone",
+        "beta",
+        "development"
+      ],
+      "hash_bucket": 13
+    },
+    {
+      "id": "certificate-of-immunity",
+      "route": "dataset/certificate-of-immunity",
+      "title": "Certificate of immunity",
+      "summary": "Planning dataset for Certificate of immunity",
+      "typology": "geography",
+      "collection": "historic-england",
+      "phase": "beta",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "historic-england",
+        "beta",
+        "heritage"
+      ],
+      "hash_bucket": 7
+    },
+    {
+      "id": "coastal-change-management-area",
+      "route": "dataset/coastal-change-management-area",
+      "title": "Coastal change management area",
+      "summary": "Planning dataset for Coastal change management area",
+      "typology": "geography",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "planning-data",
+        "alpha",
+        "environment"
+      ],
+      "hash_bucket": 5
+    },
+    {
+      "id": "column",
+      "route": "dataset/column",
+      "title": "Pipeline column",
+      "summary": "Map resource column name to dataset field",
+      "typology": "pipeline",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "pipeline",
+        "planning-data",
+        "alpha",
+        "pipeline",
+        "specification"
+      ],
+      "hash_bucket": 7
+    },
+    {
+      "id": "common-land-and-village-green",
+      "route": "dataset/common-land-and-village-green",
+      "title": "Common land and village green",
+      "summary": "Planning dataset for Common land and village green",
+      "typology": "geography",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "planning-data",
+        "alpha",
+        "heritage"
+      ],
+      "hash_bucket": 13
+    },
+    {
+      "id": "community-infrastructure-levy-schedule",
+      "route": "dataset/community-infrastructure-levy-schedule",
+      "title": "Community infrastructure levy schedule",
+      "summary": "Planning dataset for Community infrastructure levy schedule",
+      "typology": "document",
+      "collection": "community-infrastructure-levy-schedule",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "document",
+        "community-infrastructure-levy-schedule",
+        "alpha",
+        "administrative",
+        "development"
+      ],
+      "hash_bucket": 11
+    },
+    {
+      "id": "company",
+      "route": "dataset/company",
+      "title": "Company",
+      "summary": "Planning dataset for Company",
+      "typology": "organisation",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "organisation",
+        "planning-data",
+        "alpha",
+        "administrative"
+      ],
+      "hash_bucket": 12
+    },
+    {
+      "id": "conservation-area",
+      "route": "dataset/conservation-area",
+      "title": "Conservation area",
+      "summary": "areas of special architectural or historic interest, the character or appearance of which it is desirable to preserve or enhance",
+      "typology": "geography",
+      "collection": "conservation-area",
+      "phase": "beta",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "conservation-area",
+        "beta",
+        "heritage"
+      ],
+      "hash_bucket": 10
+    },
+    {
+      "id": "conservation-area-document",
+      "route": "dataset/conservation-area-document",
+      "title": "Conservation area document",
+      "summary": "Planning dataset for Conservation area document",
+      "typology": "document",
+      "collection": "conservation-area",
+      "phase": "beta",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "document",
+        "conservation-area",
+        "beta",
+        "heritage"
+      ],
+      "hash_bucket": 4
+    },
+    {
+      "id": "conservation-area-document-type",
+      "route": "dataset/conservation-area-document-type",
+      "title": "Conservation area document type",
+      "summary": "Planning dataset for Conservation area document type",
+      "typology": "category",
+      "collection": "conservation-area",
+      "phase": "beta",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "category",
+        "conservation-area",
+        "beta",
+        "heritage"
+      ],
+      "hash_bucket": 3
+    },
+    {
+      "id": "contaminated-land",
+      "route": "dataset/contaminated-land",
+      "title": "Contaminated land",
+      "summary": "Planning dataset for Contaminated land",
+      "typology": "geography",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "planning-data",
+        "alpha",
+        "environment"
+      ],
+      "hash_bucket": 6
+    },
+    {
+      "id": "contribution-funding-status",
+      "route": "dataset/contribution-funding-status",
+      "title": "Contribution funding status",
+      "summary": "Planning dataset for Contribution funding status",
+      "typology": "category",
+      "collection": "developer-contributions",
+      "phase": "live",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "category",
+        "developer-contributions",
+        "live",
+        "development"
+      ],
+      "hash_bucket": 12
+    },
+    {
+      "id": "contribution-purpose",
+      "route": "dataset/contribution-purpose",
+      "title": "Contribution purpose",
+      "summary": "Planning dataset for Contribution purpose",
+      "typology": "category",
+      "collection": "developer-contributions",
+      "phase": "live",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "category",
+        "developer-contributions",
+        "live",
+        "development"
+      ],
+      "hash_bucket": 4
+    },
+    {
+      "id": "control-of-major-accident-hazards-site",
+      "route": "dataset/control-of-major-accident-hazards-site",
+      "title": "Control of major accident hazards site",
+      "summary": "Planning dataset for Control of major accident hazards site",
+      "typology": "geography",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "planning-data",
+        "alpha",
+        "development"
+      ],
+      "hash_bucket": 14
+    },
+    {
+      "id": "default",
+      "route": "dataset/default",
+      "title": "Pipeline default field",
+      "summary": "Take a missing field default value from another field",
+      "typology": "pipeline",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "pipeline",
+        "planning-data",
+        "alpha",
+        "pipeline",
+        "specification"
+      ],
+      "hash_bucket": 14
+    },
+    {
+      "id": "default-value",
+      "route": "dataset/default-value",
+      "title": "Pipeline default value",
+      "summary": "provide a default value for a missing or empty field",
+      "typology": "pipeline",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "pipeline",
+        "planning-data",
+        "alpha",
+        "pipeline",
+        "specification"
+      ],
+      "hash_bucket": 6
+    },
+    {
+      "id": "design-code",
+      "route": "dataset/design-code",
+      "title": "Design code",
+      "summary": "Planning dataset for Design code",
+      "typology": "policy",
+      "collection": "design-code",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "policy",
+        "design-code",
+        "alpha",
+        "development"
+      ],
+      "hash_bucket": 11
+    },
+    {
+      "id": "design-code-area",
+      "route": "dataset/design-code-area",
+      "title": "Design code area",
+      "summary": "Geographical areas covered by a [design code](/dataset/design-code).",
+      "typology": "geography",
+      "collection": "design-code",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "design-code",
+        "alpha",
+        "development"
+      ],
+      "hash_bucket": 7
+    },
+    {
+      "id": "design-code-area-type",
+      "route": "dataset/design-code-area-type",
+      "title": "Design code area type",
+      "summary": "Planning dataset for Design code area type",
+      "typology": "category",
+      "collection": "design-code",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "category",
+        "design-code",
+        "alpha",
+        "development"
+      ],
+      "hash_bucket": 14
+    },
+    {
+      "id": "design-code-characteristic",
+      "route": "dataset/design-code-characteristic",
+      "title": "Design code characteristic",
+      "summary": "Planning dataset for Design code characteristic",
+      "typology": "category",
+      "collection": "design-code",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "category",
+        "design-code",
+        "alpha",
+        "development"
+      ],
+      "hash_bucket": 7
+    },
+    {
+      "id": "design-code-rule",
+      "route": "dataset/design-code-rule",
+      "title": "Design code rule",
+      "summary": "the set of design code rules affecting a design code area",
+      "typology": "policy",
+      "collection": "design-code",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "policy",
+        "design-code",
+        "alpha",
+        "heritage"
+      ],
+      "hash_bucket": 4
+    },
+    {
+      "id": "design-code-rule-category",
+      "route": "dataset/design-code-rule-category",
+      "title": "Design code rule category",
+      "summary": "Planning dataset for Design code rule category",
+      "typology": "category",
+      "collection": "design-code",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "category",
+        "design-code",
+        "alpha",
+        "development"
+      ],
+      "hash_bucket": 15
+    },
+    {
+      "id": "design-code-status",
+      "route": "dataset/design-code-status",
+      "title": "Design code status",
+      "summary": "Planning dataset for Design code status",
+      "typology": "category",
+      "collection": "design-code",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "category",
+        "design-code",
+        "alpha",
+        "development"
+      ],
+      "hash_bucket": 12
+    },
+    {
+      "id": "developer-agreement",
+      "route": "dataset/developer-agreement",
+      "title": "Developer agreement",
+      "summary": "Planning dataset for Developer agreement",
+      "typology": "document",
+      "collection": "developer-contributions",
+      "phase": "beta",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "document",
+        "developer-contributions",
+        "beta",
+        "development"
+      ],
+      "hash_bucket": 12
+    },
+    {
+      "id": "developer-agreement-contribution",
+      "route": "dataset/developer-agreement-contribution",
+      "title": "Developer agreement contribution",
+      "summary": "Planning dataset for Developer agreement contribution",
+      "typology": "metric",
+      "collection": "developer-contributions",
+      "phase": "beta",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "metric",
+        "developer-contributions",
+        "beta",
+        "development"
+      ],
+      "hash_bucket": 1
+    },
+    {
+      "id": "developer-agreement-transaction",
+      "route": "dataset/developer-agreement-transaction",
+      "title": "Developer agreement transaction",
+      "summary": "Planning dataset for Developer agreement transaction",
+      "typology": "metric",
+      "collection": "developer-contributions",
+      "phase": "beta",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "metric",
+        "developer-contributions",
+        "beta",
+        "development"
+      ],
+      "hash_bucket": 5
+    },
+    {
+      "id": "developer-agreement-type",
+      "route": "dataset/developer-agreement-type",
+      "title": "Developer agreement type",
+      "summary": "Planning dataset for Developer agreement type",
+      "typology": "category",
+      "collection": "developer-contributions",
+      "phase": "live",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "category",
+        "developer-contributions",
+        "live",
+        "development"
+      ],
+      "hash_bucket": 11
+    },
+    {
+      "id": "development-corporation",
+      "route": "dataset/development-corporation",
+      "title": "Development corporation",
+      "summary": "A development corporation may have powers to create development policies,\nand make planning decisions for a [local planning authority](/dataset/local-",
+      "typology": "organisation",
+      "collection": "organisation",
+      "phase": "beta",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "organisation",
+        "organisation",
+        "beta",
+        "administrative"
+      ],
+      "hash_bucket": 9
+    },
+    {
+      "id": "development-corporation-boundary",
+      "route": "dataset/development-corporation-boundary",
+      "title": "Development corporation boundary",
+      "summary": "development corporation administrative boundaries",
+      "typology": "geography",
+      "collection": "development-corporation-boundary",
+      "phase": "beta",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "development-corporation-boundary",
+        "beta",
+        "administrative"
+      ],
+      "hash_bucket": 2
+    },
+    {
+      "id": "development-metric",
+      "route": "dataset/development-metric",
+      "title": "Development metric",
+      "summary": "The types of measurement used as a development policy metric",
+      "typology": "category",
+      "collection": "planning-data",
+      "phase": "discovery",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "category",
+        "planning-data",
+        "discovery",
+        "development"
+      ],
+      "hash_bucket": 1
+    },
+    {
+      "id": "development-plan",
+      "route": "dataset/development-plan",
+      "title": "development plan",
+      "summary": "This dataset is a package made from the local-plan, waste-plan, minerals-plan and supplementary-plan datasets.",
+      "typology": "legal-instrument",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "legal-instrument",
+        "planning-data",
+        "alpha",
+        "development"
+      ],
+      "hash_bucket": 2
+    },
+    {
+      "id": "development-plan-boundary",
+      "route": "dataset/development-plan-boundary",
+      "title": "Development plan boundary",
+      "summary": "A boundary that a development plan covers",
+      "typology": "geography",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "planning-data",
+        "alpha",
+        "development"
+      ],
+      "hash_bucket": 15
+    },
+    {
+      "id": "development-plan-boundary-type",
+      "route": "dataset/development-plan-boundary-type",
+      "title": "Development plan boundary type",
+      "summary": "A type of boundary covered by the development plan",
+      "typology": "category",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "category",
+        "planning-data",
+        "alpha",
+        "development"
+      ],
+      "hash_bucket": 6
+    },
+    {
+      "id": "development-plan-document",
+      "route": "dataset/development-plan-document",
+      "title": "Development plan document",
+      "summary": "documents associated with a development plan",
+      "typology": "document",
+      "collection": "local-plan",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "document",
+        "local-plan",
+        "alpha",
+        "development"
+      ],
+      "hash_bucket": 12
+    },
+    {
+      "id": "development-plan-document-type",
+      "route": "dataset/development-plan-document-type",
+      "title": "Development plan document type",
+      "summary": "The types of documents published for a development plan",
+      "typology": "category",
+      "collection": "local-plan",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "category",
+        "local-plan",
+        "alpha",
+        "development"
+      ],
+      "hash_bucket": 11
+    },
+    {
+      "id": "development-plan-geography",
+      "route": "dataset/development-plan-geography",
+      "title": "Development plan geography",
+      "summary": "A geography that a development plan covers",
+      "typology": "geography",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "planning-data",
+        "alpha",
+        "development"
+      ],
+      "hash_bucket": 1
+    },
+    {
+      "id": "development-plan-geography-type",
+      "route": "dataset/development-plan-geography-type",
+      "title": "Development plan geography type",
+      "summary": "A type of geography that a development plan covers",
+      "typology": "category",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "category",
+        "planning-data",
+        "alpha",
+        "development"
+      ],
+      "hash_bucket": 12
+    },
+    {
+      "id": "development-plan-status",
+      "route": "dataset/development-plan-status",
+      "title": "Development plan status",
+      "summary": "The different statuses a plan can have",
+      "typology": "category",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "category",
+        "planning-data",
+        "alpha",
+        "development"
+      ],
+      "hash_bucket": 7
+    },
+    {
+      "id": "development-plan-timetable",
+      "route": "dataset/development-plan-timetable",
+      "title": "development plan timetable",
+      "summary": "log of past and committed milestones and events when producing a development plan",
+      "typology": "timetable",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "timetable",
+        "planning-data",
+        "alpha",
+        "development"
+      ],
+      "hash_bucket": 0
+    },
+    {
+      "id": "development-plan-type",
+      "route": "dataset/development-plan-type",
+      "title": "Development plan type",
+      "summary": "Planning dataset for Development plan type",
+      "typology": "category",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "category",
+        "planning-data",
+        "alpha",
+        "development"
+      ],
+      "hash_bucket": 5
+    },
+    {
+      "id": "development-policy",
+      "route": "dataset/development-policy",
+      "title": "Development policy",
+      "summary": "Planning dataset for Development policy",
+      "typology": "policy",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "policy",
+        "planning-data",
+        "alpha",
+        "development"
+      ],
+      "hash_bucket": 15
+    },
+    {
+      "id": "development-policy-area",
+      "route": "dataset/development-policy-area",
+      "title": "Development policy area",
+      "summary": "Planning dataset for Development policy area",
+      "typology": "geography",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "planning-data",
+        "alpha",
+        "development"
+      ],
+      "hash_bucket": 3
+    },
+    {
+      "id": "development-policy-category",
+      "route": "dataset/development-policy-category",
+      "title": "Development policy category",
+      "summary": "Planning dataset for Development policy category",
+      "typology": "category",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "category",
+        "planning-data",
+        "alpha",
+        "development"
+      ],
+      "hash_bucket": 14
+    },
+    {
+      "id": "development-policy-metric",
+      "route": "dataset/development-policy-metric",
+      "title": "Development policy metric",
+      "summary": "Metrics associated with a development policy",
+      "typology": "metric",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "metric",
+        "planning-data",
+        "alpha",
+        "development"
+      ],
+      "hash_bucket": 2
+    },
+    {
+      "id": "document",
+      "route": "dataset/document",
+      "title": "Document",
+      "summary": "Planning dataset for Document",
+      "typology": "document",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "document",
+        "planning-data",
+        "alpha",
+        "development"
+      ],
+      "hash_bucket": 4
+    },
+    {
+      "id": "document-type",
+      "route": "dataset/document-type",
+      "title": "Document type",
+      "summary": "Planning dataset for Document type",
+      "typology": "category",
+      "collection": "document",
+      "phase": "beta",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "category",
+        "document",
+        "beta",
+        "development"
+      ],
+      "hash_bucket": 3
+    },
+    {
+      "id": "educational-establishment",
+      "route": "dataset/educational-establishment",
+      "title": "Educational establishment",
+      "summary": "Planning dataset for Educational establishment",
+      "typology": "geography",
+      "collection": "educational-establishment",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "educational-establishment",
+        "alpha",
+        "administrative"
+      ],
+      "hash_bucket": 14
+    },
+    {
+      "id": "employment-allocation",
+      "route": "dataset/employment-allocation",
+      "title": "Employment allocation",
+      "summary": "Planning dataset for Employment allocation",
+      "typology": "geography",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "planning-data",
+        "alpha",
+        "development"
+      ],
+      "hash_bucket": 0
+    },
+    {
+      "id": "entity",
+      "route": "dataset/entity",
+      "title": "Entity",
+      "summary": "a data item",
+      "typology": "entity",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "entity",
+        "planning-data",
+        "alpha",
+        "specification"
+      ],
+      "hash_bucket": 10
+    },
+    {
+      "id": "entity-organisation",
+      "route": "dataset/entity-organisation",
+      "title": "Entity organisation",
+      "summary": "The organisation responsible for managing a range of entities.",
+      "typology": "entity",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "entity",
+        "planning-data",
+        "alpha",
+        "specification"
+      ],
+      "hash_bucket": 7
+    },
+    {
+      "id": "expect",
+      "route": "dataset/expect",
+      "title": "Expectation Rule",
+      "summary": "A set of rules which can be turned into an expectation of a dataset",
+      "typology": "pipeline",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "pipeline",
+        "planning-data",
+        "alpha",
+        "pipeline"
+      ],
+      "hash_bucket": 8
+    },
+    {
+      "id": "expectation",
+      "route": "dataset/expectation",
+      "title": "Expectation Log",
+      "summary": "The output of running expectations based on the rules defined in the expect dataset",
+      "typology": "pipeline",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "pipeline",
+        "planning-data",
+        "alpha",
+        "pipeline"
+      ],
+      "hash_bucket": 5
+    },
+    {
+      "id": "fact",
+      "route": "dataset/fact",
+      "title": "Fact",
+      "summary": "a field and its value for an entity",
+      "typology": "value",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "value",
+        "planning-data",
+        "alpha",
+        "specification"
+      ],
+      "hash_bucket": 15
+    },
+    {
+      "id": "fact-resource",
+      "route": "dataset/fact-resource",
+      "title": "Fact resource",
+      "summary": "the provenance of a fact",
+      "typology": "value",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "value",
+        "planning-data",
+        "alpha",
+        "specification"
+      ],
+      "hash_bucket": 14
+    },
+    {
+      "id": "flood-risk-level",
+      "route": "dataset/flood-risk-level",
+      "title": "Flood risk level",
+      "summary": "Planning dataset for Flood risk level",
+      "typology": "category",
+      "collection": "flood-risk-zone",
+      "phase": "live",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "category",
+        "flood-risk-zone",
+        "live",
+        "environment"
+      ],
+      "hash_bucket": 2
+    },
+    {
+      "id": "flood-risk-type",
+      "route": "dataset/flood-risk-type",
+      "title": "Flood risk type",
+      "summary": "Planning dataset for Flood risk type",
+      "typology": "category",
+      "collection": "flood-risk-zone",
+      "phase": "live",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "category",
+        "flood-risk-zone",
+        "live",
+        "environment"
+      ],
+      "hash_bucket": 4
+    },
+    {
+      "id": "flood-risk-zone",
+      "route": "dataset/flood-risk-zone",
+      "title": "Flood risk zone",
+      "summary": "Area identified as being at risk of flooding from rivers or the sea",
+      "typology": "geography",
+      "collection": "flood-risk-zone",
+      "phase": "live",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "flood-risk-zone",
+        "live",
+        "environment"
+      ],
+      "hash_bucket": 10
+    },
+    {
+      "id": "flood-storage-area",
+      "route": "dataset/flood-storage-area",
+      "title": "Flood storage area",
+      "summary": "Areas that act as a balancing reservoir, storage basin or balancing pond for flood control",
+      "typology": "geography",
+      "collection": "flood-storage-area",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "flood-storage-area",
+        "alpha",
+        "environment"
+      ],
+      "hash_bucket": 11
+    },
+    {
+      "id": "forest-inventory",
+      "route": "dataset/forest-inventory",
+      "title": "Forest inventory",
+      "summary": "All forest and woodland area over 0.5 hectare with a minimum of 20% canopy cover, or the potential to achieve it",
+      "typology": "geography",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "planning-data",
+        "alpha",
+        "environment"
+      ],
+      "hash_bucket": 9
+    },
+    {
+      "id": "government-organisation",
+      "route": "dataset/government-organisation",
+      "title": "Government organisation",
+      "summary": "A selection of departments, agencies, public bodies, and teams [listed on GOV.UK](https://www.gov.uk/government/organisations).\nThis data originally c",
+      "typology": "organisation",
+      "collection": "organisation",
+      "phase": "beta",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "organisation",
+        "organisation",
+        "beta",
+        "administrative"
+      ],
+      "hash_bucket": 3
+    },
+    {
+      "id": "green-belt",
+      "route": "dataset/green-belt",
+      "title": "Green belt",
+      "summary": "This dataset contains boundaries for land designated by a local planning authority as being [green belt](https://www.gov.uk/guidance/green-belt),\ngrou",
+      "typology": "geography",
+      "collection": "green-belt",
+      "phase": "beta",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "green-belt",
+        "beta",
+        "environment"
+      ],
+      "hash_bucket": 10
+    },
+    {
+      "id": "green-belt-core",
+      "route": "dataset/green-belt-core",
+      "title": "Green belt core",
+      "summary": "A category used to collect [green belt](/dataset/green-belt) areas which surround an single urban area.",
+      "typology": "category",
+      "collection": "green-belt",
+      "phase": "beta",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "category",
+        "green-belt",
+        "beta",
+        "environment"
+      ],
+      "hash_bucket": 14
+    },
+    {
+      "id": "guardianship-site-and-english-heritage-site",
+      "route": "dataset/guardianship-site-and-english-heritage-site",
+      "title": "Guardianship site and English heritage site",
+      "summary": "Planning dataset for Guardianship site and English heritage site",
+      "typology": "geography",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "planning-data",
+        "alpha",
+        "heritage"
+      ],
+      "hash_bucket": 3
+    },
+    {
+      "id": "gypsy-and-traveller-site",
+      "route": "dataset/gypsy-and-traveller-site",
+      "title": "Gypsy and traveller site",
+      "summary": "Planning dataset for Gypsy and traveller site",
+      "typology": "geography",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "planning-data",
+        "alpha",
+        "development"
+      ],
+      "hash_bucket": 3
+    },
+    {
+      "id": "heritage-action-zone",
+      "route": "dataset/heritage-action-zone",
+      "title": "Heritage action zone",
+      "summary": "Planning dataset for Heritage action zone",
+      "typology": "geography",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "planning-data",
+        "alpha",
+        "heritage"
+      ],
+      "hash_bucket": 6
+    },
+    {
+      "id": "heritage-at-risk",
+      "route": "dataset/heritage-at-risk",
+      "title": "Heritage at risk",
+      "summary": "The [Heritage at risk register](https://historicengland.org.uk/advice/heritage-at-risk/search-register/) is updated annually by [Historic England](htt",
+      "typology": "geography",
+      "collection": "historic-england",
+      "phase": "beta",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "historic-england",
+        "beta",
+        "heritage"
+      ],
+      "hash_bucket": 2
+    },
+    {
+      "id": "heritage-coast",
+      "route": "dataset/heritage-coast",
+      "title": "Heritage coast",
+      "summary": "A [heritage coast](https://www.gov.uk/government/publications/heritage-coasts-protecting-undeveloped-coast/heritage-coasts-definition-purpose-and-natu",
+      "typology": "geography",
+      "collection": "heritage-coast",
+      "phase": "beta",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "heritage-coast",
+        "beta",
+        "environment",
+        "heritage"
+      ],
+      "hash_bucket": 15
+    },
+    {
+      "id": "historic-non-designed-rural-landscape-local-landscape-area",
+      "route": "dataset/historic-non-designed-rural-landscape-local-landscape-area",
+      "title": "Historic (non-designed) rural landscape/local landscape area",
+      "summary": "Planning dataset for Historic (non-designed) rural landscape/local landscape area",
+      "typology": "geography",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "planning-data",
+        "alpha",
+        "heritage"
+      ],
+      "hash_bucket": 5
+    },
+    {
+      "id": "historic-stone-quarry",
+      "route": "dataset/historic-stone-quarry",
+      "title": "Historic stone quarry",
+      "summary": "Planning dataset for Historic stone quarry",
+      "typology": "geography",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "planning-data",
+        "alpha",
+        "heritage"
+      ],
+      "hash_bucket": 11
+    },
+    {
+      "id": "hs2-safeguarded-area",
+      "route": "dataset/hs2-safeguarded-area",
+      "title": "HS2 safeguarded area",
+      "summary": "Planning dataset for HS2 safeguarded area",
+      "typology": "geography",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "planning-data",
+        "alpha",
+        "transport"
+      ],
+      "hash_bucket": 6
+    },
+    {
+      "id": "infrastructure-funding-statement",
+      "route": "dataset/infrastructure-funding-statement",
+      "title": "Infrastructure funding statement",
+      "summary": "Planning dataset for Infrastructure funding statement",
+      "typology": "document",
+      "collection": "infrastructure-funding-statement",
+      "phase": "beta",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "document",
+        "infrastructure-funding-statement",
+        "beta",
+        "development"
+      ],
+      "hash_bucket": 10
+    },
+    {
+      "id": "infrastructure-project",
+      "route": "dataset/infrastructure-project",
+      "title": "Infrastructure project",
+      "summary": "An application for a infrastructure development",
+      "typology": "geography",
+      "collection": "infrastructure-project",
+      "phase": "beta",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "infrastructure-project",
+        "beta",
+        "development"
+      ],
+      "hash_bucket": 2
+    },
+    {
+      "id": "infrastructure-project-decision",
+      "route": "dataset/infrastructure-project-decision",
+      "title": "Infrastructure project decision",
+      "summary": "The types of decision for infrastructure projects",
+      "typology": "category",
+      "collection": "infrastructure-project",
+      "phase": "beta",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "category",
+        "infrastructure-project",
+        "beta",
+        "development"
+      ],
+      "hash_bucket": 11
+    },
+    {
+      "id": "infrastructure-project-document",
+      "route": "dataset/infrastructure-project-document",
+      "title": "Infrastructure project document",
+      "summary": "The documents published and produced for a infrastructure project",
+      "typology": "document",
+      "collection": "planning-data",
+      "phase": "beta",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "document",
+        "planning-data",
+        "beta",
+        "development"
+      ],
+      "hash_bucket": 12
+    },
+    {
+      "id": "infrastructure-project-document-type",
+      "route": "dataset/infrastructure-project-document-type",
+      "title": "Infrastructure project document type",
+      "summary": "The types of document produced and published for infrastructure projects",
+      "typology": "category",
+      "collection": "infrastructure-project",
+      "phase": "beta",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "category",
+        "infrastructure-project",
+        "beta",
+        "development"
+      ],
+      "hash_bucket": 11
+    },
+    {
+      "id": "infrastructure-project-event",
+      "route": "dataset/infrastructure-project-event",
+      "title": "Infrastructure project event",
+      "summary": "The events that happen during the infrastructure projects stages",
+      "typology": "category",
+      "collection": "infrastructure-project",
+      "phase": "beta",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "category",
+        "infrastructure-project",
+        "beta",
+        "development"
+      ],
+      "hash_bucket": 7
+    },
+    {
+      "id": "infrastructure-project-log",
+      "route": "dataset/infrastructure-project-log",
+      "title": "Infrastructure project log",
+      "summary": "A log of events that happen during the infrastructure projects",
+      "typology": "timetable",
+      "collection": "planning-data",
+      "phase": "beta",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "timetable",
+        "planning-data",
+        "beta",
+        "development"
+      ],
+      "hash_bucket": 9
+    },
+    {
+      "id": "infrastructure-project-type",
+      "route": "dataset/infrastructure-project-type",
+      "title": "Infrastructure project type",
+      "summary": "The types of infrastructure projects",
+      "typology": "category",
+      "collection": "infrastructure-project",
+      "phase": "beta",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "category",
+        "infrastructure-project",
+        "beta",
+        "development"
+      ],
+      "hash_bucket": 5
+    },
+    {
+      "id": "internal-drainage-board",
+      "route": "dataset/internal-drainage-board",
+      "title": "Internal drainage board",
+      "summary": "Planning dataset for Internal drainage board",
+      "typology": "organisation",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "organisation",
+        "planning-data",
+        "alpha",
+        "administrative"
+      ],
+      "hash_bucket": 15
+    },
+    {
+      "id": "internal-drainage-district",
+      "route": "dataset/internal-drainage-district",
+      "title": "Internal drainage district",
+      "summary": "Planning dataset for Internal drainage district",
+      "typology": "geography",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "planning-data",
+        "alpha",
+        "administrative"
+      ],
+      "hash_bucket": 3
+    },
+    {
+      "id": "licence",
+      "route": "dataset/licence",
+      "title": "Licence",
+      "summary": "Planning dataset for Licence",
+      "typology": "category",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "category",
+        "planning-data",
+        "alpha",
+        "specification"
+      ],
+      "hash_bucket": 4
+    },
+    {
+      "id": "listed-building",
+      "route": "dataset/listed-building",
+      "title": "Listed building",
+      "summary": "This dataset contains data about special architectural or historic buildings with legal protection.\n\nIt can be used for:\n<ul>\n<li>guiding conservation",
+      "typology": "geography",
+      "collection": "listed-building",
+      "phase": "beta",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "listed-building",
+        "beta",
+        "heritage"
+      ],
+      "hash_bucket": 11
+    },
+    {
+      "id": "listed-building-grade",
+      "route": "dataset/listed-building-grade",
+      "title": "Listed building grade",
+      "summary": "The grade assigned to each [listed building](/dataset/listed-building) by [Historic England](https://historicengland.org.uk/).",
+      "typology": "category",
+      "collection": "listed-building",
+      "phase": "live",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "category",
+        "listed-building",
+        "live",
+        "heritage"
+      ],
+      "hash_bucket": 5
+    },
+    {
+      "id": "listed-building-outline",
+      "route": "dataset/listed-building-outline",
+      "title": "Listed building outline",
+      "summary": "boundary of a listed building",
+      "typology": "geography",
+      "collection": "listed-building",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "listed-building",
+        "alpha",
+        "heritage"
+      ],
+      "hash_bucket": 12
+    },
+    {
+      "id": "local-area-requirements",
+      "route": "dataset/local-area-requirements",
+      "title": "Local area requirements",
+      "summary": "Planning dataset for Local area requirements",
+      "typology": "document",
+      "collection": "local-area-requirements",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "document",
+        "local-area-requirements",
+        "alpha",
+        "administrative",
+        "housing"
+      ],
+      "hash_bucket": 9
+    },
+    {
+      "id": "local-authority",
+      "route": "dataset/local-authority",
+      "title": "Local authority",
+      "summary": "This dataset contains information about local authorities which have powers to create development policies, and make planning decisions for a [local p",
+      "typology": "organisation",
+      "collection": "organisation",
+      "phase": "beta",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "organisation",
+        "organisation",
+        "beta",
+        "administrative"
+      ],
+      "hash_bucket": 12
+    },
+    {
+      "id": "local-authority-district",
+      "route": "dataset/local-authority-district",
+      "title": "Local authority district",
+      "summary": "The administrative boundaries of local authorities in England as provided by the ONS for the purposes of producing statistics.",
+      "typology": "geography",
+      "collection": "local-authority-district",
+      "phase": "beta",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "local-authority-district",
+        "beta",
+        "administrative"
+      ],
+      "hash_bucket": 9
+    },
+    {
+      "id": "local-authority-type",
+      "route": "dataset/local-authority-type",
+      "title": "Local authority type",
+      "summary": "Planning dataset for Local authority type",
+      "typology": "category",
+      "collection": "organisation",
+      "phase": "beta",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "category",
+        "organisation",
+        "beta",
+        "administrative"
+      ],
+      "hash_bucket": 11
+    },
+    {
+      "id": "local-enterprise-partnership",
+      "route": "dataset/local-enterprise-partnership",
+      "title": "Local Enterprise Partnership",
+      "summary": "We keep and maintain this dataset to help us identify the organisations which provide planning and housing data.",
+      "typology": "organisation",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "organisation",
+        "planning-data",
+        "alpha",
+        "administrative"
+      ],
+      "hash_bucket": 5
+    },
+    {
+      "id": "local-green-space",
+      "route": "dataset/local-green-space",
+      "title": "Local green space",
+      "summary": "Planning dataset for Local green space",
+      "typology": "geography",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "planning-data",
+        "alpha",
+        "environment"
+      ],
+      "hash_bucket": 1
+    },
+    {
+      "id": "locally-listed-building",
+      "route": "dataset/locally-listed-building",
+      "title": "Locally listed building",
+      "summary": "locally listed heritage assets, including buildings",
+      "typology": "geography",
+      "collection": "listed-building",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "listed-building",
+        "alpha",
+        "heritage"
+      ],
+      "hash_bucket": 14
+    },
+    {
+      "id": "local-nature-recovery-strategy",
+      "route": "dataset/local-nature-recovery-strategy",
+      "title": "Local nature recovery strategy",
+      "summary": "Planning dataset for Local nature recovery strategy",
+      "typology": "geography",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "planning-data",
+        "alpha",
+        "environment"
+      ],
+      "hash_bucket": 2
+    },
+    {
+      "id": "local-nature-reserve",
+      "route": "dataset/local-nature-reserve",
+      "title": "Local nature reserve",
+      "summary": "Local nature reserves (LNR) are statutory designations for certain nature reserves in Great Britain.",
+      "typology": "geography",
+      "collection": "local-nature-reserve",
+      "phase": "beta",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "local-nature-reserve",
+        "beta",
+        "environment",
+        "heritage"
+      ],
+      "hash_bucket": 5
+    },
+    {
+      "id": "local-plan",
+      "route": "dataset/local-plan",
+      "title": "Local plan",
+      "summary": "local plans prepared by a Local Planning Authority",
+      "typology": "legal-instrument",
+      "collection": "local-plan",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "legal-instrument",
+        "local-plan",
+        "alpha",
+        "development"
+      ],
+      "hash_bucket": 8
+    },
+    {
+      "id": "local-plan-boundary",
+      "route": "dataset/local-plan-boundary",
+      "title": "Local plan boundary",
+      "summary": "The boundary covered by a local plan.",
+      "typology": "geography",
+      "collection": "local-plan",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "local-plan",
+        "alpha",
+        "development"
+      ],
+      "hash_bucket": 1
+    },
+    {
+      "id": "local-plan-document",
+      "route": "dataset/local-plan-document",
+      "title": "Local plan document",
+      "summary": "documents associated with a local plan",
+      "typology": "document",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "document",
+        "planning-data",
+        "alpha",
+        "development"
+      ],
+      "hash_bucket": 10
+    },
+    {
+      "id": "local-plan-document-type",
+      "route": "dataset/local-plan-document-type",
+      "title": "Local plan document type",
+      "summary": "The types of documents published for a local plan",
+      "typology": "category",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "category",
+        "planning-data",
+        "alpha",
+        "development"
+      ],
+      "hash_bucket": 13
+    },
+    {
+      "id": "local-plan-event",
+      "route": "dataset/local-plan-event",
+      "title": "Local plan event",
+      "summary": "The different event types in a local plan timetable",
+      "typology": "category",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "category",
+        "planning-data",
+        "alpha",
+        "development"
+      ],
+      "hash_bucket": 13
+    },
+    {
+      "id": "local-plan-housing",
+      "route": "dataset/local-plan-housing",
+      "title": "local plan housing number",
+      "summary": "Housing numbers for a Local Planning Authority in a local plan",
+      "typology": "legal-instrument",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "legal-instrument",
+        "planning-data",
+        "alpha",
+        "development"
+      ],
+      "hash_bucket": 10
+    },
+    {
+      "id": "local-planning-authority",
+      "route": "dataset/local-planning-authority",
+      "title": "Local Planning Authority",
+      "summary": "Local Planning Authorities and their boundaries",
+      "typology": "geography",
+      "collection": "local-planning-authority",
+      "phase": "beta",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "local-planning-authority",
+        "beta",
+        "administrative"
+      ],
+      "hash_bucket": 2
+    },
+    {
+      "id": "local-planning-group",
+      "route": "dataset/local-planning-group",
+      "title": "Local planning group",
+      "summary": "group of Local Authorities responsible for a joint local plan",
+      "typology": "organisation",
+      "collection": "organisation",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "organisation",
+        "organisation",
+        "alpha",
+        "administrative"
+      ],
+      "hash_bucket": 0
+    },
+    {
+      "id": "local-plan-process",
+      "route": "dataset/local-plan-process",
+      "title": "Local plan process",
+      "summary": "The examination process under which a local plan is produced",
+      "typology": "category",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "category",
+        "planning-data",
+        "alpha",
+        "development"
+      ],
+      "hash_bucket": 12
+    },
+    {
+      "id": "local-plan-timetable",
+      "route": "dataset/local-plan-timetable",
+      "title": "Local plan timetable",
+      "summary": "log of past and predicted milestones and events when producing a local plan",
+      "typology": "timetable",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "timetable",
+        "planning-data",
+        "alpha",
+        "development"
+      ],
+      "hash_bucket": 2
+    },
+    {
+      "id": "local-resilience-forum",
+      "route": "dataset/local-resilience-forum",
+      "title": "Local resilience forum",
+      "summary": "We keep and maintain this dataset to help us identify the organisations which provide planning and housing data.",
+      "typology": "organisation",
+      "collection": "organisation",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "organisation",
+        "organisation",
+        "alpha",
+        "administrative"
+      ],
+      "hash_bucket": 10
+    },
+    {
+      "id": "local-resilience-forum-boundary",
+      "route": "dataset/local-resilience-forum-boundary",
+      "title": "Local resilience forum boundary",
+      "summary": "The administrative boundaries of local resilience forums in England as provided by the ONS for the purposes of producing statistics.",
+      "typology": "geography",
+      "collection": "local-resilience-forum-boundary",
+      "phase": "beta",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "local-resilience-forum-boundary",
+        "beta",
+        "administrative"
+      ],
+      "hash_bucket": 7
+    },
+    {
+      "id": "london-square",
+      "route": "dataset/london-square",
+      "title": "London square",
+      "summary": "Planning dataset for London square",
+      "typology": "geography",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "planning-data",
+        "alpha",
+        "heritage"
+      ],
+      "hash_bucket": 5
+    },
+    {
+      "id": "long-established-woodland",
+      "route": "dataset/long-established-woodland",
+      "title": "Long established woodland",
+      "summary": "Planning dataset for Long established woodland",
+      "typology": "geography",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "planning-data",
+        "alpha",
+        "environment"
+      ],
+      "hash_bucket": 15
+    },
+    {
+      "id": "long-protected-woodland",
+      "route": "dataset/long-protected-woodland",
+      "title": "Long protected woodland",
+      "summary": "Planning dataset for Long protected woodland",
+      "typology": "geography",
+      "collection": "planning-data",
+      "phase": "prioritised",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "planning-data",
+        "prioritised",
+        "environment"
+      ],
+      "hash_bucket": 7
+    },
+    {
+      "id": "main-river",
+      "route": "dataset/main-river",
+      "title": "Main river",
+      "summary": "Planning dataset for Main river",
+      "typology": "geography",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "planning-data",
+        "alpha",
+        "environment"
+      ],
+      "hash_bucket": 3
+    },
+    {
+      "id": "metropolitan-open-land",
+      "route": "dataset/metropolitan-open-land",
+      "title": "Metropolitan open land",
+      "summary": "Planning dataset for Metropolitan open land",
+      "typology": "geography",
+      "collection": "planning-data",
+      "phase": "prioritised",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "planning-data",
+        "prioritised",
+        "environment"
+      ],
+      "hash_bucket": 0
+    },
+    {
+      "id": "mineral-safeguarding-area",
+      "route": "dataset/mineral-safeguarding-area",
+      "title": "Mineral safeguarding area",
+      "summary": "Planning dataset for Mineral safeguarding area",
+      "typology": "geography",
+      "collection": "planning-data",
+      "phase": "prioritised",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "planning-data",
+        "prioritised",
+        "environment"
+      ],
+      "hash_bucket": 8
+    },
+    {
+      "id": "minerals-and-waste-planning-authority",
+      "route": "dataset/minerals-and-waste-planning-authority",
+      "title": "Minerals and Waste Local Planning Authority",
+      "summary": "Minerals and Waste Planning Authority boundaries",
+      "typology": "geography",
+      "collection": "planning-data",
+      "phase": "beta",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "planning-data",
+        "beta",
+        "administrative"
+      ],
+      "hash_bucket": 9
+    },
+    {
+      "id": "minerals-plan",
+      "route": "dataset/minerals-plan",
+      "title": "minerals plan",
+      "summary": "minerals plans prepared by a Minerals and Waste Planning Authority",
+      "typology": "legal-instrument",
+      "collection": "local-plan",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "legal-instrument",
+        "local-plan",
+        "alpha",
+        "development"
+      ],
+      "hash_bucket": 14
+    },
+    {
+      "id": "minerals-plan-boundary",
+      "route": "dataset/minerals-plan-boundary",
+      "title": "Minerals plan boundary",
+      "summary": "The boundary covered by a minerals plan.",
+      "typology": "geography",
+      "collection": "local-plan",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "local-plan",
+        "alpha",
+        "development"
+      ],
+      "hash_bucket": 11
+    },
+    {
+      "id": "national-nature-reserve",
+      "route": "dataset/national-nature-reserve",
+      "title": "National nature reserve",
+      "summary": "Areas designated by Natural England as key places for wildlife and natural features in England",
+      "typology": "geography",
+      "collection": "national-nature-reserve",
+      "phase": "beta",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "national-nature-reserve",
+        "beta",
+        "environment",
+        "heritage"
+      ],
+      "hash_bucket": 12
+    },
+    {
+      "id": "national-park",
+      "route": "dataset/national-park",
+      "title": "National park",
+      "summary": "The administrative boundaries of [national park authorities](/dataset/national-park-authority) in England as provided by the ONS for the purposes of p",
+      "typology": "geography",
+      "collection": "national-park",
+      "phase": "beta",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "national-park",
+        "beta",
+        "heritage"
+      ],
+      "hash_bucket": 6
+    },
+    {
+      "id": "national-park-authority",
+      "route": "dataset/national-park-authority",
+      "title": "National park authority",
+      "summary": "A [national park authority](https://www.nationalparks.uk/parks/) may have powers to create development policies,\nand make planning decisions for a [lo",
+      "typology": "organisation",
+      "collection": "organisation",
+      "phase": "beta",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "organisation",
+        "organisation",
+        "beta",
+        "administrative"
+      ],
+      "hash_bucket": 10
+    },
+    {
+      "id": "nature-improvement-area",
+      "route": "dataset/nature-improvement-area",
+      "title": "Nature improvement area",
+      "summary": "Planning dataset for Nature improvement area",
+      "typology": "geography",
+      "collection": "nature-improvement-area",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "nature-improvement-area",
+        "alpha",
+        "environment"
+      ],
+      "hash_bucket": 3
+    },
+    {
+      "id": "neighbourhood-forum",
+      "route": "dataset/neighbourhood-forum",
+      "title": "Designated neighbourhood forum",
+      "summary": "Planning dataset for Designated neighbourhood forum",
+      "typology": "organisation",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "organisation",
+        "planning-data",
+        "alpha",
+        "administrative"
+      ],
+      "hash_bucket": 10
+    },
+    {
+      "id": "non-designated-and-locally-listed-historic-asset",
+      "route": "dataset/non-designated-and-locally-listed-historic-asset",
+      "title": "Non-designated and locally listed historic asset",
+      "summary": "Planning dataset for Non-designated and locally listed historic asset",
+      "typology": "geography",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "planning-data",
+        "alpha",
+        "heritage"
+      ],
+      "hash_bucket": 1
+    },
+    {
+      "id": "non-designated-archeology-asset-of-national-importance",
+      "route": "dataset/non-designated-archeology-asset-of-national-importance",
+      "title": "Non-designated archeology asset of national importance",
+      "summary": "Planning dataset for Non-designated archeology asset of national importance",
+      "typology": "geography",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "planning-data",
+        "alpha",
+        "heritage"
+      ],
+      "hash_bucket": 0
+    },
+    {
+      "id": "nonprofit",
+      "route": "dataset/nonprofit",
+      "title": "Nonprofit organisation",
+      "summary": "A selection of not-for-profit organisations and teams.\nWe keep and maintain this dataset to help us identify the organisations which provide planning ",
+      "typology": "organisation",
+      "collection": "organisation",
+      "phase": "beta",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "organisation",
+        "organisation",
+        "beta",
+        "administrative"
+      ],
+      "hash_bucket": 14
+    },
+    {
+      "id": "nuclear-safety-zone",
+      "route": "dataset/nuclear-safety-zone",
+      "title": "Nuclear safety zone",
+      "summary": "Planning dataset for Nuclear safety zone",
+      "typology": "geography",
+      "collection": "planning-data",
+      "phase": "prioritised",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "planning-data",
+        "prioritised",
+        "environment"
+      ],
+      "hash_bucket": 15
+    },
+    {
+      "id": "nutrient-neutrality-catchment",
+      "route": "dataset/nutrient-neutrality-catchment",
+      "title": "Nutrient neutrality catchment",
+      "summary": "Nutrient neutrality catchment areas as designated by [Natural England](https://www.gov.uk/government/organisations/natural-england).",
+      "typology": "geography",
+      "collection": "nutrient-neutrality",
+      "phase": "beta",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "nutrient-neutrality",
+        "beta",
+        "environment"
+      ],
+      "hash_bucket": 6
+    },
+    {
+      "id": "old-entity",
+      "route": "dataset/old-entity",
+      "title": "Entity redirection",
+      "summary": "Redirect an entity or mark it as gone",
+      "typology": "value",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "value",
+        "planning-data",
+        "alpha",
+        "specification"
+      ],
+      "hash_bucket": 6
+    },
+    {
+      "id": "old-resource",
+      "route": "dataset/old-resource",
+      "title": "Resource redirection",
+      "summary": "Redirect a resource to a fixed version, or mark it as gone",
+      "typology": "value",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "value",
+        "planning-data",
+        "alpha",
+        "specification"
+      ],
+      "hash_bucket": 1
+    },
+    {
+      "id": "open-space",
+      "route": "dataset/open-space",
+      "title": "Open space",
+      "summary": "Open space can include formal sports pitches, open areas within a development and country parks. It provides health and recreation benefits to people ",
+      "typology": "geography",
+      "collection": "planning-data",
+      "phase": "prioritised",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "planning-data",
+        "prioritised",
+        "environment"
+      ],
+      "hash_bucket": 2
+    },
+    {
+      "id": "ownership-status",
+      "route": "dataset/ownership-status",
+      "title": "Ownership status",
+      "summary": "The ownership status of [brownfield land](/dataset/brownfield-land) or other site.",
+      "typology": "category",
+      "collection": "ownership-status",
+      "phase": "live",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "category",
+        "ownership-status",
+        "live",
+        "development"
+      ],
+      "hash_bucket": 11
+    },
+    {
+      "id": "parish",
+      "route": "dataset/parish",
+      "title": "Civil parish",
+      "summary": "The administrative boundaries of [civil parish councils](https://en.wikipedia.org/wiki/Parish_council_(England)) in England.\nThe [ONS](https://www.ons",
+      "typology": "geography",
+      "collection": "parish",
+      "phase": "beta",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "parish",
+        "beta",
+        "administrative"
+      ],
+      "hash_bucket": 8
+    },
+    {
+      "id": "park-and-garden",
+      "route": "dataset/park-and-garden",
+      "title": "Historic parks and gardens",
+      "summary": "Historic parks and gardens as listed by [Historic England](https://historicengland.org.uk/) in the [Register of Parks and Gardens of Special Historic ",
+      "typology": "geography",
+      "collection": "historic-england",
+      "phase": "beta",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "historic-england",
+        "beta",
+        "environment",
+        "heritage"
+      ],
+      "hash_bucket": 9
+    },
+    {
+      "id": "park-and-garden-grade",
+      "route": "dataset/park-and-garden-grade",
+      "title": "Park and garden grade",
+      "summary": "The grade assigned to each [historic park and garden](/dataset/historic-park-and-garden) by [Historic England](https://historicengland.org.uk/).\nThis ",
+      "typology": "category",
+      "collection": "historic-england",
+      "phase": "beta",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "category",
+        "historic-england",
+        "beta",
+        "environment",
+        "heritage"
+      ],
+      "hash_bucket": 3
+    },
+    {
+      "id": "passenger-transport-executive",
+      "route": "dataset/passenger-transport-executive",
+      "title": "Passenger transport executive",
+      "summary": "Local government bodies responsible for public transport, usually within large urban areas.\nWe keep and maintain this dataset to help us identify the ",
+      "typology": "organisation",
+      "collection": "organisation",
+      "phase": "beta",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "organisation",
+        "organisation",
+        "beta",
+        "administrative"
+      ],
+      "hash_bucket": 0
+    },
+    {
+      "id": "permitted-development-right",
+      "route": "dataset/permitted-development-right",
+      "title": "Permitted development right",
+      "summary": "This dataset identifies the categories of [permitted development right](https://www.gov.uk/government/publications/permitted-development-rights-for-ho",
+      "typology": "category",
+      "collection": "legislation",
+      "phase": "beta",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "category",
+        "legislation",
+        "beta",
+        "development"
+      ],
+      "hash_bucket": 4
+    },
+    {
+      "id": "permitted-development-right-part",
+      "route": "dataset/permitted-development-right-part",
+      "title": "Permitted development right part",
+      "summary": "Permitted development right part is a category used to group the [permitted development right](/dataset/permitted-development-right) categories.\nThis ",
+      "typology": "category",
+      "collection": "legislation",
+      "phase": "beta",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "category",
+        "legislation",
+        "beta",
+        "development"
+      ],
+      "hash_bucket": 6
+    },
+    {
+      "id": "phase",
+      "route": "dataset/phase",
+      "title": "Phase",
+      "summary": "phase of development",
+      "typology": "category",
+      "collection": "planning-data",
+      "phase": "beta",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "category",
+        "planning-data",
+        "beta",
+        "specification"
+      ],
+      "hash_bucket": 8
+    },
+    {
+      "id": "plan",
+      "route": "dataset/plan",
+      "title": "plan",
+      "summary": "This dataset is a package made from the local-plan, waste-plan, minerals-plan and supplementary-plan datasets.",
+      "typology": "legal-instrument",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "legal-instrument",
+        "planning-data",
+        "alpha",
+        "development"
+      ],
+      "hash_bucket": 2
+    },
+    {
+      "id": "plan-event",
+      "route": "dataset/plan-event",
+      "title": "Plan event",
+      "summary": "The different event types in a plan timetable",
+      "typology": "category",
+      "collection": "local-plan",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "category",
+        "local-plan",
+        "alpha",
+        "development"
+      ],
+      "hash_bucket": 7
+    },
+    {
+      "id": "planning-application",
+      "route": "dataset/planning-application",
+      "title": "Planning application",
+      "summary": "An application for planning permission",
+      "typology": "geography",
+      "collection": "planning-application",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "planning-application",
+        "alpha",
+        "development",
+        "housing",
+        "monitoring"
+      ],
+      "hash_bucket": 11
+    },
+    {
+      "id": "planning-application-category",
+      "route": "dataset/planning-application-category",
+      "title": "Planning application category",
+      "summary": "A planning application category is a high level categorisation of the type of planning application, such as \"householder\" or \"full planning applicatio",
+      "typology": "category",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "category",
+        "planning-data",
+        "alpha",
+        "housing",
+        "monitoring"
+      ],
+      "hash_bucket": 10
+    },
+    {
+      "id": "planning-application-condition",
+      "route": "dataset/planning-application-condition",
+      "title": "Planning application condition",
+      "summary": "A record of which conditions apply to which planning applications",
+      "typology": "policy",
+      "collection": "planning-condition",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "policy",
+        "planning-condition",
+        "alpha",
+        "housing",
+        "monitoring"
+      ],
+      "hash_bucket": 7
+    },
+    {
+      "id": "planning-application-document",
+      "route": "dataset/planning-application-document",
+      "title": "Planning application document",
+      "summary": "Planning dataset for Planning application document",
+      "typology": "document",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "document",
+        "planning-data",
+        "alpha",
+        "development"
+      ],
+      "hash_bucket": 15
+    },
+    {
+      "id": "planning-application-log",
+      "route": "dataset/planning-application-log",
+      "title": "Planning application log",
+      "summary": "The stages a planning application has gone through",
+      "typology": "timetable",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "timetable",
+        "planning-data",
+        "alpha",
+        "development"
+      ],
+      "hash_bucket": 8
+    },
+    {
+      "id": "planning-application-status",
+      "route": "dataset/planning-application-status",
+      "title": "Planning application status",
+      "summary": "A planning application status",
+      "typology": "category",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "category",
+        "planning-data",
+        "alpha",
+        "housing",
+        "monitoring"
+      ],
+      "hash_bucket": 12
+    },
+    {
+      "id": "planning-application-type",
+      "route": "dataset/planning-application-type",
+      "title": "Planning application type",
+      "summary": "A type of planning application",
+      "typology": "category",
+      "collection": "planning-application",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "category",
+        "planning-application",
+        "alpha",
+        "housing",
+        "monitoring"
+      ],
+      "hash_bucket": 2
+    },
+    {
+      "id": "planning-condition",
+      "route": "dataset/planning-condition",
+      "title": "Planning condition",
+      "summary": "A condition that is attached to planning permission",
+      "typology": "policy",
+      "collection": "planning-condition",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "policy",
+        "planning-condition",
+        "alpha",
+        "housing",
+        "monitoring"
+      ],
+      "hash_bucket": 12
+    },
+    {
+      "id": "planning-condition-purpose",
+      "route": "dataset/planning-condition-purpose",
+      "title": "Planning condition purpose",
+      "summary": "The primary purpose of the condition, for example to restrict something",
+      "typology": "category",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "category",
+        "planning-data",
+        "alpha",
+        "housing",
+        "monitoring"
+      ],
+      "hash_bucket": 7
+    },
+    {
+      "id": "planning-condition-target",
+      "route": "dataset/planning-condition-target",
+      "title": "Planning condition target",
+      "summary": "The target of the condition, for example a property or site",
+      "typology": "category",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "category",
+        "planning-data",
+        "alpha",
+        "housing",
+        "monitoring"
+      ],
+      "hash_bucket": 6
+    },
+    {
+      "id": "planning-condition-type",
+      "route": "dataset/planning-condition-type",
+      "title": "Planning condition type",
+      "summary": "The type of the planning condition, for example the removal of permitted development rights",
+      "typology": "category",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "category",
+        "planning-data",
+        "alpha",
+        "housing",
+        "monitoring"
+      ],
+      "hash_bucket": 11
+    },
+    {
+      "id": "planning-decision",
+      "route": "dataset/planning-decision",
+      "title": "Planning decision",
+      "summary": "A planning decision",
+      "typology": "category",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "category",
+        "planning-data",
+        "alpha",
+        "housing",
+        "monitoring"
+      ],
+      "hash_bucket": 1
+    },
+    {
+      "id": "planning-decision-type",
+      "route": "dataset/planning-decision-type",
+      "title": "Planning decision type",
+      "summary": "A type of planning decision",
+      "typology": "category",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "category",
+        "planning-data",
+        "alpha",
+        "housing",
+        "monitoring"
+      ],
+      "hash_bucket": 12
+    },
+    {
+      "id": "planning-development-category",
+      "route": "dataset/planning-development-category",
+      "title": "Planning development category",
+      "summary": "Planning development category",
+      "typology": "category",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "category",
+        "planning-data",
+        "alpha",
+        "housing",
+        "monitoring"
+      ],
+      "hash_bucket": 11
+    },
+    {
+      "id": "planning-permission-status",
+      "route": "dataset/planning-permission-status",
+      "title": "Planning permission status",
+      "summary": "The status of planning permission for a [brownfield land](/dataset/brownfield-land) or other site.",
+      "typology": "category",
+      "collection": "planning-permission-status",
+      "phase": "live",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "category",
+        "planning-permission-status",
+        "live",
+        "development"
+      ],
+      "hash_bucket": 5
+    },
+    {
+      "id": "planning-permission-type",
+      "route": "dataset/planning-permission-type",
+      "title": "Planning permission type",
+      "summary": "The type of planning permission granted for a [brownfield land](/dataset/brownfield-land) or other site.",
+      "typology": "category",
+      "collection": "planning-permission-type",
+      "phase": "live",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "category",
+        "planning-permission-type",
+        "live",
+        "development"
+      ],
+      "hash_bucket": 11
+    },
+    {
+      "id": "plan-timetable",
+      "route": "dataset/plan-timetable",
+      "title": "plan timetable",
+      "summary": "log of past and future milestones and events when producing a plan",
+      "typology": "timetable",
+      "collection": "local-plan",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "timetable",
+        "local-plan",
+        "alpha",
+        "development"
+      ],
+      "hash_bucket": 0
+    },
+    {
+      "id": "policy",
+      "route": "dataset/policy",
+      "title": "Policy",
+      "summary": "Planning dataset for Policy",
+      "typology": "policy",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "policy",
+        "planning-data",
+        "alpha",
+        "administrative"
+      ],
+      "hash_bucket": 15
+    },
+    {
+      "id": "postcode",
+      "route": "dataset/postcode",
+      "title": "Postcode",
+      "summary": "Postcodes in England",
+      "typology": "geography",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "planning-data",
+        "alpha",
+        "administrative"
+      ],
+      "hash_bucket": 6
+    },
+    {
+      "id": "prefix",
+      "route": "dataset/prefix",
+      "title": "Prefix",
+      "summary": "Planning dataset for Prefix",
+      "typology": "entity",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "entity",
+        "planning-data",
+        "alpha",
+        "specification"
+      ],
+      "hash_bucket": 9
+    },
+    {
+      "id": "proposed-ramsar-site",
+      "route": "dataset/proposed-ramsar-site",
+      "title": "Proposed ramsar site",
+      "summary": "Planning dataset for Proposed ramsar site",
+      "typology": "geography",
+      "collection": "planning-data",
+      "phase": "prioritised",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "planning-data",
+        "prioritised",
+        "environment"
+      ],
+      "hash_bucket": 8
+    },
+    {
+      "id": "protected-land",
+      "route": "dataset/protected-land",
+      "title": "Protected land",
+      "summary": "Planning dataset for Protected land",
+      "typology": "geography",
+      "collection": "planning-data",
+      "phase": "prioritised",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "planning-data",
+        "prioritised",
+        "heritage"
+      ],
+      "hash_bucket": 5
+    },
+    {
+      "id": "protected-view",
+      "route": "dataset/protected-view",
+      "title": "Protected view",
+      "summary": "Planning dataset for Protected view",
+      "typology": "geography",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "planning-data",
+        "alpha",
+        "heritage"
+      ],
+      "hash_bucket": 1
+    },
+    {
+      "id": "protected-wreck-site",
+      "route": "dataset/protected-wreck-site",
+      "title": "Protected wreck site",
+      "summary": "Protected wrecks are records of wreck sites, documented losses and seabed archaeological features.\u00a0 They can be protected by designation under the [Pr",
+      "typology": "geography",
+      "collection": "historic-england",
+      "phase": "live",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "historic-england",
+        "live",
+        "heritage"
+      ],
+      "hash_bucket": 10
+    },
+    {
+      "id": "public-authority",
+      "route": "dataset/public-authority",
+      "title": "Public authority",
+      "summary": "We keep and maintain this dataset to help us identify the organisations which provide planning and housing data.",
+      "typology": "organisation",
+      "collection": "organisation",
+      "phase": "beta",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "organisation",
+        "organisation",
+        "beta",
+        "administrative"
+      ],
+      "hash_bucket": 4
+    },
+    {
+      "id": "public-safety-zone-around-airport",
+      "route": "dataset/public-safety-zone-around-airport",
+      "title": "Public safety zone around airport",
+      "summary": "Planning dataset for Public safety zone around airport",
+      "typology": "geography",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "planning-data",
+        "alpha",
+        "transport"
+      ],
+      "hash_bucket": 6
+    },
+    {
+      "id": "ramsar",
+      "route": "dataset/ramsar",
+      "title": "Ramsar site",
+      "summary": "An internationally protected site listed as a wetland of international importance.\nRamsar sites are designated by [UNESCO](https://en.unesco.org/) and",
+      "typology": "geography",
+      "collection": "ramsar",
+      "phase": "beta",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "ramsar",
+        "beta",
+        "environment"
+      ],
+      "hash_bucket": 3
+    },
+    {
+      "id": "realm",
+      "route": "dataset/realm",
+      "title": "Realm",
+      "summary": "dataset grouping",
+      "typology": "category",
+      "collection": "planning-data",
+      "phase": "beta",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "category",
+        "planning-data",
+        "beta",
+        "specification"
+      ],
+      "hash_bucket": 0
+    },
+    {
+      "id": "region",
+      "route": "dataset/region",
+      "title": "Region",
+      "summary": "The [ONS](https://www.ons.gov.uk/methodology/geography/ukgeographies/administrativegeography/england#regions) provides this\ndata for the purposes of p",
+      "typology": "geography",
+      "collection": "region",
+      "phase": "beta",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "region",
+        "beta",
+        "administrative"
+      ],
+      "hash_bucket": 13
+    },
+    {
+      "id": "regional-park-authority",
+      "route": "dataset/regional-park-authority",
+      "title": "Regional park authority",
+      "summary": "A statutory body responsible for managing and developing a park.\nWe keep and maintain this dataset to help us identify the organisations which provide",
+      "typology": "organisation",
+      "collection": "organisation",
+      "phase": "beta",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "organisation",
+        "organisation",
+        "beta",
+        "administrative"
+      ],
+      "hash_bucket": 11
+    },
+    {
+      "id": "requirement-level",
+      "route": "dataset/requirement-level",
+      "title": "Requirement level",
+      "summary": "Key word used in specifications to indicate the level of a requirement",
+      "typology": "category",
+      "collection": "planning-data",
+      "phase": "beta",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "category",
+        "planning-data",
+        "beta",
+        "specification"
+      ],
+      "hash_bucket": 15
+    },
+    {
+      "id": "safeguarded-aerodrome",
+      "route": "dataset/safeguarded-aerodrome",
+      "title": "Safeguarded aerodrome",
+      "summary": "Planning dataset for Safeguarded aerodrome",
+      "typology": "geography",
+      "collection": "planning-data",
+      "phase": "prioritised",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "planning-data",
+        "prioritised",
+        "transport"
+      ],
+      "hash_bucket": 15
+    },
+    {
+      "id": "safeguarded-military-explosives-site",
+      "route": "dataset/safeguarded-military-explosives-site",
+      "title": "Safeguarded military explosives site",
+      "summary": "Planning dataset for Safeguarded military explosives site",
+      "typology": "geography",
+      "collection": "planning-data",
+      "phase": "prioritised",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "planning-data",
+        "prioritised",
+        "environment"
+      ],
+      "hash_bucket": 13
+    },
+    {
+      "id": "safeguarded-wharf",
+      "route": "dataset/safeguarded-wharf",
+      "title": "Safeguarded wharf",
+      "summary": "Planning dataset for Safeguarded wharf",
+      "typology": "geography",
+      "collection": "planning-data",
+      "phase": "prioritised",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "planning-data",
+        "prioritised",
+        "transport"
+      ],
+      "hash_bucket": 3
+    },
+    {
+      "id": "safety-hazard-area",
+      "route": "dataset/safety-hazard-area",
+      "title": "Safety hazard area",
+      "summary": "Planning dataset for Safety hazard area",
+      "typology": "geography",
+      "collection": "planning-data",
+      "phase": "prioritised",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "planning-data",
+        "prioritised",
+        "development"
+      ],
+      "hash_bucket": 0
+    },
+    {
+      "id": "scheduled-monument",
+      "route": "dataset/scheduled-monument",
+      "title": "Scheduled monument",
+      "summary": "Historic buildings or sites such as Roman remains, burial mounds, castles, bridges, earthworks, the remains of deserted villages and industrial sites ",
+      "typology": "geography",
+      "collection": "historic-england",
+      "phase": "beta",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "historic-england",
+        "beta",
+        "heritage"
+      ],
+      "hash_bucket": 14
+    },
+    {
+      "id": "self-and-custom-buildarea",
+      "route": "dataset/self-and-custom-buildarea",
+      "title": "Self and custom build area",
+      "summary": "Planning dataset for Self and custom build area",
+      "typology": "geography",
+      "collection": "planning-data",
+      "phase": "prioritised",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "planning-data",
+        "prioritised",
+        "housing"
+      ],
+      "hash_bucket": 1
+    },
+    {
+      "id": "site-category",
+      "route": "dataset/site-category",
+      "title": "Site category",
+      "summary": "Planning dataset for Site category",
+      "typology": "category",
+      "collection": "site-category",
+      "phase": "beta",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "category",
+        "site-category",
+        "beta",
+        "development"
+      ],
+      "hash_bucket": 5
+    },
+    {
+      "id": "site-of-special-scientific-interest",
+      "route": "dataset/site-of-special-scientific-interest",
+      "title": "Site of special scientific interest",
+      "summary": "Sites of special scientific interest (SSSI) are nationally protected sites that have features such as wildlife or geology.\u00a0\n\nSSSIs are designated by [",
+      "typology": "geography",
+      "collection": "site-of-special-scientific-interest",
+      "phase": "beta",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "site-of-special-scientific-interest",
+        "beta",
+        "environment"
+      ],
+      "hash_bucket": 1
+    },
+    {
+      "id": "special-area-of-conservation",
+      "route": "dataset/special-area-of-conservation",
+      "title": "Special area of conservation",
+      "summary": "Special areas of conservation (SACs) are area of land which have been designated by\n[DEFRA](https://www.gov.uk/government/organisations/department-for",
+      "typology": "geography",
+      "collection": "special-area-of-conservation",
+      "phase": "beta",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "special-area-of-conservation",
+        "beta",
+        "environment"
+      ],
+      "hash_bucket": 10
+    },
+    {
+      "id": "special-protection-area",
+      "route": "dataset/special-protection-area",
+      "title": "Special protection area",
+      "summary": "[Special protection areas](https://naturalengland-defra.opendata.arcgis.com/maps/Defra::special-protection-areas-england/about) is an area designated ",
+      "typology": "geography",
+      "collection": "special-protection-area",
+      "phase": "beta",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "special-protection-area",
+        "beta",
+        "environment"
+      ],
+      "hash_bucket": 2
+    },
+    {
+      "id": "street",
+      "route": "dataset/street",
+      "title": "Street",
+      "summary": "Planning dataset for Street",
+      "typology": "geography",
+      "collection": "planning-data",
+      "phase": "prioritised",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "planning-data",
+        "prioritised",
+        "administrative"
+      ],
+      "hash_bucket": 14
+    },
+    {
+      "id": "suitable-alternative-green-space",
+      "route": "dataset/suitable-alternative-green-space",
+      "title": "Suitable alternative green space",
+      "summary": "Planning dataset for Suitable alternative green space",
+      "typology": "geography",
+      "collection": "planning-data",
+      "phase": "prioritised",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "planning-data",
+        "prioritised",
+        "environment"
+      ],
+      "hash_bucket": 15
+    },
+    {
+      "id": "supplementary-plan",
+      "route": "dataset/supplementary-plan",
+      "title": "supplementary plan",
+      "summary": "supplementary local plans prepared by a Local Planning Authority",
+      "typology": "legal-instrument",
+      "collection": "local-plan",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "legal-instrument",
+        "local-plan",
+        "alpha",
+        "development"
+      ],
+      "hash_bucket": 8
+    },
+    {
+      "id": "task",
+      "route": "dataset/task",
+      "title": "Task",
+      "summary": "Tasks are an amalgamation of the various data quality checks that are run in the pipeline that need to be fixed (e.g. issues, expectations, collection",
+      "typology": "pipeline",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "pipeline",
+        "planning-data",
+        "alpha",
+        "pipeline"
+      ],
+      "hash_bucket": 12
+    },
+    {
+      "id": "title-boundary",
+      "route": "dataset/title-boundary",
+      "title": "Title boundary",
+      "summary": "Otherwise known as Land Registry Index polygons, these polygons are shapes that show the position and indicative extent of a registered property.",
+      "typology": "geography",
+      "collection": "title-boundary",
+      "phase": "beta",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "title-boundary",
+        "beta",
+        "administrative",
+        "housing"
+      ],
+      "hash_bucket": 2
+    },
+    {
+      "id": "transport-access-node",
+      "route": "dataset/transport-access-node",
+      "title": "Public transport access node",
+      "summary": "All public transport access points where you can get on or off public transport",
+      "typology": "geography",
+      "collection": "transport-access-node",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "transport-access-node",
+        "alpha",
+        "development",
+        "transport"
+      ],
+      "hash_bucket": 6
+    },
+    {
+      "id": "transport-under-tcpa-route",
+      "route": "dataset/transport-under-tcpa-route",
+      "title": "Transport (under TCPA route)",
+      "summary": "Planning dataset for Transport (under TCPA route)",
+      "typology": "geography",
+      "collection": "planning-data",
+      "phase": "prioritised",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "planning-data",
+        "prioritised",
+        "transport"
+      ],
+      "hash_bucket": 14
+    },
+    {
+      "id": "tree",
+      "route": "dataset/tree",
+      "title": "Tree",
+      "summary": "An individual tree",
+      "typology": "geography",
+      "collection": "tree-preservation-order",
+      "phase": "beta",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "tree-preservation-order",
+        "beta",
+        "environment"
+      ],
+      "hash_bucket": 5
+    },
+    {
+      "id": "tree-preservation-order",
+      "route": "dataset/tree-preservation-order",
+      "title": "Tree preservation order",
+      "summary": "This dataset contains information on trees with preservation orders.\n\nIt can be used for managing and protecting important trees by preventing their u",
+      "typology": "legal-instrument",
+      "collection": "tree-preservation-order",
+      "phase": "beta",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "legal-instrument",
+        "tree-preservation-order",
+        "beta",
+        "environment"
+      ],
+      "hash_bucket": 11
+    },
+    {
+      "id": "tree-preservation-zone",
+      "route": "dataset/tree-preservation-zone",
+      "title": "Tree preservation zone",
+      "summary": "An area covered by a tree preservation order",
+      "typology": "geography",
+      "collection": "tree-preservation-order",
+      "phase": "beta",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "tree-preservation-order",
+        "beta",
+        "environment"
+      ],
+      "hash_bucket": 3
+    },
+    {
+      "id": "tree-preservation-zone-type",
+      "route": "dataset/tree-preservation-zone-type",
+      "title": "Tree preservation zone type",
+      "summary": "Types of zone covered by the tree preservation order",
+      "typology": "category",
+      "collection": "tree-preservation-order",
+      "phase": "beta",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "category",
+        "tree-preservation-order",
+        "beta",
+        "environment"
+      ],
+      "hash_bucket": 10
+    },
+    {
+      "id": "uprn",
+      "route": "dataset/uprn",
+      "title": "UPRN",
+      "summary": "Unique property reference numbers",
+      "typology": "geography",
+      "collection": "planning-data",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "planning-data",
+        "alpha",
+        "administrative",
+        "development",
+        "monitoring"
+      ],
+      "hash_bucket": 8
+    },
+    {
+      "id": "ward",
+      "route": "dataset/ward",
+      "title": "Ward",
+      "summary": "Local areas that have been divided for voting purposes",
+      "typology": "geography",
+      "collection": "ward",
+      "phase": "beta",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "ward",
+        "beta",
+        "administrative"
+      ],
+      "hash_bucket": 3
+    },
+    {
+      "id": "waste-authority",
+      "route": "dataset/waste-authority",
+      "title": "Waste disposal authority",
+      "summary": "An organisation responsible for municipal waste collection and disposal.\nWe keep and maintain this dataset to help us identify the organisations which",
+      "typology": "organisation",
+      "collection": "organisation",
+      "phase": "beta",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "organisation",
+        "organisation",
+        "beta",
+        "administrative"
+      ],
+      "hash_bucket": 13
+    },
+    {
+      "id": "waste-plan",
+      "route": "dataset/waste-plan",
+      "title": "waste plan",
+      "summary": "waste plans prepared by a Minerals and Waste Planning Authority",
+      "typology": "legal-instrument",
+      "collection": "local-plan",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "legal-instrument",
+        "local-plan",
+        "alpha",
+        "development"
+      ],
+      "hash_bucket": 11
+    },
+    {
+      "id": "waste-plan-boundary",
+      "route": "dataset/waste-plan-boundary",
+      "title": "Waste plan boundary",
+      "summary": "The boundary covered by a waste plan.",
+      "typology": "geography",
+      "collection": "local-plan",
+      "phase": "alpha",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "local-plan",
+        "alpha",
+        "development"
+      ],
+      "hash_bucket": 8
+    },
+    {
+      "id": "wildbelt",
+      "route": "dataset/wildbelt",
+      "title": "Wildbelt",
+      "summary": "Planning dataset for Wildbelt",
+      "typology": "geography",
+      "collection": "planning-data",
+      "phase": "prioritised",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "planning-data",
+        "prioritised",
+        "environment"
+      ],
+      "hash_bucket": 0
+    },
+    {
+      "id": "wildlife",
+      "route": "dataset/wildlife",
+      "title": "Wildlife",
+      "summary": "Planning dataset for Wildlife",
+      "typology": "geography",
+      "collection": "planning-data",
+      "phase": "prioritised",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "planning-data",
+        "prioritised",
+        "environment"
+      ],
+      "hash_bucket": 15
+    },
+    {
+      "id": "world-heritage-site",
+      "route": "dataset/world-heritage-site",
+      "title": "World heritage site",
+      "summary": "World heritage sites are sites, places, monuments or buildings of \"outstanding universal value\" to all humanity - today and in future generations. The",
+      "typology": "geography",
+      "collection": "historic-england",
+      "phase": "beta",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "historic-england",
+        "beta",
+        "heritage"
+      ],
+      "hash_bucket": 13
+    },
+    {
+      "id": "world-heritage-site-buffer-zone",
+      "route": "dataset/world-heritage-site-buffer-zone",
+      "title": "World heritage site buffer zone",
+      "summary": "A [World Heritage Site](/dataset/world-heritage-site) may have a [buffer zone](https://whc.unesco.org/en/series/25/) with implications for planning.",
+      "typology": "geography",
+      "collection": "historic-england",
+      "phase": "beta",
+      "publisher": "MHCLG / Planning Data England",
+      "tags": [
+        "geography",
+        "historic-england",
+        "beta",
+        "heritage"
+      ],
+      "hash_bucket": 7
+    },
+    {
+      "id": "nppf-framework-policy",
+      "route": "dataset/nppf-framework-policy",
+      "title": "National Planning Policy Framework (NPPF)",
+      "summary": "The National Planning Policy Framework sets out the Government's planning policies for England and how these are expected to be applied, including hou",
+      "typology": "policy",
+      "collection": "planning-policy",
+      "phase": "live",
+      "publisher": "Gov.uk Planning Policy",
+      "tags": [
+        "policy",
+        "planning-policy",
+        "live",
+        "development",
+        "housing",
+        "environment",
+        "heritage"
+      ],
+      "hash_bucket": 1
+    },
+    {
+      "id": "planning-practice-guidance",
+      "route": "dataset/planning-practice-guidance",
+      "title": "Planning Practice Guidance (PPG)",
+      "summary": "Gov.uk web-based category guidance accompanying the NPPF, covering Use Classes, Permitted Development Rights, Section 106 agreements, CIL, Viability, ",
+      "typology": "policy",
+      "collection": "planning-policy",
+      "phase": "live",
+      "publisher": "Gov.uk Planning Policy",
+      "tags": [
+        "policy",
+        "planning-policy",
+        "live",
+        "development",
+        "housing",
+        "specification",
+        "monitoring"
+      ],
+      "hash_bucket": 15
+    },
+    {
+      "id": "town-and-country-planning-act-1990",
+      "route": "dataset/town-and-country-planning-act-1990",
+      "title": "Town and Country Planning Act 1990",
+      "summary": "Primary Act of Parliament regulating the development of land in England and Wales, defining planning permission, planning obligations (Section 106), e",
+      "typology": "legal-instrument",
+      "collection": "legislation",
+      "phase": "live",
+      "publisher": "Gov.uk Planning Policy",
+      "tags": [
+        "legal-instrument",
+        "legislation",
+        "live",
+        "administrative",
+        "development",
+        "specification"
+      ],
+      "hash_bucket": 15
+    },
+    {
+      "id": "levelling-up-and-regeneration-act-2023",
+      "route": "dataset/levelling-up-and-regeneration-act-2023",
+      "title": "Levelling-up and Regeneration Act 2023 (LURA)",
+      "summary": "Statutory Act establishing National Development Management Policies (NDMPs), statutory local plan timetables, mandatory design codes, Infrastructure L",
+      "typology": "legal-instrument",
+      "collection": "legislation",
+      "phase": "live",
+      "publisher": "Gov.uk Planning Policy",
+      "tags": [
+        "legal-instrument",
+        "legislation",
+        "live",
+        "administrative",
+        "development",
+        "housing",
+        "environment"
+      ],
+      "hash_bucket": 12
+    },
+    {
+      "id": "use-classes-order-1987",
+      "route": "dataset/use-classes-order-1987",
+      "title": "Town and Country Planning (Use Classes) Order 1987 (as amended)",
+      "summary": "Statutory Instrument categorising the use of land and buildings (Class E Commercial, Class C3 Dwellinghouses, Class C4 HMOs, Class B2/B8 Industrial, S",
+      "typology": "legal-instrument",
+      "collection": "legislation",
+      "phase": "live",
+      "publisher": "Gov.uk Planning Policy",
+      "tags": [
+        "legal-instrument",
+        "legislation",
+        "live",
+        "development",
+        "housing",
+        "specification"
+      ],
+      "hash_bucket": 8
+    },
+    {
+      "id": "historic-england-nhle-heritage",
+      "route": "dataset/historic-england-nhle-heritage",
+      "title": "National Heritage List for England (NHLE)",
+      "summary": "Official database of statutory protected historic buildings, scheduled monuments, registered parks and gardens, battlefields, and protected wreck site",
+      "typology": "geography",
+      "collection": "historic-england",
+      "phase": "live",
+      "publisher": "Gov.uk Planning Policy",
+      "tags": [
+        "geography",
+        "historic-england",
+        "live",
+        "heritage",
+        "environment"
+      ],
+      "hash_bucket": 4
+    },
+    {
+      "id": "environment-agency-flood-risk-zones",
+      "route": "dataset/environment-agency-flood-risk-zones",
+      "title": "Environment Agency Flood Risk Zones 2 & 3",
+      "summary": "Statutory spatial boundaries for river and sea flood risk zones used by local planning authorities to apply the Sequential Test and Exception Test for",
+      "typology": "geography",
+      "collection": "flood-risk-zone",
+      "phase": "live",
+      "publisher": "Gov.uk Planning Policy",
+      "tags": [
+        "geography",
+        "flood-risk-zone",
+        "live",
+        "environment",
+        "monitoring"
+      ],
+      "hash_bucket": 3
+    },
+    {
+      "id": "natural-england-protected-sites-and-bng",
+      "route": "dataset/natural-england-protected-sites-and-bng",
+      "title": "Natural England Statutory Protected Sites & BNG Register",
+      "summary": "Spatial designations of Sites of Special Scientific Interest (SSSI), Special Areas of Conservation (SAC), Special Protection Areas (SPA), Ramsar sites",
+      "typology": "geography",
+      "collection": "natural-england",
+      "phase": "live",
+      "publisher": "Gov.uk Planning Policy",
+      "tags": [
+        "geography",
+        "natural-england",
+        "live",
+        "environment",
+        "monitoring"
+      ],
+      "hash_bucket": 8
+    },
+    {
+      "id": "planning-inspectorate-appeals-data",
+      "route": "dataset/planning-inspectorate-appeals-data",
+      "title": "Planning Inspectorate Appeals & NSIP Register",
+      "summary": "National register of Section 78 planning appeals, enforcement appeals, local plan examination reports, and Nationally Significant Infrastructure Proje",
+      "typology": "document",
+      "collection": "planning-inspectorate",
+      "phase": "live",
+      "publisher": "Gov.uk Planning Policy",
+      "tags": [
+        "document",
+        "planning-inspectorate",
+        "live",
+        "development",
+        "administrative",
+        "monitoring"
+      ],
+      "hash_bucket": 8
+    },
+    {
+      "id": "hm-land-registry-inspire-index-polygons",
+      "route": "dataset/hm-land-registry-inspire-index-polygons",
+      "title": "HM Land Registry INSPIRE Index Polygons",
+      "summary": "Cadastral parcel spatial boundaries corresponding to registered land titles in England and Wales under the EU INSPIRE Directive dataset.",
+      "typology": "geography",
+      "collection": "land-registry",
+      "phase": "live",
+      "publisher": "Gov.uk Planning Policy",
+      "tags": [
+        "geography",
+        "land-registry",
+        "live",
+        "development",
+        "housing",
+        "administrative"
+      ],
+      "hash_bucket": 14
+    }
+  ]
+}

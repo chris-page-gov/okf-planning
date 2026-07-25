@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UK Planning & Housing Data — Open Knowledge Format (OKF) Bundle v0.2</title>
+  <meta name="description" content="Open Knowledge Format (OKF) bundle v0.2 for UK Planning and Housing Data in England, extending standard 0.2 with YAML-LD semantics, DCAT 3, and policy augmentations.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation Header -->
+  <header>
+    <div class="header-container">
+      <div class="brand">
+        <div class="brand-icon">OKF</div>
+        <div class="brand-title">UK Planning & Housing Data</div>
+        <span class="brand-badge">v0.2.0</span>
+      </div>
+      <div class="header-actions">
+        <a href="okf-explorer.json" target="_blank" class="btn-secondary">Descriptor JSON</a>
+        <a href="https://chris-page-gov.github.io/okf-explorer/?bundle=https%3A%2F%2Fchris-page-gov.github.io%2Fokg-planning%2Fokf-explorer.json" target="_blank" class="btn-primary">
+          <span>Open in OKF Explorer</span>
+          <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main class="main-container">
+    <!-- Hero Banner -->
+    <section class="hero">
+      <h1 class="hero-title">Open Knowledge Format (OKF) Bundle for UK Planning</h1>
+      <p class="hero-subtitle">
+        A static metadata discovery layer bridging 220 datasets from <code>planning.data.gov.uk</code> with National Planning Policy (NPPF), Planning Practice Guidance (PPG), statutory instruments (LURA 2023, Use Classes Order, GPDO), and cross-agency environmental & heritage spatial boundaries across England.
+      </p>
+      
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-value">230</div>
+          <div class="stat-label">Metadata Records</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value">5,353,211</div>
+          <div class="stat-label">Planning Entities</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value">40</div>
+          <div class="stat-label">Policy Relationships</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value">12</div>
+          <div class="stat-label">Public Publishers</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Navigation Tabs -->
+    <nav class="nav-tabs" aria-label="View selection">
+      <button class="tab-btn active" id="tab-explorer" onclick="switchTab('explorer')">Dataset Explorer</button>
+      <button class="tab-btn" id="tab-descriptor" onclick="switchTab('descriptor')">OKF Descriptor (JSON)</button>
+      <button class="tab-btn" id="tab-yamlld" onclick="switchTab('yamlld')">Canonical YAML-LD (0.2)</button>
+      <button class="tab-btn" id="tab-checksums" onclick="switchTab('checksums')">Checksums & Integrity</button>
+    </nav>
+
+    <!-- Tab 1: Dataset Explorer -->
+    <div id="explorer-view">
+      <div class="search-bar">
+        <input type="text" id="search-input" class="search-input" placeholder="Search planning datasets, conservation areas, listed buildings, NPPF policies, LURA 2023..." aria-label="Search planning datasets">
+      </div>
+
+      <div class="content-layout">
+        <!-- Sidebar Filters -->
+        <aside class="sidebar">
+          <div class="filter-group">
+            <div class="filter-title">Typology</div>
+            <div class="filter-options">
+              <label class="filter-checkbox"><input type="checkbox" value="geography"> Geography (104)</label>
+              <label class="filter-checkbox"><input type="checkbox" value="category"> Category (54)</label>
+              <label class="filter-checkbox"><input type="checkbox" value="organisation"> Organisation (15)</label>
+              <label class="filter-checkbox"><input type="checkbox" value="document"> Document (11)</label>
+              <label class="filter-checkbox"><input type="checkbox" value="legal-instrument"> Legal Instrument (9)</label>
+              <label class="filter-checkbox"><input type="checkbox" value="policy"> Policy (6)</label>
+              <label class="filter-checkbox"><input type="checkbox" value="timetable"> Timetable (5)</label>
+            </div>
+          </div>
+        </aside>
+
+        <!-- Cards Container -->
+        <section>
+          <div id="record-count" style="margin-bottom: 1rem; color: var(--text-secondary); font-size: 0.9rem;">Loading dataset records...</div>
+          <div id="dataset-grid" class="cards-grid"></div>
+        </section>
+      </div>
+    </div>
+
+    <!-- Tab 2: Syntax Viewer -->
+    <div id="schema-view" style="display: none;">
+      <pre id="code-viewer" class="code-viewer">Select a schema tab above to view descriptor contents.</pre>
+    </div>
+  </main>
+
+  <footer>
+    <p>OKF Planning Bundle v0.2.0 • Independent metadata publication for UK Planning & Housing Data in England • Licensed under Open Government Licence v3.0 & MIT</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

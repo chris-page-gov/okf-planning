@@ -1,0 +1,93 @@
+{
+  "@context": "https://chris-page-gov.github.io/okf-explorer/profile/bundle-wiki/v1/context.jsonld",
+  "@id": "https://chris-page-gov.github.io/okg-planning/okf-explorer.json",
+  "schema": "okf-explorer-large-corpus.v1",
+  "profile": "https://chris-page-gov.github.io/okf-explorer/profile/bundle-wiki/v1/",
+  "semantic_descriptor": "https://chris-page-gov.github.io/okg-planning/okf-bundle.yamlld",
+  "title": "UK Planning & Housing Data OKF",
+  "version": "0.2.0",
+  "status": "bounded-demonstrator",
+  "snapshot": "planning-2026-07-25-r1",
+  "description": "Open Knowledge Format bundle for UK Planning & Housing Data in England with YAML-LD semantics, DCAT-AP alignment, and planning policy augmentations.",
+  "publisher": "https://github.com/chris-page-gov/okg-planning",
+  "generated_at": "2026-07-25T08:00:00Z",
+  "authority": {
+    "bundlePublisher": {
+      "id": "https://chris-page-gov.github.io/okg-planning/",
+      "name": "OKF Planning project",
+      "url": "https://chris-page-gov.github.io/okg-planning/"
+    },
+    "semanticAuthority": {
+      "id": "https://chris-page-gov.github.io/okg-planning/",
+      "name": "OKF Planning project",
+      "scope": "this generated bundle release only",
+      "url": "https://chris-page-gov.github.io/okg-planning/"
+    },
+    "operationalAuthority": "external live-data service",
+    "decisionAuthority": "accountable external person or institution",
+    "notEndorsedBySource": true,
+    "nonEndorsementStatement": "This experimental metadata bundle is independently published by the OKF Planning project and is not endorsed by MHCLG or source producers.",
+    "reviewedBy": []
+  },
+  "counts": {
+    "datasets": 230,
+    "records": 230,
+    "resources": 690,
+    "publishers": 12,
+    "sources": 2,
+    "relationships": 40,
+    "standards": 5
+  },
+  "entrypoints": {
+    "overview_index": "data/overview.json",
+    "data_manifest": "data/manifest.json",
+    "search_manifest": "data/search/manifest.json",
+    "standards": "data/standards/evaluation.json",
+    "governance": "data/governance/release.json",
+    "context_set": "data/governance/context-set.json",
+    "reconciliation": "data/reconciliation/report.json",
+    "coverage": "data/coverage/ledger.json",
+    "analysis_overview": "data/analysis/overview.json",
+    "mcp_bindings": "data/planning/mcp-bindings.json",
+    "spatial_index": "data/planning/spatial-index.json",
+    "evaluation": "data/evaluation/report.json",
+    "viewer": "https://chris-page-gov.github.io/okf-explorer/"
+  },
+  "rights": {
+    "status": "mixed-record-level",
+    "recordLevel": true,
+    "statement": "Source metadata licensed under Open Government Licence v3.0 or relevant statutory agency open data license."
+  },
+  "vocabulary": {
+    "record_singular": "Planning metadata record",
+    "record_plural": "Planning metadata records",
+    "publisher_singular": "publisher",
+    "publisher_plural": "publishers",
+    "resource_singular": "access resource",
+    "resource_plural": "access resources",
+    "search_placeholder": "Search UK planning datasets, policy, legislation, and spatial designations"
+  },
+  "performance": {
+    "startup_mode": "overview-first",
+    "full_record_hydration": "lazy",
+    "relationship_hydration": "lazy",
+    "search": "static worker-compatible shards"
+  },
+  "extensions": {
+    "okf-planning-discovery.v1": {
+      "mode": "metadata-only-demonstrator",
+      "not_endorsed_by_source": true,
+      "compare_alternatives": true
+    },
+    "okf-governed-knowledge-contract.v1": {
+      "entrypoint": "governance",
+      "authorises_execution": false,
+      "status": "experimental"
+    },
+    "okf-mcp-binding.v1": {
+      "entrypoint": "mcp_bindings",
+      "read_only": true,
+      "secret_values_stored": false
+    }
+  }
+}

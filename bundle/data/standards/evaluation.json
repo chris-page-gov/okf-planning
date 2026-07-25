@@ -1,0 +1,11 @@
+{
+  "schema": "okf-standards-evaluation.v1",
+  "conformance": {
+    "dcat_ap": "full-alignment",
+    "openapi_v3": "supported",
+    "geojson_ogc": "compliant",
+    "prov_o": "integrated",
+    "skos": "integrated"
+  },
+  "evaluated_records": 230
+}

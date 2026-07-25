@@ -1,0 +1,8 @@
+{
+  "schema": "okf-search-manifest.v1",
+  "total_entries": 230,
+  "hash_buckets": 16,
+  "shards": [
+    "data/search/shard-0.json"
+  ]
+}

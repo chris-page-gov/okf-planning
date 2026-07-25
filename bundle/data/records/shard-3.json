@@ -1,0 +1,3749 @@
+{
+  "records": [
+    {
+      "id": "parish",
+      "route": "dataset/parish",
+      "title": "Civil parish",
+      "description": "The administrative boundaries of [civil parish councils](https://en.wikipedia.org/wiki/Parish_council_(England)) in England.\nThe [ONS](https://www.ons.gov.uk/methodology/geography/ukgeographies/administrativegeography/england#parishes-and-communities) provides this\ndata for the purposes of producing statistics.",
+      "summary": "The administrative boundaries of [civil parish councils](https://en.wikipedia.org/wiki/Parish_council_(England)) in England.\nThe [ONS](https://www.ons.gov.uk/methodology/geography/ukgeographies/admini...",
+      "record_type": "geography",
+      "collection": "parish",
+      "typology": "geography",
+      "phase": "beta",
+      "themes": [
+        "administrative"
+      ],
+      "entity_count": 10907,
+      "licence_id": "ogl3",
+      "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+      "attribution": "Source: Office for National Statistics licensed under the Open Government Licence v.3.0\nContains OS data \u00a9 Crown copyright and database right 2026",
+      "source": "planning-data-gov-uk",
+      "source_url": "https://www.planning.data.gov.uk/dataset/parish",
+      "documentation_url": "https://www.planning.data.gov.uk/dataset/parish",
+      "publisher": "MHCLG / Planning Data England",
+      "publisher_url": "https://www.planning.data.gov.uk/",
+      "confidence": "observed",
+      "wikidata": "Q1115575",
+      "tags": [
+        "geography",
+        "parish",
+        "beta",
+        "administrative"
+      ],
+      "resources": [
+        {
+          "id": "parish-json-api",
+          "title": "Civil parish JSON API Endpoint",
+          "url": "https://www.planning.data.gov.uk/dataset/parish.json",
+          "format": "json",
+          "media_type": "application/json",
+          "dcat_type": "access-service"
+        },
+        {
+          "id": "parish-csv-download",
+          "title": "Civil parish CSV Data Download",
+          "url": "https://www.planning.data.gov.uk/dataset/parish.csv",
+          "format": "csv",
+          "media_type": "text/csv",
+          "dcat_type": "downloadable-file"
+        },
+        {
+          "id": "parish-geojson-download",
+          "title": "Civil parish GeoJSON Download",
+          "url": "https://www.planning.data.gov.uk/dataset/parish.geojson",
+          "format": "geojson",
+          "media_type": "application/geo+json",
+          "dcat_type": "downloadable-file"
+        }
+      ],
+      "alternatives": [],
+      "node_json": {
+        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/parish",
+        "@type": "dcat:Dataset",
+        "dct:identifier": "planning:parish",
+        "dct:title": "Civil parish",
+        "dct:description": "The administrative boundaries of [civil parish councils](https://en.wikipedia.org/wiki/Parish_council_(England)) in England.\nThe [ONS](https://www.ons.gov.uk/methodology/geography/ukgeographies/administrativegeography/england#parishes-and-communities) provides this\ndata for the purposes of producing statistics.",
+        "dcat:theme": [
+          "administrative"
+        ],
+        "okf:typology": "geography",
+        "okf:collection": "parish",
+        "okf:phase": "beta",
+        "okf:entityCount": 10907,
+        "okf:notEndorsedBySource": true,
+        "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+      }
+    },
+    {
+      "id": "park-and-garden",
+      "route": "dataset/park-and-garden",
+      "title": "Historic parks and gardens",
+      "description": "Historic parks and gardens as listed by [Historic England](https://historicengland.org.uk/) in the [Register of Parks and Gardens of Special Historic Interest](https://historicengland.org.uk/listing/what-is-designation/registered-parks-and-gardens/).",
+      "summary": "Historic parks and gardens as listed by [Historic England](https://historicengland.org.uk/) in the [Register of Parks and Gardens of Special Historic Interest](https://historicengland.org.uk/listing/w...",
+      "record_type": "geography",
+      "collection": "historic-england",
+      "typology": "geography",
+      "phase": "beta",
+      "themes": [
+        "environment",
+        "heritage"
+      ],
+      "entity_count": 1723,
+      "licence_id": "ogl3",
+      "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+      "attribution": "\u00a9 Historic England 2026. Contains Ordnance Survey data \u00a9 Crown copyright and database right 2026.\nThe Historic England GIS Data contained in this material was obtained on [date].\nThe most publicly available up to date Historic England GIS Data can be obtained from [HistoricEngland.org.uk](https://historicengland.org.uk).",
+      "source": "planning-data-gov-uk",
+      "source_url": "https://www.planning.data.gov.uk/dataset/park-and-garden",
+      "documentation_url": "https://www.planning.data.gov.uk/dataset/park-and-garden",
+      "publisher": "MHCLG / Planning Data England",
+      "publisher_url": "https://www.planning.data.gov.uk/",
+      "confidence": "observed",
+      "wikidata": "Q6975250",
+      "tags": [
+        "geography",
+        "historic-england",
+        "beta",
+        "environment",
+        "heritage"
+      ],
+      "resources": [
+        {
+          "id": "park-and-garden-json-api",
+          "title": "Historic parks and gardens JSON API Endpoint",
+          "url": "https://www.planning.data.gov.uk/dataset/park-and-garden.json",
+          "format": "json",
+          "media_type": "application/json",
+          "dcat_type": "access-service"
+        },
+        {
+          "id": "park-and-garden-csv-download",
+          "title": "Historic parks and gardens CSV Data Download",
+          "url": "https://www.planning.data.gov.uk/dataset/park-and-garden.csv",
+          "format": "csv",
+          "media_type": "text/csv",
+          "dcat_type": "downloadable-file"
+        },
+        {
+          "id": "park-and-garden-geojson-download",
+          "title": "Historic parks and gardens GeoJSON Download",
+          "url": "https://www.planning.data.gov.uk/dataset/park-and-garden.geojson",
+          "format": "geojson",
+          "media_type": "application/geo+json",
+          "dcat_type": "downloadable-file"
+        }
+      ],
+      "alternatives": [],
+      "node_json": {
+        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/park-and-garden",
+        "@type": "dcat:Dataset",
+        "dct:identifier": "planning:park-and-garden",
+        "dct:title": "Historic parks and gardens",
+        "dct:description": "Historic parks and gardens as listed by [Historic England](https://historicengland.org.uk/) in the [Register of Parks and Gardens of Special Historic Interest](https://historicengland.org.uk/listing/what-is-designation/registered-parks-and-gardens/).",
+        "dcat:theme": [
+          "environment",
+          "heritage"
+        ],
+        "okf:typology": "geography",
+        "okf:collection": "historic-england",
+        "okf:phase": "beta",
+        "okf:entityCount": 1723,
+        "okf:notEndorsedBySource": true,
+        "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+      }
+    },
+    {
+      "id": "park-and-garden-grade",
+      "route": "dataset/park-and-garden-grade",
+      "title": "Park and garden grade",
+      "description": "The grade assigned to each [historic park and garden](/dataset/historic-park-and-garden) by [Historic England](https://historicengland.org.uk/).\nThis dataset may be merged with [listed building grade](/dataset/listed-building-grade) dataset in the future.",
+      "summary": "The grade assigned to each [historic park and garden](/dataset/historic-park-and-garden) by [Historic England](https://historicengland.org.uk/).\nThis dataset may be merged with [listed building grade]...",
+      "record_type": "category",
+      "collection": "historic-england",
+      "typology": "category",
+      "phase": "beta",
+      "themes": [
+        "environment",
+        "heritage"
+      ],
+      "entity_count": 3,
+      "licence_id": "ogl3",
+      "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+      "attribution": "\u00a9 Crown copyright and database right 2026",
+      "source": "planning-data-gov-uk",
+      "source_url": "https://www.planning.data.gov.uk/dataset/park-and-garden-grade",
+      "documentation_url": "https://www.planning.data.gov.uk/dataset/park-and-garden-grade",
+      "publisher": "MHCLG / Planning Data England",
+      "publisher_url": "https://www.planning.data.gov.uk/",
+      "confidence": "observed",
+      "wikidata": "",
+      "tags": [
+        "category",
+        "historic-england",
+        "beta",
+        "environment",
+        "heritage"
+      ],
+      "resources": [
+        {
+          "id": "park-and-garden-grade-json-api",
+          "title": "Park and garden grade JSON API Endpoint",
+          "url": "https://www.planning.data.gov.uk/dataset/park-and-garden-grade.json",
+          "format": "json",
+          "media_type": "application/json",
+          "dcat_type": "access-service"
+        },
+        {
+          "id": "park-and-garden-grade-csv-download",
+          "title": "Park and garden grade CSV Data Download",
+          "url": "https://www.planning.data.gov.uk/dataset/park-and-garden-grade.csv",
+          "format": "csv",
+          "media_type": "text/csv",
+          "dcat_type": "downloadable-file"
+        },
+        {
+          "id": "park-and-garden-grade-geojson-download",
+          "title": "Park and garden grade GeoJSON Download",
+          "url": "https://www.planning.data.gov.uk/dataset/park-and-garden-grade.geojson",
+          "format": "geojson",
+          "media_type": "application/geo+json",
+          "dcat_type": "downloadable-file"
+        }
+      ],
+      "alternatives": [],
+      "node_json": {
+        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/park-and-garden-grade",
+        "@type": "dcat:Dataset",
+        "dct:identifier": "planning:park-and-garden-grade",
+        "dct:title": "Park and garden grade",
+        "dct:description": "The grade assigned to each [historic park and garden](/dataset/historic-park-and-garden) by [Historic England](https://historicengland.org.uk/).\nThis dataset may be merged with [listed building grade](/dataset/listed-building-grade) dataset in the future.",
+        "dcat:theme": [
+          "environment",
+          "heritage"
+        ],
+        "okf:typology": "category",
+        "okf:collection": "historic-england",
+        "okf:phase": "beta",
+        "okf:entityCount": 3,
+        "okf:notEndorsedBySource": true,
+        "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+      }
+    },
+    {
+      "id": "passenger-transport-executive",
+      "route": "dataset/passenger-transport-executive",
+      "title": "Passenger transport executive",
+      "description": "Local government bodies responsible for public transport, usually within large urban areas.\nWe keep and maintain this dataset to help us identify the organisations which provide planning and housing data.",
+      "summary": "Local government bodies responsible for public transport, usually within large urban areas.\nWe keep and maintain this dataset to help us identify the organisations which provide planning and housing d...",
+      "record_type": "organisation",
+      "collection": "organisation",
+      "typology": "organisation",
+      "phase": "beta",
+      "themes": [
+        "administrative"
+      ],
+      "entity_count": 9,
+      "licence_id": "ogl3",
+      "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+      "attribution": "\u00a9 Crown copyright and database right 2026",
+      "source": "planning-data-gov-uk",
+      "source_url": "https://www.planning.data.gov.uk/dataset/passenger-transport-executive",
+      "documentation_url": "https://www.planning.data.gov.uk/dataset/passenger-transport-executive",
+      "publisher": "MHCLG / Planning Data England",
+      "publisher_url": "https://www.planning.data.gov.uk/",
+      "confidence": "observed",
+      "wikidata": "Q514989",
+      "tags": [
+        "organisation",
+        "organisation",
+        "beta",
+        "administrative"
+      ],
+      "resources": [
+        {
+          "id": "passenger-transport-executive-json-api",
+          "title": "Passenger transport executive JSON API Endpoint",
+          "url": "https://www.planning.data.gov.uk/dataset/passenger-transport-executive.json",
+          "format": "json",
+          "media_type": "application/json",
+          "dcat_type": "access-service"
+        },
+        {
+          "id": "passenger-transport-executive-csv-download",
+          "title": "Passenger transport executive CSV Data Download",
+          "url": "https://www.planning.data.gov.uk/dataset/passenger-transport-executive.csv",
+          "format": "csv",
+          "media_type": "text/csv",
+          "dcat_type": "downloadable-file"
+        },
+        {
+          "id": "passenger-transport-executive-geojson-download",
+          "title": "Passenger transport executive GeoJSON Download",
+          "url": "https://www.planning.data.gov.uk/dataset/passenger-transport-executive.geojson",
+          "format": "geojson",
+          "media_type": "application/geo+json",
+          "dcat_type": "downloadable-file"
+        }
+      ],
+      "alternatives": [],
+      "node_json": {
+        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/passenger-transport-executive",
+        "@type": "dcat:Dataset",
+        "dct:identifier": "planning:passenger-transport-executive",
+        "dct:title": "Passenger transport executive",
+        "dct:description": "Local government bodies responsible for public transport, usually within large urban areas.\nWe keep and maintain this dataset to help us identify the organisations which provide planning and housing data.",
+        "dcat:theme": [
+          "administrative"
+        ],
+        "okf:typology": "organisation",
+        "okf:collection": "organisation",
+        "okf:phase": "beta",
+        "okf:entityCount": 9,
+        "okf:notEndorsedBySource": true,
+        "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+      }
+    },
+    {
+      "id": "permitted-development-right",
+      "route": "dataset/permitted-development-right",
+      "title": "Permitted development right",
+      "description": "This dataset identifies the categories of [permitted development right](https://www.gov.uk/government/publications/permitted-development-rights-for-householders-technical-guidance/permitted-development-rights-for-householders-technical-guidance).\nEach right is grouped by a [permitted development right part](/dataset/permitted-development-right-part) category.\nThis experimental dataset was created to support the development of a [data specification for article 4 directions](https://www.digital-land.info/guidance/specifications/article-4-direction).",
+      "summary": "This dataset identifies the categories of [permitted development right](https://www.gov.uk/government/publications/permitted-development-rights-for-householders-technical-guidance/permitted-developmen...",
+      "record_type": "category",
+      "collection": "legislation",
+      "typology": "category",
+      "phase": "beta",
+      "themes": [
+        "development"
+      ],
+      "entity_count": 240,
+      "licence_id": "ogl3",
+      "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+      "attribution": "\u00a9 Crown copyright and database right 2026",
+      "source": "planning-data-gov-uk",
+      "source_url": "https://www.planning.data.gov.uk/dataset/permitted-development-right",
+      "documentation_url": "https://www.planning.data.gov.uk/dataset/permitted-development-right",
+      "publisher": "MHCLG / Planning Data England",
+      "publisher_url": "https://www.planning.data.gov.uk/",
+      "confidence": "observed",
+      "wikidata": "",
+      "tags": [
+        "category",
+        "legislation",
+        "beta",
+        "development"
+      ],
+      "resources": [
+        {
+          "id": "permitted-development-right-json-api",
+          "title": "Permitted development right JSON API Endpoint",
+          "url": "https://www.planning.data.gov.uk/dataset/permitted-development-right.json",
+          "format": "json",
+          "media_type": "application/json",
+          "dcat_type": "access-service"
+        },
+        {
+          "id": "permitted-development-right-csv-download",
+          "title": "Permitted development right CSV Data Download",
+          "url": "https://www.planning.data.gov.uk/dataset/permitted-development-right.csv",
+          "format": "csv",
+          "media_type": "text/csv",
+          "dcat_type": "downloadable-file"
+        },
+        {
+          "id": "permitted-development-right-geojson-download",
+          "title": "Permitted development right GeoJSON Download",
+          "url": "https://www.planning.data.gov.uk/dataset/permitted-development-right.geojson",
+          "format": "geojson",
+          "media_type": "application/geo+json",
+          "dcat_type": "downloadable-file"
+        }
+      ],
+      "alternatives": [],
+      "node_json": {
+        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/permitted-development-right",
+        "@type": "dcat:Dataset",
+        "dct:identifier": "planning:permitted-development-right",
+        "dct:title": "Permitted development right",
+        "dct:description": "This dataset identifies the categories of [permitted development right](https://www.gov.uk/government/publications/permitted-development-rights-for-householders-technical-guidance/permitted-development-rights-for-householders-technical-guidance).\nEach right is grouped by a [permitted development right part](/dataset/permitted-development-right-part) category.\nThis experimental dataset was created to support the development of a [data specification for article 4 directions](https://www.digital-land.info/guidance/specifications/article-4-direction).",
+        "dcat:theme": [
+          "development"
+        ],
+        "okf:typology": "category",
+        "okf:collection": "legislation",
+        "okf:phase": "beta",
+        "okf:entityCount": 240,
+        "okf:notEndorsedBySource": true,
+        "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+      }
+    },
+    {
+      "id": "permitted-development-right-part",
+      "route": "dataset/permitted-development-right-part",
+      "title": "Permitted development right part",
+      "description": "Permitted development right part is a category used to group the [permitted development right](/dataset/permitted-development-right) categories.\nThis experimental dataset was created to support the development of a [data specification for article 4 directions](https://www.digital-land.info/guidance/specifications/article-4-direction).",
+      "summary": "Permitted development right part is a category used to group the [permitted development right](/dataset/permitted-development-right) categories.\nThis experimental dataset was created to support the de...",
+      "record_type": "category",
+      "collection": "legislation",
+      "typology": "category",
+      "phase": "beta",
+      "themes": [
+        "development"
+      ],
+      "entity_count": 21,
+      "licence_id": "ogl3",
+      "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+      "attribution": "\u00a9 Crown copyright and database right 2026",
+      "source": "planning-data-gov-uk",
+      "source_url": "https://www.planning.data.gov.uk/dataset/permitted-development-right-part",
+      "documentation_url": "https://www.planning.data.gov.uk/dataset/permitted-development-right-part",
+      "publisher": "MHCLG / Planning Data England",
+      "publisher_url": "https://www.planning.data.gov.uk/",
+      "confidence": "observed",
+      "wikidata": "",
+      "tags": [
+        "category",
+        "legislation",
+        "beta",
+        "development"
+      ],
+      "resources": [
+        {
+          "id": "permitted-development-right-part-json-api",
+          "title": "Permitted development right part JSON API Endpoint",
+          "url": "https://www.planning.data.gov.uk/dataset/permitted-development-right-part.json",
+          "format": "json",
+          "media_type": "application/json",
+          "dcat_type": "access-service"
+        },
+        {
+          "id": "permitted-development-right-part-csv-download",
+          "title": "Permitted development right part CSV Data Download",
+          "url": "https://www.planning.data.gov.uk/dataset/permitted-development-right-part.csv",
+          "format": "csv",
+          "media_type": "text/csv",
+          "dcat_type": "downloadable-file"
+        },
+        {
+          "id": "permitted-development-right-part-geojson-download",
+          "title": "Permitted development right part GeoJSON Download",
+          "url": "https://www.planning.data.gov.uk/dataset/permitted-development-right-part.geojson",
+          "format": "geojson",
+          "media_type": "application/geo+json",
+          "dcat_type": "downloadable-file"
+        }
+      ],
+      "alternatives": [],
+      "node_json": {
+        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/permitted-development-right-part",
+        "@type": "dcat:Dataset",
+        "dct:identifier": "planning:permitted-development-right-part",
+        "dct:title": "Permitted development right part",
+        "dct:description": "Permitted development right part is a category used to group the [permitted development right](/dataset/permitted-development-right) categories.\nThis experimental dataset was created to support the development of a [data specification for article 4 directions](https://www.digital-land.info/guidance/specifications/article-4-direction).",
+        "dcat:theme": [
+          "development"
+        ],
+        "okf:typology": "category",
+        "okf:collection": "legislation",
+        "okf:phase": "beta",
+        "okf:entityCount": 21,
+        "okf:notEndorsedBySource": true,
+        "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+      }
+    },
+    {
+      "id": "phase",
+      "route": "dataset/phase",
+      "title": "Phase",
+      "description": "phase of development",
+      "summary": "phase of development",
+      "record_type": "category",
+      "collection": "planning-data",
+      "typology": "category",
+      "phase": "beta",
+      "themes": [
+        "specification"
+      ],
+      "entity_count": 0,
+      "licence_id": "ogl3",
+      "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+      "attribution": "\u00a9 Crown copyright and database right 2026",
+      "source": "planning-data-gov-uk",
+      "source_url": "https://www.planning.data.gov.uk/dataset/phase",
+      "documentation_url": "https://www.planning.data.gov.uk/dataset/phase",
+      "publisher": "MHCLG / Planning Data England",
+      "publisher_url": "https://www.planning.data.gov.uk/",
+      "confidence": "observed",
+      "wikidata": "",
+      "tags": [
+        "category",
+        "planning-data",
+        "beta",
+        "specification"
+      ],
+      "resources": [
+        {
+          "id": "phase-json-api",
+          "title": "Phase JSON API Endpoint",
+          "url": "https://www.planning.data.gov.uk/dataset/phase.json",
+          "format": "json",
+          "media_type": "application/json",
+          "dcat_type": "access-service"
+        },
+        {
+          "id": "phase-csv-download",
+          "title": "Phase CSV Data Download",
+          "url": "https://www.planning.data.gov.uk/dataset/phase.csv",
+          "format": "csv",
+          "media_type": "text/csv",
+          "dcat_type": "downloadable-file"
+        },
+        {
+          "id": "phase-geojson-download",
+          "title": "Phase GeoJSON Download",
+          "url": "https://www.planning.data.gov.uk/dataset/phase.geojson",
+          "format": "geojson",
+          "media_type": "application/geo+json",
+          "dcat_type": "downloadable-file"
+        }
+      ],
+      "alternatives": [],
+      "node_json": {
+        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/phase",
+        "@type": "dcat:Dataset",
+        "dct:identifier": "planning:phase",
+        "dct:title": "Phase",
+        "dct:description": "phase of development",
+        "dcat:theme": [
+          "specification"
+        ],
+        "okf:typology": "category",
+        "okf:collection": "planning-data",
+        "okf:phase": "beta",
+        "okf:entityCount": 0,
+        "okf:notEndorsedBySource": true,
+        "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+      }
+    },
+    {
+      "id": "plan",
+      "route": "dataset/plan",
+      "title": "plan",
+      "description": "This dataset is a package made from the local-plan, waste-plan, minerals-plan and supplementary-plan datasets.",
+      "summary": "This dataset is a package made from the local-plan, waste-plan, minerals-plan and supplementary-plan datasets.",
+      "record_type": "legal-instrument",
+      "collection": "planning-data",
+      "typology": "legal-instrument",
+      "phase": "alpha",
+      "themes": [
+        "development"
+      ],
+      "entity_count": 0,
+      "licence_id": "ogl3",
+      "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+      "attribution": "\u00a9 Crown copyright and database right 2026",
+      "source": "planning-data-gov-uk",
+      "source_url": "https://www.planning.data.gov.uk/dataset/plan",
+      "documentation_url": "https://www.planning.data.gov.uk/dataset/plan",
+      "publisher": "MHCLG / Planning Data England",
+      "publisher_url": "https://www.planning.data.gov.uk/",
+      "confidence": "observed",
+      "wikidata": "Q5266783",
+      "tags": [
+        "legal-instrument",
+        "planning-data",
+        "alpha",
+        "development"
+      ],
+      "resources": [
+        {
+          "id": "plan-json-api",
+          "title": "plan JSON API Endpoint",
+          "url": "https://www.planning.data.gov.uk/dataset/plan.json",
+          "format": "json",
+          "media_type": "application/json",
+          "dcat_type": "access-service"
+        },
+        {
+          "id": "plan-csv-download",
+          "title": "plan CSV Data Download",
+          "url": "https://www.planning.data.gov.uk/dataset/plan.csv",
+          "format": "csv",
+          "media_type": "text/csv",
+          "dcat_type": "downloadable-file"
+        },
+        {
+          "id": "plan-geojson-download",
+          "title": "plan GeoJSON Download",
+          "url": "https://www.planning.data.gov.uk/dataset/plan.geojson",
+          "format": "geojson",
+          "media_type": "application/geo+json",
+          "dcat_type": "downloadable-file"
+        }
+      ],
+      "alternatives": [],
+      "node_json": {
+        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/plan",
+        "@type": "dcat:Dataset",
+        "dct:identifier": "planning:plan",
+        "dct:title": "plan",
+        "dct:description": "This dataset is a package made from the local-plan, waste-plan, minerals-plan and supplementary-plan datasets.",
+        "dcat:theme": [
+          "development"
+        ],
+        "okf:typology": "legal-instrument",
+        "okf:collection": "planning-data",
+        "okf:phase": "alpha",
+        "okf:entityCount": 0,
+        "okf:notEndorsedBySource": true,
+        "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+      }
+    },
+    {
+      "id": "plan-event",
+      "route": "dataset/plan-event",
+      "title": "Plan event",
+      "description": "The different event types in a plan timetable",
+      "summary": "The different event types in a plan timetable",
+      "record_type": "category",
+      "collection": "local-plan",
+      "typology": "category",
+      "phase": "alpha",
+      "themes": [
+        "development"
+      ],
+      "entity_count": 47,
+      "licence_id": "ogl3",
+      "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+      "attribution": "\u00a9 Crown copyright and database right 2026",
+      "source": "planning-data-gov-uk",
+      "source_url": "https://www.planning.data.gov.uk/dataset/plan-event",
+      "documentation_url": "https://www.planning.data.gov.uk/dataset/plan-event",
+      "publisher": "MHCLG / Planning Data England",
+      "publisher_url": "https://www.planning.data.gov.uk/",
+      "confidence": "observed",
+      "wikidata": "",
+      "tags": [
+        "category",
+        "local-plan",
+        "alpha",
+        "development"
+      ],
+      "resources": [
+        {
+          "id": "plan-event-json-api",
+          "title": "Plan event JSON API Endpoint",
+          "url": "https://www.planning.data.gov.uk/dataset/plan-event.json",
+          "format": "json",
+          "media_type": "application/json",
+          "dcat_type": "access-service"
+        },
+        {
+          "id": "plan-event-csv-download",
+          "title": "Plan event CSV Data Download",
+          "url": "https://www.planning.data.gov.uk/dataset/plan-event.csv",
+          "format": "csv",
+          "media_type": "text/csv",
+          "dcat_type": "downloadable-file"
+        },
+        {
+          "id": "plan-event-geojson-download",
+          "title": "Plan event GeoJSON Download",
+          "url": "https://www.planning.data.gov.uk/dataset/plan-event.geojson",
+          "format": "geojson",
+          "media_type": "application/geo+json",
+          "dcat_type": "downloadable-file"
+        }
+      ],
+      "alternatives": [],
+      "node_json": {
+        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/plan-event",
+        "@type": "dcat:Dataset",
+        "dct:identifier": "planning:plan-event",
+        "dct:title": "Plan event",
+        "dct:description": "The different event types in a plan timetable",
+        "dcat:theme": [
+          "development"
+        ],
+        "okf:typology": "category",
+        "okf:collection": "local-plan",
+        "okf:phase": "alpha",
+        "okf:entityCount": 47,
+        "okf:notEndorsedBySource": true,
+        "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+      }
+    },
+    {
+      "id": "planning-application",
+      "route": "dataset/planning-application",
+      "title": "Planning application",
+      "description": "An application for planning permission",
+      "summary": "An application for planning permission",
+      "record_type": "geography",
+      "collection": "planning-application",
+      "typology": "geography",
+      "phase": "alpha",
+      "themes": [
+        "development",
+        "housing",
+        "monitoring"
+      ],
+      "entity_count": 100627,
+      "licence_id": "ogl3",
+      "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+      "attribution": "\u00a9 Crown copyright and database right 2026",
+      "source": "planning-data-gov-uk",
+      "source_url": "https://www.planning.data.gov.uk/dataset/planning-application",
+      "documentation_url": "https://www.planning.data.gov.uk/dataset/planning-application",
+      "publisher": "MHCLG / Planning Data England",
+      "publisher_url": "https://www.planning.data.gov.uk/",
+      "confidence": "observed",
+      "wikidata": "",
+      "tags": [
+        "geography",
+        "planning-application",
+        "alpha",
+        "development",
+        "housing",
+        "monitoring"
+      ],
+      "resources": [
+        {
+          "id": "planning-application-json-api",
+          "title": "Planning application JSON API Endpoint",
+          "url": "https://www.planning.data.gov.uk/dataset/planning-application.json",
+          "format": "json",
+          "media_type": "application/json",
+          "dcat_type": "access-service"
+        },
+        {
+          "id": "planning-application-csv-download",
+          "title": "Planning application CSV Data Download",
+          "url": "https://www.planning.data.gov.uk/dataset/planning-application.csv",
+          "format": "csv",
+          "media_type": "text/csv",
+          "dcat_type": "downloadable-file"
+        },
+        {
+          "id": "planning-application-geojson-download",
+          "title": "Planning application GeoJSON Download",
+          "url": "https://www.planning.data.gov.uk/dataset/planning-application.geojson",
+          "format": "geojson",
+          "media_type": "application/geo+json",
+          "dcat_type": "downloadable-file"
+        }
+      ],
+      "alternatives": [],
+      "node_json": {
+        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/planning-application",
+        "@type": "dcat:Dataset",
+        "dct:identifier": "planning:planning-application",
+        "dct:title": "Planning application",
+        "dct:description": "An application for planning permission",
+        "dcat:theme": [
+          "development",
+          "housing",
+          "monitoring"
+        ],
+        "okf:typology": "geography",
+        "okf:collection": "planning-application",
+        "okf:phase": "alpha",
+        "okf:entityCount": 100627,
+        "okf:notEndorsedBySource": true,
+        "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+      }
+    },
+    {
+      "id": "planning-application-category",
+      "route": "dataset/planning-application-category",
+      "title": "Planning application category",
+      "description": "A planning application category is a high level categorisation of the type of planning application, such as \"householder\" or \"full planning application\"",
+      "summary": "A planning application category is a high level categorisation of the type of planning application, such as \"householder\" or \"full planning application\"",
+      "record_type": "category",
+      "collection": "planning-data",
+      "typology": "category",
+      "phase": "alpha",
+      "themes": [
+        "housing",
+        "monitoring"
+      ],
+      "entity_count": 0,
+      "licence_id": "ogl3",
+      "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+      "attribution": "\u00a9 Crown copyright and database right 2026",
+      "source": "planning-data-gov-uk",
+      "source_url": "https://www.planning.data.gov.uk/dataset/planning-application-category",
+      "documentation_url": "https://www.planning.data.gov.uk/dataset/planning-application-category",
+      "publisher": "MHCLG / Planning Data England",
+      "publisher_url": "https://www.planning.data.gov.uk/",
+      "confidence": "observed",
+      "wikidata": "",
+      "tags": [
+        "category",
+        "planning-data",
+        "alpha",
+        "housing",
+        "monitoring"
+      ],
+      "resources": [
+        {
+          "id": "planning-application-category-json-api",
+          "title": "Planning application category JSON API Endpoint",
+          "url": "https://www.planning.data.gov.uk/dataset/planning-application-category.json",
+          "format": "json",
+          "media_type": "application/json",
+          "dcat_type": "access-service"
+        },
+        {
+          "id": "planning-application-category-csv-download",
+          "title": "Planning application category CSV Data Download",
+          "url": "https://www.planning.data.gov.uk/dataset/planning-application-category.csv",
+          "format": "csv",
+          "media_type": "text/csv",
+          "dcat_type": "downloadable-file"
+        },
+        {
+          "id": "planning-application-category-geojson-download",
+          "title": "Planning application category GeoJSON Download",
+          "url": "https://www.planning.data.gov.uk/dataset/planning-application-category.geojson",
+          "format": "geojson",
+          "media_type": "application/geo+json",
+          "dcat_type": "downloadable-file"
+        }
+      ],
+      "alternatives": [],
+      "node_json": {
+        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/planning-application-category",
+        "@type": "dcat:Dataset",
+        "dct:identifier": "planning:planning-application-category",
+        "dct:title": "Planning application category",
+        "dct:description": "A planning application category is a high level categorisation of the type of planning application, such as \"householder\" or \"full planning application\"",
+        "dcat:theme": [
+          "housing",
+          "monitoring"
+        ],
+        "okf:typology": "category",
+        "okf:collection": "planning-data",
+        "okf:phase": "alpha",
+        "okf:entityCount": 0,
+        "okf:notEndorsedBySource": true,
+        "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+      }
+    },
+    {
+      "id": "planning-application-condition",
+      "route": "dataset/planning-application-condition",
+      "title": "Planning application condition",
+      "description": "A record of which conditions apply to which planning applications",
+      "summary": "A record of which conditions apply to which planning applications",
+      "record_type": "policy",
+      "collection": "planning-condition",
+      "typology": "policy",
+      "phase": "alpha",
+      "themes": [
+        "housing",
+        "monitoring"
+      ],
+      "entity_count": 5305,
+      "licence_id": "ogl3",
+      "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+      "attribution": "\u00a9 Crown copyright and database right 2026",
+      "source": "planning-data-gov-uk",
+      "source_url": "https://www.planning.data.gov.uk/dataset/planning-application-condition",
+      "documentation_url": "https://www.planning.data.gov.uk/dataset/planning-application-condition",
+      "publisher": "MHCLG / Planning Data England",
+      "publisher_url": "https://www.planning.data.gov.uk/",
+      "confidence": "observed",
+      "wikidata": "",
+      "tags": [
+        "policy",
+        "planning-condition",
+        "alpha",
+        "housing",
+        "monitoring"
+      ],
+      "resources": [
+        {
+          "id": "planning-application-condition-json-api",
+          "title": "Planning application condition JSON API Endpoint",
+          "url": "https://www.planning.data.gov.uk/dataset/planning-application-condition.json",
+          "format": "json",
+          "media_type": "application/json",
+          "dcat_type": "access-service"
+        },
+        {
+          "id": "planning-application-condition-csv-download",
+          "title": "Planning application condition CSV Data Download",
+          "url": "https://www.planning.data.gov.uk/dataset/planning-application-condition.csv",
+          "format": "csv",
+          "media_type": "text/csv",
+          "dcat_type": "downloadable-file"
+        },
+        {
+          "id": "planning-application-condition-geojson-download",
+          "title": "Planning application condition GeoJSON Download",
+          "url": "https://www.planning.data.gov.uk/dataset/planning-application-condition.geojson",
+          "format": "geojson",
+          "media_type": "application/geo+json",
+          "dcat_type": "downloadable-file"
+        }
+      ],
+      "alternatives": [],
+      "node_json": {
+        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/planning-application-condition",
+        "@type": "dcat:Dataset",
+        "dct:identifier": "planning:planning-application-condition",
+        "dct:title": "Planning application condition",
+        "dct:description": "A record of which conditions apply to which planning applications",
+        "dcat:theme": [
+          "housing",
+          "monitoring"
+        ],
+        "okf:typology": "policy",
+        "okf:collection": "planning-condition",
+        "okf:phase": "alpha",
+        "okf:entityCount": 5305,
+        "okf:notEndorsedBySource": true,
+        "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+      }
+    },
+    {
+      "id": "planning-application-document",
+      "route": "dataset/planning-application-document",
+      "title": "Planning application document",
+      "description": "Planning dataset for Planning application document",
+      "summary": "Planning dataset for Planning application document",
+      "record_type": "document",
+      "collection": "planning-data",
+      "typology": "document",
+      "phase": "alpha",
+      "themes": [
+        "development"
+      ],
+      "entity_count": 0,
+      "licence_id": "ogl3",
+      "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+      "attribution": "\u00a9 Crown copyright and database right 2026",
+      "source": "planning-data-gov-uk",
+      "source_url": "https://www.planning.data.gov.uk/dataset/planning-application-document",
+      "documentation_url": "https://www.planning.data.gov.uk/dataset/planning-application-document",
+      "publisher": "MHCLG / Planning Data England",
+      "publisher_url": "https://www.planning.data.gov.uk/",
+      "confidence": "observed",
+      "wikidata": "",
+      "tags": [
+        "document",
+        "planning-data",
+        "alpha",
+        "development"
+      ],
+      "resources": [
+        {
+          "id": "planning-application-document-json-api",
+          "title": "Planning application document JSON API Endpoint",
+          "url": "https://www.planning.data.gov.uk/dataset/planning-application-document.json",
+          "format": "json",
+          "media_type": "application/json",
+          "dcat_type": "access-service"
+        },
+        {
+          "id": "planning-application-document-csv-download",
+          "title": "Planning application document CSV Data Download",
+          "url": "https://www.planning.data.gov.uk/dataset/planning-application-document.csv",
+          "format": "csv",
+          "media_type": "text/csv",
+          "dcat_type": "downloadable-file"
+        },
+        {
+          "id": "planning-application-document-geojson-download",
+          "title": "Planning application document GeoJSON Download",
+          "url": "https://www.planning.data.gov.uk/dataset/planning-application-document.geojson",
+          "format": "geojson",
+          "media_type": "application/geo+json",
+          "dcat_type": "downloadable-file"
+        }
+      ],
+      "alternatives": [],
+      "node_json": {
+        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/planning-application-document",
+        "@type": "dcat:Dataset",
+        "dct:identifier": "planning:planning-application-document",
+        "dct:title": "Planning application document",
+        "dct:description": "Planning dataset for Planning application document",
+        "dcat:theme": [
+          "development"
+        ],
+        "okf:typology": "document",
+        "okf:collection": "planning-data",
+        "okf:phase": "alpha",
+        "okf:entityCount": 0,
+        "okf:notEndorsedBySource": true,
+        "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+      }
+    },
+    {
+      "id": "planning-application-log",
+      "route": "dataset/planning-application-log",
+      "title": "Planning application log",
+      "description": "The stages a planning application has gone through",
+      "summary": "The stages a planning application has gone through",
+      "record_type": "timetable",
+      "collection": "planning-data",
+      "typology": "timetable",
+      "phase": "alpha",
+      "themes": [
+        "development"
+      ],
+      "entity_count": 0,
+      "licence_id": "ogl3",
+      "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+      "attribution": "\u00a9 Crown copyright and database right 2026",
+      "source": "planning-data-gov-uk",
+      "source_url": "https://www.planning.data.gov.uk/dataset/planning-application-log",
+      "documentation_url": "https://www.planning.data.gov.uk/dataset/planning-application-log",
+      "publisher": "MHCLG / Planning Data England",
+      "publisher_url": "https://www.planning.data.gov.uk/",
+      "confidence": "observed",
+      "wikidata": "",
+      "tags": [
+        "timetable",
+        "planning-data",
+        "alpha",
+        "development"
+      ],
+      "resources": [
+        {
+          "id": "planning-application-log-json-api",
+          "title": "Planning application log JSON API Endpoint",
+          "url": "https://www.planning.data.gov.uk/dataset/planning-application-log.json",
+          "format": "json",
+          "media_type": "application/json",
+          "dcat_type": "access-service"
+        },
+        {
+          "id": "planning-application-log-csv-download",
+          "title": "Planning application log CSV Data Download",
+          "url": "https://www.planning.data.gov.uk/dataset/planning-application-log.csv",
+          "format": "csv",
+          "media_type": "text/csv",
+          "dcat_type": "downloadable-file"
+        },
+        {
+          "id": "planning-application-log-geojson-download",
+          "title": "Planning application log GeoJSON Download",
+          "url": "https://www.planning.data.gov.uk/dataset/planning-application-log.geojson",
+          "format": "geojson",
+          "media_type": "application/geo+json",
+          "dcat_type": "downloadable-file"
+        }
+      ],
+      "alternatives": [],
+      "node_json": {
+        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/planning-application-log",
+        "@type": "dcat:Dataset",
+        "dct:identifier": "planning:planning-application-log",
+        "dct:title": "Planning application log",
+        "dct:description": "The stages a planning application has gone through",
+        "dcat:theme": [
+          "development"
+        ],
+        "okf:typology": "timetable",
+        "okf:collection": "planning-data",
+        "okf:phase": "alpha",
+        "okf:entityCount": 0,
+        "okf:notEndorsedBySource": true,
+        "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+      }
+    },
+    {
+      "id": "planning-application-status",
+      "route": "dataset/planning-application-status",
+      "title": "Planning application status",
+      "description": "A planning application status",
+      "summary": "A planning application status",
+      "record_type": "category",
+      "collection": "planning-data",
+      "typology": "category",
+      "phase": "alpha",
+      "themes": [
+        "housing",
+        "monitoring"
+      ],
+      "entity_count": 0,
+      "licence_id": "ogl3",
+      "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+      "attribution": "\u00a9 Crown copyright and database right 2026",
+      "source": "planning-data-gov-uk",
+      "source_url": "https://www.planning.data.gov.uk/dataset/planning-application-status",
+      "documentation_url": "https://www.planning.data.gov.uk/dataset/planning-application-status",
+      "publisher": "MHCLG / Planning Data England",
+      "publisher_url": "https://www.planning.data.gov.uk/",
+      "confidence": "observed",
+      "wikidata": "",
+      "tags": [
+        "category",
+        "planning-data",
+        "alpha",
+        "housing",
+        "monitoring"
+      ],
+      "resources": [
+        {
+          "id": "planning-application-status-json-api",
+          "title": "Planning application status JSON API Endpoint",
+          "url": "https://www.planning.data.gov.uk/dataset/planning-application-status.json",
+          "format": "json",
+          "media_type": "application/json",
+          "dcat_type": "access-service"
+        },
+        {
+          "id": "planning-application-status-csv-download",
+          "title": "Planning application status CSV Data Download",
+          "url": "https://www.planning.data.gov.uk/dataset/planning-application-status.csv",
+          "format": "csv",
+          "media_type": "text/csv",
+          "dcat_type": "downloadable-file"
+        },
+        {
+          "id": "planning-application-status-geojson-download",
+          "title": "Planning application status GeoJSON Download",
+          "url": "https://www.planning.data.gov.uk/dataset/planning-application-status.geojson",
+          "format": "geojson",
+          "media_type": "application/geo+json",
+          "dcat_type": "downloadable-file"
+        }
+      ],
+      "alternatives": [],
+      "node_json": {
+        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/planning-application-status",
+        "@type": "dcat:Dataset",
+        "dct:identifier": "planning:planning-application-status",
+        "dct:title": "Planning application status",
+        "dct:description": "A planning application status",
+        "dcat:theme": [
+          "housing",
+          "monitoring"
+        ],
+        "okf:typology": "category",
+        "okf:collection": "planning-data",
+        "okf:phase": "alpha",
+        "okf:entityCount": 0,
+        "okf:notEndorsedBySource": true,
+        "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+      }
+    },
+    {
+      "id": "planning-application-type",
+      "route": "dataset/planning-application-type",
+      "title": "Planning application type",
+      "description": "A type of planning application",
+      "summary": "A type of planning application",
+      "record_type": "category",
+      "collection": "planning-application",
+      "typology": "category",
+      "phase": "alpha",
+      "themes": [
+        "housing",
+        "monitoring"
+      ],
+      "entity_count": 41,
+      "licence_id": "ogl3",
+      "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+      "attribution": "\u00a9 Crown copyright and database right 2026",
+      "source": "planning-data-gov-uk",
+      "source_url": "https://www.planning.data.gov.uk/dataset/planning-application-type",
+      "documentation_url": "https://www.planning.data.gov.uk/dataset/planning-application-type",
+      "publisher": "MHCLG / Planning Data England",
+      "publisher_url": "https://www.planning.data.gov.uk/",
+      "confidence": "observed",
+      "wikidata": "",
+      "tags": [
+        "category",
+        "planning-application",
+        "alpha",
+        "housing",
+        "monitoring"
+      ],
+      "resources": [
+        {
+          "id": "planning-application-type-json-api",
+          "title": "Planning application type JSON API Endpoint",
+          "url": "https://www.planning.data.gov.uk/dataset/planning-application-type.json",
+          "format": "json",
+          "media_type": "application/json",
+          "dcat_type": "access-service"
+        },
+        {
+          "id": "planning-application-type-csv-download",
+          "title": "Planning application type CSV Data Download",
+          "url": "https://www.planning.data.gov.uk/dataset/planning-application-type.csv",
+          "format": "csv",
+          "media_type": "text/csv",
+          "dcat_type": "downloadable-file"
+        },
+        {
+          "id": "planning-application-type-geojson-download",
+          "title": "Planning application type GeoJSON Download",
+          "url": "https://www.planning.data.gov.uk/dataset/planning-application-type.geojson",
+          "format": "geojson",
+          "media_type": "application/geo+json",
+          "dcat_type": "downloadable-file"
+        }
+      ],
+      "alternatives": [],
+      "node_json": {
+        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/planning-application-type",
+        "@type": "dcat:Dataset",
+        "dct:identifier": "planning:planning-application-type",
+        "dct:title": "Planning application type",
+        "dct:description": "A type of planning application",
+        "dcat:theme": [
+          "housing",
+          "monitoring"
+        ],
+        "okf:typology": "category",
+        "okf:collection": "planning-application",
+        "okf:phase": "alpha",
+        "okf:entityCount": 41,
+        "okf:notEndorsedBySource": true,
+        "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+      }
+    },
+    {
+      "id": "planning-condition",
+      "route": "dataset/planning-condition",
+      "title": "Planning condition",
+      "description": "A condition that is attached to planning permission",
+      "summary": "A condition that is attached to planning permission",
+      "record_type": "policy",
+      "collection": "planning-condition",
+      "typology": "policy",
+      "phase": "alpha",
+      "themes": [
+        "housing",
+        "monitoring"
+      ],
+      "entity_count": 5605,
+      "licence_id": "ogl3",
+      "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+      "attribution": "\u00a9 Crown copyright and database right 2026",
+      "source": "planning-data-gov-uk",
+      "source_url": "https://www.planning.data.gov.uk/dataset/planning-condition",
+      "documentation_url": "https://www.planning.data.gov.uk/dataset/planning-condition",
+      "publisher": "MHCLG / Planning Data England",
+      "publisher_url": "https://www.planning.data.gov.uk/",
+      "confidence": "observed",
+      "wikidata": "",
+      "tags": [
+        "policy",
+        "planning-condition",
+        "alpha",
+        "housing",
+        "monitoring"
+      ],
+      "resources": [
+        {
+          "id": "planning-condition-json-api",
+          "title": "Planning condition JSON API Endpoint",
+          "url": "https://www.planning.data.gov.uk/dataset/planning-condition.json",
+          "format": "json",
+          "media_type": "application/json",
+          "dcat_type": "access-service"
+        },
+        {
+          "id": "planning-condition-csv-download",
+          "title": "Planning condition CSV Data Download",
+          "url": "https://www.planning.data.gov.uk/dataset/planning-condition.csv",
+          "format": "csv",
+          "media_type": "text/csv",
+          "dcat_type": "downloadable-file"
+        },
+        {
+          "id": "planning-condition-geojson-download",
+          "title": "Planning condition GeoJSON Download",
+          "url": "https://www.planning.data.gov.uk/dataset/planning-condition.geojson",
+          "format": "geojson",
+          "media_type": "application/geo+json",
+          "dcat_type": "downloadable-file"
+        }
+      ],
+      "alternatives": [],
+      "node_json": {
+        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/planning-condition",
+        "@type": "dcat:Dataset",
+        "dct:identifier": "planning:planning-condition",
+        "dct:title": "Planning condition",
+        "dct:description": "A condition that is attached to planning permission",
+        "dcat:theme": [
+          "housing",
+          "monitoring"
+        ],
+        "okf:typology": "policy",
+        "okf:collection": "planning-condition",
+        "okf:phase": "alpha",
+        "okf:entityCount": 5605,
+        "okf:notEndorsedBySource": true,
+        "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+      }
+    },
+    {
+      "id": "planning-condition-purpose",
+      "route": "dataset/planning-condition-purpose",
+      "title": "Planning condition purpose",
+      "description": "The primary purpose of the condition, for example to restrict something",
+      "summary": "The primary purpose of the condition, for example to restrict something",
+      "record_type": "category",
+      "collection": "planning-data",
+      "typology": "category",
+      "phase": "alpha",
+      "themes": [
+        "housing",
+        "monitoring"
+      ],
+      "entity_count": 0,
+      "licence_id": "ogl3",
+      "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+      "attribution": "\u00a9 Crown copyright and database right 2026",
+      "source": "planning-data-gov-uk",
+      "source_url": "https://www.planning.data.gov.uk/dataset/planning-condition-purpose",
+      "documentation_url": "https://www.planning.data.gov.uk/dataset/planning-condition-purpose",
+      "publisher": "MHCLG / Planning Data England",
+      "publisher_url": "https://www.planning.data.gov.uk/",
+      "confidence": "observed",
+      "wikidata": "",
+      "tags": [
+        "category",
+        "planning-data",
+        "alpha",
+        "housing",
+        "monitoring"
+      ],
+      "resources": [
+        {
+          "id": "planning-condition-purpose-json-api",
+          "title": "Planning condition purpose JSON API Endpoint",
+          "url": "https://www.planning.data.gov.uk/dataset/planning-condition-purpose.json",
+          "format": "json",
+          "media_type": "application/json",
+          "dcat_type": "access-service"
+        },
+        {
+          "id": "planning-condition-purpose-csv-download",
+          "title": "Planning condition purpose CSV Data Download",
+          "url": "https://www.planning.data.gov.uk/dataset/planning-condition-purpose.csv",
+          "format": "csv",
+          "media_type": "text/csv",
+          "dcat_type": "downloadable-file"
+        },
+        {
+          "id": "planning-condition-purpose-geojson-download",
+          "title": "Planning condition purpose GeoJSON Download",
+          "url": "https://www.planning.data.gov.uk/dataset/planning-condition-purpose.geojson",
+          "format": "geojson",
+          "media_type": "application/geo+json",
+          "dcat_type": "downloadable-file"
+        }
+      ],
+      "alternatives": [],
+      "node_json": {
+        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/planning-condition-purpose",
+        "@type": "dcat:Dataset",
+        "dct:identifier": "planning:planning-condition-purpose",
+        "dct:title": "Planning condition purpose",
+        "dct:description": "The primary purpose of the condition, for example to restrict something",
+        "dcat:theme": [
+          "housing",
+          "monitoring"
+        ],
+        "okf:typology": "category",
+        "okf:collection": "planning-data",
+        "okf:phase": "alpha",
+        "okf:entityCount": 0,
+        "okf:notEndorsedBySource": true,
+        "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+      }
+    },
+    {
+      "id": "planning-condition-target",
+      "route": "dataset/planning-condition-target",
+      "title": "Planning condition target",
+      "description": "The target of the condition, for example a property or site",
+      "summary": "The target of the condition, for example a property or site",
+      "record_type": "category",
+      "collection": "planning-data",
+      "typology": "category",
+      "phase": "alpha",
+      "themes": [
+        "housing",
+        "monitoring"
+      ],
+      "entity_count": 0,
+      "licence_id": "ogl3",
+      "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+      "attribution": "\u00a9 Crown copyright and database right 2026",
+      "source": "planning-data-gov-uk",
+      "source_url": "https://www.planning.data.gov.uk/dataset/planning-condition-target",
+      "documentation_url": "https://www.planning.data.gov.uk/dataset/planning-condition-target",
+      "publisher": "MHCLG / Planning Data England",
+      "publisher_url": "https://www.planning.data.gov.uk/",
+      "confidence": "observed",
+      "wikidata": "",
+      "tags": [
+        "category",
+        "planning-data",
+        "alpha",
+        "housing",
+        "monitoring"
+      ],
+      "resources": [
+        {
+          "id": "planning-condition-target-json-api",
+          "title": "Planning condition target JSON API Endpoint",
+          "url": "https://www.planning.data.gov.uk/dataset/planning-condition-target.json",
+          "format": "json",
+          "media_type": "application/json",
+          "dcat_type": "access-service"
+        },
+        {
+          "id": "planning-condition-target-csv-download",
+          "title": "Planning condition target CSV Data Download",
+          "url": "https://www.planning.data.gov.uk/dataset/planning-condition-target.csv",
+          "format": "csv",
+          "media_type": "text/csv",
+          "dcat_type": "downloadable-file"
+        },
+        {
+          "id": "planning-condition-target-geojson-download",
+          "title": "Planning condition target GeoJSON Download",
+          "url": "https://www.planning.data.gov.uk/dataset/planning-condition-target.geojson",
+          "format": "geojson",
+          "media_type": "application/geo+json",
+          "dcat_type": "downloadable-file"
+        }
+      ],
+      "alternatives": [],
+      "node_json": {
+        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/planning-condition-target",
+        "@type": "dcat:Dataset",
+        "dct:identifier": "planning:planning-condition-target",
+        "dct:title": "Planning condition target",
+        "dct:description": "The target of the condition, for example a property or site",
+        "dcat:theme": [
+          "housing",
+          "monitoring"
+        ],
+        "okf:typology": "category",
+        "okf:collection": "planning-data",
+        "okf:phase": "alpha",
+        "okf:entityCount": 0,
+        "okf:notEndorsedBySource": true,
+        "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+      }
+    },
+    {
+      "id": "planning-condition-type",
+      "route": "dataset/planning-condition-type",
+      "title": "Planning condition type",
+      "description": "The type of the planning condition, for example the removal of permitted development rights",
+      "summary": "The type of the planning condition, for example the removal of permitted development rights",
+      "record_type": "category",
+      "collection": "planning-data",
+      "typology": "category",
+      "phase": "alpha",
+      "themes": [
+        "housing",
+        "monitoring"
+      ],
+      "entity_count": 0,
+      "licence_id": "ogl3",
+      "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+      "attribution": "\u00a9 Crown copyright and database right 2026",
+      "source": "planning-data-gov-uk",
+      "source_url": "https://www.planning.data.gov.uk/dataset/planning-condition-type",
+      "documentation_url": "https://www.planning.data.gov.uk/dataset/planning-condition-type",
+      "publisher": "MHCLG / Planning Data England",
+      "publisher_url": "https://www.planning.data.gov.uk/",
+      "confidence": "observed",
+      "wikidata": "",
+      "tags": [
+        "category",
+        "planning-data",
+        "alpha",
+        "housing",
+        "monitoring"
+      ],
+      "resources": [
+        {
+          "id": "planning-condition-type-json-api",
+          "title": "Planning condition type JSON API Endpoint",
+          "url": "https://www.planning.data.gov.uk/dataset/planning-condition-type.json",
+          "format": "json",
+          "media_type": "application/json",
+          "dcat_type": "access-service"
+        },
+        {
+          "id": "planning-condition-type-csv-download",
+          "title": "Planning condition type CSV Data Download",
+          "url": "https://www.planning.data.gov.uk/dataset/planning-condition-type.csv",
+          "format": "csv",
+          "media_type": "text/csv",
+          "dcat_type": "downloadable-file"
+        },
+        {
+          "id": "planning-condition-type-geojson-download",
+          "title": "Planning condition type GeoJSON Download",
+          "url": "https://www.planning.data.gov.uk/dataset/planning-condition-type.geojson",
+          "format": "geojson",
+          "media_type": "application/geo+json",
+          "dcat_type": "downloadable-file"
+        }
+      ],
+      "alternatives": [],
+      "node_json": {
+        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/planning-condition-type",
+        "@type": "dcat:Dataset",
+        "dct:identifier": "planning:planning-condition-type",
+        "dct:title": "Planning condition type",
+        "dct:description": "The type of the planning condition, for example the removal of permitted development rights",
+        "dcat:theme": [
+          "housing",
+          "monitoring"
+        ],
+        "okf:typology": "category",
+        "okf:collection": "planning-data",
+        "okf:phase": "alpha",
+        "okf:entityCount": 0,
+        "okf:notEndorsedBySource": true,
+        "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+      }
+    },
+    {
+      "id": "planning-decision",
+      "route": "dataset/planning-decision",
+      "title": "Planning decision",
+      "description": "A planning decision",
+      "summary": "A planning decision",
+      "record_type": "category",
+      "collection": "planning-data",
+      "typology": "category",
+      "phase": "alpha",
+      "themes": [
+        "housing",
+        "monitoring"
+      ],
+      "entity_count": 0,
+      "licence_id": "ogl3",
+      "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+      "attribution": "\u00a9 Crown copyright and database right 2026",
+      "source": "planning-data-gov-uk",
+      "source_url": "https://www.planning.data.gov.uk/dataset/planning-decision",
+      "documentation_url": "https://www.planning.data.gov.uk/dataset/planning-decision",
+      "publisher": "MHCLG / Planning Data England",
+      "publisher_url": "https://www.planning.data.gov.uk/",
+      "confidence": "observed",
+      "wikidata": "",
+      "tags": [
+        "category",
+        "planning-data",
+        "alpha",
+        "housing",
+        "monitoring"
+      ],
+      "resources": [
+        {
+          "id": "planning-decision-json-api",
+          "title": "Planning decision JSON API Endpoint",
+          "url": "https://www.planning.data.gov.uk/dataset/planning-decision.json",
+          "format": "json",
+          "media_type": "application/json",
+          "dcat_type": "access-service"
+        },
+        {
+          "id": "planning-decision-csv-download",
+          "title": "Planning decision CSV Data Download",
+          "url": "https://www.planning.data.gov.uk/dataset/planning-decision.csv",
+          "format": "csv",
+          "media_type": "text/csv",
+          "dcat_type": "downloadable-file"
+        },
+        {
+          "id": "planning-decision-geojson-download",
+          "title": "Planning decision GeoJSON Download",
+          "url": "https://www.planning.data.gov.uk/dataset/planning-decision.geojson",
+          "format": "geojson",
+          "media_type": "application/geo+json",
+          "dcat_type": "downloadable-file"
+        }
+      ],
+      "alternatives": [],
+      "node_json": {
+        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/planning-decision",
+        "@type": "dcat:Dataset",
+        "dct:identifier": "planning:planning-decision",
+        "dct:title": "Planning decision",
+        "dct:description": "A planning decision",
+        "dcat:theme": [
+          "housing",
+          "monitoring"
+        ],
+        "okf:typology": "category",
+        "okf:collection": "planning-data",
+        "okf:phase": "alpha",
+        "okf:entityCount": 0,
+        "okf:notEndorsedBySource": true,
+        "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+      }
+    },
+    {
+      "id": "planning-decision-type",
+      "route": "dataset/planning-decision-type",
+      "title": "Planning decision type",
+      "description": "A type of planning decision",
+      "summary": "A type of planning decision",
+      "record_type": "category",
+      "collection": "planning-data",
+      "typology": "category",
+      "phase": "alpha",
+      "themes": [
+        "housing",
+        "monitoring"
+      ],
+      "entity_count": 0,
+      "licence_id": "ogl3",
+      "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+      "attribution": "\u00a9 Crown copyright and database right 2026",
+      "source": "planning-data-gov-uk",
+      "source_url": "https://www.planning.data.gov.uk/dataset/planning-decision-type",
+      "documentation_url": "https://www.planning.data.gov.uk/dataset/planning-decision-type",
+      "publisher": "MHCLG / Planning Data England",
+      "publisher_url": "https://www.planning.data.gov.uk/",
+      "confidence": "observed",
+      "wikidata": "",
+      "tags": [
+        "category",
+        "planning-data",
+        "alpha",
+        "housing",
+        "monitoring"
+      ],
+      "resources": [
+        {
+          "id": "planning-decision-type-json-api",
+          "title": "Planning decision type JSON API Endpoint",
+          "url": "https://www.planning.data.gov.uk/dataset/planning-decision-type.json",
+          "format": "json",
+          "media_type": "application/json",
+          "dcat_type": "access-service"
+        },
+        {
+          "id": "planning-decision-type-csv-download",
+          "title": "Planning decision type CSV Data Download",
+          "url": "https://www.planning.data.gov.uk/dataset/planning-decision-type.csv",
+          "format": "csv",
+          "media_type": "text/csv",
+          "dcat_type": "downloadable-file"
+        },
+        {
+          "id": "planning-decision-type-geojson-download",
+          "title": "Planning decision type GeoJSON Download",
+          "url": "https://www.planning.data.gov.uk/dataset/planning-decision-type.geojson",
+          "format": "geojson",
+          "media_type": "application/geo+json",
+          "dcat_type": "downloadable-file"
+        }
+      ],
+      "alternatives": [],
+      "node_json": {
+        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/planning-decision-type",
+        "@type": "dcat:Dataset",
+        "dct:identifier": "planning:planning-decision-type",
+        "dct:title": "Planning decision type",
+        "dct:description": "A type of planning decision",
+        "dcat:theme": [
+          "housing",
+          "monitoring"
+        ],
+        "okf:typology": "category",
+        "okf:collection": "planning-data",
+        "okf:phase": "alpha",
+        "okf:entityCount": 0,
+        "okf:notEndorsedBySource": true,
+        "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+      }
+    },
+    {
+      "id": "planning-development-category",
+      "route": "dataset/planning-development-category",
+      "title": "Planning development category",
+      "description": "Planning development category",
+      "summary": "Planning development category",
+      "record_type": "category",
+      "collection": "planning-data",
+      "typology": "category",
+      "phase": "alpha",
+      "themes": [
+        "housing",
+        "monitoring"
+      ],
+      "entity_count": 0,
+      "licence_id": "ogl3",
+      "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+      "attribution": "\u00a9 Crown copyright and database right 2026",
+      "source": "planning-data-gov-uk",
+      "source_url": "https://www.planning.data.gov.uk/dataset/planning-development-category",
+      "documentation_url": "https://www.planning.data.gov.uk/dataset/planning-development-category",
+      "publisher": "MHCLG / Planning Data England",
+      "publisher_url": "https://www.planning.data.gov.uk/",
+      "confidence": "observed",
+      "wikidata": "",
+      "tags": [
+        "category",
+        "planning-data",
+        "alpha",
+        "housing",
+        "monitoring"
+      ],
+      "resources": [
+        {
+          "id": "planning-development-category-json-api",
+          "title": "Planning development category JSON API Endpoint",
+          "url": "https://www.planning.data.gov.uk/dataset/planning-development-category.json",
+          "format": "json",
+          "media_type": "application/json",
+          "dcat_type": "access-service"
+        },
+        {
+          "id": "planning-development-category-csv-download",
+          "title": "Planning development category CSV Data Download",
+          "url": "https://www.planning.data.gov.uk/dataset/planning-development-category.csv",
+          "format": "csv",
+          "media_type": "text/csv",
+          "dcat_type": "downloadable-file"
+        },
+        {
+          "id": "planning-development-category-geojson-download",
+          "title": "Planning development category GeoJSON Download",
+          "url": "https://www.planning.data.gov.uk/dataset/planning-development-category.geojson",
+          "format": "geojson",
+          "media_type": "application/geo+json",
+          "dcat_type": "downloadable-file"
+        }
+      ],
+      "alternatives": [],
+      "node_json": {
+        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/planning-development-category",
+        "@type": "dcat:Dataset",
+        "dct:identifier": "planning:planning-development-category",
+        "dct:title": "Planning development category",
+        "dct:description": "Planning development category",
+        "dcat:theme": [
+          "housing",
+          "monitoring"
+        ],
+        "okf:typology": "category",
+        "okf:collection": "planning-data",
+        "okf:phase": "alpha",
+        "okf:entityCount": 0,
+        "okf:notEndorsedBySource": true,
+        "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+      }
+    },
+    {
+      "id": "planning-permission-status",
+      "route": "dataset/planning-permission-status",
+      "title": "Planning permission status",
+      "description": "The status of planning permission for a [brownfield land](/dataset/brownfield-land) or other site.",
+      "summary": "The status of planning permission for a [brownfield land](/dataset/brownfield-land) or other site.",
+      "record_type": "category",
+      "collection": "planning-permission-status",
+      "typology": "category",
+      "phase": "live",
+      "themes": [
+        "development"
+      ],
+      "entity_count": 3,
+      "licence_id": "ogl3",
+      "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+      "attribution": "\u00a9 Crown copyright and database right 2026",
+      "source": "planning-data-gov-uk",
+      "source_url": "https://www.planning.data.gov.uk/dataset/planning-permission-status",
+      "documentation_url": "https://www.planning.data.gov.uk/dataset/planning-permission-status",
+      "publisher": "MHCLG / Planning Data England",
+      "publisher_url": "https://www.planning.data.gov.uk/",
+      "confidence": "observed",
+      "wikidata": "",
+      "tags": [
+        "category",
+        "planning-permission-status",
+        "live",
+        "development"
+      ],
+      "resources": [
+        {
+          "id": "planning-permission-status-json-api",
+          "title": "Planning permission status JSON API Endpoint",
+          "url": "https://www.planning.data.gov.uk/dataset/planning-permission-status.json",
+          "format": "json",
+          "media_type": "application/json",
+          "dcat_type": "access-service"
+        },
+        {
+          "id": "planning-permission-status-csv-download",
+          "title": "Planning permission status CSV Data Download",
+          "url": "https://www.planning.data.gov.uk/dataset/planning-permission-status.csv",
+          "format": "csv",
+          "media_type": "text/csv",
+          "dcat_type": "downloadable-file"
+        },
+        {
+          "id": "planning-permission-status-geojson-download",
+          "title": "Planning permission status GeoJSON Download",
+          "url": "https://www.planning.data.gov.uk/dataset/planning-permission-status.geojson",
+          "format": "geojson",
+          "media_type": "application/geo+json",
+          "dcat_type": "downloadable-file"
+        }
+      ],
+      "alternatives": [],
+      "node_json": {
+        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/planning-permission-status",
+        "@type": "dcat:Dataset",
+        "dct:identifier": "planning:planning-permission-status",
+        "dct:title": "Planning permission status",
+        "dct:description": "The status of planning permission for a [brownfield land](/dataset/brownfield-land) or other site.",
+        "dcat:theme": [
+          "development"
+        ],
+        "okf:typology": "category",
+        "okf:collection": "planning-permission-status",
+        "okf:phase": "live",
+        "okf:entityCount": 3,
+        "okf:notEndorsedBySource": true,
+        "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+      }
+    },
+    {
+      "id": "planning-permission-type",
+      "route": "dataset/planning-permission-type",
+      "title": "Planning permission type",
+      "description": "The type of planning permission granted for a [brownfield land](/dataset/brownfield-land) or other site.",
+      "summary": "The type of planning permission granted for a [brownfield land](/dataset/brownfield-land) or other site.",
+      "record_type": "category",
+      "collection": "planning-permission-type",
+      "typology": "category",
+      "phase": "live",
+      "themes": [
+        "development"
+      ],
+      "entity_count": 7,
+      "licence_id": "ogl3",
+      "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+      "attribution": "\u00a9 Crown copyright and database right 2026",
+      "source": "planning-data-gov-uk",
+      "source_url": "https://www.planning.data.gov.uk/dataset/planning-permission-type",
+      "documentation_url": "https://www.planning.data.gov.uk/dataset/planning-permission-type",
+      "publisher": "MHCLG / Planning Data England",
+      "publisher_url": "https://www.planning.data.gov.uk/",
+      "confidence": "observed",
+      "wikidata": "",
+      "tags": [
+        "category",
+        "planning-permission-type",
+        "live",
+        "development"
+      ],
+      "resources": [
+        {
+          "id": "planning-permission-type-json-api",
+          "title": "Planning permission type JSON API Endpoint",
+          "url": "https://www.planning.data.gov.uk/dataset/planning-permission-type.json",
+          "format": "json",
+          "media_type": "application/json",
+          "dcat_type": "access-service"
+        },
+        {
+          "id": "planning-permission-type-csv-download",
+          "title": "Planning permission type CSV Data Download",
+          "url": "https://www.planning.data.gov.uk/dataset/planning-permission-type.csv",
+          "format": "csv",
+          "media_type": "text/csv",
+          "dcat_type": "downloadable-file"
+        },
+        {
+          "id": "planning-permission-type-geojson-download",
+          "title": "Planning permission type GeoJSON Download",
+          "url": "https://www.planning.data.gov.uk/dataset/planning-permission-type.geojson",
+          "format": "geojson",
+          "media_type": "application/geo+json",
+          "dcat_type": "downloadable-file"
+        }
+      ],
+      "alternatives": [],
+      "node_json": {
+        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/planning-permission-type",
+        "@type": "dcat:Dataset",
+        "dct:identifier": "planning:planning-permission-type",
+        "dct:title": "Planning permission type",
+        "dct:description": "The type of planning permission granted for a [brownfield land](/dataset/brownfield-land) or other site.",
+        "dcat:theme": [
+          "development"
+        ],
+        "okf:typology": "category",
+        "okf:collection": "planning-permission-type",
+        "okf:phase": "live",
+        "okf:entityCount": 7,
+        "okf:notEndorsedBySource": true,
+        "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+      }
+    },
+    {
+      "id": "plan-timetable",
+      "route": "dataset/plan-timetable",
+      "title": "plan timetable",
+      "description": "log of past and future milestones and events when producing a plan",
+      "summary": "log of past and future milestones and events when producing a plan",
+      "record_type": "timetable",
+      "collection": "local-plan",
+      "typology": "timetable",
+      "phase": "alpha",
+      "themes": [
+        "development"
+      ],
+      "entity_count": 8903,
+      "licence_id": "ogl3",
+      "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+      "attribution": "\u00a9 Crown copyright and database right 2026",
+      "source": "planning-data-gov-uk",
+      "source_url": "https://www.planning.data.gov.uk/dataset/plan-timetable",
+      "documentation_url": "https://www.planning.data.gov.uk/dataset/plan-timetable",
+      "publisher": "MHCLG / Planning Data England",
+      "publisher_url": "https://www.planning.data.gov.uk/",
+      "confidence": "observed",
+      "wikidata": "",
+      "tags": [
+        "timetable",
+        "local-plan",
+        "alpha",
+        "development"
+      ],
+      "resources": [
+        {
+          "id": "plan-timetable-json-api",
+          "title": "plan timetable JSON API Endpoint",
+          "url": "https://www.planning.data.gov.uk/dataset/plan-timetable.json",
+          "format": "json",
+          "media_type": "application/json",
+          "dcat_type": "access-service"
+        },
+        {
+          "id": "plan-timetable-csv-download",
+          "title": "plan timetable CSV Data Download",
+          "url": "https://www.planning.data.gov.uk/dataset/plan-timetable.csv",
+          "format": "csv",
+          "media_type": "text/csv",
+          "dcat_type": "downloadable-file"
+        },
+        {
+          "id": "plan-timetable-geojson-download",
+          "title": "plan timetable GeoJSON Download",
+          "url": "https://www.planning.data.gov.uk/dataset/plan-timetable.geojson",
+          "format": "geojson",
+          "media_type": "application/geo+json",
+          "dcat_type": "downloadable-file"
+        }
+      ],
+      "alternatives": [],
+      "node_json": {
+        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/plan-timetable",
+        "@type": "dcat:Dataset",
+        "dct:identifier": "planning:plan-timetable",
+        "dct:title": "plan timetable",
+        "dct:description": "log of past and future milestones and events when producing a plan",
+        "dcat:theme": [
+          "development"
+        ],
+        "okf:typology": "timetable",
+        "okf:collection": "local-plan",
+        "okf:phase": "alpha",
+        "okf:entityCount": 8903,
+        "okf:notEndorsedBySource": true,
+        "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+      }
+    },
+    {
+      "id": "policy",
+      "route": "dataset/policy",
+      "title": "Policy",
+      "description": "Planning dataset for Policy",
+      "summary": "Planning dataset for Policy",
+      "record_type": "policy",
+      "collection": "planning-data",
+      "typology": "policy",
+      "phase": "alpha",
+      "themes": [
+        "administrative"
+      ],
+      "entity_count": 0,
+      "licence_id": "ogl3",
+      "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+      "attribution": "\u00a9 Crown copyright and database right 2026",
+      "source": "planning-data-gov-uk",
+      "source_url": "https://www.planning.data.gov.uk/dataset/policy",
+      "documentation_url": "https://www.planning.data.gov.uk/dataset/policy",
+      "publisher": "MHCLG / Planning Data England",
+      "publisher_url": "https://www.planning.data.gov.uk/",
+      "confidence": "observed",
+      "wikidata": "",
+      "tags": [
+        "policy",
+        "planning-data",
+        "alpha",
+        "administrative"
+      ],
+      "resources": [
+        {
+          "id": "policy-json-api",
+          "title": "Policy JSON API Endpoint",
+          "url": "https://www.planning.data.gov.uk/dataset/policy.json",
+          "format": "json",
+          "media_type": "application/json",
+          "dcat_type": "access-service"
+        },
+        {
+          "id": "policy-csv-download",
+          "title": "Policy CSV Data Download",
+          "url": "https://www.planning.data.gov.uk/dataset/policy.csv",
+          "format": "csv",
+          "media_type": "text/csv",
+          "dcat_type": "downloadable-file"
+        },
+        {
+          "id": "policy-geojson-download",
+          "title": "Policy GeoJSON Download",
+          "url": "https://www.planning.data.gov.uk/dataset/policy.geojson",
+          "format": "geojson",
+          "media_type": "application/geo+json",
+          "dcat_type": "downloadable-file"
+        }
+      ],
+      "alternatives": [],
+      "node_json": {
+        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/policy",
+        "@type": "dcat:Dataset",
+        "dct:identifier": "planning:policy",
+        "dct:title": "Policy",
+        "dct:description": "Planning dataset for Policy",
+        "dcat:theme": [
+          "administrative"
+        ],
+        "okf:typology": "policy",
+        "okf:collection": "planning-data",
+        "okf:phase": "alpha",
+        "okf:entityCount": 0,
+        "okf:notEndorsedBySource": true,
+        "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+      }
+    },
+    {
+      "id": "postcode",
+      "route": "dataset/postcode",
+      "title": "Postcode",
+      "description": "Postcodes in England",
+      "summary": "Postcodes in England",
+      "record_type": "geography",
+      "collection": "planning-data",
+      "typology": "geography",
+      "phase": "alpha",
+      "themes": [
+        "administrative"
+      ],
+      "entity_count": 0,
+      "licence_id": "ogl3",
+      "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+      "attribution": "",
+      "source": "planning-data-gov-uk",
+      "source_url": "https://www.planning.data.gov.uk/dataset/postcode",
+      "documentation_url": "https://www.planning.data.gov.uk/dataset/postcode",
+      "publisher": "MHCLG / Planning Data England",
+      "publisher_url": "https://www.planning.data.gov.uk/",
+      "confidence": "observed",
+      "wikidata": "",
+      "tags": [
+        "geography",
+        "planning-data",
+        "alpha",
+        "administrative"
+      ],
+      "resources": [
+        {
+          "id": "postcode-json-api",
+          "title": "Postcode JSON API Endpoint",
+          "url": "https://www.planning.data.gov.uk/dataset/postcode.json",
+          "format": "json",
+          "media_type": "application/json",
+          "dcat_type": "access-service"
+        },
+        {
+          "id": "postcode-csv-download",
+          "title": "Postcode CSV Data Download",
+          "url": "https://www.planning.data.gov.uk/dataset/postcode.csv",
+          "format": "csv",
+          "media_type": "text/csv",
+          "dcat_type": "downloadable-file"
+        },
+        {
+          "id": "postcode-geojson-download",
+          "title": "Postcode GeoJSON Download",
+          "url": "https://www.planning.data.gov.uk/dataset/postcode.geojson",
+          "format": "geojson",
+          "media_type": "application/geo+json",
+          "dcat_type": "downloadable-file"
+        }
+      ],
+      "alternatives": [],
+      "node_json": {
+        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/postcode",
+        "@type": "dcat:Dataset",
+        "dct:identifier": "planning:postcode",
+        "dct:title": "Postcode",
+        "dct:description": "Postcodes in England",
+        "dcat:theme": [
+          "administrative"
+        ],
+        "okf:typology": "geography",
+        "okf:collection": "planning-data",
+        "okf:phase": "alpha",
+        "okf:entityCount": 0,
+        "okf:notEndorsedBySource": true,
+        "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+      }
+    },
+    {
+      "id": "prefix",
+      "route": "dataset/prefix",
+      "title": "Prefix",
+      "description": "Planning dataset for Prefix",
+      "summary": "Planning dataset for Prefix",
+      "record_type": "entity",
+      "collection": "planning-data",
+      "typology": "entity",
+      "phase": "alpha",
+      "themes": [
+        "specification"
+      ],
+      "entity_count": 0,
+      "licence_id": "ogl3",
+      "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+      "attribution": "\u00a9 Crown copyright and database right 2026",
+      "source": "planning-data-gov-uk",
+      "source_url": "https://www.planning.data.gov.uk/dataset/prefix",
+      "documentation_url": "https://www.planning.data.gov.uk/dataset/prefix",
+      "publisher": "MHCLG / Planning Data England",
+      "publisher_url": "https://www.planning.data.gov.uk/",
+      "confidence": "observed",
+      "wikidata": "",
+      "tags": [
+        "entity",
+        "planning-data",
+        "alpha",
+        "specification"
+      ],
+      "resources": [
+        {
+          "id": "prefix-json-api",
+          "title": "Prefix JSON API Endpoint",
+          "url": "https://www.planning.data.gov.uk/dataset/prefix.json",
+          "format": "json",
+          "media_type": "application/json",
+          "dcat_type": "access-service"
+        },
+        {
+          "id": "prefix-csv-download",
+          "title": "Prefix CSV Data Download",
+          "url": "https://www.planning.data.gov.uk/dataset/prefix.csv",
+          "format": "csv",
+          "media_type": "text/csv",
+          "dcat_type": "downloadable-file"
+        },
+        {
+          "id": "prefix-geojson-download",
+          "title": "Prefix GeoJSON Download",
+          "url": "https://www.planning.data.gov.uk/dataset/prefix.geojson",
+          "format": "geojson",
+          "media_type": "application/geo+json",
+          "dcat_type": "downloadable-file"
+        }
+      ],
+      "alternatives": [],
+      "node_json": {
+        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/prefix",
+        "@type": "dcat:Dataset",
+        "dct:identifier": "planning:prefix",
+        "dct:title": "Prefix",
+        "dct:description": "Planning dataset for Prefix",
+        "dcat:theme": [
+          "specification"
+        ],
+        "okf:typology": "entity",
+        "okf:collection": "planning-data",
+        "okf:phase": "alpha",
+        "okf:entityCount": 0,
+        "okf:notEndorsedBySource": true,
+        "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+      }
+    },
+    {
+      "id": "proposed-ramsar-site",
+      "route": "dataset/proposed-ramsar-site",
+      "title": "Proposed ramsar site",
+      "description": "Planning dataset for Proposed ramsar site",
+      "summary": "Planning dataset for Proposed ramsar site",
+      "record_type": "geography",
+      "collection": "planning-data",
+      "typology": "geography",
+      "phase": "prioritised",
+      "themes": [
+        "environment"
+      ],
+      "entity_count": 0,
+      "licence_id": "ogl3",
+      "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+      "attribution": "\u00a9 Crown copyright and database right 2026",
+      "source": "planning-data-gov-uk",
+      "source_url": "https://www.planning.data.gov.uk/dataset/proposed-ramsar-site",
+      "documentation_url": "https://www.planning.data.gov.uk/dataset/proposed-ramsar-site",
+      "publisher": "MHCLG / Planning Data England",
+      "publisher_url": "https://www.planning.data.gov.uk/",
+      "confidence": "observed",
+      "wikidata": "",
+      "tags": [
+        "geography",
+        "planning-data",
+        "prioritised",
+        "environment"
+      ],
+      "resources": [
+        {
+          "id": "proposed-ramsar-site-json-api",
+          "title": "Proposed ramsar site JSON API Endpoint",
+          "url": "https://www.planning.data.gov.uk/dataset/proposed-ramsar-site.json",
+          "format": "json",
+          "media_type": "application/json",
+          "dcat_type": "access-service"
+        },
+        {
+          "id": "proposed-ramsar-site-csv-download",
+          "title": "Proposed ramsar site CSV Data Download",
+          "url": "https://www.planning.data.gov.uk/dataset/proposed-ramsar-site.csv",
+          "format": "csv",
+          "media_type": "text/csv",
+          "dcat_type": "downloadable-file"
+        },
+        {
+          "id": "proposed-ramsar-site-geojson-download",
+          "title": "Proposed ramsar site GeoJSON Download",
+          "url": "https://www.planning.data.gov.uk/dataset/proposed-ramsar-site.geojson",
+          "format": "geojson",
+          "media_type": "application/geo+json",
+          "dcat_type": "downloadable-file"
+        }
+      ],
+      "alternatives": [],
+      "node_json": {
+        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/proposed-ramsar-site",
+        "@type": "dcat:Dataset",
+        "dct:identifier": "planning:proposed-ramsar-site",
+        "dct:title": "Proposed ramsar site",
+        "dct:description": "Planning dataset for Proposed ramsar site",
+        "dcat:theme": [
+          "environment"
+        ],
+        "okf:typology": "geography",
+        "okf:collection": "planning-data",
+        "okf:phase": "prioritised",
+        "okf:entityCount": 0,
+        "okf:notEndorsedBySource": true,
+        "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+      }
+    },
+    {
+      "id": "protected-land",
+      "route": "dataset/protected-land",
+      "title": "Protected land",
+      "description": "Planning dataset for Protected land",
+      "summary": "Planning dataset for Protected land",
+      "record_type": "geography",
+      "collection": "planning-data",
+      "typology": "geography",
+      "phase": "prioritised",
+      "themes": [
+        "heritage"
+      ],
+      "entity_count": 0,
+      "licence_id": "ogl3",
+      "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+      "attribution": "\u00a9 Crown copyright and database right 2026",
+      "source": "planning-data-gov-uk",
+      "source_url": "https://www.planning.data.gov.uk/dataset/protected-land",
+      "documentation_url": "https://www.planning.data.gov.uk/dataset/protected-land",
+      "publisher": "MHCLG / Planning Data England",
+      "publisher_url": "https://www.planning.data.gov.uk/",
+      "confidence": "observed",
+      "wikidata": "",
+      "tags": [
+        "geography",
+        "planning-data",
+        "prioritised",
+        "heritage"
+      ],
+      "resources": [
+        {
+          "id": "protected-land-json-api",
+          "title": "Protected land JSON API Endpoint",
+          "url": "https://www.planning.data.gov.uk/dataset/protected-land.json",
+          "format": "json",
+          "media_type": "application/json",
+          "dcat_type": "access-service"
+        },
+        {
+          "id": "protected-land-csv-download",
+          "title": "Protected land CSV Data Download",
+          "url": "https://www.planning.data.gov.uk/dataset/protected-land.csv",
+          "format": "csv",
+          "media_type": "text/csv",
+          "dcat_type": "downloadable-file"
+        },
+        {
+          "id": "protected-land-geojson-download",
+          "title": "Protected land GeoJSON Download",
+          "url": "https://www.planning.data.gov.uk/dataset/protected-land.geojson",
+          "format": "geojson",
+          "media_type": "application/geo+json",
+          "dcat_type": "downloadable-file"
+        }
+      ],
+      "alternatives": [],
+      "node_json": {
+        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/protected-land",
+        "@type": "dcat:Dataset",
+        "dct:identifier": "planning:protected-land",
+        "dct:title": "Protected land",
+        "dct:description": "Planning dataset for Protected land",
+        "dcat:theme": [
+          "heritage"
+        ],
+        "okf:typology": "geography",
+        "okf:collection": "planning-data",
+        "okf:phase": "prioritised",
+        "okf:entityCount": 0,
+        "okf:notEndorsedBySource": true,
+        "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+      }
+    },
+    {
+      "id": "protected-view",
+      "route": "dataset/protected-view",
+      "title": "Protected view",
+      "description": "Planning dataset for Protected view",
+      "summary": "Planning dataset for Protected view",
+      "record_type": "geography",
+      "collection": "planning-data",
+      "typology": "geography",
+      "phase": "alpha",
+      "themes": [
+        "heritage"
+      ],
+      "entity_count": 0,
+      "licence_id": "ogl3",
+      "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+      "attribution": "\u00a9 Crown copyright and database right 2026",
+      "source": "planning-data-gov-uk",
+      "source_url": "https://www.planning.data.gov.uk/dataset/protected-view",
+      "documentation_url": "https://www.planning.data.gov.uk/dataset/protected-view",
+      "publisher": "MHCLG / Planning Data England",
+      "publisher_url": "https://www.planning.data.gov.uk/",
+      "confidence": "observed",
+      "wikidata": "Q4118263",
+      "tags": [
+        "geography",
+        "planning-data",
+        "alpha",
+        "heritage"
+      ],
+      "resources": [
+        {
+          "id": "protected-view-json-api",
+          "title": "Protected view JSON API Endpoint",
+          "url": "https://www.planning.data.gov.uk/dataset/protected-view.json",
+          "format": "json",
+          "media_type": "application/json",
+          "dcat_type": "access-service"
+        },
+        {
+          "id": "protected-view-csv-download",
+          "title": "Protected view CSV Data Download",
+          "url": "https://www.planning.data.gov.uk/dataset/protected-view.csv",
+          "format": "csv",
+          "media_type": "text/csv",
+          "dcat_type": "downloadable-file"
+        },
+        {
+          "id": "protected-view-geojson-download",
+          "title": "Protected view GeoJSON Download",
+          "url": "https://www.planning.data.gov.uk/dataset/protected-view.geojson",
+          "format": "geojson",
+          "media_type": "application/geo+json",
+          "dcat_type": "downloadable-file"
+        }
+      ],
+      "alternatives": [],
+      "node_json": {
+        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/protected-view",
+        "@type": "dcat:Dataset",
+        "dct:identifier": "planning:protected-view",
+        "dct:title": "Protected view",
+        "dct:description": "Planning dataset for Protected view",
+        "dcat:theme": [
+          "heritage"
+        ],
+        "okf:typology": "geography",
+        "okf:collection": "planning-data",
+        "okf:phase": "alpha",
+        "okf:entityCount": 0,
+        "okf:notEndorsedBySource": true,
+        "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+      }
+    },
+    {
+      "id": "protected-wreck-site",
+      "route": "dataset/protected-wreck-site",
+      "title": "Protected wreck site",
+      "description": "Protected wrecks are records of wreck sites, documented losses and seabed archaeological features.\u00a0 They can be protected by designation under the [Protection of Wrecks Act 1973](http://www.legislation.gov.uk/ukpga/1973/33), the [Ancient Monuments and Archaeological Areas Act 1979](http://www.legislation.gov.uk/ukpga/1979/46/contents) and the [Protection of Military Remains Act 1986](http://www.legislation.gov.uk/ukpga/1986/35/contents).\n\nThe Protection of Wrecks Act 1973 allows the Secretary of State for [Digital, Culture, Media and Sport](https://www.gov.uk/government/organisations/department-for-digital-culture-media-sport) to designate a restricted area around the site of a vessel lying on or in the seabed in UK territorial waters. They do so with advice from [Historic England](https://historicengland.org.uk/).\n\nWhere a protected wreck site is within local authority boundaries then it will be considered a designated heritage asset for the purpose of the NPPF and offered the same level of protection in planning decisions as is afforded to scheduled monuments and highly graded listed buildings.",
+      "summary": "Protected wrecks are records of wreck sites, documented losses and seabed archaeological features.\u00a0 They can be protected by designation under the [Protection of Wrecks Act 1973](http://www.legislatio...",
+      "record_type": "geography",
+      "collection": "historic-england",
+      "typology": "geography",
+      "phase": "live",
+      "themes": [
+        "heritage"
+      ],
+      "entity_count": 58,
+      "licence_id": "ogl3",
+      "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+      "attribution": "\u00a9 Historic England 2026. Contains Ordnance Survey data \u00a9 Crown copyright and database right 2026.\nThe Historic England GIS Data contained in this material was obtained on [date].\nThe most publicly available up to date Historic England GIS Data can be obtained from [HistoricEngland.org.uk](https://historicengland.org.uk).",
+      "source": "planning-data-gov-uk",
+      "source_url": "https://www.planning.data.gov.uk/dataset/protected-wreck-site",
+      "documentation_url": "https://www.planning.data.gov.uk/dataset/protected-wreck-site",
+      "publisher": "MHCLG / Planning Data England",
+      "publisher_url": "https://www.planning.data.gov.uk/",
+      "confidence": "observed",
+      "wikidata": "Q6616121",
+      "tags": [
+        "geography",
+        "historic-england",
+        "live",
+        "heritage"
+      ],
+      "resources": [
+        {
+          "id": "protected-wreck-site-json-api",
+          "title": "Protected wreck site JSON API Endpoint",
+          "url": "https://www.planning.data.gov.uk/dataset/protected-wreck-site.json",
+          "format": "json",
+          "media_type": "application/json",
+          "dcat_type": "access-service"
+        },
+        {
+          "id": "protected-wreck-site-csv-download",
+          "title": "Protected wreck site CSV Data Download",
+          "url": "https://www.planning.data.gov.uk/dataset/protected-wreck-site.csv",
+          "format": "csv",
+          "media_type": "text/csv",
+          "dcat_type": "downloadable-file"
+        },
+        {
+          "id": "protected-wreck-site-geojson-download",
+          "title": "Protected wreck site GeoJSON Download",
+          "url": "https://www.planning.data.gov.uk/dataset/protected-wreck-site.geojson",
+          "format": "geojson",
+          "media_type": "application/geo+json",
+          "dcat_type": "downloadable-file"
+        }
+      ],
+      "alternatives": [],
+      "node_json": {
+        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/protected-wreck-site",
+        "@type": "dcat:Dataset",
+        "dct:identifier": "planning:protected-wreck-site",
+        "dct:title": "Protected wreck site",
+        "dct:description": "Protected wrecks are records of wreck sites, documented losses and seabed archaeological features.\u00a0 They can be protected by designation under the [Protection of Wrecks Act 1973](http://www.legislation.gov.uk/ukpga/1973/33), the [Ancient Monuments and Archaeological Areas Act 1979](http://www.legislation.gov.uk/ukpga/1979/46/contents) and the [Protection of Military Remains Act 1986](http://www.legislation.gov.uk/ukpga/1986/35/contents).\n\nThe Protection of Wrecks Act 1973 allows the Secretary of State for [Digital, Culture, Media and Sport](https://www.gov.uk/government/organisations/department-for-digital-culture-media-sport) to designate a restricted area around the site of a vessel lying on or in the seabed in UK territorial waters. They do so with advice from [Historic England](https://historicengland.org.uk/).\n\nWhere a protected wreck site is within local authority boundaries then it will be considered a designated heritage asset for the purpose of the NPPF and offered the same level of protection in planning decisions as is afforded to scheduled monuments and highly graded listed buildings.",
+        "dcat:theme": [
+          "heritage"
+        ],
+        "okf:typology": "geography",
+        "okf:collection": "historic-england",
+        "okf:phase": "live",
+        "okf:entityCount": 58,
+        "okf:notEndorsedBySource": true,
+        "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+      }
+    },
+    {
+      "id": "public-authority",
+      "route": "dataset/public-authority",
+      "title": "Public authority",
+      "description": "We keep and maintain this dataset to help us identify the organisations which provide planning and housing data.",
+      "summary": "We keep and maintain this dataset to help us identify the organisations which provide planning and housing data.",
+      "record_type": "organisation",
+      "collection": "organisation",
+      "typology": "organisation",
+      "phase": "beta",
+      "themes": [
+        "administrative"
+      ],
+      "entity_count": 1,
+      "licence_id": "ogl3",
+      "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+      "attribution": "\u00a9 Crown copyright and database right 2026",
+      "source": "planning-data-gov-uk",
+      "source_url": "https://www.planning.data.gov.uk/dataset/public-authority",
+      "documentation_url": "https://www.planning.data.gov.uk/dataset/public-authority",
+      "publisher": "MHCLG / Planning Data England",
+      "publisher_url": "https://www.planning.data.gov.uk/",
+      "confidence": "observed",
+      "wikidata": "",
+      "tags": [
+        "organisation",
+        "organisation",
+        "beta",
+        "administrative"
+      ],
+      "resources": [
+        {
+          "id": "public-authority-json-api",
+          "title": "Public authority JSON API Endpoint",
+          "url": "https://www.planning.data.gov.uk/dataset/public-authority.json",
+          "format": "json",
+          "media_type": "application/json",
+          "dcat_type": "access-service"
+        },
+        {
+          "id": "public-authority-csv-download",
+          "title": "Public authority CSV Data Download",
+          "url": "https://www.planning.data.gov.uk/dataset/public-authority.csv",
+          "format": "csv",
+          "media_type": "text/csv",
+          "dcat_type": "downloadable-file"
+        },
+        {
+          "id": "public-authority-geojson-download",
+          "title": "Public authority GeoJSON Download",
+          "url": "https://www.planning.data.gov.uk/dataset/public-authority.geojson",
+          "format": "geojson",
+          "media_type": "application/geo+json",
+          "dcat_type": "downloadable-file"
+        }
+      ],
+      "alternatives": [],
+      "node_json": {
+        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/public-authority",
+        "@type": "dcat:Dataset",
+        "dct:identifier": "planning:public-authority",
+        "dct:title": "Public authority",
+        "dct:description": "We keep and maintain this dataset to help us identify the organisations which provide planning and housing data.",
+        "dcat:theme": [
+          "administrative"
+        ],
+        "okf:typology": "organisation",
+        "okf:collection": "organisation",
+        "okf:phase": "beta",
+        "okf:entityCount": 1,
+        "okf:notEndorsedBySource": true,
+        "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+      }
+    },
+    {
+      "id": "public-safety-zone-around-airport",
+      "route": "dataset/public-safety-zone-around-airport",
+      "title": "Public safety zone around airport",
+      "description": "Planning dataset for Public safety zone around airport",
+      "summary": "Planning dataset for Public safety zone around airport",
+      "record_type": "geography",
+      "collection": "planning-data",
+      "typology": "geography",
+      "phase": "alpha",
+      "themes": [
+        "transport"
+      ],
+      "entity_count": 0,
+      "licence_id": "ogl3",
+      "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+      "attribution": "\u00a9 Crown copyright and database right 2026",
+      "source": "planning-data-gov-uk",
+      "source_url": "https://www.planning.data.gov.uk/dataset/public-safety-zone-around-airport",
+      "documentation_url": "https://www.planning.data.gov.uk/dataset/public-safety-zone-around-airport",
+      "publisher": "MHCLG / Planning Data England",
+      "publisher_url": "https://www.planning.data.gov.uk/",
+      "confidence": "observed",
+      "wikidata": "",
+      "tags": [
+        "geography",
+        "planning-data",
+        "alpha",
+        "transport"
+      ],
+      "resources": [
+        {
+          "id": "public-safety-zone-around-airport-json-api",
+          "title": "Public safety zone around airport JSON API Endpoint",
+          "url": "https://www.planning.data.gov.uk/dataset/public-safety-zone-around-airport.json",
+          "format": "json",
+          "media_type": "application/json",
+          "dcat_type": "access-service"
+        },
+        {
+          "id": "public-safety-zone-around-airport-csv-download",
+          "title": "Public safety zone around airport CSV Data Download",
+          "url": "https://www.planning.data.gov.uk/dataset/public-safety-zone-around-airport.csv",
+          "format": "csv",
+          "media_type": "text/csv",
+          "dcat_type": "downloadable-file"
+        },
+        {
+          "id": "public-safety-zone-around-airport-geojson-download",
+          "title": "Public safety zone around airport GeoJSON Download",
+          "url": "https://www.planning.data.gov.uk/dataset/public-safety-zone-around-airport.geojson",
+          "format": "geojson",
+          "media_type": "application/geo+json",
+          "dcat_type": "downloadable-file"
+        }
+      ],
+      "alternatives": [],
+      "node_json": {
+        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/public-safety-zone-around-airport",
+        "@type": "dcat:Dataset",
+        "dct:identifier": "planning:public-safety-zone-around-airport",
+        "dct:title": "Public safety zone around airport",
+        "dct:description": "Planning dataset for Public safety zone around airport",
+        "dcat:theme": [
+          "transport"
+        ],
+        "okf:typology": "geography",
+        "okf:collection": "planning-data",
+        "okf:phase": "alpha",
+        "okf:entityCount": 0,
+        "okf:notEndorsedBySource": true,
+        "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+      }
+    },
+    {
+      "id": "ramsar",
+      "route": "dataset/ramsar",
+      "title": "Ramsar site",
+      "description": "An internationally protected site listed as a wetland of international importance.\nRamsar sites are designated by [UNESCO](https://en.unesco.org/) and managed by [Natural England](https://www.gov.uk/government/organisations/natural-england).\n\nNatural England provides [guidance ](https://www.gov.uk/guidance/protected-sites-and-areas-how-to-review-planning-applications) to help local authorities decide on planning applications in protected sites and areas.",
+      "summary": "An internationally protected site listed as a wetland of international importance.\nRamsar sites are designated by [UNESCO](https://en.unesco.org/) and managed by [Natural England](https://www.gov.uk/g...",
+      "record_type": "geography",
+      "collection": "ramsar",
+      "typology": "geography",
+      "phase": "beta",
+      "themes": [
+        "environment"
+      ],
+      "entity_count": 73,
+      "licence_id": "ogl3",
+      "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+      "attribution": "\u00a9 Natural England copyright. Contains Ordnance Survey data \u00a9 Crown copyright and database right 2026.",
+      "source": "planning-data-gov-uk",
+      "source_url": "https://www.planning.data.gov.uk/dataset/ramsar",
+      "documentation_url": "https://www.planning.data.gov.uk/dataset/ramsar",
+      "publisher": "MHCLG / Planning Data England",
+      "publisher_url": "https://www.planning.data.gov.uk/",
+      "confidence": "observed",
+      "wikidata": "",
+      "tags": [
+        "geography",
+        "ramsar",
+        "beta",
+        "environment"
+      ],
+      "resources": [
+        {
+          "id": "ramsar-json-api",
+          "title": "Ramsar site JSON API Endpoint",
+          "url": "https://www.planning.data.gov.uk/dataset/ramsar.json",
+          "format": "json",
+          "media_type": "application/json",
+          "dcat_type": "access-service"
+        },
+        {
+          "id": "ramsar-csv-download",
+          "title": "Ramsar site CSV Data Download",
+          "url": "https://www.planning.data.gov.uk/dataset/ramsar.csv",
+          "format": "csv",
+          "media_type": "text/csv",
+          "dcat_type": "downloadable-file"
+        },
+        {
+          "id": "ramsar-geojson-download",
+          "title": "Ramsar site GeoJSON Download",
+          "url": "https://www.planning.data.gov.uk/dataset/ramsar.geojson",
+          "format": "geojson",
+          "media_type": "application/geo+json",
+          "dcat_type": "downloadable-file"
+        }
+      ],
+      "alternatives": [],
+      "node_json": {
+        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/ramsar",
+        "@type": "dcat:Dataset",
+        "dct:identifier": "planning:ramsar",
+        "dct:title": "Ramsar site",
+        "dct:description": "An internationally protected site listed as a wetland of international importance.\nRamsar sites are designated by [UNESCO](https://en.unesco.org/) and managed by [Natural England](https://www.gov.uk/government/organisations/natural-england).\n\nNatural England provides [guidance ](https://www.gov.uk/guidance/protected-sites-and-areas-how-to-review-planning-applications) to help local authorities decide on planning applications in protected sites and areas.",
+        "dcat:theme": [
+          "environment"
+        ],
+        "okf:typology": "geography",
+        "okf:collection": "ramsar",
+        "okf:phase": "beta",
+        "okf:entityCount": 73,
+        "okf:notEndorsedBySource": true,
+        "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+      }
+    },
+    {
+      "id": "realm",
+      "route": "dataset/realm",
+      "title": "Realm",
+      "description": "dataset grouping",
+      "summary": "dataset grouping",
+      "record_type": "category",
+      "collection": "planning-data",
+      "typology": "category",
+      "phase": "beta",
+      "themes": [
+        "specification"
+      ],
+      "entity_count": 0,
+      "licence_id": "ogl3",
+      "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+      "attribution": "\u00a9 Crown copyright and database right 2026",
+      "source": "planning-data-gov-uk",
+      "source_url": "https://www.planning.data.gov.uk/dataset/realm",
+      "documentation_url": "https://www.planning.data.gov.uk/dataset/realm",
+      "publisher": "MHCLG / Planning Data England",
+      "publisher_url": "https://www.planning.data.gov.uk/",
+      "confidence": "observed",
+      "wikidata": "",
+      "tags": [
+        "category",
+        "planning-data",
+        "beta",
+        "specification"
+      ],
+      "resources": [
+        {
+          "id": "realm-json-api",
+          "title": "Realm JSON API Endpoint",
+          "url": "https://www.planning.data.gov.uk/dataset/realm.json",
+          "format": "json",
+          "media_type": "application/json",
+          "dcat_type": "access-service"
+        },
+        {
+          "id": "realm-csv-download",
+          "title": "Realm CSV Data Download",
+          "url": "https://www.planning.data.gov.uk/dataset/realm.csv",
+          "format": "csv",
+          "media_type": "text/csv",
+          "dcat_type": "downloadable-file"
+        },
+        {
+          "id": "realm-geojson-download",
+          "title": "Realm GeoJSON Download",
+          "url": "https://www.planning.data.gov.uk/dataset/realm.geojson",
+          "format": "geojson",
+          "media_type": "application/geo+json",
+          "dcat_type": "downloadable-file"
+        }
+      ],
+      "alternatives": [],
+      "node_json": {
+        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/realm",
+        "@type": "dcat:Dataset",
+        "dct:identifier": "planning:realm",
+        "dct:title": "Realm",
+        "dct:description": "dataset grouping",
+        "dcat:theme": [
+          "specification"
+        ],
+        "okf:typology": "category",
+        "okf:collection": "planning-data",
+        "okf:phase": "beta",
+        "okf:entityCount": 0,
+        "okf:notEndorsedBySource": true,
+        "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+      }
+    },
+    {
+      "id": "region",
+      "route": "dataset/region",
+      "title": "Region",
+      "description": "The [ONS](https://www.ons.gov.uk/methodology/geography/ukgeographies/administrativegeography/england#regions) provides this\ndata for the purposes of producing statistics.",
+      "summary": "The [ONS](https://www.ons.gov.uk/methodology/geography/ukgeographies/administrativegeography/england#regions) provides this\ndata for the purposes of producing statistics.",
+      "record_type": "geography",
+      "collection": "region",
+      "typology": "geography",
+      "phase": "beta",
+      "themes": [
+        "administrative"
+      ],
+      "entity_count": 9,
+      "licence_id": "ogl3",
+      "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+      "attribution": "Source: Office for National Statistics licensed under the Open Government Licence v.3.0\nContains OS data \u00a9 Crown copyright and database right 2026",
+      "source": "planning-data-gov-uk",
+      "source_url": "https://www.planning.data.gov.uk/dataset/region",
+      "documentation_url": "https://www.planning.data.gov.uk/dataset/region",
+      "publisher": "MHCLG / Planning Data England",
+      "publisher_url": "https://www.planning.data.gov.uk/",
+      "confidence": "observed",
+      "wikidata": "Q48091",
+      "tags": [
+        "geography",
+        "region",
+        "beta",
+        "administrative"
+      ],
+      "resources": [
+        {
+          "id": "region-json-api",
+          "title": "Region JSON API Endpoint",
+          "url": "https://www.planning.data.gov.uk/dataset/region.json",
+          "format": "json",
+          "media_type": "application/json",
+          "dcat_type": "access-service"
+        },
+        {
+          "id": "region-csv-download",
+          "title": "Region CSV Data Download",
+          "url": "https://www.planning.data.gov.uk/dataset/region.csv",
+          "format": "csv",
+          "media_type": "text/csv",
+          "dcat_type": "downloadable-file"
+        },
+        {
+          "id": "region-geojson-download",
+          "title": "Region GeoJSON Download",
+          "url": "https://www.planning.data.gov.uk/dataset/region.geojson",
+          "format": "geojson",
+          "media_type": "application/geo+json",
+          "dcat_type": "downloadable-file"
+        }
+      ],
+      "alternatives": [],
+      "node_json": {
+        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/region",
+        "@type": "dcat:Dataset",
+        "dct:identifier": "planning:region",
+        "dct:title": "Region",
+        "dct:description": "The [ONS](https://www.ons.gov.uk/methodology/geography/ukgeographies/administrativegeography/england#regions) provides this\ndata for the purposes of producing statistics.",
+        "dcat:theme": [
+          "administrative"
+        ],
+        "okf:typology": "geography",
+        "okf:collection": "region",
+        "okf:phase": "beta",
+        "okf:entityCount": 9,
+        "okf:notEndorsedBySource": true,
+        "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+      }
+    },
+    {
+      "id": "regional-park-authority",
+      "route": "dataset/regional-park-authority",
+      "title": "Regional park authority",
+      "description": "A statutory body responsible for managing and developing a park.\nWe keep and maintain this dataset to help us identify the organisations which provide planning and housing data.",
+      "summary": "A statutory body responsible for managing and developing a park.\nWe keep and maintain this dataset to help us identify the organisations which provide planning and housing data.",
+      "record_type": "organisation",
+      "collection": "organisation",
+      "typology": "organisation",
+      "phase": "beta",
+      "themes": [
+        "administrative"
+      ],
+      "entity_count": 1,
+      "licence_id": "ogl3",
+      "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+      "attribution": "\u00a9 Crown copyright and database right 2026",
+      "source": "planning-data-gov-uk",
+      "source_url": "https://www.planning.data.gov.uk/dataset/regional-park-authority",
+      "documentation_url": "https://www.planning.data.gov.uk/dataset/regional-park-authority",
+      "publisher": "MHCLG / Planning Data England",
+      "publisher_url": "https://www.planning.data.gov.uk/",
+      "confidence": "observed",
+      "wikidata": "",
+      "tags": [
+        "organisation",
+        "organisation",
+        "beta",
+        "administrative"
+      ],
+      "resources": [
+        {
+          "id": "regional-park-authority-json-api",
+          "title": "Regional park authority JSON API Endpoint",
+          "url": "https://www.planning.data.gov.uk/dataset/regional-park-authority.json",
+          "format": "json",
+          "media_type": "application/json",
+          "dcat_type": "access-service"
+        },
+        {
+          "id": "regional-park-authority-csv-download",
+          "title": "Regional park authority CSV Data Download",
+          "url": "https://www.planning.data.gov.uk/dataset/regional-park-authority.csv",
+          "format": "csv",
+          "media_type": "text/csv",
+          "dcat_type": "downloadable-file"
+        },
+        {
+          "id": "regional-park-authority-geojson-download",
+          "title": "Regional park authority GeoJSON Download",
+          "url": "https://www.planning.data.gov.uk/dataset/regional-park-authority.geojson",
+          "format": "geojson",
+          "media_type": "application/geo+json",
+          "dcat_type": "downloadable-file"
+        }
+      ],
+      "alternatives": [],
+      "node_json": {
+        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/regional-park-authority",
+        "@type": "dcat:Dataset",
+        "dct:identifier": "planning:regional-park-authority",
+        "dct:title": "Regional park authority",
+        "dct:description": "A statutory body responsible for managing and developing a park.\nWe keep and maintain this dataset to help us identify the organisations which provide planning and housing data.",
+        "dcat:theme": [
+          "administrative"
+        ],
+        "okf:typology": "organisation",
+        "okf:collection": "organisation",
+        "okf:phase": "beta",
+        "okf:entityCount": 1,
+        "okf:notEndorsedBySource": true,
+        "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+      }
+    },
+    {
+      "id": "requirement-level",
+      "route": "dataset/requirement-level",
+      "title": "Requirement level",
+      "description": "Key word used in specifications to indicate the level of a requirement",
+      "summary": "Key word used in specifications to indicate the level of a requirement",
+      "record_type": "category",
+      "collection": "planning-data",
+      "typology": "category",
+      "phase": "beta",
+      "themes": [
+        "specification"
+      ],
+      "entity_count": 0,
+      "licence_id": "ogl3",
+      "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+      "attribution": "\u00a9 Crown copyright and database right 2026",
+      "source": "planning-data-gov-uk",
+      "source_url": "https://www.planning.data.gov.uk/dataset/requirement-level",
+      "documentation_url": "https://www.planning.data.gov.uk/dataset/requirement-level",
+      "publisher": "MHCLG / Planning Data England",
+      "publisher_url": "https://www.planning.data.gov.uk/",
+      "confidence": "observed",
+      "wikidata": "",
+      "tags": [
+        "category",
+        "planning-data",
+        "beta",
+        "specification"
+      ],
+      "resources": [
+        {
+          "id": "requirement-level-json-api",
+          "title": "Requirement level JSON API Endpoint",
+          "url": "https://www.planning.data.gov.uk/dataset/requirement-level.json",
+          "format": "json",
+          "media_type": "application/json",
+          "dcat_type": "access-service"
+        },
+        {
+          "id": "requirement-level-csv-download",
+          "title": "Requirement level CSV Data Download",
+          "url": "https://www.planning.data.gov.uk/dataset/requirement-level.csv",
+          "format": "csv",
+          "media_type": "text/csv",
+          "dcat_type": "downloadable-file"
+        },
+        {
+          "id": "requirement-level-geojson-download",
+          "title": "Requirement level GeoJSON Download",
+          "url": "https://www.planning.data.gov.uk/dataset/requirement-level.geojson",
+          "format": "geojson",
+          "media_type": "application/geo+json",
+          "dcat_type": "downloadable-file"
+        }
+      ],
+      "alternatives": [],
+      "node_json": {
+        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/requirement-level",
+        "@type": "dcat:Dataset",
+        "dct:identifier": "planning:requirement-level",
+        "dct:title": "Requirement level",
+        "dct:description": "Key word used in specifications to indicate the level of a requirement",
+        "dcat:theme": [
+          "specification"
+        ],
+        "okf:typology": "category",
+        "okf:collection": "planning-data",
+        "okf:phase": "beta",
+        "okf:entityCount": 0,
+        "okf:notEndorsedBySource": true,
+        "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+      }
+    },
+    {
+      "id": "safeguarded-aerodrome",
+      "route": "dataset/safeguarded-aerodrome",
+      "title": "Safeguarded aerodrome",
+      "description": "Planning dataset for Safeguarded aerodrome",
+      "summary": "Planning dataset for Safeguarded aerodrome",
+      "record_type": "geography",
+      "collection": "planning-data",
+      "typology": "geography",
+      "phase": "prioritised",
+      "themes": [
+        "transport"
+      ],
+      "entity_count": 0,
+      "licence_id": "ogl3",
+      "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+      "attribution": "\u00a9 Crown copyright and database right 2026",
+      "source": "planning-data-gov-uk",
+      "source_url": "https://www.planning.data.gov.uk/dataset/safeguarded-aerodrome",
+      "documentation_url": "https://www.planning.data.gov.uk/dataset/safeguarded-aerodrome",
+      "publisher": "MHCLG / Planning Data England",
+      "publisher_url": "https://www.planning.data.gov.uk/",
+      "confidence": "observed",
+      "wikidata": "",
+      "tags": [
+        "geography",
+        "planning-data",
+        "prioritised",
+        "transport"
+      ],
+      "resources": [
+        {
+          "id": "safeguarded-aerodrome-json-api",
+          "title": "Safeguarded aerodrome JSON API Endpoint",
+          "url": "https://www.planning.data.gov.uk/dataset/safeguarded-aerodrome.json",
+          "format": "json",
+          "media_type": "application/json",
+          "dcat_type": "access-service"
+        },
+        {
+          "id": "safeguarded-aerodrome-csv-download",
+          "title": "Safeguarded aerodrome CSV Data Download",
+          "url": "https://www.planning.data.gov.uk/dataset/safeguarded-aerodrome.csv",
+          "format": "csv",
+          "media_type": "text/csv",
+          "dcat_type": "downloadable-file"
+        },
+        {
+          "id": "safeguarded-aerodrome-geojson-download",
+          "title": "Safeguarded aerodrome GeoJSON Download",
+          "url": "https://www.planning.data.gov.uk/dataset/safeguarded-aerodrome.geojson",
+          "format": "geojson",
+          "media_type": "application/geo+json",
+          "dcat_type": "downloadable-file"
+        }
+      ],
+      "alternatives": [],
+      "node_json": {
+        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/safeguarded-aerodrome",
+        "@type": "dcat:Dataset",
+        "dct:identifier": "planning:safeguarded-aerodrome",
+        "dct:title": "Safeguarded aerodrome",
+        "dct:description": "Planning dataset for Safeguarded aerodrome",
+        "dcat:theme": [
+          "transport"
+        ],
+        "okf:typology": "geography",
+        "okf:collection": "planning-data",
+        "okf:phase": "prioritised",
+        "okf:entityCount": 0,
+        "okf:notEndorsedBySource": true,
+        "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+      }
+    },
+    {
+      "id": "safeguarded-military-explosives-site",
+      "route": "dataset/safeguarded-military-explosives-site",
+      "title": "Safeguarded military explosives site",
+      "description": "Planning dataset for Safeguarded military explosives site",
+      "summary": "Planning dataset for Safeguarded military explosives site",
+      "record_type": "geography",
+      "collection": "planning-data",
+      "typology": "geography",
+      "phase": "prioritised",
+      "themes": [
+        "environment"
+      ],
+      "entity_count": 0,
+      "licence_id": "ogl3",
+      "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+      "attribution": "\u00a9 Crown copyright and database right 2026",
+      "source": "planning-data-gov-uk",
+      "source_url": "https://www.planning.data.gov.uk/dataset/safeguarded-military-explosives-site",
+      "documentation_url": "https://www.planning.data.gov.uk/dataset/safeguarded-military-explosives-site",
+      "publisher": "MHCLG / Planning Data England",
+      "publisher_url": "https://www.planning.data.gov.uk/",
+      "confidence": "observed",
+      "wikidata": "",
+      "tags": [
+        "geography",
+        "planning-data",
+        "prioritised",
+        "environment"
+      ],
+      "resources": [
+        {
+          "id": "safeguarded-military-explosives-site-json-api",
+          "title": "Safeguarded military explosives site JSON API Endpoint",
+          "url": "https://www.planning.data.gov.uk/dataset/safeguarded-military-explosives-site.json",
+          "format": "json",
+          "media_type": "application/json",
+          "dcat_type": "access-service"
+        },
+        {
+          "id": "safeguarded-military-explosives-site-csv-download",
+          "title": "Safeguarded military explosives site CSV Data Download",
+          "url": "https://www.planning.data.gov.uk/dataset/safeguarded-military-explosives-site.csv",
+          "format": "csv",
+          "media_type": "text/csv",
+          "dcat_type": "downloadable-file"
+        },
+        {
+          "id": "safeguarded-military-explosives-site-geojson-download",
+          "title": "Safeguarded military explosives site GeoJSON Download",
+          "url": "https://www.planning.data.gov.uk/dataset/safeguarded-military-explosives-site.geojson",
+          "format": "geojson",
+          "media_type": "application/geo+json",
+          "dcat_type": "downloadable-file"
+        }
+      ],
+      "alternatives": [],
+      "node_json": {
+        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/safeguarded-military-explosives-site",
+        "@type": "dcat:Dataset",
+        "dct:identifier": "planning:safeguarded-military-explosives-site",
+        "dct:title": "Safeguarded military explosives site",
+        "dct:description": "Planning dataset for Safeguarded military explosives site",
+        "dcat:theme": [
+          "environment"
+        ],
+        "okf:typology": "geography",
+        "okf:collection": "planning-data",
+        "okf:phase": "prioritised",
+        "okf:entityCount": 0,
+        "okf:notEndorsedBySource": true,
+        "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+      }
+    },
+    {
+      "id": "safeguarded-wharf",
+      "route": "dataset/safeguarded-wharf",
+      "title": "Safeguarded wharf",
+      "description": "Planning dataset for Safeguarded wharf",
+      "summary": "Planning dataset for Safeguarded wharf",
+      "record_type": "geography",
+      "collection": "planning-data",
+      "typology": "geography",
+      "phase": "prioritised",
+      "themes": [
+        "transport"
+      ],
+      "entity_count": 0,
+      "licence_id": "ogl3",
+      "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+      "attribution": "\u00a9 Crown copyright and database right 2026",
+      "source": "planning-data-gov-uk",
+      "source_url": "https://www.planning.data.gov.uk/dataset/safeguarded-wharf",
+      "documentation_url": "https://www.planning.data.gov.uk/dataset/safeguarded-wharf",
+      "publisher": "MHCLG / Planning Data England",
+      "publisher_url": "https://www.planning.data.gov.uk/",
+      "confidence": "observed",
+      "wikidata": "",
+      "tags": [
+        "geography",
+        "planning-data",
+        "prioritised",
+        "transport"
+      ],
+      "resources": [
+        {
+          "id": "safeguarded-wharf-json-api",
+          "title": "Safeguarded wharf JSON API Endpoint",
+          "url": "https://www.planning.data.gov.uk/dataset/safeguarded-wharf.json",
+          "format": "json",
+          "media_type": "application/json",
+          "dcat_type": "access-service"
+        },
+        {
+          "id": "safeguarded-wharf-csv-download",
+          "title": "Safeguarded wharf CSV Data Download",
+          "url": "https://www.planning.data.gov.uk/dataset/safeguarded-wharf.csv",
+          "format": "csv",
+          "media_type": "text/csv",
+          "dcat_type": "downloadable-file"
+        },
+        {
+          "id": "safeguarded-wharf-geojson-download",
+          "title": "Safeguarded wharf GeoJSON Download",
+          "url": "https://www.planning.data.gov.uk/dataset/safeguarded-wharf.geojson",
+          "format": "geojson",
+          "media_type": "application/geo+json",
+          "dcat_type": "downloadable-file"
+        }
+      ],
+      "alternatives": [],
+      "node_json": {
+        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/safeguarded-wharf",
+        "@type": "dcat:Dataset",
+        "dct:identifier": "planning:safeguarded-wharf",
+        "dct:title": "Safeguarded wharf",
+        "dct:description": "Planning dataset for Safeguarded wharf",
+        "dcat:theme": [
+          "transport"
+        ],
+        "okf:typology": "geography",
+        "okf:collection": "planning-data",
+        "okf:phase": "prioritised",
+        "okf:entityCount": 0,
+        "okf:notEndorsedBySource": true,
+        "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+      }
+    },
+    {
+      "id": "safety-hazard-area",
+      "route": "dataset/safety-hazard-area",
+      "title": "Safety hazard area",
+      "description": "Planning dataset for Safety hazard area",
+      "summary": "Planning dataset for Safety hazard area",
+      "record_type": "geography",
+      "collection": "planning-data",
+      "typology": "geography",
+      "phase": "prioritised",
+      "themes": [
+        "development"
+      ],
+      "entity_count": 0,
+      "licence_id": "ogl3",
+      "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+      "attribution": "\u00a9 Crown copyright and database right 2026",
+      "source": "planning-data-gov-uk",
+      "source_url": "https://www.planning.data.gov.uk/dataset/safety-hazard-area",
+      "documentation_url": "https://www.planning.data.gov.uk/dataset/safety-hazard-area",
+      "publisher": "MHCLG / Planning Data England",
+      "publisher_url": "https://www.planning.data.gov.uk/",
+      "confidence": "observed",
+      "wikidata": "",
+      "tags": [
+        "geography",
+        "planning-data",
+        "prioritised",
+        "development"
+      ],
+      "resources": [
+        {
+          "id": "safety-hazard-area-json-api",
+          "title": "Safety hazard area JSON API Endpoint",
+          "url": "https://www.planning.data.gov.uk/dataset/safety-hazard-area.json",
+          "format": "json",
+          "media_type": "application/json",
+          "dcat_type": "access-service"
+        },
+        {
+          "id": "safety-hazard-area-csv-download",
+          "title": "Safety hazard area CSV Data Download",
+          "url": "https://www.planning.data.gov.uk/dataset/safety-hazard-area.csv",
+          "format": "csv",
+          "media_type": "text/csv",
+          "dcat_type": "downloadable-file"
+        },
+        {
+          "id": "safety-hazard-area-geojson-download",
+          "title": "Safety hazard area GeoJSON Download",
+          "url": "https://www.planning.data.gov.uk/dataset/safety-hazard-area.geojson",
+          "format": "geojson",
+          "media_type": "application/geo+json",
+          "dcat_type": "downloadable-file"
+        }
+      ],
+      "alternatives": [],
+      "node_json": {
+        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/safety-hazard-area",
+        "@type": "dcat:Dataset",
+        "dct:identifier": "planning:safety-hazard-area",
+        "dct:title": "Safety hazard area",
+        "dct:description": "Planning dataset for Safety hazard area",
+        "dcat:theme": [
+          "development"
+        ],
+        "okf:typology": "geography",
+        "okf:collection": "planning-data",
+        "okf:phase": "prioritised",
+        "okf:entityCount": 0,
+        "okf:notEndorsedBySource": true,
+        "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+      }
+    },
+    {
+      "id": "scheduled-monument",
+      "route": "dataset/scheduled-monument",
+      "title": "Scheduled monument",
+      "description": "Historic buildings or sites such as Roman remains, burial mounds, castles, bridges, earthworks, the remains of deserted villages and industrial sites can be designated scheduled monuments by the Secretary of State for [Digital, Culture, Media and Sport](https://www.gov.uk/government/organisations/department-for-digital-culture-media-sport). \n\nThis list of scheduled monuments is kept and maintained by [Historic England](https://historicengland.org.uk/).",
+      "summary": "Historic buildings or sites such as Roman remains, burial mounds, castles, bridges, earthworks, the remains of deserted villages and industrial sites can be designated scheduled monuments by the Secre...",
+      "record_type": "geography",
+      "collection": "historic-england",
+      "typology": "geography",
+      "phase": "beta",
+      "themes": [
+        "heritage"
+      ],
+      "entity_count": 20150,
+      "licence_id": "ogl3",
+      "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+      "attribution": "\u00a9 Historic England 2026. Contains Ordnance Survey data \u00a9 Crown copyright and database right 2026.\nThe Historic England GIS Data contained in this material was obtained on [date].\nThe most publicly available up to date Historic England GIS Data can be obtained from [HistoricEngland.org.uk](https://historicengland.org.uk).",
+      "source": "planning-data-gov-uk",
+      "source_url": "https://www.planning.data.gov.uk/dataset/scheduled-monument",
+      "documentation_url": "https://www.planning.data.gov.uk/dataset/scheduled-monument",
+      "publisher": "MHCLG / Planning Data England",
+      "publisher_url": "https://www.planning.data.gov.uk/",
+      "confidence": "observed",
+      "wikidata": "Q219538",
+      "tags": [
+        "geography",
+        "historic-england",
+        "beta",
+        "heritage"
+      ],
+      "resources": [
+        {
+          "id": "scheduled-monument-json-api",
+          "title": "Scheduled monument JSON API Endpoint",
+          "url": "https://www.planning.data.gov.uk/dataset/scheduled-monument.json",
+          "format": "json",
+          "media_type": "application/json",
+          "dcat_type": "access-service"
+        },
+        {
+          "id": "scheduled-monument-csv-download",
+          "title": "Scheduled monument CSV Data Download",
+          "url": "https://www.planning.data.gov.uk/dataset/scheduled-monument.csv",
+          "format": "csv",
+          "media_type": "text/csv",
+          "dcat_type": "downloadable-file"
+        },
+        {
+          "id": "scheduled-monument-geojson-download",
+          "title": "Scheduled monument GeoJSON Download",
+          "url": "https://www.planning.data.gov.uk/dataset/scheduled-monument.geojson",
+          "format": "geojson",
+          "media_type": "application/geo+json",
+          "dcat_type": "downloadable-file"
+        }
+      ],
+      "alternatives": [],
+      "node_json": {
+        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/scheduled-monument",
+        "@type": "dcat:Dataset",
+        "dct:identifier": "planning:scheduled-monument",
+        "dct:title": "Scheduled monument",
+        "dct:description": "Historic buildings or sites such as Roman remains, burial mounds, castles, bridges, earthworks, the remains of deserted villages and industrial sites can be designated scheduled monuments by the Secretary of State for [Digital, Culture, Media and Sport](https://www.gov.uk/government/organisations/department-for-digital-culture-media-sport). \n\nThis list of scheduled monuments is kept and maintained by [Historic England](https://historicengland.org.uk/).",
+        "dcat:theme": [
+          "heritage"
+        ],
+        "okf:typology": "geography",
+        "okf:collection": "historic-england",
+        "okf:phase": "beta",
+        "okf:entityCount": 20150,
+        "okf:notEndorsedBySource": true,
+        "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+      }
+    },
+    {
+      "id": "self-and-custom-buildarea",
+      "route": "dataset/self-and-custom-buildarea",
+      "title": "Self and custom build area",
+      "description": "Planning dataset for Self and custom build area",
+      "summary": "Planning dataset for Self and custom build area",
+      "record_type": "geography",
+      "collection": "planning-data",
+      "typology": "geography",
+      "phase": "prioritised",
+      "themes": [
+        "housing"
+      ],
+      "entity_count": 0,
+      "licence_id": "ogl3",
+      "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+      "attribution": "\u00a9 Crown copyright and database right 2026",
+      "source": "planning-data-gov-uk",
+      "source_url": "https://www.planning.data.gov.uk/dataset/self-and-custom-buildarea",
+      "documentation_url": "https://www.planning.data.gov.uk/dataset/self-and-custom-buildarea",
+      "publisher": "MHCLG / Planning Data England",
+      "publisher_url": "https://www.planning.data.gov.uk/",
+      "confidence": "observed",
+      "wikidata": "",
+      "tags": [
+        "geography",
+        "planning-data",
+        "prioritised",
+        "housing"
+      ],
+      "resources": [
+        {
+          "id": "self-and-custom-buildarea-json-api",
+          "title": "Self and custom build area JSON API Endpoint",
+          "url": "https://www.planning.data.gov.uk/dataset/self-and-custom-buildarea.json",
+          "format": "json",
+          "media_type": "application/json",
+          "dcat_type": "access-service"
+        },
+        {
+          "id": "self-and-custom-buildarea-csv-download",
+          "title": "Self and custom build area CSV Data Download",
+          "url": "https://www.planning.data.gov.uk/dataset/self-and-custom-buildarea.csv",
+          "format": "csv",
+          "media_type": "text/csv",
+          "dcat_type": "downloadable-file"
+        },
+        {
+          "id": "self-and-custom-buildarea-geojson-download",
+          "title": "Self and custom build area GeoJSON Download",
+          "url": "https://www.planning.data.gov.uk/dataset/self-and-custom-buildarea.geojson",
+          "format": "geojson",
+          "media_type": "application/geo+json",
+          "dcat_type": "downloadable-file"
+        }
+      ],
+      "alternatives": [],
+      "node_json": {
+        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/self-and-custom-buildarea",
+        "@type": "dcat:Dataset",
+        "dct:identifier": "planning:self-and-custom-buildarea",
+        "dct:title": "Self and custom build area",
+        "dct:description": "Planning dataset for Self and custom build area",
+        "dcat:theme": [
+          "housing"
+        ],
+        "okf:typology": "geography",
+        "okf:collection": "planning-data",
+        "okf:phase": "prioritised",
+        "okf:entityCount": 0,
+        "okf:notEndorsedBySource": true,
+        "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+      }
+    },
+    {
+      "id": "site-category",
+      "route": "dataset/site-category",
+      "title": "Site category",
+      "description": "Planning dataset for Site category",
+      "summary": "Planning dataset for Site category",
+      "record_type": "category",
+      "collection": "site-category",
+      "typology": "category",
+      "phase": "beta",
+      "themes": [
+        "development"
+      ],
+      "entity_count": 2,
+      "licence_id": "ogl3",
+      "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+      "attribution": "\u00a9 Crown copyright and database right 2026",
+      "source": "planning-data-gov-uk",
+      "source_url": "https://www.planning.data.gov.uk/dataset/site-category",
+      "documentation_url": "https://www.planning.data.gov.uk/dataset/site-category",
+      "publisher": "MHCLG / Planning Data England",
+      "publisher_url": "https://www.planning.data.gov.uk/",
+      "confidence": "observed",
+      "wikidata": "",
+      "tags": [
+        "category",
+        "site-category",
+        "beta",
+        "development"
+      ],
+      "resources": [
+        {
+          "id": "site-category-json-api",
+          "title": "Site category JSON API Endpoint",
+          "url": "https://www.planning.data.gov.uk/dataset/site-category.json",
+          "format": "json",
+          "media_type": "application/json",
+          "dcat_type": "access-service"
+        },
+        {
+          "id": "site-category-csv-download",
+          "title": "Site category CSV Data Download",
+          "url": "https://www.planning.data.gov.uk/dataset/site-category.csv",
+          "format": "csv",
+          "media_type": "text/csv",
+          "dcat_type": "downloadable-file"
+        },
+        {
+          "id": "site-category-geojson-download",
+          "title": "Site category GeoJSON Download",
+          "url": "https://www.planning.data.gov.uk/dataset/site-category.geojson",
+          "format": "geojson",
+          "media_type": "application/geo+json",
+          "dcat_type": "downloadable-file"
+        }
+      ],
+      "alternatives": [],
+      "node_json": {
+        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/site-category",
+        "@type": "dcat:Dataset",
+        "dct:identifier": "planning:site-category",
+        "dct:title": "Site category",
+        "dct:description": "Planning dataset for Site category",
+        "dcat:theme": [
+          "development"
+        ],
+        "okf:typology": "category",
+        "okf:collection": "site-category",
+        "okf:phase": "beta",
+        "okf:entityCount": 2,
+        "okf:notEndorsedBySource": true,
+        "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+      }
+    },
+    {
+      "id": "site-of-special-scientific-interest",
+      "route": "dataset/site-of-special-scientific-interest",
+      "title": "Site of special scientific interest",
+      "description": "Sites of special scientific interest (SSSI) are nationally protected sites that have features such as wildlife or geology.\u00a0\n\nSSSIs are designated by [Natural England](https://www.gov.uk/government/organisations/natural-england).\nThere is [guidance](https://www.gov.uk/guidance/protected-areas-sites-of-special-scientific-interest) to help local authorities decide on planning applications in protected SSSIs.",
+      "summary": "Sites of special scientific interest (SSSI) are nationally protected sites that have features such as wildlife or geology.\u00a0\n\nSSSIs are designated by [Natural England](https://www.gov.uk/government/org...",
+      "record_type": "geography",
+      "collection": "site-of-special-scientific-interest",
+      "typology": "geography",
+      "phase": "beta",
+      "themes": [
+        "environment"
+      ],
+      "entity_count": 4128,
+      "licence_id": "ogl3",
+      "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+      "attribution": "\u00a9 Natural England copyright. Contains Ordnance Survey data \u00a9 Crown copyright and database right 2026.",
+      "source": "planning-data-gov-uk",
+      "source_url": "https://www.planning.data.gov.uk/dataset/site-of-special-scientific-interest",
+      "documentation_url": "https://www.planning.data.gov.uk/dataset/site-of-special-scientific-interest",
+      "publisher": "MHCLG / Planning Data England",
+      "publisher_url": "https://www.planning.data.gov.uk/",
+      "confidence": "observed",
+      "wikidata": "Q422211",
+      "tags": [
+        "geography",
+        "site-of-special-scientific-interest",
+        "beta",
+        "environment"
+      ],
+      "resources": [
+        {
+          "id": "site-of-special-scientific-interest-json-api",
+          "title": "Site of special scientific interest JSON API Endpoint",
+          "url": "https://www.planning.data.gov.uk/dataset/site-of-special-scientific-interest.json",
+          "format": "json",
+          "media_type": "application/json",
+          "dcat_type": "access-service"
+        },
+        {
+          "id": "site-of-special-scientific-interest-csv-download",
+          "title": "Site of special scientific interest CSV Data Download",
+          "url": "https://www.planning.data.gov.uk/dataset/site-of-special-scientific-interest.csv",
+          "format": "csv",
+          "media_type": "text/csv",
+          "dcat_type": "downloadable-file"
+        },
+        {
+          "id": "site-of-special-scientific-interest-geojson-download",
+          "title": "Site of special scientific interest GeoJSON Download",
+          "url": "https://www.planning.data.gov.uk/dataset/site-of-special-scientific-interest.geojson",
+          "format": "geojson",
+          "media_type": "application/geo+json",
+          "dcat_type": "downloadable-file"
+        }
+      ],
+      "alternatives": [],
+      "node_json": {
+        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/site-of-special-scientific-interest",
+        "@type": "dcat:Dataset",
+        "dct:identifier": "planning:site-of-special-scientific-interest",
+        "dct:title": "Site of special scientific interest",
+        "dct:description": "Sites of special scientific interest (SSSI) are nationally protected sites that have features such as wildlife or geology.\u00a0\n\nSSSIs are designated by [Natural England](https://www.gov.uk/government/organisations/natural-england).\nThere is [guidance](https://www.gov.uk/guidance/protected-areas-sites-of-special-scientific-interest) to help local authorities decide on planning applications in protected SSSIs.",
+        "dcat:theme": [
+          "environment"
+        ],
+        "okf:typology": "geography",
+        "okf:collection": "site-of-special-scientific-interest",
+        "okf:phase": "beta",
+        "okf:entityCount": 4128,
+        "okf:notEndorsedBySource": true,
+        "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+      }
+    },
+    {
+      "id": "special-area-of-conservation",
+      "route": "dataset/special-area-of-conservation",
+      "title": "Special area of conservation",
+      "description": "Special areas of conservation (SACs) are area of land which have been designated by\n[DEFRA](https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs),\nwith advice from the [Joint Nature Conservation Committee](https://jncc.gov.uk/),\nto protect specific habitats and species.\n\nDEFRA and [Natural England](https://www.gov.uk/government/organisations/natural-england) publish\n[guidance](https://www.gov.uk/guidance/protected-sites-and-areas-how-to-review-planning-applications)\non how to review planning applications in protected sites and areas.",
+      "summary": "Special areas of conservation (SACs) are area of land which have been designated by\n[DEFRA](https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs),\nwith advice from...",
+      "record_type": "geography",
+      "collection": "special-area-of-conservation",
+      "typology": "geography",
+      "phase": "beta",
+      "themes": [
+        "environment"
+      ],
+      "entity_count": 260,
+      "licence_id": "ogl3",
+      "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+      "attribution": "\u00a9 Natural England copyright. Contains Ordnance Survey data \u00a9 Crown copyright and database right 2026.",
+      "source": "planning-data-gov-uk",
+      "source_url": "https://www.planning.data.gov.uk/dataset/special-area-of-conservation",
+      "documentation_url": "https://www.planning.data.gov.uk/dataset/special-area-of-conservation",
+      "publisher": "MHCLG / Planning Data England",
+      "publisher_url": "https://www.planning.data.gov.uk/",
+      "confidence": "observed",
+      "wikidata": "Q1191622",
+      "tags": [
+        "geography",
+        "special-area-of-conservation",
+        "beta",
+        "environment"
+      ],
+      "resources": [
+        {
+          "id": "special-area-of-conservation-json-api",
+          "title": "Special area of conservation JSON API Endpoint",
+          "url": "https://www.planning.data.gov.uk/dataset/special-area-of-conservation.json",
+          "format": "json",
+          "media_type": "application/json",
+          "dcat_type": "access-service"
+        },
+        {
+          "id": "special-area-of-conservation-csv-download",
+          "title": "Special area of conservation CSV Data Download",
+          "url": "https://www.planning.data.gov.uk/dataset/special-area-of-conservation.csv",
+          "format": "csv",
+          "media_type": "text/csv",
+          "dcat_type": "downloadable-file"
+        },
+        {
+          "id": "special-area-of-conservation-geojson-download",
+          "title": "Special area of conservation GeoJSON Download",
+          "url": "https://www.planning.data.gov.uk/dataset/special-area-of-conservation.geojson",
+          "format": "geojson",
+          "media_type": "application/geo+json",
+          "dcat_type": "downloadable-file"
+        }
+      ],
+      "alternatives": [],
+      "node_json": {
+        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/special-area-of-conservation",
+        "@type": "dcat:Dataset",
+        "dct:identifier": "planning:special-area-of-conservation",
+        "dct:title": "Special area of conservation",
+        "dct:description": "Special areas of conservation (SACs) are area of land which have been designated by\n[DEFRA](https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs),\nwith advice from the [Joint Nature Conservation Committee](https://jncc.gov.uk/),\nto protect specific habitats and species.\n\nDEFRA and [Natural England](https://www.gov.uk/government/organisations/natural-england) publish\n[guidance](https://www.gov.uk/guidance/protected-sites-and-areas-how-to-review-planning-applications)\non how to review planning applications in protected sites and areas.",
+        "dcat:theme": [
+          "environment"
+        ],
+        "okf:typology": "geography",
+        "okf:collection": "special-area-of-conservation",
+        "okf:phase": "beta",
+        "okf:entityCount": 260,
+        "okf:notEndorsedBySource": true,
+        "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+      }
+    },
+    {
+      "id": "special-protection-area",
+      "route": "dataset/special-protection-area",
+      "title": "Special protection area",
+      "description": "[Special protection areas](https://naturalengland-defra.opendata.arcgis.com/maps/Defra::special-protection-areas-england/about) is an area designated \nfor the protection of birds and wildlife. This dataset is provided by [Natural England](https://www.gov.uk/government/organisations/natural-england).",
+      "summary": "[Special protection areas](https://naturalengland-defra.opendata.arcgis.com/maps/Defra::special-protection-areas-england/about) is an area designated \nfor the protection of birds and wildlife. This da...",
+      "record_type": "geography",
+      "collection": "special-protection-area",
+      "typology": "geography",
+      "phase": "beta",
+      "themes": [
+        "environment"
+      ],
+      "entity_count": 88,
+      "licence_id": "ogl3",
+      "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+      "attribution": "\u00a9 Natural England copyright. Contains Ordnance Survey data \u00a9 Crown copyright and database right 2026.",
+      "source": "planning-data-gov-uk",
+      "source_url": "https://www.planning.data.gov.uk/dataset/special-protection-area",
+      "documentation_url": "https://www.planning.data.gov.uk/dataset/special-protection-area",
+      "publisher": "MHCLG / Planning Data England",
+      "publisher_url": "https://www.planning.data.gov.uk/",
+      "confidence": "observed",
+      "wikidata": "",
+      "tags": [
+        "geography",
+        "special-protection-area",
+        "beta",
+        "environment"
+      ],
+      "resources": [
+        {
+          "id": "special-protection-area-json-api",
+          "title": "Special protection area JSON API Endpoint",
+          "url": "https://www.planning.data.gov.uk/dataset/special-protection-area.json",
+          "format": "json",
+          "media_type": "application/json",
+          "dcat_type": "access-service"
+        },
+        {
+          "id": "special-protection-area-csv-download",
+          "title": "Special protection area CSV Data Download",
+          "url": "https://www.planning.data.gov.uk/dataset/special-protection-area.csv",
+          "format": "csv",
+          "media_type": "text/csv",
+          "dcat_type": "downloadable-file"
+        },
+        {
+          "id": "special-protection-area-geojson-download",
+          "title": "Special protection area GeoJSON Download",
+          "url": "https://www.planning.data.gov.uk/dataset/special-protection-area.geojson",
+          "format": "geojson",
+          "media_type": "application/geo+json",
+          "dcat_type": "downloadable-file"
+        }
+      ],
+      "alternatives": [],
+      "node_json": {
+        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/special-protection-area",
+        "@type": "dcat:Dataset",
+        "dct:identifier": "planning:special-protection-area",
+        "dct:title": "Special protection area",
+        "dct:description": "[Special protection areas](https://naturalengland-defra.opendata.arcgis.com/maps/Defra::special-protection-areas-england/about) is an area designated \nfor the protection of birds and wildlife. This dataset is provided by [Natural England](https://www.gov.uk/government/organisations/natural-england).",
+        "dcat:theme": [
+          "environment"
+        ],
+        "okf:typology": "geography",
+        "okf:collection": "special-protection-area",
+        "okf:phase": "beta",
+        "okf:entityCount": 88,
+        "okf:notEndorsedBySource": true,
+        "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+      }
+    }
+  ]
+}

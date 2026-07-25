@@ -1,0 +1,21 @@
+{
+  "schema": "okf-mcp-bindings.v1",
+  "broker": "okf_planning_mcp",
+  "tools": [
+    {
+      "name": "get_planning_entity",
+      "description": "Fetch entity details by entity ID or dataset",
+      "read_only": true
+    },
+    {
+      "name": "search_planning_entities",
+      "description": "Search planning entities by keyword or spatial bounding box",
+      "read_only": true
+    },
+    {
+      "name": "get_lpa_plan_status",
+      "description": "Fetch Local Plan timetable and stage status for an LPA",
+      "read_only": true
+    }
+  ]
+}

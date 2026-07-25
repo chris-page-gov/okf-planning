@@ -1,0 +1,17 @@
+{
+  "schema": "okf-context-set.v1",
+  "contexts": [
+    {
+      "id": "dcat",
+      "url": "http://www.w3.org/ns/dcat#"
+    },
+    {
+      "id": "skos",
+      "url": "http://www.w3.org/2004/02/skos/core#"
+    },
+    {
+      "id": "prov",
+      "url": "http://www.w3.org/ns/prov#"
+    }
+  ]
+}

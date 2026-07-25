@@ -1,0 +1,17 @@
+{
+  "schema": "okf-data-manifest.v1",
+  "snapshot": "planning-2026-07-25-r1",
+  "counts": {
+    "records": 230,
+    "entities": 34391082,
+    "relationships": 40,
+    "record_shards": 5
+  },
+  "record_shards": [
+    "data/records/shard-0.json",
+    "data/records/shard-1.json",
+    "data/records/shard-2.json",
+    "data/records/shard-3.json",
+    "data/records/shard-4.json"
+  ]
+}
