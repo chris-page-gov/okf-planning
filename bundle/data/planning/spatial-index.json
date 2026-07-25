@@ -1,14 +1,16 @@
 {
+  "default_crs": "EPSG:27700",
+  "extent_england": {
+    "xmax": 655600,
+    "xmin": 82600,
+    "ymax": 657500,
+    "ymin": 5300
+  },
+  "geometry_included": false,
   "schema": "okf-spatial-index.v1",
-  "default_crs": "EPSG:27700 (OSGB36)",
+  "status": "descriptive",
   "supported_crs": [
     "EPSG:27700",
     "EPSG:4326"
-  ],
-  "extent_england": {
-    "xmin": 82600,
-    "ymin": 5300,
-    "xmax": 655600,
-    "ymax": 657500
-  }
+  ]
 }

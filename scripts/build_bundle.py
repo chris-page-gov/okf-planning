@@ -22,7 +22,11 @@ def main():
 
     logging.info("Starting OKF Planning Bundle build v0.2.0...")
     checksums = build_bundle(output_dir=bundle_dir, cache_dir=cache_dir)
-    logging.info("OKF Planning Bundle build successful! Generated %d checksum entries in %s", len(checksums), bundle_dir)
+    logging.info(
+        "OKF Planning Bundle build successful! Generated %d checksum entries in %s",
+        len(checksums),
+        bundle_dir,
+    )
 
 
 if __name__ == "__main__":

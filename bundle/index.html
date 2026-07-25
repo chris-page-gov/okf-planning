@@ -2,12 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%231b5e4b'/%3E%3Ctext x='32' y='41' text-anchor='middle' font-size='24' font-family='sans-serif' font-weight='700' fill='white'%3EOKF%3C/text%3E%3C/svg%3E">
   <title>UK Planning & Housing Data — Open Knowledge Format (OKF) Bundle v0.2</title>
-  <meta name="description" content="Open Knowledge Format (OKF) bundle v0.2 for UK Planning and Housing Data in England, extending standard 0.2 with YAML-LD semantics, DCAT 3, and policy augmentations.">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <meta name="description" content="Open Knowledge Format v0.2 Markdown bundle for UK Planning and Housing metadata, with additive Explorer and semantic projections.">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -34,24 +32,24 @@
     <section class="hero">
       <h1 class="hero-title">Open Knowledge Format (OKF) Bundle for UK Planning</h1>
       <p class="hero-subtitle">
-        A static metadata discovery layer bridging 220 datasets from <code>planning.data.gov.uk</code> with National Planning Policy (NPPF), Planning Practice Guidance (PPG), statutory instruments (LURA 2023, Use Classes Order, GPDO), and cross-agency environmental & heritage spatial boundaries across England.
+        A frozen metadata discovery layer combining the Planning Data England catalogue with selected source-published policy, legislation, guidance, environmental and heritage records. It is independently generated and does not imply source endorsement.
       </p>
       
       <div class="stats-grid">
         <div class="stat-card">
-          <div class="stat-value">230</div>
+          <div class="stat-value" id="stat-records">…</div>
           <div class="stat-label">Metadata Records</div>
         </div>
         <div class="stat-card">
-          <div class="stat-value">5,353,211</div>
+          <div class="stat-value" id="stat-entities">…</div>
           <div class="stat-label">Planning Entities</div>
         </div>
         <div class="stat-card">
-          <div class="stat-value">40</div>
-          <div class="stat-label">Policy Relationships</div>
+          <div class="stat-value" id="stat-relationships">…</div>
+          <div class="stat-label">Rule-derived Relationships</div>
         </div>
         <div class="stat-card">
-          <div class="stat-value">12</div>
+          <div class="stat-value" id="stat-publishers">…</div>
           <div class="stat-label">Public Publishers</div>
         </div>
       </div>
@@ -60,8 +58,9 @@
     <!-- Navigation Tabs -->
     <nav class="nav-tabs" aria-label="View selection">
       <button class="tab-btn active" id="tab-explorer" onclick="switchTab('explorer')">Dataset Explorer</button>
+      <button class="tab-btn" id="tab-markdown" onclick="switchTab('markdown')">OKF v0.2 Markdown</button>
       <button class="tab-btn" id="tab-descriptor" onclick="switchTab('descriptor')">OKF Descriptor (JSON)</button>
-      <button class="tab-btn" id="tab-yamlld" onclick="switchTab('yamlld')">Canonical YAML-LD (0.2)</button>
+      <button class="tab-btn" id="tab-yamlld" onclick="switchTab('yamlld')">Semantic YAML-LD Extension</button>
       <button class="tab-btn" id="tab-checksums" onclick="switchTab('checksums')">Checksums & Integrity</button>
     </nav>
 
@@ -77,13 +76,13 @@
           <div class="filter-group">
             <div class="filter-title">Typology</div>
             <div class="filter-options">
-              <label class="filter-checkbox"><input type="checkbox" value="geography"> Geography (104)</label>
-              <label class="filter-checkbox"><input type="checkbox" value="category"> Category (54)</label>
-              <label class="filter-checkbox"><input type="checkbox" value="organisation"> Organisation (15)</label>
-              <label class="filter-checkbox"><input type="checkbox" value="document"> Document (11)</label>
-              <label class="filter-checkbox"><input type="checkbox" value="legal-instrument"> Legal Instrument (9)</label>
-              <label class="filter-checkbox"><input type="checkbox" value="policy"> Policy (6)</label>
-              <label class="filter-checkbox"><input type="checkbox" value="timetable"> Timetable (5)</label>
+              <label class="filter-checkbox"><input type="checkbox" value="geography"> Geography (<span data-typology-count="geography">…</span>)</label>
+              <label class="filter-checkbox"><input type="checkbox" value="category"> Category (<span data-typology-count="category">…</span>)</label>
+              <label class="filter-checkbox"><input type="checkbox" value="organisation"> Organisation (<span data-typology-count="organisation">…</span>)</label>
+              <label class="filter-checkbox"><input type="checkbox" value="document"> Document (<span data-typology-count="document">…</span>)</label>
+              <label class="filter-checkbox"><input type="checkbox" value="legal-instrument"> Legal Instrument (<span data-typology-count="legal-instrument">…</span>)</label>
+              <label class="filter-checkbox"><input type="checkbox" value="policy"> Policy (<span data-typology-count="policy">…</span>)</label>
+              <label class="filter-checkbox"><input type="checkbox" value="timetable"> Timetable (<span data-typology-count="timetable">…</span>)</label>
             </div>
           </div>
         </aside>
@@ -103,7 +102,7 @@
   </main>
 
   <footer>
-    <p>OKF Planning Bundle v0.2.0 • Independent metadata publication for UK Planning & Housing Data in England • Licensed under Open Government Licence v3.0 & MIT</p>
+    <p>OKF Planning Bundle v0.2.0 • Draft, unverified independent metadata publication • Source-specific rights and attribution apply • Bundle code licensed under MIT</p>
   </footer>
 
   <script src="app.js"></script>

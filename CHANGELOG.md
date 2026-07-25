@@ -1,17 +1,32 @@
 # Changelog
 
-All notable changes to the `okg-planning` project will be documented in this file.
+All notable changes to `okf-planning` are documented here. The format follows
+[Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
-and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
-
-## [0.2.0] - 2026-07-25
+## [0.2.0] — 2026-07-25
 
 ### Added
-- Created initial OKF Bundle for UK Planning & Housing Data in England ported to OKF Standard 0.2.
-- Ported OKF extensions to 0.2, including canonical YAML-LD (`okf-bundle.yamlld`) and expanded JSON-LD (`okf-bundle.jsonld`).
-- Ingested 220 datasets across 11 typologies from `planning.data.gov.uk` (spanning 5.3M+ entities).
-- Integrated policy and statutory instrument augmentations for NPPF, Planning Practice Guidance (PPG), Town and Country Planning Act 1990, Levelling-up and Regeneration Act 2023 (LURA), Use Classes Order, and General Permitted Development Order (GPDO).
-- Added cross-agency spatial environmental & heritage linkages for Historic England (NHLE), Environment Agency (Flood Risk Zones), Natural England (SSSIs/BNG), Ordnance Survey, Land Registry, and Planning Inspectorate (PINS).
-- Built interactive human discovery web application in `bundle/index.html` with dark glassmorphism styling, dataset search, facet filtering, schema viewer, and direct link to OKF Explorer.
-- Implemented Python package `okf_planning`, CLI build engine `build_bundle.py`, local MCP selection broker, and completeness evaluation suite.
+
+- Published 230 planning metadata concepts as a normative OKF v0.2 Markdown
+  hierarchy with structured `sources`, `generated`, lifecycle metadata and an
+  explicit unverified trust state.
+- Retained YAML-LD, JSON-LD, DCAT 3, PROV-O, SKOS, federation, static search and
+  Explorer representations as documented extensions.
+- Added source-specific policy, legislation, guidance, heritage and environment
+  records alongside the frozen 220-record Planning Data England catalogue.
+- Added canonical top-level array shards for datasets, resources, publishers
+  and rule-derived relationships.
+- Added conformance, integrity, offline-safety, cross-contract and
+  cross-hash-seed determinism tests.
+
+### Changed
+
+- Corrected search results so `open` contains the canonical dataset route.
+- Removed constructed JSON, CSV and GeoJSON endpoints; resources now contain
+  only declared source landing and documentation pages.
+- Assigned curated records to their actual source publishers.
+- Replaced claimed certifications, entity reconciliation and hard-coded quality
+  scores with measured, qualified or explicitly not-evaluated evidence.
+- Made source acquisition atomic and normal builds pinned-snapshot-only.
+- Updated the discovery page to hydrate every manifest shard, derive its counts
+  from data and render source strings without HTML interpolation.

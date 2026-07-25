@@ -1,6 +1,23 @@
 {
-  "schema": "okf-evaluation-report.v1",
-  "quality_score": 0.992,
   "audited_records": 230,
-  "status": "passed"
+  "field_counts": {
+    "description": 230,
+    "licence": 230,
+    "publisher": 230,
+    "resources": 230,
+    "source": 230,
+    "themes": 230,
+    "title": 230,
+    "typology": 230
+  },
+  "field_presence_ratio": 1.0,
+  "label": "metadata-field-presence",
+  "possible_fields": 1840,
+  "present_fields": 1840,
+  "quality_evaluated": false,
+  "quality_score": null,
+  "schema": "okf-evaluation-report.v1",
+  "statistical_accuracy_evaluated": false,
+  "status": "measured",
+  "warning": "This score measures presence of declared metadata fields. It is not a certification of source accuracy, completeness or fitness for use."
 }

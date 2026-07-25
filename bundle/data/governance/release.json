@@ -1,7 +1,39 @@
 {
+  "freshness_policy": {
+    "basis": "Project-declared quarterly review boundary for this independent frozen metadata snapshot.",
+    "stale_after": "2026-10-25",
+    "status": "declared"
+  },
+  "generated": {
+    "at": "2026-07-25T11:25:00Z",
+    "by": "okf-planning/0.2.0"
+  },
+  "integrity": {
+    "algorithm": "sha256",
+    "catalogue": "checksums.json",
+    "scope": "generated bundle files excluding checksums.json"
+  },
+  "licence": "https://github.com/chris-page-gov/okf-planning/blob/main/LICENSE",
+  "okf_spec": "https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/3fcbb9f828c2f23d109c855ee403c3a4c81f3a96/okf/SPEC.md",
+  "publisher": "https://github.com/chris-page-gov/okf-planning",
   "schema": "okf-governance-release.v1",
   "snapshot_id": "planning-2026-07-25-r1",
-  "generated_at": "2026-07-25T08:00:00Z",
-  "publisher": "https://chris-page-gov.github.io/okf-planning/",
-  "licence": "https://github.com/chris-page-gov/okf-planning/blob/main/LICENSE"
+  "source_snapshots": [
+    {
+      "captured_at": "2026-07-25T08:00:00Z",
+      "captured_at_basis": "declared snapshot release timestamp",
+      "path": "source/dataset.json",
+      "resource": "https://www.planning.data.gov.uk/dataset.json",
+      "sha256": "6590c2c875c050848966686193dac5f43a9644fb0a479f5c34bac0612234bd89"
+    },
+    {
+      "captured_at": "2026-07-25T08:00:00Z",
+      "captured_at_basis": "declared snapshot release timestamp",
+      "path": "source/organisation.json",
+      "resource": "https://www.planning.data.gov.uk/organisation.json",
+      "sha256": "2ca0121c348bc6e202895683e8736eb9146d56ea3783ac069586a72b882c7500"
+    }
+  ],
+  "status": "draft",
+  "verified": []
 }

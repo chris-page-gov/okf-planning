@@ -1,0 +1,82 @@
+[
+  {
+    "dataset_count": 1,
+    "description": "Source publisher attribution carried from frozen metadata. It does not imply endorsement of this OKF bundle.",
+    "id": "environment-agency",
+    "name": "environment-agency",
+    "resource_count": 2,
+    "route": "publisher/environment-agency",
+    "title": "Environment Agency",
+    "url": "https://www.gov.uk/government/organisations/environment-agency"
+  },
+  {
+    "dataset_count": 1,
+    "description": "Source publisher attribution carried from frozen metadata. It does not imply endorsement of this OKF bundle.",
+    "id": "historic-england",
+    "name": "historic-england",
+    "resource_count": 2,
+    "route": "publisher/historic-england",
+    "title": "Historic England",
+    "url": "https://historicengland.org.uk/"
+  },
+  {
+    "dataset_count": 1,
+    "description": "Source publisher attribution carried from frozen metadata. It does not imply endorsement of this OKF bundle.",
+    "id": "hm-land-registry",
+    "name": "hm-land-registry",
+    "resource_count": 2,
+    "route": "publisher/hm-land-registry",
+    "title": "HM Land Registry",
+    "url": "https://www.gov.uk/government/organisations/land-registry"
+  },
+  {
+    "dataset_count": 2,
+    "description": "Source publisher attribution carried from frozen metadata. It does not imply endorsement of this OKF bundle.",
+    "id": "ministry-of-housing-communities-and-local-government",
+    "name": "ministry-of-housing-communities-and-local-government",
+    "resource_count": 4,
+    "route": "publisher/ministry-of-housing-communities-and-local-government",
+    "title": "Ministry of Housing, Communities & Local Government",
+    "url": "https://www.gov.uk/government/organisations/ministry-of-housing-communities-and-local-government"
+  },
+  {
+    "dataset_count": 1,
+    "description": "Source publisher attribution carried from frozen metadata. It does not imply endorsement of this OKF bundle.",
+    "id": "natural-england",
+    "name": "natural-england",
+    "resource_count": 2,
+    "route": "publisher/natural-england",
+    "title": "Natural England",
+    "url": "https://www.gov.uk/government/organisations/natural-england"
+  },
+  {
+    "dataset_count": 220,
+    "description": "Source publisher attribution carried from frozen metadata. It does not imply endorsement of this OKF bundle.",
+    "id": "planning-data-england",
+    "name": "planning-data-england",
+    "resource_count": 220,
+    "route": "publisher/planning-data-england",
+    "title": "Planning Data England / MHCLG",
+    "url": "https://www.planning.data.gov.uk/"
+  },
+  {
+    "dataset_count": 1,
+    "description": "Source publisher attribution carried from frozen metadata. It does not imply endorsement of this OKF bundle.",
+    "id": "planning-inspectorate",
+    "name": "planning-inspectorate",
+    "resource_count": 2,
+    "route": "publisher/planning-inspectorate",
+    "title": "Planning Inspectorate",
+    "url": "https://www.gov.uk/government/organisations/planning-inspectorate"
+  },
+  {
+    "dataset_count": 3,
+    "description": "Source publisher attribution carried from frozen metadata. It does not imply endorsement of this OKF bundle.",
+    "id": "the-national-archives",
+    "name": "the-national-archives",
+    "resource_count": 6,
+    "route": "publisher/the-national-archives",
+    "title": "The National Archives",
+    "url": "https://www.legislation.gov.uk/"
+  }
+]

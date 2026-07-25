@@ -2,6 +2,7 @@
   "@context": {
     "Catalog": "dcat:Catalog",
     "Dataset": "dcat:Dataset",
+    "Resource": "dcat:Resource",
     "alignmentClaim": "okf:alignmentClaim",
     "bundlePublisher": {
       "@id": "okf:bundlePublisher",
@@ -15,10 +16,6 @@
       "@id": "okf:contextSet",
       "@type": "@id"
     },
-    "dataset": {
-      "@id": "dcat:dataset",
-      "@type": "@id"
-    },
     "dcat": "http://www.w3.org/ns/dcat#",
     "dct": "http://purl.org/dc/terms/",
     "description": "dct:description",
@@ -30,9 +27,14 @@
     "nonEndorsementStatement": "okf:nonEndorsementStatement",
     "notEndorsedBySource": "okf:notEndorsedBySource",
     "okf": "https://chris-page-gov.github.io/okf-planning/vocab/",
+    "okfEntrypoint": {
+      "@id": "okf:entrypoint",
+      "@type": "@id"
+    },
+    "okfVersion": "okf:version",
     "prov": "http://www.w3.org/ns/prov#",
-    "publisher": {
-      "@id": "dct:publisher",
+    "record": {
+      "@id": "dcat:resource",
       "@type": "@id"
     },
     "reviewedBy": {
