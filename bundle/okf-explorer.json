@@ -2,6 +2,7 @@
   "@context": "https://chris-page-gov.github.io/okf-explorer/profile/bundle-wiki/v1/context.jsonld",
   "@id": "https://chris-page-gov.github.io/okf-planning/okf-explorer.json",
   "schema": "okf-explorer-large-corpus.v1",
+  "kind": "okf-large-corpus",
   "profile": "https://chris-page-gov.github.io/okf-explorer/profile/bundle-wiki/v1/",
   "semantic_descriptor": "https://chris-page-gov.github.io/okf-planning/okf-bundle.yamlld",
   "title": "UK Planning & Housing Data OKF",
@@ -9,7 +10,7 @@
   "status": "bounded-demonstrator",
   "snapshot": "planning-2026-07-25-r1",
   "description": "Open Knowledge Format bundle for UK Planning & Housing Data in England with YAML-LD semantics, DCAT-AP alignment, and planning policy augmentations.",
-  "publisher": "https://github.com/chris-page-gov/okg-planning",
+  "publisher": "https://github.com/chris-page-gov/okf-planning",
   "generated_at": "2026-07-25T08:00:00Z",
   "authority": {
     "bundlePublisher": {
@@ -33,13 +34,31 @@
     "datasets": 230,
     "records": 230,
     "resources": 690,
-    "publishers": 12,
+    "publishers": 2,
     "sources": 2,
     "relationships": 40,
     "standards": 5
   },
+  "display": {
+    "facets": {
+      "order": [
+        "typology",
+        "collection",
+        "phase",
+        "publisher",
+        "licence"
+      ],
+      "pinned": [
+        "typology",
+        "collection",
+        "phase"
+      ],
+      "default_mode": "suggested"
+    }
+  },
   "entrypoints": {
     "overview_index": "data/overview.json",
+    "analysis_overview": "data/analysis/overview.json",
     "data_manifest": "data/manifest.json",
     "search_manifest": "data/search/manifest.json",
     "standards": "data/standards/evaluation.json",
@@ -47,7 +66,6 @@
     "context_set": "data/governance/context-set.json",
     "reconciliation": "data/reconciliation/report.json",
     "coverage": "data/coverage/ledger.json",
-    "analysis_overview": "data/analysis/overview.json",
     "mcp_bindings": "data/planning/mcp-bindings.json",
     "spatial_index": "data/planning/spatial-index.json",
     "evaluation": "data/evaluation/report.json",
@@ -74,6 +92,10 @@
     "search": "static worker-compatible shards"
   },
   "extensions": {
+    "okf-explorer-analysis.v1": {
+      "entrypoint": "analysis_overview",
+      "mode": "external"
+    },
     "okf-planning-discovery.v1": {
       "mode": "metadata-only-demonstrator",
       "not_endorsed_by_source": true,

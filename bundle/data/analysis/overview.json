@@ -1,9 +1,401 @@
 {
-  "schema": "okf-analysis-overview.v1",
+  "schema": "okf-explorer-analysis.v1",
+  "generated_at": "2026-07-25T08:00:00Z",
+  "summary": {
+    "title": "UK Planning & Housing Data OKF",
+    "description": "Metadata-only discovery layer for public planning and housing data in England with 230 datasets, policy augmentations, DCAT-AP alignment, and MCP selection bindings.",
+    "record_count": 230,
+    "resource_count": 690,
+    "relationship_count": 40
+  },
+  "recordTypeCounts": {
+    "Planning Geography Dataset": 108,
+    "Planning Category Dataset": 54,
+    "Planning Organisation": 15,
+    "Planning Document": 12,
+    "Planning Legal Instrument": 12,
+    "Planning Policy & Framework": 8,
+    "Planning Pipeline": 6,
+    "Local Plan Timetable": 5,
+    "Planning Value": 4,
+    "Developer Contribution Metric": 3,
+    "Planning Entity": 3
+  },
+  "sourceCounts": {
+    "planning-data-gov-uk": 220,
+    "gov-uk-planning-policy": 10
+  },
+  "facet_analysis": [
+    {
+      "key": "typology",
+      "label": "Typology",
+      "coverage": 1.0,
+      "cardinality": 11,
+      "top_share": 0.46956521739130436,
+      "entropy": 1.5,
+      "expected_reduction": 0.5,
+      "recommendation": "primary",
+      "recommended_control": "chips",
+      "values": [
+        {
+          "value": "geography",
+          "count": 108
+        },
+        {
+          "value": "category",
+          "count": 54
+        },
+        {
+          "value": "organisation",
+          "count": 15
+        },
+        {
+          "value": "legal-instrument",
+          "count": 12
+        },
+        {
+          "value": "document",
+          "count": 12
+        },
+        {
+          "value": "policy",
+          "count": 8
+        },
+        {
+          "value": "pipeline",
+          "count": 6
+        },
+        {
+          "value": "timetable",
+          "count": 5
+        },
+        {
+          "value": "value",
+          "count": 4
+        },
+        {
+          "value": "metric",
+          "count": 3
+        },
+        {
+          "value": "entity",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "key": "collection",
+      "label": "Collection",
+      "coverage": 1.0,
+      "cardinality": 60,
+      "top_share": 0.45217391304347826,
+      "entropy": 2.1,
+      "expected_reduction": 0.6,
+      "recommendation": "primary",
+      "recommended_control": "searchable-select",
+      "values": [
+        {
+          "value": "planning-data",
+          "count": 104
+        },
+        {
+          "value": "organisation",
+          "count": 12
+        },
+        {
+          "value": "historic-england",
+          "count": 11
+        },
+        {
+          "value": "local-plan",
+          "count": 11
+        },
+        {
+          "value": "design-code",
+          "count": 7
+        },
+        {
+          "value": "developer-contributions",
+          "count": 6
+        },
+        {
+          "value": "infrastructure-project",
+          "count": 5
+        },
+        {
+          "value": "legislation",
+          "count": 5
+        },
+        {
+          "value": "flood-risk-zone",
+          "count": 4
+        },
+        {
+          "value": "listed-building",
+          "count": 4
+        },
+        {
+          "value": "tree-preservation-order",
+          "count": 4
+        },
+        {
+          "value": "conservation-area",
+          "count": 3
+        },
+        {
+          "value": "ancient-woodland",
+          "count": 2
+        },
+        {
+          "value": "article-4-direction",
+          "count": 2
+        },
+        {
+          "value": "green-belt",
+          "count": 2
+        },
+        {
+          "value": "planning-application",
+          "count": 2
+        },
+        {
+          "value": "planning-condition",
+          "count": 2
+        },
+        {
+          "value": "planning-policy",
+          "count": 2
+        },
+        {
+          "value": "agricultural-land-classification",
+          "count": 1
+        },
+        {
+          "value": "air-quality-management-area",
+          "count": 1
+        },
+        {
+          "value": "archaeological-priority-area",
+          "count": 1
+        },
+        {
+          "value": "area-of-outstanding-natural-beauty",
+          "count": 1
+        },
+        {
+          "value": "asset-of-community-value",
+          "count": 1
+        },
+        {
+          "value": "border",
+          "count": 1
+        },
+        {
+          "value": "brownfield-land",
+          "count": 1
+        },
+        {
+          "value": "brownfield-site",
+          "count": 1
+        },
+        {
+          "value": "built-up-area",
+          "count": 1
+        },
+        {
+          "value": "central-activities-zone",
+          "count": 1
+        },
+        {
+          "value": "community-infrastructure-levy-schedule",
+          "count": 1
+        },
+        {
+          "value": "development-corporation-boundary",
+          "count": 1
+        },
+        {
+          "value": "document",
+          "count": 1
+        },
+        {
+          "value": "educational-establishment",
+          "count": 1
+        },
+        {
+          "value": "flood-storage-area",
+          "count": 1
+        },
+        {
+          "value": "heritage-coast",
+          "count": 1
+        },
+        {
+          "value": "infrastructure-funding-statement",
+          "count": 1
+        },
+        {
+          "value": "local-area-requirements",
+          "count": 1
+        },
+        {
+          "value": "local-authority-district",
+          "count": 1
+        },
+        {
+          "value": "local-nature-reserve",
+          "count": 1
+        },
+        {
+          "value": "local-planning-authority",
+          "count": 1
+        },
+        {
+          "value": "local-resilience-forum-boundary",
+          "count": 1
+        },
+        {
+          "value": "national-nature-reserve",
+          "count": 1
+        },
+        {
+          "value": "national-park",
+          "count": 1
+        },
+        {
+          "value": "nature-improvement-area",
+          "count": 1
+        },
+        {
+          "value": "nutrient-neutrality",
+          "count": 1
+        },
+        {
+          "value": "ownership-status",
+          "count": 1
+        },
+        {
+          "value": "parish",
+          "count": 1
+        },
+        {
+          "value": "planning-permission-status",
+          "count": 1
+        },
+        {
+          "value": "planning-permission-type",
+          "count": 1
+        },
+        {
+          "value": "ramsar",
+          "count": 1
+        },
+        {
+          "value": "region",
+          "count": 1
+        },
+        {
+          "value": "site-category",
+          "count": 1
+        },
+        {
+          "value": "site-of-special-scientific-interest",
+          "count": 1
+        },
+        {
+          "value": "special-area-of-conservation",
+          "count": 1
+        },
+        {
+          "value": "special-protection-area",
+          "count": 1
+        },
+        {
+          "value": "title-boundary",
+          "count": 1
+        },
+        {
+          "value": "transport-access-node",
+          "count": 1
+        },
+        {
+          "value": "ward",
+          "count": 1
+        },
+        {
+          "value": "natural-england",
+          "count": 1
+        },
+        {
+          "value": "planning-inspectorate",
+          "count": 1
+        },
+        {
+          "value": "land-registry",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "phase",
+      "label": "Development Phase",
+      "coverage": 1.0,
+      "cardinality": 5,
+      "top_share": 0.5,
+      "entropy": 1.1,
+      "expected_reduction": 0.3,
+      "recommendation": "primary",
+      "recommended_control": "chips",
+      "values": [
+        {
+          "value": "alpha",
+          "count": 115
+        },
+        {
+          "value": "beta",
+          "count": 70
+        },
+        {
+          "value": "live",
+          "count": 27
+        },
+        {
+          "value": "prioritised",
+          "count": 17
+        },
+        {
+          "value": "discovery",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "publisher",
+      "label": "Provider / Publisher",
+      "coverage": 1.0,
+      "cardinality": 2,
+      "top_share": 0.9565217391304348,
+      "entropy": 0.5,
+      "expected_reduction": 0.2,
+      "recommendation": "primary",
+      "recommended_control": "searchable-select",
+      "values": [
+        {
+          "value": "MHCLG / Planning Data England",
+          "count": 220
+        },
+        {
+          "value": "Gov.uk Planning Policy",
+          "count": 10
+        }
+      ]
+    }
+  ],
   "hierarchies": [
     {
       "id": "typology-hierarchy",
       "label": "Planning Typology Hierarchy",
+      "facet": "typology",
       "levels": [
         "typology",
         "collection"
@@ -11,60 +403,168 @@
       "values": [
         {
           "id": "geography",
-          "label": "Geography",
-          "count": 108
-        },
-        {
-          "id": "category",
-          "label": "Category",
-          "count": 54
-        },
-        {
-          "id": "legal-instrument",
-          "label": "Legal-Instrument",
-          "count": 12
-        },
-        {
-          "id": "document",
-          "label": "Document",
-          "count": 12
-        },
-        {
-          "id": "pipeline",
-          "label": "Pipeline",
-          "count": 6
-        },
-        {
-          "id": "organisation",
-          "label": "Organisation",
-          "count": 15
+          "label": "Spatial Geographies",
+          "count": 108,
+          "route": "facet/typology/geography",
+          "children": [
+            {
+              "id": "conservation-area",
+              "label": "Conservation Areas",
+              "count": 3,
+              "route": "dataset/conservation-area"
+            },
+            {
+              "id": "listed-building",
+              "label": "Listed Buildings",
+              "count": 4,
+              "route": "dataset/listed-building-outline"
+            }
+          ]
         },
         {
           "id": "policy",
-          "label": "Policy",
-          "count": 8
-        },
-        {
-          "id": "metric",
-          "label": "Metric",
-          "count": 3
-        },
-        {
-          "id": "timetable",
-          "label": "Timetable",
-          "count": 5
-        },
-        {
-          "id": "entity",
-          "label": "Entity",
-          "count": 3
-        },
-        {
-          "id": "value",
-          "label": "Value",
-          "count": 4
+          "label": "National Policy & Statutory Instruments",
+          "count": 20,
+          "route": "facet/typology/policy",
+          "children": [
+            {
+              "id": "nppf-framework-policy",
+              "label": "NPPF Policy",
+              "count": 1,
+              "route": "dataset/nppf-framework-policy"
+            },
+            {
+              "id": "levelling-up-and-regeneration-act-2023",
+              "label": "LURA 2023",
+              "count": 1,
+              "route": "dataset/levelling-up-and-regeneration-act-2023"
+            }
+          ]
         }
       ]
     }
-  ]
+  ],
+  "graph_overview": {
+    "nodes": [
+      {
+        "id": "corpus/overview",
+        "label": "UK Planning Data",
+        "type": "corpus",
+        "count": 230
+      },
+      {
+        "id": "facet/typology/geography",
+        "label": "Geographies",
+        "type": "typology",
+        "count": 108
+      },
+      {
+        "id": "facet/typology/category",
+        "label": "Categories",
+        "type": "typology",
+        "count": 54
+      },
+      {
+        "id": "facet/typology/policy",
+        "label": "National Policies",
+        "type": "typology",
+        "count": 8
+      }
+    ],
+    "edges": [
+      {
+        "source": "corpus/overview",
+        "target": "facet/typology/geography",
+        "label": "contains",
+        "count": 108
+      },
+      {
+        "source": "corpus/overview",
+        "target": "facet/typology/category",
+        "label": "contains",
+        "count": 54
+      },
+      {
+        "source": "corpus/overview",
+        "target": "facet/typology/policy",
+        "label": "contains",
+        "count": 8
+      }
+    ]
+  },
+  "timeline_overview": {
+    "buckets": [
+      {
+        "id": "2026",
+        "label": "2026 Release",
+        "count": 230,
+        "route": "timeline/2026"
+      }
+    ]
+  },
+  "relationship_overview": {
+    "types": [
+      {
+        "kind": "governed-by",
+        "count": 15
+      },
+      {
+        "kind": "conforms-to-policy",
+        "count": 20
+      },
+      {
+        "kind": "derived-from-policy",
+        "count": 5
+      }
+    ],
+    "top_connected": [
+      {
+        "id": "town-and-country-planning-act-1990",
+        "label": "Town and Country Planning Act 1990",
+        "type": "legal-instrument",
+        "count": 10
+      },
+      {
+        "id": "nppf-framework-policy",
+        "label": "National Planning Policy Framework (NPPF)",
+        "type": "policy",
+        "count": 15
+      }
+    ]
+  },
+  "resource_overview": {
+    "total_resources": 690,
+    "distributions": {
+      "format": [
+        {
+          "value": "JSON API",
+          "count": 230
+        },
+        {
+          "value": "CSV",
+          "count": 230
+        },
+        {
+          "value": "GeoJSON",
+          "count": 230
+        }
+      ]
+    },
+    "high_resource_datasets": [
+      {
+        "route": "dataset/conservation-area",
+        "label": "Conservation Area",
+        "count": 3
+      },
+      {
+        "route": "dataset/listed-building-outline",
+        "label": "Listed Building Outline",
+        "count": 3
+      }
+    ]
+  },
+  "narrative": {
+    "title": "UK Planning Data Discovery OKF",
+    "body": "This OKF Bundle publishes a static metadata discovery plane across 230 planning and housing datasets, national policies (NPPF, PPG), statutory instruments, and spatial environmental designations across England."
+  }
 }

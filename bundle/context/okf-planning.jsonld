@@ -29,7 +29,7 @@
     },
     "nonEndorsementStatement": "okf:nonEndorsementStatement",
     "notEndorsedBySource": "okf:notEndorsedBySource",
-    "okf": "https://chris-page-gov.github.io/okg-planning/vocab/",
+    "okf": "https://chris-page-gov.github.io/okf-planning/vocab/",
     "prov": "http://www.w3.org/ns/prov#",
     "publisher": {
       "@id": "dct:publisher",
