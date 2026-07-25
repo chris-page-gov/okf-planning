@@ -392,12 +392,18 @@ def build_bundle(
         json.dump(overview_data, f, indent=2)
 
     data_manifest = {
+        "title": "UK Planning & Housing Data Manifest",
         "schema": "okf-data-manifest.v1",
+        "generated_at": "2026-07-25T08:00:00Z",
         "snapshot": SNAPSHOT_ID,
         "counts": {
+            "datasets": len(records),
             "records": len(records),
+            "resources": len(records) * 3,
             "entities": total_entities,
             "relationships": len(relationships),
+            "publishers": len(publisher_counts),
+            "sources": len(source_counts),
             "record_shards": len(record_shards),
         },
         "indexes": {
@@ -409,6 +415,10 @@ def build_bundle(
             "reconciliation": "data/reconciliation/report.json",
             "coverage": "data/coverage/ledger.json",
             "evaluation": "data/evaluation/report.json",
+        },
+        "chunks": {
+            "datasets": record_shards,
+            "records": record_shards,
         },
         "record_shards": record_shards,
     }

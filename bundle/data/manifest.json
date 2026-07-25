@@ -1,10 +1,16 @@
 {
+  "title": "UK Planning & Housing Data Manifest",
   "schema": "okf-data-manifest.v1",
+  "generated_at": "2026-07-25T08:00:00Z",
   "snapshot": "planning-2026-07-25-r1",
   "counts": {
+    "datasets": 230,
     "records": 230,
+    "resources": 690,
     "entities": 34391082,
     "relationships": 40,
+    "publishers": 2,
+    "sources": 2,
     "record_shards": 5
   },
   "indexes": {
@@ -16,6 +22,22 @@
     "reconciliation": "data/reconciliation/report.json",
     "coverage": "data/coverage/ledger.json",
     "evaluation": "data/evaluation/report.json"
+  },
+  "chunks": {
+    "datasets": [
+      "data/records/shard-0.json",
+      "data/records/shard-1.json",
+      "data/records/shard-2.json",
+      "data/records/shard-3.json",
+      "data/records/shard-4.json"
+    ],
+    "records": [
+      "data/records/shard-0.json",
+      "data/records/shard-1.json",
+      "data/records/shard-2.json",
+      "data/records/shard-3.json",
+      "data/records/shard-4.json"
+    ]
   },
   "record_shards": [
     "data/records/shard-0.json",
