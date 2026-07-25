@@ -1,12 +1,7 @@
 [
   {
-    "token": "dataset",
-    "df": 116,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "geography",
-    "df": 109,
+    "token": "data",
+    "df": 124,
     "postings": "data/search/postings-0.json"
   },
   {
@@ -15,8 +10,8 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "planning",
-    "df": 170,
+    "token": "dataset",
+    "df": 116,
     "postings": "data/search/postings-0.json"
   },
   {
@@ -25,23 +20,18 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "data",
-    "df": 124,
-    "postings": "data/search/postings-0.json"
-  },
-  {
     "token": "alpha",
     "df": 115,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "graded",
-    "df": 2,
+    "token": "planning",
+    "df": 170,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "its",
-    "df": 5,
+    "token": "geography",
+    "df": 109,
     "postings": "data/search/postings-0.json"
   },
   {
@@ -50,12 +40,7 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "land",
-    "df": 23,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "agricultural",
+    "token": "graded",
     "df": 2,
     "postings": "data/search/postings-0.json"
   },
@@ -65,8 +50,13 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "use",
-    "df": 4,
+    "token": "its",
+    "df": 5,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "agricultural",
+    "df": 2,
     "postings": "data/search/postings-0.json"
   },
   {
@@ -75,23 +65,28 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "live",
-    "df": 27,
+    "token": "land",
+    "df": 23,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "management",
-    "df": 5,
+    "token": "use",
+    "df": 4,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "national",
-    "df": 10,
+    "token": "areas",
+    "df": 20,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "pollution",
+    "token": "levels",
     "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "area",
+    "df": 38,
     "postings": "data/search/postings-0.json"
   },
   {
@@ -105,13 +100,18 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "exceeded",
-    "df": 1,
+    "token": "national",
+    "df": 10,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "areas",
-    "df": 20,
+    "token": "live",
+    "df": 27,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "management",
+    "df": 5,
     "postings": "data/search/postings-0.json"
   },
   {
@@ -120,12 +120,7 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "area",
-    "df": 38,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "levels",
+    "token": "exceeded",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
@@ -135,13 +130,13 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "since",
-    "df": 2,
+    "token": "pollution",
+    "df": 1,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "continuously",
-    "df": 1,
+    "token": "ancient",
+    "df": 3,
     "postings": "data/search/postings-0.json"
   },
   {
@@ -150,8 +145,8 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "that",
-    "df": 17,
+    "token": "been",
+    "df": 4,
     "postings": "data/search/postings-0.json"
   },
   {
@@ -170,8 +165,18 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "ancient",
-    "df": 3,
+    "token": "since",
+    "df": 2,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "that",
+    "df": 17,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "continuously",
+    "df": 1,
     "postings": "data/search/postings-0.json"
   },
   {
@@ -180,23 +185,8 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "been",
-    "df": 4,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "natural",
-    "df": 10,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "assigned",
-    "df": 3,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "beta",
-    "df": 70,
+    "token": "category",
+    "df": 56,
     "postings": "data/search/postings-0.json"
   },
   {
@@ -205,8 +195,13 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "category",
-    "df": 56,
+    "token": "natural",
+    "df": 10,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "beta",
+    "df": 70,
     "postings": "data/search/postings-0.json"
   },
   {
@@ -215,18 +210,28 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "there",
+    "token": "assigned",
     "df": 3,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "london",
+    "token": "potential",
+    "df": 2,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "greater",
     "df": 3,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "interest",
-    "df": 6,
+    "token": "new",
+    "df": 2,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "priority",
+    "df": 1,
     "postings": "data/search/postings-0.json"
   },
   {
@@ -240,23 +245,8 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "new",
-    "df": 2,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "significant",
+    "token": "london",
     "df": 3,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "greater",
-    "df": 3,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "known",
-    "df": 2,
     "postings": "data/search/postings-0.json"
   },
   {
@@ -265,12 +255,42 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "potential",
+    "token": "known",
     "df": 2,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "priority",
+    "token": "interest",
+    "df": 6,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "there",
+    "df": 3,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "significant",
+    "df": 3,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "outstanding",
+    "df": 2,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "law",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "conserve",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "beauty",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
@@ -280,33 +300,213 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "law",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
     "token": "enhance",
     "df": 2,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "beauty",
+    "token": "government",
+    "df": 15,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "this",
+    "df": 28,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "digital",
+    "df": 5,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "permission",
+    "df": 6,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "gov",
+    "df": 19,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "required",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "outstanding",
+    "token": "uk",
+    "df": 26,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "more",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "building",
+    "df": 7,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "apply",
+    "df": 3,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "info",
+    "df": 3,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "publications",
+    "df": 4,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "may",
+    "df": 6,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "specification",
+    "df": 23,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "direction",
+    "df": 5,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "when",
+    "df": 4,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "permitted",
+    "df": 7,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "group",
+    "df": 3,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "one",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "householders",
     "df": 2,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "conserve",
-    "df": 1,
+    "token": "development",
+    "df": 91,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "contains",
+    "df": 5,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "who",
+    "df": 2,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "authority",
+    "df": 23,
     "postings": "data/search/postings-0.json"
   },
   {
     "token": "authorities",
     "df": 13,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "legal",
+    "df": 14,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "guidance",
+    "df": 11,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "directions",
+    "df": 3,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "specifications",
+    "df": 4,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "technical",
+    "df": 2,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "rights",
+    "df": 7,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "local",
+    "df": 52,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "article",
+    "df": 5,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "about",
+    "df": 4,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "we",
+    "df": 15,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "each",
+    "df": 4,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "working",
+    "df": 2,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "instrument",
+    "df": 12,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "create",
+    "df": 4,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "www",
+    "df": 20,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "https",
+    "df": 27,
     "postings": "data/search/postings-0.json"
   },
   {
@@ -320,162 +520,12 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "we",
-    "df": 15,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "gov",
-    "df": 19,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "create",
-    "df": 4,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "working",
-    "df": 2,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "https",
-    "df": 27,
-    "postings": "data/search/postings-0.json"
-  },
-  {
     "token": "alter",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "article",
-    "df": 5,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "legal",
-    "df": 14,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "development",
-    "df": 91,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "building",
-    "df": 7,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "small",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "may",
-    "df": 6,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "permission",
-    "df": 6,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "digital",
-    "df": 5,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "info",
-    "df": 3,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "about",
-    "df": 4,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "directions",
-    "df": 3,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "who",
-    "df": 2,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "rights",
-    "df": 7,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "permitted",
-    "df": 7,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "publications",
-    "df": 4,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "www",
-    "df": 20,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "government",
-    "df": 15,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "guidance",
-    "df": 11,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "authority",
-    "df": 23,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "required",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "each",
-    "df": 4,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "specifications",
-    "df": 4,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "group",
-    "df": 3,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "specification",
-    "df": 23,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "contains",
-    "df": 5,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "when",
+    "token": "rules",
     "df": 4,
     "postings": "data/search/postings-0.json"
   },
@@ -485,62 +535,27 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "one",
+    "token": "small",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "instrument",
-    "df": 12,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "local",
-    "df": 52,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "apply",
-    "df": 3,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "householders",
-    "df": 2,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "rules",
+    "token": "made",
     "df": 4,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "direction",
-    "df": 5,
+    "token": "all",
+    "df": 4,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "more",
-    "df": 1,
+    "token": "site",
+    "df": 17,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "uk",
-    "df": 26,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "this",
-    "df": 28,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "technical",
-    "df": 2,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "orders",
+    "token": "protect",
     "df": 2,
     "postings": "data/search/postings-0.json"
   },
@@ -555,23 +570,13 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "all",
-    "df": 4,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "protect",
+    "token": "orders",
     "df": 2,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "made",
-    "df": 4,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "site",
-    "df": 17,
+    "token": "affecting",
+    "df": 2,
     "postings": "data/search/postings-0.json"
   },
   {
@@ -585,13 +590,8 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "affecting",
-    "df": 2,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "community",
-    "df": 2,
+    "token": "pieces",
+    "df": 1,
     "postings": "data/search/postings-0.json"
   },
   {
@@ -600,8 +600,23 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "pieces",
+    "token": "buildings",
+    "df": 8,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "wellbeing",
     "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "used",
+    "df": 10,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "community",
+    "df": 2,
     "postings": "data/search/postings-0.json"
   },
   {
@@ -615,23 +630,8 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "buildings",
-    "df": 8,
-    "postings": "data/search/postings-0.json"
-  },
-  {
     "token": "asset",
     "df": 5,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "used",
-    "df": 10,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "wellbeing",
-    "df": 1,
     "postings": "data/search/postings-0.json"
   },
   {
@@ -640,38 +640,13 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "their",
-    "df": 6,
-    "postings": "data/search/postings-0.json"
-  },
-  {
     "token": "registered",
     "df": 5,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "historic",
-    "df": 17,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "designated",
-    "df": 14,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "battlefield",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "historicengland",
-    "df": 9,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "battlefields",
-    "df": 2,
+    "token": "their",
+    "df": 6,
     "postings": "data/search/postings-0.json"
   },
   {
@@ -680,13 +655,23 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "designation",
-    "df": 5,
+    "token": "battlefield",
+    "df": 1,
     "postings": "data/search/postings-0.json"
   },
   {
     "token": "org",
     "df": 13,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "designation",
+    "df": 5,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "designated",
+    "df": 14,
     "postings": "data/search/postings-0.json"
   },
   {
@@ -700,7 +685,22 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "versatile",
+    "token": "historic",
+    "df": 17,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "historicengland",
+    "df": 9,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "battlefields",
+    "df": 2,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "best",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
@@ -710,8 +710,23 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "best",
+    "token": "versatile",
     "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "assesment",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "biodiversity",
+    "df": 3,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "net",
+    "df": 3,
     "postings": "data/search/postings-0.json"
   },
   {
@@ -725,18 +740,8 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "net",
-    "df": 3,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "biodiversity",
-    "df": 3,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "assesment",
-    "df": 1,
+    "token": "statistics",
+    "df": 6,
     "postings": "data/search/postings-0.json"
   },
   {
@@ -750,11 +755,6 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "provided",
-    "df": 7,
-    "postings": "data/search/postings-0.json"
-  },
-  {
     "token": "border",
     "df": 1,
     "postings": "data/search/postings-0.json"
@@ -765,12 +765,22 @@
     "postings": "data/search/postings-0.json"
   },
   {
+    "token": "provided",
+    "df": 7,
+    "postings": "data/search/postings-0.json"
+  },
+  {
     "token": "producing",
     "df": 9,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "statistics",
+    "token": "developed",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "brownfield",
     "df": 6,
     "postings": "data/search/postings-0.json"
   },
@@ -785,12 +795,7 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "brownfield",
-    "df": 6,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "developed",
+    "token": "combine",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
@@ -805,13 +810,23 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "boundaries",
-    "df": 12,
+    "token": "expect",
+    "df": 3,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "near",
+    "df": 1,
     "postings": "data/search/postings-0.json"
   },
   {
     "token": "web",
     "df": 2,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "boundaries",
+    "df": 12,
     "postings": "data/search/postings-0.json"
   },
   {
@@ -830,18 +845,8 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "near",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "expect",
-    "df": 3,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "combine",
-    "df": 1,
+    "token": "zone",
+    "df": 12,
     "postings": "data/search/postings-0.json"
   },
   {
@@ -850,162 +855,12 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "zone",
-    "df": 12,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "alteration",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "listed",
-    "df": 12,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "protecting",
-    "df": 4,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "period",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "lpas",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "preservation",
-    "df": 5,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "make",
-    "df": 4,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "immediately",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "way",
-    "df": 2,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "served",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "help",
-    "df": 13,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "affect",
-    "df": 2,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "can",
-    "df": 11,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "notices",
-    "df": 2,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "time",
-    "df": 2,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "must",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "were",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "list",
-    "df": 4,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "they",
-    "df": 3,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "if",
-    "df": 3,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "special",
-    "df": 8,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "character",
-    "df": 2,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "supplement",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "same",
-    "df": 2,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "bpn",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "demolition",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "publish",
-    "df": 3,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "consider",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "serve",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
     "token": "notice",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "effect",
+    "token": "supplement",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
@@ -1020,17 +875,132 @@
     "postings": "data/search/postings-0.json"
   },
   {
+    "token": "special",
+    "df": 8,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "they",
+    "df": 3,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "immediately",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "alteration",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "period",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "were",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "time",
+    "df": 2,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "if",
+    "df": 3,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "must",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "make",
+    "df": 4,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "affect",
+    "df": 2,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "danger",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "serve",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "demolition",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "protecting",
+    "df": 4,
+    "postings": "data/search/postings-0.json"
+  },
+  {
     "token": "limited",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "owner",
+    "token": "lpas",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "danger",
+    "token": "listed",
+    "df": 12,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "consider",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "can",
+    "df": 11,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "publish",
+    "df": 3,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "notices",
+    "df": 2,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "preservation",
+    "df": 5,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "served",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "help",
+    "df": 13,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "owner",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
@@ -1040,12 +1010,57 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "equal",
+    "token": "character",
+    "df": 2,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "list",
+    "df": 4,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "way",
+    "df": 2,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "effect",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
   {
+    "token": "same",
+    "df": 2,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "bpn",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "up",
+    "df": 2,
+    "postings": "data/search/postings-0.json"
+  },
+  {
     "token": "built",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "hectares",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "housing",
+    "df": 32,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "equal",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
@@ -1060,42 +1075,12 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "up",
-    "df": 2,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "hectares",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "housing",
-    "df": 32,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "combines",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "do",
-    "df": 2,
-    "postings": "data/search/postings-0.json"
-  },
-  {
     "token": "plan",
     "df": 31,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "boroughs",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "individual",
+    "token": "do",
     "df": 2,
     "postings": "data/search/postings-0.json"
   },
@@ -1105,7 +1090,7 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "implementing",
+    "token": "combines",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
@@ -1115,12 +1100,7 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "gla",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "implications",
+    "token": "individual",
     "df": 2,
     "postings": "data/search/postings-0.json"
   },
@@ -1130,7 +1110,27 @@
     "postings": "data/search/postings-0.json"
   },
   {
+    "token": "implications",
+    "df": 2,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "boroughs",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
     "token": "activities",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "gla",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "implementing",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
@@ -1160,18 +1160,8 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "name",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
     "token": "resource",
     "df": 3,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "field",
-    "df": 4,
     "postings": "data/search/postings-0.json"
   },
   {
@@ -1180,8 +1170,23 @@
     "postings": "data/search/postings-0.json"
   },
   {
+    "token": "field",
+    "df": 4,
+    "postings": "data/search/postings-0.json"
+  },
+  {
     "token": "map",
     "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "name",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "green",
+    "df": 7,
     "postings": "data/search/postings-0.json"
   },
   {
@@ -1192,11 +1197,6 @@
   {
     "token": "village",
     "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "green",
-    "df": 7,
     "postings": "data/search/postings-0.json"
   },
   {
@@ -1215,23 +1215,23 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "company",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
     "token": "organisation",
     "df": 17,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "preserve",
+    "token": "company",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "appearance",
-    "df": 1,
+    "token": "conservation",
+    "df": 7,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "architectural",
+    "df": 2,
     "postings": "data/search/postings-0.json"
   },
   {
@@ -1245,13 +1245,13 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "conservation",
-    "df": 7,
+    "token": "preserve",
+    "df": 1,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "architectural",
-    "df": 2,
+    "token": "appearance",
+    "df": 1,
     "postings": "data/search/postings-0.json"
   },
   {
@@ -1270,8 +1270,8 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "funding",
-    "df": 2,
+    "token": "contribution",
+    "df": 3,
     "postings": "data/search/postings-0.json"
   },
   {
@@ -1280,8 +1280,8 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "contribution",
-    "df": 3,
+    "token": "funding",
+    "df": 2,
     "postings": "data/search/postings-0.json"
   },
   {
@@ -1290,7 +1290,17 @@
     "postings": "data/search/postings-0.json"
   },
   {
+    "token": "control",
+    "df": 2,
+    "postings": "data/search/postings-0.json"
+  },
+  {
     "token": "accident",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "hazards",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
@@ -1300,13 +1310,8 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "control",
+    "token": "default",
     "df": 2,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "hazards",
-    "df": 1,
     "postings": "data/search/postings-0.json"
   },
   {
@@ -1320,18 +1325,13 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "default",
-    "df": 2,
+    "token": "provide",
+    "df": 12,
     "postings": "data/search/postings-0.json"
   },
   {
     "token": "empty",
     "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "provide",
-    "df": 12,
     "postings": "data/search/postings-0.json"
   },
   {
@@ -1350,13 +1350,13 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "geographical",
-    "df": 1,
+    "token": "covered",
+    "df": 7,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "covered",
-    "df": 7,
+    "token": "geographical",
+    "df": 1,
     "postings": "data/search/postings-0.json"
   },
   {
@@ -1380,27 +1380,27 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "corporation",
-    "df": 2,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "maintain",
-    "df": 10,
-    "postings": "data/search/postings-0.json"
-  },
-  {
     "token": "organisations",
     "df": 19,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "identify",
+    "token": "us",
     "df": 10,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "keep",
+    "token": "powers",
+    "df": 4,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "corporation",
+    "df": 2,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "identify",
     "df": 10,
     "postings": "data/search/postings-0.json"
   },
@@ -1410,28 +1410,18 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "powers",
-    "df": 4,
-    "postings": "data/search/postings-0.json"
-  },
-  {
     "token": "policies",
     "df": 5,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "us",
+    "token": "keep",
     "df": 10,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "measurement",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "discovery",
-    "df": 1,
+    "token": "maintain",
+    "df": 10,
     "postings": "data/search/postings-0.json"
   },
   {
@@ -1440,18 +1430,18 @@
     "postings": "data/search/postings-0.json"
   },
   {
+    "token": "discovery",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "measurement",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
     "token": "waste",
     "df": 7,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "package",
-    "df": 2,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "datasets",
-    "df": 2,
     "postings": "data/search/postings-0.json"
   },
   {
@@ -1465,7 +1455,22 @@
     "postings": "data/search/postings-0.json"
   },
   {
+    "token": "datasets",
+    "df": 2,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "package",
+    "df": 2,
+    "postings": "data/search/postings-0.json"
+  },
+  {
     "token": "covers",
+    "df": 3,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "associated",
     "df": 3,
     "postings": "data/search/postings-0.json"
   },
@@ -1475,18 +1480,8 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "associated",
-    "df": 3,
-    "postings": "data/search/postings-0.json"
-  },
-  {
     "token": "published",
     "df": 5,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "different",
-    "df": 3,
     "postings": "data/search/postings-0.json"
   },
   {
@@ -1495,8 +1490,28 @@
     "postings": "data/search/postings-0.json"
   },
   {
+    "token": "different",
+    "df": 3,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "past",
+    "df": 3,
+    "postings": "data/search/postings-0.json"
+  },
+  {
     "token": "events",
     "df": 5,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "milestones",
+    "df": 3,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "timetable",
+    "df": 7,
     "postings": "data/search/postings-0.json"
   },
   {
@@ -1510,32 +1525,17 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "timetable",
-    "df": 7,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "milestones",
-    "df": 3,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "past",
-    "df": 3,
-    "postings": "data/search/postings-0.json"
-  },
-  {
     "token": "metrics",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "educational",
+    "token": "establishment",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "establishment",
+    "token": "educational",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
@@ -1550,22 +1550,17 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "item",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
     "token": "entity",
     "df": 5,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "entities",
+    "token": "item",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "range",
+    "token": "entities",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
@@ -1580,6 +1575,11 @@
     "postings": "data/search/postings-0.json"
   },
   {
+    "token": "range",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
     "token": "expectation",
     "df": 2,
     "postings": "data/search/postings-0.json"
@@ -1590,12 +1590,7 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "running",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "defined",
+    "token": "expectations",
     "df": 2,
     "postings": "data/search/postings-0.json"
   },
@@ -1605,12 +1600,17 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "based",
+    "token": "defined",
     "df": 2,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "expectations",
+    "token": "running",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "based",
     "df": 2,
     "postings": "data/search/postings-0.json"
   },
@@ -1630,23 +1630,13 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "level",
-    "df": 4,
-    "postings": "data/search/postings-0.json"
-  },
-  {
     "token": "flood",
     "df": 5,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "sea",
-    "df": 2,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "rivers",
-    "df": 1,
+    "token": "level",
+    "df": 4,
     "postings": "data/search/postings-0.json"
   },
   {
@@ -1660,22 +1650,17 @@
     "postings": "data/search/postings-0.json"
   },
   {
+    "token": "sea",
+    "df": 2,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "rivers",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
     "token": "flooding",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "basin",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "storage",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "balancing",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
@@ -1685,37 +1670,27 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "act",
-    "df": 4,
-    "postings": "data/search/postings-0.json"
-  },
-  {
     "token": "reservoir",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "over",
+    "token": "act",
+    "df": 4,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "balancing",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "hectare",
+    "token": "storage",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "canopy",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "inventory",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "minimum",
+    "token": "basin",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
@@ -1725,13 +1700,73 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "forest",
+    "token": "inventory",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "over",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "minimum",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "hectare",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
   {
     "token": "cover",
     "df": 2,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "forest",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "canopy",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "agencies",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "5fd238716c3b",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "bodies",
+    "df": 2,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "7382",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "came",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "teams",
+    "df": 2,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "departments",
+    "df": 1,
     "postings": "data/search/postings-0.json"
   },
   {
@@ -1745,52 +1780,12 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "selection",
-    "df": 2,
-    "postings": "data/search/postings-0.json"
-  },
-  {
     "token": "8bb3",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "public",
-    "df": 9,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "bodies",
-    "df": 2,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "departments",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "agencies",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "came",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "5fd238716c3b",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "7382",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "teams",
+    "token": "selection",
     "df": 2,
     "postings": "data/search/postings-0.json"
   },
@@ -1800,18 +1795,13 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "permanently",
-    "df": 1,
+    "token": "public",
+    "df": 9,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "won",
+    "token": "submitted",
     "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "provides",
-    "df": 5,
     "postings": "data/search/postings-0.json"
   },
   {
@@ -1820,7 +1810,87 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "submitted",
+    "token": "define",
+    "df": 2,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "won",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "core",
+    "df": 2,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "march",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "reflect",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "sprawl",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "greenbelt",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "permanently",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "preparing",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "plans",
+    "df": 5,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "free",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "open",
+    "df": 3,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "grouped",
+    "df": 2,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "belt",
+    "df": 3,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "autumn",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "urban",
+    "df": 3,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "snapshot",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
@@ -1835,43 +1905,8 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "grouped",
-    "df": 2,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "belt",
-    "df": 3,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "define",
-    "df": 2,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "returns",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "autumn",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
     "token": "kept",
     "df": 2,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "sprawl",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "urban",
-    "df": 3,
     "postings": "data/search/postings-0.json"
   },
   {
@@ -1880,57 +1915,22 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "march",
+    "token": "returns",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "core",
-    "df": 2,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "free",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "reflect",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "plans",
+    "token": "provides",
     "df": 5,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "snapshot",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "greenbelt",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "open",
-    "df": 3,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "preparing",
+    "token": "surround",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
   {
     "token": "single",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "surround",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
@@ -1965,11 +1965,6 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "updated",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
     "token": "annually",
     "df": 1,
     "postings": "data/search/postings-0.json"
@@ -1980,22 +1975,12 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "englands",
+    "token": "updated",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "undeveloped",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "maritime",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "relevant",
+    "token": "coasts",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
@@ -2005,7 +1990,27 @@
     "postings": "data/search/postings-0.json"
   },
   {
+    "token": "coast",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "maritime",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
     "token": "definition",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "undeveloped",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "englands",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
@@ -2015,12 +2020,7 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "coast",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "coasts",
+    "token": "relevant",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
@@ -2035,13 +2035,13 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "non",
-    "df": 3,
+    "token": "designed",
+    "df": 1,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "designed",
-    "df": 1,
+    "token": "non",
+    "df": 3,
     "postings": "data/search/postings-0.json"
   },
   {
@@ -2051,11 +2051,6 @@
   },
   {
     "token": "quarry",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "hs2",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
@@ -2070,6 +2065,11 @@
     "postings": "data/search/postings-0.json"
   },
   {
+    "token": "hs2",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
     "token": "statement",
     "df": 1,
     "postings": "data/search/postings-0.json"
@@ -2080,22 +2080,17 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "decision",
-    "df": 3,
-    "postings": "data/search/postings-0.json"
-  },
-  {
     "token": "projects",
     "df": 6,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "produced",
+    "token": "decision",
     "df": 3,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "event",
+    "token": "produced",
     "df": 3,
     "postings": "data/search/postings-0.json"
   },
@@ -2115,13 +2110,18 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "board",
-    "df": 1,
+    "token": "event",
+    "df": 3,
     "postings": "data/search/postings-0.json"
   },
   {
     "token": "internal",
     "df": 3,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "board",
+    "df": 1,
     "postings": "data/search/postings-0.json"
   },
   {
@@ -2140,13 +2140,18 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "li",
+    "token": "identifying",
     "df": 2,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "protection",
-    "df": 6,
+    "token": "affected",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "within",
+    "df": 4,
     "postings": "data/search/postings-0.json"
   },
   {
@@ -2155,32 +2160,12 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "guiding",
+    "token": "shows",
     "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "providing",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "not",
-    "df": 3,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "identifying",
-    "df": 2,
     "postings": "data/search/postings-0.json"
   },
   {
     "token": "informing",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "ul",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
@@ -2190,13 +2175,38 @@
     "postings": "data/search/postings-0.json"
   },
   {
+    "token": "providing",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "ul",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
     "token": "point",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "shows",
+    "token": "protection",
+    "df": 6,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "not",
+    "df": 3,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "guiding",
     "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "historical",
+    "df": 2,
     "postings": "data/search/postings-0.json"
   },
   {
@@ -2210,18 +2220,8 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "affected",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "historical",
+    "token": "li",
     "df": 2,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "within",
-    "df": 4,
     "postings": "data/search/postings-0.json"
   },
   {
@@ -2240,12 +2240,7 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "allocating",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "problems",
+    "token": "service",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
@@ -2260,17 +2255,7 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "delivery",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "service",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "reporting",
+    "token": "making",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
@@ -2280,12 +2265,22 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "making",
+    "token": "allocating",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "enterprise",
+    "token": "reporting",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "delivery",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "problems",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
@@ -2295,18 +2290,13 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "space",
-    "df": 3,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "assets",
+    "token": "enterprise",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "locally",
-    "df": 2,
+    "token": "space",
+    "df": 3,
     "postings": "data/search/postings-0.json"
   },
   {
@@ -2315,12 +2305,17 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "recovery",
+    "token": "locally",
+    "df": 2,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "assets",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "strategy",
+    "token": "recovery",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
@@ -2330,8 +2325,18 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "reserve",
-    "df": 2,
+    "token": "strategy",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "lnr",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "statutory",
+    "df": 8,
     "postings": "data/search/postings-0.json"
   },
   {
@@ -2340,8 +2345,13 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "statutory",
-    "df": 8,
+    "token": "designations",
+    "df": 3,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "reserves",
+    "df": 1,
     "postings": "data/search/postings-0.json"
   },
   {
@@ -2355,18 +2365,8 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "reserves",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "lnr",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "designations",
-    "df": 3,
+    "token": "reserve",
+    "df": 2,
     "postings": "data/search/postings-0.json"
   },
   {
@@ -2375,13 +2375,13 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "numbers",
-    "df": 2,
+    "token": "number",
+    "df": 1,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "number",
-    "df": 1,
+    "token": "numbers",
+    "df": 2,
     "postings": "data/search/postings-0.json"
   },
   {
@@ -2390,13 +2390,13 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "process",
-    "df": 1,
+    "token": "under",
+    "df": 4,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "under",
-    "df": 4,
+    "token": "process",
+    "df": 1,
     "postings": "data/search/postings-0.json"
   },
   {
@@ -2410,13 +2410,13 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "resilience",
-    "df": 2,
+    "token": "forum",
+    "df": 3,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "forum",
-    "df": 3,
+    "token": "resilience",
+    "df": 2,
     "postings": "data/search/postings-0.json"
   },
   {
@@ -2470,6 +2470,11 @@
     "postings": "data/search/postings-0.json"
   },
   {
+    "token": "key",
+    "df": 2,
+    "postings": "data/search/postings-0.json"
+  },
+  {
     "token": "wildlife",
     "df": 4,
     "postings": "data/search/postings-0.json"
@@ -2481,11 +2486,6 @@
   },
   {
     "token": "places",
-    "df": 2,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "key",
     "df": 2,
     "postings": "data/search/postings-0.json"
   },
@@ -2515,13 +2515,13 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "archeology",
-    "df": 1,
+    "token": "importance",
+    "df": 2,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "importance",
-    "df": 2,
+    "token": "archeology",
+    "df": 1,
     "postings": "data/search/postings-0.json"
   },
   {
@@ -2545,18 +2545,23 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "neutrality",
+    "token": "catchment",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "catchment",
+    "token": "neutrality",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
   {
     "token": "nutrient",
     "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "redirect",
+    "df": 2,
     "postings": "data/search/postings-0.json"
   },
   {
@@ -2575,7 +2580,7 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "redirect",
+    "token": "fixed",
     "df": 2,
     "postings": "data/search/postings-0.json"
   },
@@ -2585,82 +2590,17 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "fixed",
+    "token": "ecological",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "http",
     "df": 2,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "formal",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "pitches",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "sports",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "sport",
-    "df": 3,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "also",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "sportengland",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "network",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "nearby",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
     "token": "health",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "recreation",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "tools",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "country",
-    "df": 3,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "provision",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "could",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "living",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
@@ -2670,12 +2610,77 @@
     "postings": "data/search/postings-0.json"
   },
   {
+    "token": "benefits",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "sport",
+    "df": 3,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "formal",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "need",
+    "df": 2,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "form",
+    "df": 2,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "sports",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "recreation",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "part",
+    "df": 4,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "opportunities",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "nearby",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "refer",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "assess",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "sportengland",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
     "token": "people",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "facilities",
+    "token": "include",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
@@ -2690,13 +2695,38 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "form",
-    "df": 2,
+    "token": "provision",
+    "df": 1,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "benefits",
+    "token": "pitches",
     "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "living",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "also",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "could",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "tools",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "country",
+    "df": 3,
     "postings": "data/search/postings-0.json"
   },
   {
@@ -2705,17 +2735,7 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "include",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "assess",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "refer",
+    "token": "facilities",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
@@ -2725,32 +2745,7 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "http",
-    "df": 2,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "opportunities",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "need",
-    "df": 2,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "ecological",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "part",
-    "df": 4,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "ownership",
+    "token": "network",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
@@ -2760,42 +2755,12 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "en",
-    "df": 4,
+    "token": "ownership",
+    "df": 1,
     "postings": "data/search/postings-0.json"
   },
   {
     "token": "methodology",
-    "df": 2,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "wikipedia",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "councils",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "communities",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "council",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "wiki",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "ukgeographies",
     "df": 2,
     "postings": "data/search/postings-0.json"
   },
@@ -2805,7 +2770,42 @@
     "postings": "data/search/postings-0.json"
   },
   {
+    "token": "parishes",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "ukgeographies",
+    "df": 2,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "councils",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
     "token": "parish",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "wikipedia",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "communities",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "en",
+    "df": 4,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "wiki",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
@@ -2815,7 +2815,7 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "parishes",
+    "token": "council",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
@@ -2825,22 +2825,12 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "merged",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
     "token": "garden",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "large",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "passenger",
+    "token": "merged",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
@@ -2855,27 +2845,17 @@
     "postings": "data/search/postings-0.json"
   },
   {
+    "token": "passenger",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "large",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
     "token": "categories",
-    "df": 2,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "created",
-    "df": 2,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "right",
-    "df": 2,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "was",
-    "df": 2,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "support",
     "df": 2,
     "postings": "data/search/postings-0.json"
   },
@@ -2885,8 +2865,28 @@
     "postings": "data/search/postings-0.json"
   },
   {
+    "token": "right",
+    "df": 2,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "created",
+    "df": 2,
+    "postings": "data/search/postings-0.json"
+  },
+  {
     "token": "legislation",
     "df": 6,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "support",
+    "df": 2,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "was",
+    "df": 2,
     "postings": "data/search/postings-0.json"
   },
   {
@@ -2905,11 +2905,6 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "high",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
     "token": "categorisation",
     "df": 1,
     "postings": "data/search/postings-0.json"
@@ -2920,12 +2915,12 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "condition",
-    "df": 5,
+    "token": "high",
+    "df": 1,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "conditions",
+    "token": "record",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
@@ -2935,7 +2930,12 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "record",
+    "token": "condition",
+    "df": 5,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "conditions",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
@@ -2950,16 +2950,6 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "restrict",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "primary",
-    "df": 2,
-    "postings": "data/search/postings-0.json"
-  },
-  {
     "token": "example",
     "df": 3,
     "postings": "data/search/postings-0.json"
@@ -2970,13 +2960,23 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "property",
-    "df": 3,
+    "token": "primary",
+    "df": 2,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "restrict",
+    "df": 1,
     "postings": "data/search/postings-0.json"
   },
   {
     "token": "target",
     "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "property",
+    "df": 3,
     "postings": "data/search/postings-0.json"
   },
   {
@@ -2990,12 +2990,12 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "postcode",
+    "token": "postcodes",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "postcodes",
+    "token": "postcode",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
@@ -3020,132 +3020,7 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "lying",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "remains",
-    "df": 2,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "nppf",
-    "df": 4,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "afforded",
-    "df": 2,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "around",
-    "df": 2,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "ukpga",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "culture",
-    "df": 2,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "territorial",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "department",
-    "df": 3,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "considered",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "state",
-    "df": 2,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "highly",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "so",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "1979",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "scheduled",
-    "df": 4,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "secretary",
-    "df": 2,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "losses",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "offered",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "contents",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "1986",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "monuments",
-    "df": 4,
-    "postings": "data/search/postings-0.json"
-  },
-  {
     "token": "wrecks",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "will",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "allows",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "designate",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "waters",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
@@ -3155,17 +3030,17 @@
     "postings": "data/search/postings-0.json"
   },
   {
+    "token": "allows",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "considered",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
     "token": "1973",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "seabed",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "then",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
@@ -3175,8 +3050,13 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "wreck",
-    "df": 2,
+    "token": "nppf",
+    "df": 4,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "designate",
+    "df": 1,
     "postings": "data/search/postings-0.json"
   },
   {
@@ -3185,13 +3065,38 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "records",
+    "token": "wreck",
+    "df": 2,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "highly",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "35",
+    "token": "offered",
     "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "scheduled",
+    "df": 4,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "contents",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "territorial",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "remains",
+    "df": 2,
     "postings": "data/search/postings-0.json"
   },
   {
@@ -3200,7 +3105,7 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "military",
+    "token": "around",
     "df": 2,
     "postings": "data/search/postings-0.json"
   },
@@ -3210,7 +3115,102 @@
     "postings": "data/search/postings-0.json"
   },
   {
+    "token": "military",
+    "df": 2,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "waters",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "secretary",
+    "df": 2,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "1986",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "seabed",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "35",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "losses",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
     "token": "documented",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "so",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "records",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "lying",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "1979",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "ukpga",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "afforded",
+    "df": 2,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "state",
+    "df": 2,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "monuments",
+    "df": 4,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "then",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "culture",
+    "df": 2,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "department",
+    "df": 3,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "will",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
@@ -3220,27 +3220,7 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "internationally",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "decide",
-    "df": 2,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "unesco",
-    "df": 3,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "international",
-    "df": 2,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "managed",
+    "token": "wetland",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
@@ -3250,12 +3230,27 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "wetland",
+    "token": "international",
+    "df": 2,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "decide",
+    "df": 2,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "managed",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "realm",
+    "token": "unesco",
+    "df": 3,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "internationally",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
@@ -3265,12 +3260,22 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "regions",
+    "token": "realm",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
   {
     "token": "region",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "regions",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "developing",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
@@ -3285,22 +3290,17 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "developing",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "word",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
     "token": "requirement",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
   {
     "token": "indicate",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "word",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
@@ -3325,47 +3325,12 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "maintained",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "deserted",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "industrial",
-    "df": 2,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "burial",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
     "token": "mounds",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "monument",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
     "token": "roman",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "earthworks",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "bridges",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
@@ -3380,7 +3345,37 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "self",
+    "token": "maintained",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "industrial",
+    "df": 2,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "earthworks",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "deserted",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "bridges",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "burial",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "monument",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
@@ -3395,17 +3390,17 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "nationally",
-    "df": 2,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "sssis",
+    "token": "self",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "sssi",
+    "token": "geology",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "nationally",
     "df": 2,
     "postings": "data/search/postings-0.json"
   },
@@ -3415,17 +3410,12 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "geology",
-    "df": 1,
+    "token": "sssi",
+    "df": 2,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "jncc",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "specific",
+    "token": "sssis",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
@@ -3435,12 +3425,7 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "food",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "habitats",
+    "token": "jncc",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
@@ -3450,7 +3435,12 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "sacs",
+    "token": "habitats",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "food",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
@@ -3460,7 +3450,37 @@
     "postings": "data/search/postings-0.json"
   },
   {
+    "token": "specific",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
     "token": "species",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "sacs",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "opendata",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "birds",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "naturalengland",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "maps",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
@@ -3471,26 +3491,6 @@
   },
   {
     "token": "arcgis",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "birds",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "maps",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "opendata",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "naturalengland",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
@@ -3510,6 +3510,36 @@
     "postings": "data/search/postings-0.json"
   },
   {
+    "token": "run",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "collection",
+    "df": 2,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "checks",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "logs",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "tasks",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "amalgamation",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
     "token": "task",
     "df": 1,
     "postings": "data/search/postings-0.json"
@@ -3520,67 +3550,12 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "collection",
-    "df": 2,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "tasks",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "logs",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "run",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "checks",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "amalgamation",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
     "token": "various",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "indicative",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
     "token": "polygons",
-    "df": 2,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "otherwise",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "show",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "position",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "index",
     "df": 2,
     "postings": "data/search/postings-0.json"
   },
@@ -3595,6 +3570,26 @@
     "postings": "data/search/postings-0.json"
   },
   {
+    "token": "position",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "show",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "otherwise",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "index",
+    "df": 2,
+    "postings": "data/search/postings-0.json"
+  },
+  {
     "token": "these",
     "df": 2,
     "postings": "data/search/postings-0.json"
@@ -3605,12 +3600,7 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "you",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "access",
+    "token": "indicative",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
@@ -3620,17 +3610,27 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "off",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "get",
+    "token": "you",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
   {
     "token": "points",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "off",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "access",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "get",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
@@ -3650,7 +3650,37 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "check",
+    "token": "helps",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "amenity",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "important",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "ensure",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "unauthorised",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "proposals",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "trees",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
@@ -3660,7 +3690,22 @@
     "postings": "data/search/postings-0.json"
   },
   {
+    "token": "preventing",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "check",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
     "token": "remain",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "damage",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
@@ -3671,51 +3716,6 @@
   },
   {
     "token": "members",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "unauthorised",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "ensure",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "proposals",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "amenity",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "preventing",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "helps",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "important",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "trees",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "damage",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
@@ -3735,11 +3735,6 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "voting",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
     "token": "ward",
     "df": 1,
     "postings": "data/search/postings-0.json"
@@ -3750,7 +3745,7 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "municipal",
+    "token": "voting",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
@@ -3760,197 +3755,12 @@
     "postings": "data/search/postings-0.json"
   },
   {
+    "token": "municipal",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
     "token": "wildbelt",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "images",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "definitive",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "accordingly",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "exceptional",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "no",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "cultural",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "brings",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "loss",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "footnote61",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "humanity",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "whole",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "significance",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "but",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "given",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "books",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "today",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "having",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "controls",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "hold",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "weight",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "16",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "enhancing",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "world",
-    "df": 2,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "aspects",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "harm",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "additional",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "total",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "universal",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "well",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "substantial",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "system",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "defines",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "194",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "framework",
-    "df": 2,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "para",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "convention",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "administered",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "wholly",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
@@ -3960,12 +3770,127 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "etc",
+    "token": "well",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "conserving",
+    "token": "weight",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "no",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "substantial",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "brings",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "accordingly",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "given",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "system",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "hold",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "framework",
+    "df": 2,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "aspects",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "definitive",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "total",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "wholly",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "images",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "whole",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "194",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "humanity",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "having",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "harm",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "cultural",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "16",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "convention",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "today",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "defines",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
@@ -3975,7 +3900,77 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "whc",
+    "token": "additional",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "conserving",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "administered",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "books",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "world",
+    "df": 2,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "but",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "etc",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "significance",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "para",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "universal",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "footnote61",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "controls",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "enhancing",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "loss",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "exceptional",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
@@ -3985,32 +3980,12 @@
     "postings": "data/search/postings-0.json"
   },
   {
+    "token": "whc",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
     "token": "series",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "sets",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "codes",
-    "df": 2,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "expected",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "targets",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "applied",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
@@ -4025,32 +4000,37 @@
     "postings": "data/search/postings-0.json"
   },
   {
+    "token": "targets",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "codes",
+    "df": 2,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "expected",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "sets",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "applied",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "viability",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
     "token": "shlaa",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "practice",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "ppg",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "registers",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "accompanying",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "eia",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
@@ -4060,17 +4040,12 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "cil",
+    "token": "practice",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "agreements",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "viability",
+    "token": "eia",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
@@ -4085,8 +4060,63 @@
     "postings": "data/search/postings-0.json"
   },
   {
+    "token": "cil",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "registers",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
     "token": "106",
     "df": 2,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "agreements",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "ppg",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "accompanying",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "wales",
+    "df": 2,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "town",
+    "df": 2,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "1990",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "purchase",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "regulating",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "defining",
+    "df": 1,
     "postings": "data/search/postings-0.json"
   },
   {
@@ -4105,32 +4135,12 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "wales",
+    "token": "reports",
     "df": 2,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "regulating",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "town",
-    "df": 2,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "purchase",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "1990",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "defining",
+    "token": "timetables",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
@@ -4140,47 +4150,7 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "timetables",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "establishing",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "ndmps",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
     "token": "mandatory",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "levelling",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "2023",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "reports",
-    "df": 2,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "outcome",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "environmental",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
@@ -4190,7 +4160,52 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "categorising",
+    "token": "outcome",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "establishing",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "2023",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "environmental",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "ndmps",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "levelling",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "hmos",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "1987",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "amended",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "dwellinghouses",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
@@ -4205,22 +4220,7 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "amended",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "c4",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "1987",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "dwellinghouses",
+    "token": "c3",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
@@ -4230,7 +4230,7 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "sui",
+    "token": "generis",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
@@ -4240,22 +4240,17 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "generis",
+    "token": "sui",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "hmos",
+    "token": "c4",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "c3",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "database",
+    "token": "categorising",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
@@ -4270,22 +4265,7 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "agency",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "test",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "spatial",
-    "df": 3,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "exception",
+    "token": "database",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
@@ -4295,12 +4275,37 @@
     "postings": "data/search/postings-0.json"
   },
   {
+    "token": "spatial",
+    "df": 3,
+    "postings": "data/search/postings-0.json"
+  },
+  {
     "token": "zones",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
   {
+    "token": "agency",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "exception",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "test",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
     "token": "bng",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "spa",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
@@ -4315,32 +4320,7 @@
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "spa",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
     "token": "nsip",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "inspectorate",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "handled",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "pins",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "appeals",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
@@ -4350,37 +4330,27 @@
     "postings": "data/search/postings-0.json"
   },
   {
+    "token": "handled",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
     "token": "nsips",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "inspire",
+    "token": "appeals",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "corresponding",
+    "token": "inspectorate",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
   {
-    "token": "cadastral",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "hm",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "directive",
-    "df": 1,
-    "postings": "data/search/postings-0.json"
-  },
-  {
-    "token": "eu",
+    "token": "pins",
     "df": 1,
     "postings": "data/search/postings-0.json"
   },
@@ -4390,7 +4360,37 @@
     "postings": "data/search/postings-0.json"
   },
   {
+    "token": "eu",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "inspire",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
     "token": "titles",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "directive",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "cadastral",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "corresponding",
+    "df": 1,
+    "postings": "data/search/postings-0.json"
+  },
+  {
+    "token": "hm",
     "df": 1,
     "postings": "data/search/postings-0.json"
   }
