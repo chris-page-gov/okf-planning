@@ -1,8 +1,38 @@
 {
-  "schema": "okf-search-manifest.v1",
-  "total_entries": 230,
-  "hash_buckets": 16,
-  "shards": [
-    "data/search/shard-0.json"
-  ]
+  "schema": "okf-static-search.v1",
+  "snapshot": "planning-2026-07-25-r1",
+  "snapshot_id": "planning-2026-07-25-r1",
+  "token_min_length": 2,
+  "prefix_min_length": 3,
+  "lexicon_shard_length": 2,
+  "result_limit": 200,
+  "result_doc_chunk_size": 1000,
+  "counts": {
+    "documents": 230,
+    "tokens": 879,
+    "postings": 3438,
+    "max_postings_per_token": 5000
+  },
+  "entrypoints": {
+    "result_docs": [
+      "data/search/docs-0.json"
+    ],
+    "doc_map": "data/search/doc-map.json",
+    "lexicon": {
+      "_": "data/search/lexicon/default.json"
+    },
+    "postings": [
+      "data/search/postings-0.json"
+    ],
+    "prefixes": {
+      "_": "data/search/prefixes/default.json"
+    },
+    "filter_postings": {
+      "typology": "data/search/filters/typology.json",
+      "collection": "data/search/filters/collection.json",
+      "phase": "data/search/filters/phase.json",
+      "publisher": "data/search/filters/publisher.json",
+      "licence": "data/search/filters/licence.json"
+    }
+  }
 }

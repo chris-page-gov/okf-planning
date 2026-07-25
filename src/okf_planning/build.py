@@ -4,6 +4,7 @@ import hashlib
 import json
 import logging
 import os
+import re
 from typing import Any
 
 from okf_planning.model import (
@@ -193,6 +194,149 @@ def build_okf_planning_records(raw_datasets: list[dict[str, Any]], base_url: str
     return records, relationships
 
 
+def build_okf_static_search(records: list[OKFPlanningRecord], search_dir: str, snapshot_id: str) -> None:
+    """Generate fully conformant okf-static-search.v1 search index & shards for OKF Explorer."""
+    lexicon_dir = os.path.join(search_dir, "lexicon")
+    prefixes_dir = os.path.join(search_dir, "prefixes")
+    filters_dir = os.path.join(search_dir, "filters")
+    os.makedirs(lexicon_dir, exist_ok=True)
+    os.makedirs(prefixes_dir, exist_ok=True)
+    os.makedirs(filters_dir, exist_ok=True)
+
+    result_docs = []
+    doc_map = {}
+    postings_map: dict[str, list[list[int]]] = {}
+    token_df: dict[str, int] = {}
+    prefixes_map: dict[str, list[dict[str, Any]]] = {}
+    filter_postings: dict[str, dict[str, list[int]]] = {
+        "typology": {},
+        "collection": {},
+        "phase": {},
+        "publisher": {},
+        "licence": {},
+    }
+
+    stop_words = {"a", "an", "and", "are", "as", "at", "be", "by", "for", "from", "in", "into", "is", "it", "of", "on", "or", "the", "to", "with"}
+
+    for ordinal, r in enumerate(records):
+        doc_entry = {
+            "ordinal": ordinal,
+            "name": r.id,
+            "title": r.title,
+            "publisher": r.publisher_name,
+            "publisher_title": r.publisher_name,
+            "resource_count": len(r.resources),
+            "route": r.route,
+            "summary": r.description[:200],
+            "typology": r.typology,
+            "collection": r.collection,
+            "phase": r.phase,
+            "open": r.phase,
+        }
+        result_docs.append(doc_entry)
+        doc_map[str(ordinal)] = [r.route, r.title, 1.0]
+
+        for key, val in [
+            ("typology", r.typology),
+            ("collection", r.collection),
+            ("phase", r.phase),
+            ("publisher", r.publisher_name),
+            ("licence", r.licence),
+        ]:
+            if val:
+                filter_postings[key].setdefault(val, []).append(ordinal)
+
+        title_tokens = set(re.findall(r"[a-z0-9]+", r.title.lower()))
+        desc_tokens = set(re.findall(r"[a-z0-9]+", r.description.lower()))
+        tag_tokens = set(re.findall(r"[a-z0-9]+", " ".join(r.tags).lower()))
+
+        all_tokens = title_tokens | desc_tokens | tag_tokens
+        for t in all_tokens:
+            if len(t) < 2 or t in stop_words:
+                continue
+            weight = 1
+            mask = 0
+            if t in title_tokens:
+                weight += 4
+                mask |= 1
+            if t in tag_tokens:
+                weight += 2
+                mask |= 2
+
+            postings_map.setdefault(t, []).append([ordinal, weight, mask])
+
+    for t, ords in postings_map.items():
+        token_df[t] = len(ords)
+        if len(t) >= 3:
+            prefix = t[:3]
+            prefixes_map.setdefault(prefix, []).append({
+                "token": t,
+                "label": t.title(),
+                "query": t,
+                "df": len(ords),
+            })
+
+    # Write docs-0.json
+    with open(os.path.join(search_dir, "docs-0.json"), "w", encoding="utf-8") as f:
+        json.dump(result_docs, f, indent=2)
+
+    # Write doc-map.json
+    with open(os.path.join(search_dir, "doc-map.json"), "w", encoding="utf-8") as f:
+        json.dump(doc_map, f, indent=2)
+
+    # Write postings-0.json
+    with open(os.path.join(search_dir, "postings-0.json"), "w", encoding="utf-8") as f:
+        json.dump({"tokens": postings_map}, f, indent=2)
+
+    # Write lexicon default shard
+    lexicon_entries = [
+        {"token": t, "df": df, "postings": "data/search/postings-0.json"}
+        for t, df in token_df.items()
+    ]
+    with open(os.path.join(lexicon_dir, "default.json"), "w", encoding="utf-8") as f:
+        json.dump(lexicon_entries, f, indent=2)
+
+    # Write prefixes default shard
+    with open(os.path.join(prefixes_dir, "default.json"), "w", encoding="utf-8") as f:
+        json.dump(prefixes_map, f, indent=2)
+
+    # Write filter posting shards
+    filter_entrypoints = {}
+    for key, val_map in filter_postings.items():
+        filter_file = f"{key}.json"
+        with open(os.path.join(filters_dir, filter_file), "w", encoding="utf-8") as f:
+            json.dump({"values": val_map}, f, indent=2)
+        filter_entrypoints[key] = f"data/search/filters/{filter_file}"
+
+    # Build conformant search manifest (okf-static-search.v1)
+    search_manifest = {
+        "schema": "okf-static-search.v1",
+        "snapshot": snapshot_id,
+        "snapshot_id": snapshot_id,
+        "token_min_length": 2,
+        "prefix_min_length": 3,
+        "lexicon_shard_length": 2,
+        "result_limit": 200,
+        "result_doc_chunk_size": 1000,
+        "counts": {
+            "documents": len(records),
+            "tokens": len(token_df),
+            "postings": sum(len(p) for p in postings_map.values()),
+            "max_postings_per_token": 5000,
+        },
+        "entrypoints": {
+            "result_docs": ["data/search/docs-0.json"],
+            "doc_map": "data/search/doc-map.json",
+            "lexicon": {"_": "data/search/lexicon/default.json"},
+            "postings": ["data/search/postings-0.json"],
+            "prefixes": {"_": "data/search/prefixes/default.json"},
+            "filter_postings": filter_entrypoints,
+        },
+    }
+    with open(os.path.join(search_dir, "manifest.json"), "w", encoding="utf-8") as f:
+        json.dump(search_manifest, f, indent=2)
+
+
 def build_bundle(
     output_dir: str,
     base_url: str = DEFAULT_BASE_URL,
@@ -294,7 +438,7 @@ def build_bundle(
     with open(jsonld_path, "w", encoding="utf-8") as f:
         json.dump(yaml_ld_graph, f, indent=2)
 
-    # 4. Chunked Record Shards & Search Shards
+    # 4. Chunked Record Shards & Search Index Generation
     shard_size = 50
     record_shards: list[str] = []
     explorer_records = [r.to_explorer_dict(base_url) for r in records]
@@ -307,37 +451,8 @@ def build_bundle(
             json.dump({"records": chunk}, f, indent=2)
         record_shards.append(f"data/records/{shard_filename}")
 
-    # Search index & manifest
-    search_entries = []
-    for r in records:
-        h = fnv1a_32(r.id)
-        search_entries.append(
-            {
-                "id": r.id,
-                "route": r.route,
-                "title": r.title,
-                "summary": r.description[:150],
-                "typology": r.typology,
-                "collection": r.collection,
-                "phase": r.phase,
-                "publisher": r.publisher_name,
-                "tags": r.tags,
-                "hash_bucket": h % 16,
-            }
-        )
-
-    search_shard_path = os.path.join(search_dir, "shard-0.json")
-    with open(search_shard_path, "w", encoding="utf-8") as f:
-        json.dump({"search_entries": search_entries}, f, indent=2)
-
-    search_manifest = {
-        "schema": "okf-search-manifest.v1",
-        "total_entries": len(search_entries),
-        "hash_buckets": 16,
-        "shards": ["data/search/shard-0.json"],
-    }
-    with open(os.path.join(search_dir, "manifest.json"), "w", encoding="utf-8") as f:
-        json.dump(search_manifest, f, indent=2)
+    # Build okf-static-search.v1 search index
+    build_okf_static_search(records, search_dir, SNAPSHOT_ID)
 
     # 5. Data Manifest & Overview Calculations
     total_entities = sum(r.entity_count for r in records)
@@ -375,6 +490,7 @@ def build_bundle(
         "snapshot": SNAPSHOT_ID,
         "snapshotId": SNAPSHOT_ID,
         "counts": {
+            "datasets": len(records),
             "records": len(records),
             "resources": len(records) * 3,
             "relationships": len(relationships),

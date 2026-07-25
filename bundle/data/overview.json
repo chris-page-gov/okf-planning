@@ -5,6 +5,7 @@
   "snapshot": "planning-2026-07-25-r1",
   "snapshotId": "planning-2026-07-25-r1",
   "counts": {
+    "datasets": 230,
     "records": 230,
     "resources": 690,
     "relationships": 40,

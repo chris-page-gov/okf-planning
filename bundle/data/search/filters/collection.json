@@ -1,0 +1,354 @@
+{
+  "values": {
+    "planning-data": [
+      0,
+      9,
+      11,
+      13,
+      14,
+      18,
+      21,
+      24,
+      25,
+      26,
+      28,
+      32,
+      35,
+      36,
+      37,
+      51,
+      52,
+      53,
+      54,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      80,
+      84,
+      85,
+      86,
+      89,
+      90,
+      91,
+      95,
+      98,
+      100,
+      101,
+      102,
+      110,
+      111,
+      113,
+      117,
+      118,
+      119,
+      120,
+      123,
+      124,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      140,
+      141,
+      142,
+      144,
+      146,
+      147,
+      148,
+      156,
+      157,
+      160,
+      162,
+      163,
+      164,
+      167,
+      168,
+      169,
+      170,
+      171,
+      172,
+      176,
+      177,
+      178,
+      179,
+      180,
+      181,
+      184,
+      186,
+      189,
+      190,
+      191,
+      192,
+      193,
+      195,
+      200,
+      201,
+      203,
+      206,
+      211,
+      216,
+      217
+    ],
+    "agricultural-land-classification": [
+      1
+    ],
+    "air-quality-management-area": [
+      2
+    ],
+    "ancient-woodland": [
+      3,
+      4
+    ],
+    "archaeological-priority-area": [
+      5
+    ],
+    "area-of-outstanding-natural-beauty": [
+      6
+    ],
+    "article-4-direction": [
+      7,
+      8
+    ],
+    "asset-of-community-value": [
+      10
+    ],
+    "historic-england": [
+      12,
+      19,
+      23,
+      87,
+      151,
+      152,
+      182,
+      194,
+      218,
+      219,
+      225
+    ],
+    "border": [
+      15
+    ],
+    "brownfield-land": [
+      16
+    ],
+    "brownfield-site": [
+      17
+    ],
+    "built-up-area": [
+      20
+    ],
+    "central-activities-zone": [
+      22
+    ],
+    "community-infrastructure-levy-schedule": [
+      27
+    ],
+    "conservation-area": [
+      29,
+      30,
+      31
+    ],
+    "developer-contributions": [
+      33,
+      34,
+      45,
+      46,
+      47,
+      48
+    ],
+    "design-code": [
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "organisation": [
+      49,
+      81,
+      107,
+      109,
+      122,
+      125,
+      138,
+      143,
+      153,
+      183,
+      188,
+      213
+    ],
+    "development-corporation-boundary": [
+      50
+    ],
+    "local-plan": [
+      55,
+      56,
+      115,
+      116,
+      134,
+      135,
+      158,
+      175,
+      202,
+      214,
+      215
+    ],
+    "document": [
+      67
+    ],
+    "educational-establishment": [
+      68
+    ],
+    "flood-risk-zone": [
+      76,
+      77,
+      78,
+      226
+    ],
+    "flood-storage-area": [
+      79
+    ],
+    "green-belt": [
+      82,
+      83
+    ],
+    "heritage-coast": [
+      88
+    ],
+    "infrastructure-funding-statement": [
+      92
+    ],
+    "infrastructure-project": [
+      93,
+      94,
+      96,
+      97,
+      99
+    ],
+    "listed-building": [
+      103,
+      104,
+      105,
+      112
+    ],
+    "local-area-requirements": [
+      106
+    ],
+    "local-authority-district": [
+      108
+    ],
+    "local-nature-reserve": [
+      114
+    ],
+    "local-planning-authority": [
+      121
+    ],
+    "local-resilience-forum-boundary": [
+      126
+    ],
+    "national-nature-reserve": [
+      136
+    ],
+    "national-park": [
+      137
+    ],
+    "nature-improvement-area": [
+      139
+    ],
+    "nutrient-neutrality": [
+      145
+    ],
+    "ownership-status": [
+      149
+    ],
+    "parish": [
+      150
+    ],
+    "legislation": [
+      154,
+      155,
+      222,
+      223,
+      224
+    ],
+    "planning-application": [
+      159,
+      165
+    ],
+    "planning-condition": [
+      161,
+      166
+    ],
+    "planning-permission-status": [
+      173
+    ],
+    "planning-permission-type": [
+      174
+    ],
+    "ramsar": [
+      185
+    ],
+    "region": [
+      187
+    ],
+    "site-category": [
+      196
+    ],
+    "site-of-special-scientific-interest": [
+      197
+    ],
+    "special-area-of-conservation": [
+      198
+    ],
+    "special-protection-area": [
+      199
+    ],
+    "title-boundary": [
+      204
+    ],
+    "transport-access-node": [
+      205
+    ],
+    "tree-preservation-order": [
+      207,
+      208,
+      209,
+      210
+    ],
+    "ward": [
+      212
+    ],
+    "planning-policy": [
+      220,
+      221
+    ],
+    "natural-england": [
+      227
+    ],
+    "planning-inspectorate": [
+      228
+    ],
+    "land-registry": [
+      229
+    ]
+  }
+}
