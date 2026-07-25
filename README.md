@@ -1,75 +1,98 @@
-# Open Knowledge Format (OKF) Bundle for UK Planning & Housing Data in England
+# OKF Planning
 
-`okf-planning` is a metadata-only discovery layer for public planning and housing data in England, exposed through the Ministry of Housing, Communities & Local Government (**MHCLG**) [Planning and housing data in England Beta API](https://www.planning.data.gov.uk/docs) and augmented with national planning policies, statutory instruments, and spatial environmental designations.
+`okf-planning` is an independent, metadata-only discovery bundle for public
+planning and housing information in England. Its frozen source plane combines
+the [Planning Data England catalogue](https://www.planning.data.gov.uk/) with
+ten explicitly curated policy, legislation, guidance, heritage and environment
+records.
 
-Built on **Open Knowledge Format (OKF) Standard 0.2**, this bundle extends 0.1 by introducing canonical **YAML-LD** (`okf-bundle.yamlld`), DCAT 3 / SKOS / PROV-O semantic graphs, and a GitHub Pages federation model.
+The generated [`bundle/`](bundle/) is conformant with
+[Open Knowledge Format v0.2](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/3fcbb9f828c2f23d109c855ee403c3a4c81f3a96/okf/SPEC.md):
+the normative bundle is a hierarchy of Markdown concepts with YAML
+frontmatter. JSON, YAML-LD, DCAT 3, PROV-O, SKOS, static search, federation,
+integrity and OKF Explorer files are additive project extensions. They are not
+part of the OKF core specification and do not replace the Markdown layer.
 
----
+The bundle is a draft, unverified independent publication. It does not imply
+endorsement by MHCLG or any source publisher.
 
-## Canonical Entry Points (v0.2.0)
+## Entry points
 
-| Resource | Link |
-| --- | --- |
-| **Human Discovery UI** | [index.html](file:///Users/crpage/repos/okg-planning/bundle/index.html) |
-| **Open in OKF Explorer** | [OKF Explorer Direct Link](https://chris-page-gov.github.io/okf-explorer/?bundle=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-planning%2Fokf-explorer.json) |
-| **OKF Explorer Runtime Descriptor** | [okf-explorer.json](file:///Users/crpage/repos/okg-planning/bundle/okf-explorer.json) |
-| **Canonical YAML-LD Bundle (0.2)** | [okf-bundle.yamlld](file:///Users/crpage/repos/okg-planning/bundle/okf-bundle.yamlld) |
-| **Expanded JSON-LD Bundle** | [okf-bundle.jsonld](file:///Users/crpage/repos/okg-planning/bundle/okf-bundle.jsonld) |
-| **Pinned Local Context** | [okf-planning.jsonld](file:///Users/crpage/repos/okg-planning/bundle/context/okf-planning.jsonld) |
-| **Data & Shard Manifest** | [manifest.json](file:///Users/crpage/repos/okg-planning/bundle/data/manifest.json) |
-| **Overview Index** | [overview.json](file:///Users/crpage/repos/okg-planning/bundle/data/overview.json) |
-| **Search Manifest** | [manifest.json](file:///Users/crpage/repos/okg-planning/bundle/data/search/manifest.json) |
-| **Standards Evaluation** | [evaluation.json](file:///Users/crpage/repos/okg-planning/bundle/data/standards/evaluation.json) |
-| **Coverage Ledger** | [ledger.json](file:///Users/crpage/repos/okg-planning/bundle/data/coverage/ledger.json) |
-| **Cross-Source Reconciliation** | [report.json](file:///Users/crpage/repos/okg-planning/bundle/data/reconciliation/report.json) |
-| **Governed Release Metadata** | [release.json](file:///Users/crpage/repos/okg-planning/bundle/data/governance/release.json) |
-| **MCP Binding Index** | [mcp-bindings.json](file:///Users/crpage/repos/okg-planning/bundle/data/planning/mcp-bindings.json) |
-| **Spatial Index** | [spatial-index.json](file:///Users/crpage/repos/okg-planning/bundle/data/planning/spatial-index.json) |
-| **SHA-256 Checksums** | [checksums.json](file:///Users/crpage/repos/okg-planning/bundle/checksums.json) |
+| Purpose | Repository file | Public URL |
+| --- | --- | --- |
+| Normative OKF root | [`bundle/index.md`](bundle/index.md) | [`index.md`](https://chris-page-gov.github.io/okf-planning/index.md) |
+| Human discovery page | [`bundle/index.html`](bundle/index.html) | [OKF Planning](https://chris-page-gov.github.io/okf-planning/) |
+| Open in OKF Explorer | — | [Explorer link](https://chris-page-gov.github.io/okf-explorer/?bundle=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-planning%2Fokf-explorer.json) |
+| Explorer descriptor | [`bundle/okf-explorer.json`](bundle/okf-explorer.json) | [`okf-explorer.json`](https://chris-page-gov.github.io/okf-planning/okf-explorer.json) |
+| Explorer data manifest | [`bundle/data/manifest.json`](bundle/data/manifest.json) | [`data/manifest.json`](https://chris-page-gov.github.io/okf-planning/data/manifest.json) |
+| Semantic YAML-LD projection | [`bundle/okf-bundle.yamlld`](bundle/okf-bundle.yamlld) | [`okf-bundle.yamlld`](https://chris-page-gov.github.io/okf-planning/okf-bundle.yamlld) |
+| JSON-LD projection | [`bundle/okf-bundle.jsonld`](bundle/okf-bundle.jsonld) | [`okf-bundle.jsonld`](https://chris-page-gov.github.io/okf-planning/okf-bundle.jsonld) |
+| Integrity catalogue | [`bundle/checksums.json`](bundle/checksums.json) | [`checksums.json`](https://chris-page-gov.github.io/okf-planning/checksums.json) |
 
----
+## Snapshot and trust
 
-## Data Scope & Policy Augmentations
+The checked-in Planning Data source files are a governed snapshot, not a live
+API mirror. The release records their SHA-256 digests and the project-declared
+snapshot timestamp in
+[`bundle/data/governance/release.json`](bundle/data/governance/release.json).
+Each generated concept has:
 
-The bundle spans **230 metadata records** and over **5.3 million entities** across England:
+- `generated.by` and `generated.at`;
+- a source-specific `sources` entry;
+- `status: draft`;
+- a project-declared quarterly `stale_after` review boundary, which describes
+  this independent snapshot rather than the freshness of an upstream service;
+- no `verified` field, so its derived OKF trust tier is **unverified**.
 
-1. **MHCLG Planning Data API (220 Datasets)**:
-   - 104 Spatial Geographies (Conservation Areas, Listed Building Outlines, Tree Preservation Orders, Article 4 Directions, Green Belt, Brownfield Land).
-   - 54 Planning Categories & 15 Public Organisations.
-   - 11 Document Collections & 5 Statutory Local Plan Timetables.
-2. **National Planning Policy Framework (NPPF)**:
-   - Housing Delivery Test, Sustainable Development (Para 11), Green Belt Protection, Heritage Assets, Design & Beauty, Biodiversity Net Gain (BNG).
-3. **Planning Practice Guidance (PPG)**:
-   - Operational guidance across Use Classes (Class E, C3, C4, B2, B8), Permitted Development Rights (PDR), Section 106 agreements, Community Infrastructure Levy (CIL), Viability, EIA, and SHLAA.
-4. **Statutory Legislation**:
-   - Town and Country Planning Act 1990, Levelling-up and Regeneration Act 2023 (LURA), Town and Country Planning (Use Classes) Order 1987/2020, GPDO 2015.
-5. **Cross-Agency Environmental & Heritage Augmentations**:
-   - Historic England (National Heritage List for England - NHLE).
-   - Environment Agency (Flood Risk Zones 2 & 3).
-   - Natural England (SSSIs, Ancient Woodland, BNG Register).
-   - Ordnance Survey (OS Open Data / UPRN / USRN).
-   - HM Land Registry (INSPIRE Polygons).
-   - Planning Inspectorate (PINS Section 78 Appeals & NSIPs).
+Source landing pages may change after the snapshot. The bundle carries them for
+discovery and does not manufacture per-record JSON, CSV or GeoJSON endpoints.
 
----
+The current snapshot contains 230 records, 240 declared source pages, 8 source
+publishers and 40 rule-derived relationships. Entity counts are carried from
+the frozen catalogue or curated entries, have not been independently validated,
+and must not be read as a bundle completeness score.
 
-## Build & Validation CLI
+## Explorer projection
 
-Build the static bundle, compute SHA-256 checksums, and execute unit tests:
+The Explorer manifest uses top-level array shards for datasets, resources,
+publishers and relationships. Search result `open` values are canonical record
+routes. All shards, the Markdown core and semantic projections are covered by
+[`checksums.json`](bundle/checksums.json).
 
-```bash
-# Acquire live snapshot from planning.data.gov.uk
-python3 scripts/acquire_planning_data.py
+The MCP file is discovery metadata only. It declares no server, transport,
+authorization mechanism or executable endpoint. `PlanningMCPBroker` resolves
+only resources actually declared in the bundle.
 
-# Build OKF Planning Bundle v0.2
+See [the metadata model](docs/metadata-model.md) and
+[the demo guide](docs/demo-guide.md) for the core/extension boundary and UI
+contract.
+
+## Build and validation
+
+Normal builds are offline and require the checked-in source snapshot:
+
+```sh
 python3 scripts/build_bundle.py
-
-# Run test suite
+python3 scripts/check_okf.py
 pytest
 ```
 
----
+To deliberately refresh both source files from Planning Data England:
 
-## License
+```sh
+python3 scripts/acquire_planning_data.py
+python3 scripts/build_bundle.py
+python3 scripts/check_okf.py
+```
 
-This metadata bundle is published under the [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/) and the [MIT License](LICENSE).
+Acquisition fetches and validates both payloads before replacing either
+checked-in file. A network failure leaves the existing snapshot untouched.
+
+CI rebuilds the bundle, runs the conformance and integrity checks, and fails
+when generated files are not synchronized.
+
+## Rights
+
+Source-specific licence and attribution statements are carried on records.
+Repository code is licensed under the [MIT License](LICENSE). No single bundle
+licence overrides the rights declared by source publishers.

@@ -9,7 +9,11 @@ from typing import Any
 logger = logging.getLogger(__name__)
 
 PLANNING_DATA_GOV_UK_BASE = "https://www.planning.data.gov.uk"
-USER_AGENT = "Antigravity-OKF-Planning/0.2.0 (+https://github.com/chris-page-gov/okg-planning)"
+USER_AGENT = "okf-planning/0.2.0 (+https://github.com/chris-page-gov/okf-planning)"
+
+
+class AcquisitionError(RuntimeError):
+    """Raised when a live snapshot cannot be acquired safely."""
 
 # Curated planning policy & guidance datasets to augment planning.data.gov.uk
 POLICY_AND_GUIDANCE_AUGMENTATIONS: list[dict[str, Any]] = [
@@ -206,6 +210,74 @@ POLICY_AND_GUIDANCE_AUGMENTATIONS: list[dict[str, Any]] = [
 ]
 
 
+AUGMENTATION_AUTHORITIES: dict[str, dict[str, str]] = {
+    "nppf-framework-policy": {
+        "source_adapter": "gov-uk-mhclg",
+        "source_publisher": "https://www.gov.uk/government/organisations/ministry-of-housing-communities-and-local-government",
+        "publisher_id": "ministry-of-housing-communities-and-local-government",
+        "publisher_name": "Ministry of Housing, Communities & Local Government",
+    },
+    "planning-practice-guidance": {
+        "source_adapter": "gov-uk-mhclg",
+        "source_publisher": "https://www.gov.uk/government/organisations/ministry-of-housing-communities-and-local-government",
+        "publisher_id": "ministry-of-housing-communities-and-local-government",
+        "publisher_name": "Ministry of Housing, Communities & Local Government",
+    },
+    "town-and-country-planning-act-1990": {
+        "source_adapter": "legislation-gov-uk",
+        "source_publisher": "https://www.legislation.gov.uk/",
+        "publisher_id": "the-national-archives",
+        "publisher_name": "The National Archives",
+    },
+    "levelling-up-and-regeneration-act-2023": {
+        "source_adapter": "legislation-gov-uk",
+        "source_publisher": "https://www.legislation.gov.uk/",
+        "publisher_id": "the-national-archives",
+        "publisher_name": "The National Archives",
+    },
+    "use-classes-order-1987": {
+        "source_adapter": "legislation-gov-uk",
+        "source_publisher": "https://www.legislation.gov.uk/",
+        "publisher_id": "the-national-archives",
+        "publisher_name": "The National Archives",
+    },
+    "historic-england-nhle-heritage": {
+        "source_adapter": "historic-england",
+        "source_publisher": "https://historicengland.org.uk/",
+        "publisher_id": "historic-england",
+        "publisher_name": "Historic England",
+        "licence": "source-specific",
+    },
+    "environment-agency-flood-risk-zones": {
+        "source_adapter": "environment-agency",
+        "source_publisher": "https://www.gov.uk/government/organisations/environment-agency",
+        "publisher_id": "environment-agency",
+        "publisher_name": "Environment Agency",
+        "licence": "source-specific",
+    },
+    "natural-england-protected-sites-and-bng": {
+        "source_adapter": "natural-england",
+        "source_publisher": "https://www.gov.uk/government/organisations/natural-england",
+        "publisher_id": "natural-england",
+        "publisher_name": "Natural England",
+        "licence": "source-specific",
+    },
+    "planning-inspectorate-appeals-data": {
+        "source_adapter": "planning-inspectorate",
+        "source_publisher": "https://www.gov.uk/government/organisations/planning-inspectorate",
+        "publisher_id": "planning-inspectorate",
+        "publisher_name": "Planning Inspectorate",
+    },
+    "hm-land-registry-inspire-index-polygons": {
+        "source_adapter": "hm-land-registry",
+        "source_publisher": "https://www.gov.uk/government/organisations/land-registry",
+        "publisher_id": "hm-land-registry",
+        "publisher_name": "HM Land Registry",
+        "licence": "source-specific",
+    },
+}
+
+
 def fetch_json(url: str, timeout: int = 15) -> dict[str, Any] | list[Any]:
     """Fetch JSON from a URL with standard user agent header."""
     req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
@@ -229,9 +301,12 @@ def load_live_planning_datasets(cache_dir: str | None = None) -> dict[str, Any]:
         if isinstance(data, dict):
             return data
     except Exception as exc:
-        logger.warning("Failed to fetch live datasets from planning.data.gov.uk: %s", exc)
+        raise AcquisitionError(
+            "Could not acquire planning.data.gov.uk dataset metadata; "
+            "the existing snapshot was not changed"
+        ) from exc
 
-    return {"datasets": [], "typologies": [], "feedback_form_footer": {}}
+    raise AcquisitionError("planning.data.gov.uk returned an invalid dataset payload")
 
 
 def load_live_planning_organisations(cache_dir: str | None = None) -> dict[str, Any]:
@@ -247,13 +322,16 @@ def load_live_planning_organisations(cache_dir: str | None = None) -> dict[str, 
         if isinstance(data, dict):
             return data
     except Exception as exc:
-        logger.warning("Failed to fetch organisations from planning.data.gov.uk: %s", exc)
+        raise AcquisitionError(
+            "Could not acquire planning.data.gov.uk organisation metadata; "
+            "the existing snapshot was not changed"
+        ) from exc
 
-    return {"organisations": {}}
+    raise AcquisitionError("planning.data.gov.uk returned an invalid organisation payload")
 
 
 def get_all_augmented_datasets(cache_dir: str | None = None) -> list[dict[str, Any]]:
-    """Return all datasets combining live planning.data.gov.uk datasets and policy/guidance augmentations."""
+    """Combine Planning Data records with curated policy and guidance records."""
     live_raw = load_live_planning_datasets(cache_dir)
     raw_datasets = live_raw.get("datasets", [])
 
@@ -264,13 +342,15 @@ def get_all_augmented_datasets(cache_dir: str | None = None) -> list[dict[str, A
         item = dict(ds)
         item["source_adapter"] = "planning-data-gov-uk"
         item["source_publisher"] = "https://www.planning.data.gov.uk/"
+        item["publisher_id"] = "planning-data-england"
+        item["publisher_name"] = "Planning Data England / MHCLG"
         all_ds.append(item)
 
     # Add policy & legal instrument augmentations
     for aug in POLICY_AND_GUIDANCE_AUGMENTATIONS:
         aug_copy = dict(aug)
-        aug_copy["source_adapter"] = "gov-uk-planning-policy"
-        aug_copy["source_publisher"] = "https://www.gov.uk/government/organisations/ministry-of-housing-communities-and-local-government"
+        aug_copy.update(AUGMENTATION_AUTHORITIES[aug_copy["dataset"]])
+        aug_copy["confidence"] = "curated-unverified"
         all_ds.append(aug_copy)
 
     return all_ds

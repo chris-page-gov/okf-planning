@@ -1,11 +1,26 @@
 {
-  "schema": "okf-standards-evaluation.v1",
+  "certification_performed": false,
   "conformance": {
-    "dcat_ap": "full-alignment",
-    "openapi_v3": "supported",
-    "geojson_ogc": "compliant",
-    "prov_o": "integrated",
-    "skos": "integrated"
+    "dcat_3": {
+      "evidence": "okf-bundle.jsonld",
+      "status": "mapped-not-certified"
+    },
+    "okf_0_2": {
+      "checked_concepts": 230,
+      "errors": [],
+      "okf_version": "0.2",
+      "status": "conformant"
+    },
+    "prov_o": {
+      "evidence": "okf-bundle.jsonld",
+      "status": "mapped-not-certified"
+    },
+    "skos": {
+      "evidence": "context/okf-planning.jsonld",
+      "status": "context-present-not-evaluated"
+    }
   },
-  "evaluated_records": 230
+  "evaluated_records": 230,
+  "schema": "okf-standards-evaluation.v1",
+  "warning": "Semantic mappings are interoperability claims, not certification."
 }

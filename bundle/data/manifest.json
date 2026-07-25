@@ -1,49 +1,61 @@
 {
-  "title": "UK Planning & Housing Data Manifest",
-  "schema": "okf-data-manifest.v1",
-  "generated_at": "2026-07-25T08:00:00Z",
-  "snapshot": "planning-2026-07-25-r1",
-  "counts": {
-    "datasets": 230,
-    "records": 230,
-    "resources": 690,
-    "entities": 34391082,
-    "relationships": 40,
-    "publishers": 2,
-    "sources": 2,
-    "record_shards": 5
-  },
-  "indexes": {
-    "overview": "data/overview.json",
-    "analysis": "data/analysis/overview.json",
-    "search": "data/search/manifest.json",
-    "governance": "data/governance/release.json",
-    "context_set": "data/governance/context-set.json",
-    "reconciliation": "data/reconciliation/report.json",
-    "coverage": "data/coverage/ledger.json",
-    "evaluation": "data/evaluation/report.json"
-  },
   "chunks": {
     "datasets": [
-      "data/records/shard-0.json",
-      "data/records/shard-1.json",
-      "data/records/shard-2.json",
-      "data/records/shard-3.json",
-      "data/records/shard-4.json"
+      "data/datasets-0.json",
+      "data/datasets-1.json",
+      "data/datasets-2.json",
+      "data/datasets-3.json",
+      "data/datasets-4.json"
+    ],
+    "publishers": [
+      "data/publishers-0.json"
     ],
     "records": [
-      "data/records/shard-0.json",
-      "data/records/shard-1.json",
-      "data/records/shard-2.json",
-      "data/records/shard-3.json",
-      "data/records/shard-4.json"
+      "data/datasets-0.json",
+      "data/datasets-1.json",
+      "data/datasets-2.json",
+      "data/datasets-3.json",
+      "data/datasets-4.json"
+    ],
+    "relationships": [
+      "data/relationships-0.json"
+    ],
+    "resources": [
+      "data/resources-0.json",
+      "data/resources-1.json",
+      "data/resources-2.json"
     ]
   },
-  "record_shards": [
-    "data/records/shard-0.json",
-    "data/records/shard-1.json",
-    "data/records/shard-2.json",
-    "data/records/shard-3.json",
-    "data/records/shard-4.json"
-  ]
+  "counts": {
+    "dataset_shards": 5,
+    "datasets": 230,
+    "entities": 34391082,
+    "publisher_shards": 1,
+    "publishers": 8,
+    "records": 230,
+    "relationship_shards": 1,
+    "relationships": 40,
+    "resource_shards": 3,
+    "resources": 240,
+    "sources": 8
+  },
+  "generated": {
+    "at": "2026-07-25T11:25:00Z",
+    "by": "okf-planning/0.2.0"
+  },
+  "indexes": {
+    "analysis": "data/analysis/overview.json",
+    "context_set": "data/governance/context-set.json",
+    "coverage": "data/coverage/ledger.json",
+    "evaluation": "data/evaluation/report.json",
+    "governance": "data/governance/release.json",
+    "integrity": "checksums.json",
+    "overview": "data/overview.json",
+    "reconciliation": "data/reconciliation/report.json",
+    "search": "data/search/manifest.json"
+  },
+  "okf_version": "0.2",
+  "schema": "okf-explorer-data-manifest.v1",
+  "snapshot": "planning-2026-07-25-r1",
+  "title": "UK Planning & Housing Data Manifest"
 }

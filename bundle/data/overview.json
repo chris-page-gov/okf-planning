@@ -1,35 +1,35 @@
 {
-  "title": "UK Planning & Housing Data OKF",
-  "schema": "okf-planning-overview.v1",
-  "status": "demonstrator",
-  "snapshot": "planning-2026-07-25-r1",
-  "snapshotId": "planning-2026-07-25-r1",
   "counts": {
     "datasets": 230,
+    "entities": 34391082,
+    "publishers": 8,
     "records": 230,
-    "resources": 690,
     "relationships": 40,
-    "sources": 2,
-    "publishers": 2,
-    "standards": 5
-  },
-  "recordTypeCounts": {
-    "Planning Geography Dataset": 108,
-    "Planning Category Dataset": 54,
-    "Planning Organisation": 15,
-    "Planning Document": 12,
-    "Planning Legal Instrument": 12,
-    "Planning Policy & Framework": 8,
-    "Planning Pipeline": 6,
-    "Local Plan Timetable": 5,
-    "Planning Value": 4,
-    "Developer Contribution Metric": 3,
-    "Planning Entity": 3
-  },
-  "sourceCounts": {
-    "planning-data-gov-uk": 220,
-    "gov-uk-planning-policy": 10
+    "resources": 240,
+    "sources": 8
   },
   "coverage": "data/coverage/ledger.json",
-  "evaluation": "data/evaluation/report.json"
+  "evaluation": "data/evaluation/report.json",
+  "recordTypeCounts": {
+    "Legal Instrument": 12,
+    "Planning Dataset": 183,
+    "Planning Document": 12,
+    "Planning Organisation": 15,
+    "Planning Policy": 8
+  },
+  "schema": "okf-planning-overview.v1",
+  "snapshot": "planning-2026-07-25-r1",
+  "snapshotId": "planning-2026-07-25-r1",
+  "sourceCounts": {
+    "environment-agency": 1,
+    "gov-uk-mhclg": 2,
+    "historic-england": 1,
+    "hm-land-registry": 1,
+    "legislation-gov-uk": 3,
+    "natural-england": 1,
+    "planning-data-gov-uk": 220,
+    "planning-inspectorate": 1
+  },
+  "status": "draft-demonstrator",
+  "title": "UK Planning & Housing Data OKF"
 }

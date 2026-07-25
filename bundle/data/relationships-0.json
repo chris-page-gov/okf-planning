@@ -1,0 +1,322 @@
+[
+  {
+    "confidence": "inferred",
+    "evidence_type": "deterministic-collection-rule",
+    "kind": "governed-by",
+    "note": "Rule-based catalogue linkage to the principal planning legislation represented in this bundle.",
+    "source": "dataset/battlefield",
+    "target": "dataset/town-and-country-planning-act-1990"
+  },
+  {
+    "confidence": "inferred",
+    "evidence_type": "deterministic-collection-rule",
+    "kind": "governed-by",
+    "note": "Rule-based catalogue linkage to the principal planning legislation represented in this bundle.",
+    "source": "dataset/building-preservation-notice",
+    "target": "dataset/town-and-country-planning-act-1990"
+  },
+  {
+    "confidence": "inferred",
+    "evidence_type": "deterministic-collection-rule",
+    "kind": "governed-by",
+    "note": "Rule-based catalogue linkage to the principal planning legislation represented in this bundle.",
+    "source": "dataset/certificate-of-immunity",
+    "target": "dataset/town-and-country-planning-act-1990"
+  },
+  {
+    "confidence": "inferred",
+    "evidence_type": "deterministic-collection-rule",
+    "kind": "derived-from-policy",
+    "note": "Rule-based linkage for design-code catalogue records.",
+    "source": "dataset/design-code",
+    "target": "dataset/nppf-framework-policy"
+  },
+  {
+    "confidence": "inferred",
+    "evidence_type": "deterministic-collection-rule",
+    "kind": "derived-from-policy",
+    "note": "Rule-based linkage for design-code catalogue records.",
+    "source": "dataset/design-code-area",
+    "target": "dataset/nppf-framework-policy"
+  },
+  {
+    "confidence": "inferred",
+    "evidence_type": "deterministic-collection-rule",
+    "kind": "derived-from-policy",
+    "note": "Rule-based linkage for design-code catalogue records.",
+    "source": "dataset/design-code-area-type",
+    "target": "dataset/nppf-framework-policy"
+  },
+  {
+    "confidence": "inferred",
+    "evidence_type": "deterministic-collection-rule",
+    "kind": "derived-from-policy",
+    "note": "Rule-based linkage for design-code catalogue records.",
+    "source": "dataset/design-code-characteristic",
+    "target": "dataset/nppf-framework-policy"
+  },
+  {
+    "confidence": "inferred",
+    "evidence_type": "deterministic-collection-rule",
+    "kind": "derived-from-policy",
+    "note": "Rule-based linkage for design-code catalogue records.",
+    "source": "dataset/design-code-rule",
+    "target": "dataset/nppf-framework-policy"
+  },
+  {
+    "confidence": "inferred",
+    "evidence_type": "deterministic-collection-rule",
+    "kind": "derived-from-policy",
+    "note": "Rule-based linkage for design-code catalogue records.",
+    "source": "dataset/design-code-rule-category",
+    "target": "dataset/nppf-framework-policy"
+  },
+  {
+    "confidence": "inferred",
+    "evidence_type": "deterministic-collection-rule",
+    "kind": "derived-from-policy",
+    "note": "Rule-based linkage for design-code catalogue records.",
+    "source": "dataset/design-code-status",
+    "target": "dataset/nppf-framework-policy"
+  },
+  {
+    "confidence": "inferred",
+    "evidence_type": "deterministic-collection-rule",
+    "kind": "governed-by",
+    "note": "Rule-based linkage for local-plan catalogue records.",
+    "source": "dataset/development-plan-document",
+    "target": "dataset/levelling-up-and-regeneration-act-2023"
+  },
+  {
+    "confidence": "inferred",
+    "evidence_type": "deterministic-collection-rule",
+    "kind": "conforms-to-policy",
+    "note": "Rule-based linkage for local-plan catalogue records.",
+    "source": "dataset/development-plan-document",
+    "target": "dataset/nppf-framework-policy"
+  },
+  {
+    "confidence": "inferred",
+    "evidence_type": "deterministic-collection-rule",
+    "kind": "governed-by",
+    "note": "Rule-based linkage for local-plan catalogue records.",
+    "source": "dataset/development-plan-document-type",
+    "target": "dataset/levelling-up-and-regeneration-act-2023"
+  },
+  {
+    "confidence": "inferred",
+    "evidence_type": "deterministic-collection-rule",
+    "kind": "conforms-to-policy",
+    "note": "Rule-based linkage for local-plan catalogue records.",
+    "source": "dataset/development-plan-document-type",
+    "target": "dataset/nppf-framework-policy"
+  },
+  {
+    "confidence": "inferred",
+    "evidence_type": "deterministic-collection-rule",
+    "kind": "governed-by",
+    "note": "Rule-based catalogue linkage to the principal planning legislation represented in this bundle.",
+    "source": "dataset/heritage-at-risk",
+    "target": "dataset/town-and-country-planning-act-1990"
+  },
+  {
+    "confidence": "inferred",
+    "evidence_type": "deterministic-collection-rule",
+    "kind": "governed-by",
+    "note": "Rule-based catalogue linkage to the principal planning legislation represented in this bundle.",
+    "source": "dataset/historic-england-nhle-heritage",
+    "target": "dataset/town-and-country-planning-act-1990"
+  },
+  {
+    "confidence": "inferred",
+    "evidence_type": "deterministic-collection-rule",
+    "kind": "governed-by",
+    "note": "Rule-based linkage for local-plan catalogue records.",
+    "source": "dataset/local-plan",
+    "target": "dataset/levelling-up-and-regeneration-act-2023"
+  },
+  {
+    "confidence": "inferred",
+    "evidence_type": "deterministic-collection-rule",
+    "kind": "conforms-to-policy",
+    "note": "Rule-based linkage for local-plan catalogue records.",
+    "source": "dataset/local-plan",
+    "target": "dataset/nppf-framework-policy"
+  },
+  {
+    "confidence": "inferred",
+    "evidence_type": "deterministic-collection-rule",
+    "kind": "governed-by",
+    "note": "Rule-based linkage for local-plan catalogue records.",
+    "source": "dataset/local-plan-boundary",
+    "target": "dataset/levelling-up-and-regeneration-act-2023"
+  },
+  {
+    "confidence": "inferred",
+    "evidence_type": "deterministic-collection-rule",
+    "kind": "conforms-to-policy",
+    "note": "Rule-based linkage for local-plan catalogue records.",
+    "source": "dataset/local-plan-boundary",
+    "target": "dataset/nppf-framework-policy"
+  },
+  {
+    "confidence": "inferred",
+    "evidence_type": "deterministic-collection-rule",
+    "kind": "governed-by",
+    "note": "Rule-based linkage for local-plan catalogue records.",
+    "source": "dataset/minerals-plan",
+    "target": "dataset/levelling-up-and-regeneration-act-2023"
+  },
+  {
+    "confidence": "inferred",
+    "evidence_type": "deterministic-collection-rule",
+    "kind": "conforms-to-policy",
+    "note": "Rule-based linkage for local-plan catalogue records.",
+    "source": "dataset/minerals-plan",
+    "target": "dataset/nppf-framework-policy"
+  },
+  {
+    "confidence": "inferred",
+    "evidence_type": "deterministic-collection-rule",
+    "kind": "governed-by",
+    "note": "Rule-based linkage for local-plan catalogue records.",
+    "source": "dataset/minerals-plan-boundary",
+    "target": "dataset/levelling-up-and-regeneration-act-2023"
+  },
+  {
+    "confidence": "inferred",
+    "evidence_type": "deterministic-collection-rule",
+    "kind": "conforms-to-policy",
+    "note": "Rule-based linkage for local-plan catalogue records.",
+    "source": "dataset/minerals-plan-boundary",
+    "target": "dataset/nppf-framework-policy"
+  },
+  {
+    "confidence": "inferred",
+    "evidence_type": "deterministic-collection-rule",
+    "kind": "governed-by",
+    "note": "Rule-based catalogue linkage to the principal planning legislation represented in this bundle.",
+    "source": "dataset/park-and-garden",
+    "target": "dataset/town-and-country-planning-act-1990"
+  },
+  {
+    "confidence": "inferred",
+    "evidence_type": "deterministic-collection-rule",
+    "kind": "governed-by",
+    "note": "Rule-based catalogue linkage to the principal planning legislation represented in this bundle.",
+    "source": "dataset/park-and-garden-grade",
+    "target": "dataset/town-and-country-planning-act-1990"
+  },
+  {
+    "confidence": "inferred",
+    "evidence_type": "deterministic-collection-rule",
+    "kind": "governed-by",
+    "note": "Rule-based linkage for local-plan catalogue records.",
+    "source": "dataset/plan-event",
+    "target": "dataset/levelling-up-and-regeneration-act-2023"
+  },
+  {
+    "confidence": "inferred",
+    "evidence_type": "deterministic-collection-rule",
+    "kind": "conforms-to-policy",
+    "note": "Rule-based linkage for local-plan catalogue records.",
+    "source": "dataset/plan-event",
+    "target": "dataset/nppf-framework-policy"
+  },
+  {
+    "confidence": "inferred",
+    "evidence_type": "deterministic-collection-rule",
+    "kind": "governed-by",
+    "note": "Rule-based linkage for local-plan catalogue records.",
+    "source": "dataset/plan-timetable",
+    "target": "dataset/levelling-up-and-regeneration-act-2023"
+  },
+  {
+    "confidence": "inferred",
+    "evidence_type": "deterministic-collection-rule",
+    "kind": "conforms-to-policy",
+    "note": "Rule-based linkage for local-plan catalogue records.",
+    "source": "dataset/plan-timetable",
+    "target": "dataset/nppf-framework-policy"
+  },
+  {
+    "confidence": "inferred",
+    "evidence_type": "deterministic-collection-rule",
+    "kind": "governed-by",
+    "note": "Rule-based catalogue linkage to the principal planning legislation represented in this bundle.",
+    "source": "dataset/protected-wreck-site",
+    "target": "dataset/town-and-country-planning-act-1990"
+  },
+  {
+    "confidence": "inferred",
+    "evidence_type": "deterministic-collection-rule",
+    "kind": "governed-by",
+    "note": "Rule-based catalogue linkage to the principal planning legislation represented in this bundle.",
+    "source": "dataset/scheduled-monument",
+    "target": "dataset/town-and-country-planning-act-1990"
+  },
+  {
+    "confidence": "inferred",
+    "evidence_type": "deterministic-collection-rule",
+    "kind": "governed-by",
+    "note": "Rule-based linkage for local-plan catalogue records.",
+    "source": "dataset/supplementary-plan",
+    "target": "dataset/levelling-up-and-regeneration-act-2023"
+  },
+  {
+    "confidence": "inferred",
+    "evidence_type": "deterministic-collection-rule",
+    "kind": "conforms-to-policy",
+    "note": "Rule-based linkage for local-plan catalogue records.",
+    "source": "dataset/supplementary-plan",
+    "target": "dataset/nppf-framework-policy"
+  },
+  {
+    "confidence": "inferred",
+    "evidence_type": "deterministic-collection-rule",
+    "kind": "governed-by",
+    "note": "Rule-based linkage for local-plan catalogue records.",
+    "source": "dataset/waste-plan",
+    "target": "dataset/levelling-up-and-regeneration-act-2023"
+  },
+  {
+    "confidence": "inferred",
+    "evidence_type": "deterministic-collection-rule",
+    "kind": "conforms-to-policy",
+    "note": "Rule-based linkage for local-plan catalogue records.",
+    "source": "dataset/waste-plan",
+    "target": "dataset/nppf-framework-policy"
+  },
+  {
+    "confidence": "inferred",
+    "evidence_type": "deterministic-collection-rule",
+    "kind": "governed-by",
+    "note": "Rule-based linkage for local-plan catalogue records.",
+    "source": "dataset/waste-plan-boundary",
+    "target": "dataset/levelling-up-and-regeneration-act-2023"
+  },
+  {
+    "confidence": "inferred",
+    "evidence_type": "deterministic-collection-rule",
+    "kind": "conforms-to-policy",
+    "note": "Rule-based linkage for local-plan catalogue records.",
+    "source": "dataset/waste-plan-boundary",
+    "target": "dataset/nppf-framework-policy"
+  },
+  {
+    "confidence": "inferred",
+    "evidence_type": "deterministic-collection-rule",
+    "kind": "governed-by",
+    "note": "Rule-based catalogue linkage to the principal planning legislation represented in this bundle.",
+    "source": "dataset/world-heritage-site",
+    "target": "dataset/town-and-country-planning-act-1990"
+  },
+  {
+    "confidence": "inferred",
+    "evidence_type": "deterministic-collection-rule",
+    "kind": "governed-by",
+    "note": "Rule-based catalogue linkage to the principal planning legislation represented in this bundle.",
+    "source": "dataset/world-heritage-site-buffer-zone",
+    "target": "dataset/town-and-country-planning-act-1990"
+  }
+]

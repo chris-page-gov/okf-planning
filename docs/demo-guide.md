@@ -1,19 +1,58 @@
-# OKF Planning Bundle v0.2 Demo Guide
+# OKF Planning demo guide
 
-This guide walks through human and automated AI agent interaction with the OKF Bundle for UK Planning & Housing Data.
+## Human discovery page
 
-## 1. Human Discovery Page & Embedded Viewer
+Serve [`bundle/`](../bundle/) over HTTP or open the
+[published page](https://chris-page-gov.github.io/okf-planning/). The page:
 
-Open `bundle/index.html` in your web browser. You will see:
-- Real-time search across 230 datasets, policies, and statutory instruments.
-- Facet filtering by typology (`geography`, `category`, `organisation`, `document`, `legal-instrument`, `policy`, `timetable`).
-- Direct action button: **Open in OKF Explorer**, which preloads `okf-explorer.json` into OKF Explorer v0.4+.
-- Schema syntax tabs for inspecting canonical `okf-bundle.yamlld`, `okf-bundle.jsonld`, and `checksums.json`.
+- loads every dataset shard declared by `data/manifest.json`;
+- shows manifest-derived record, entity, relationship and publisher counts;
+- supports combined text and typology filtering;
+- assigns all source-derived strings with `textContent`;
+- can display the normative root Markdown, Explorer descriptor, semantic
+  YAML-LD extension and checksum catalogue;
+- has no runtime dependency on external font services.
 
-## 2. Machine & AI Agent Access
+The page is a view over a frozen snapshot. Search is local static search, not a
+live query against Planning Data England.
 
-AI agents (such as Antigravity, Claude, ChatGPT, or custom MCP clients) can access:
-- **Descriptor**: `https://chris-page-gov.github.io/okg-planning/okf-explorer.json`
-- **YAML-LD**: `https://chris-page-gov.github.io/okg-planning/okf-bundle.yamlld`
-- **Data Manifest**: `https://chris-page-gov.github.io/okg-planning/data/manifest.json`
-- **MCP Selection Bindings**: `https://chris-page-gov.github.io/okg-planning/data/planning/mcp-bindings.json`
+## OKF Explorer
+
+Use the [direct Explorer link](https://chris-page-gov.github.io/okf-explorer/?bundle=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-planning%2Fokf-explorer.json).
+
+Expected behavior:
+
+1. Overview loads without hydrating every record.
+2. Search results open `dataset/<id>`, not a lifecycle value such as `alpha`.
+3. Opening Reader or Resources hydrates top-level array shards.
+4. Resources show source landing/documentation pages only.
+5. Graph relationships are visibly labelled as inferred rule-derived links.
+6. Trust and lifecycle views show the draft, unverified snapshot state and
+   absolute staleness boundary.
+
+## Machine entry points
+
+- Normative OKF root:
+  `https://chris-page-gov.github.io/okf-planning/index.md`
+- Explorer descriptor:
+  `https://chris-page-gov.github.io/okf-planning/okf-explorer.json`
+- Data manifest:
+  `https://chris-page-gov.github.io/okf-planning/data/manifest.json`
+- Discovery-only MCP metadata:
+  `https://chris-page-gov.github.io/okf-planning/data/planning/mcp-bindings.json`
+
+The MCP metadata is not an MCP server. A downstream implementation must supply
+transport, input schemas, authorization and a source-declared executable
+resource before anything can run.
+
+## Offline validation
+
+```sh
+python3 scripts/build_bundle.py
+python3 scripts/check_okf.py
+pytest
+```
+
+The normal build reads `source/dataset.json`; it does not silently fall back to
+live acquisition. Use `scripts/acquire_planning_data.py` only for an intentional
+snapshot refresh.

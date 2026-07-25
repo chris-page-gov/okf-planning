@@ -1,0 +1,5094 @@
+[
+  {
+    "alternatives": [],
+    "attribution": "© Crown copyright and database right 2026",
+    "authority": {
+      "bundlePublisher": {
+        "id": "https://github.com/chris-page-gov/okf-planning",
+        "name": "OKF Planning project",
+        "url": "https://github.com/chris-page-gov/okf-planning"
+      },
+      "notEndorsedBySource": true,
+      "reviewedBy": [],
+      "sourcePublisher": [
+        {
+          "id": "planning-data-england",
+          "name": "Planning Data England / MHCLG",
+          "url": "https://www.planning.data.gov.uk/"
+        }
+      ]
+    },
+    "collection": "development-corporation-boundary",
+    "confidence": "observed",
+    "description": "development corporation administrative boundaries",
+    "documentation_url": "https://www.planning.data.gov.uk/dataset/development-corporation-boundary",
+    "entity_count": 13,
+    "generated": {
+      "at": "2026-07-25T11:25:00Z",
+      "by": "okf-planning/0.2.0"
+    },
+    "id": "development-corporation-boundary",
+    "licence_id": "ogl3",
+    "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "name": "development-corporation-boundary",
+    "node_json": {
+      "@id": "https://chris-page-gov.github.io/okf-planning/dataset/development-corporation-boundary",
+      "@type": "dcat:Dataset",
+      "dcat:theme": [
+        "administrative"
+      ],
+      "dct:description": "development corporation administrative boundaries",
+      "dct:identifier": "planning:development-corporation-boundary",
+      "dct:title": "Development corporation boundary",
+      "okf:collection": "development-corporation-boundary",
+      "okf:entityCount": 13,
+      "okf:notEndorsedBySource": true,
+      "okf:phase": "beta",
+      "okf:typology": "geography",
+      "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+    },
+    "open": "dataset/development-corporation-boundary",
+    "phase": "beta",
+    "provenance": {
+      "generated_at": "2026-07-25T11:25:00Z",
+      "schema": "okf-provenance.v1",
+      "snapshot_id": "planning-2026-07-25-r1",
+      "source_adapter": "planning-data-gov-uk",
+      "source_record_url": "https://www.planning.data.gov.uk/dataset/development-corporation-boundary",
+      "source_url": "https://www.planning.data.gov.uk/dataset.json"
+    },
+    "publisher": "planning-data-england",
+    "publisher_title": "Planning Data England / MHCLG",
+    "publisher_url": "https://www.planning.data.gov.uk/",
+    "record_type": "geography",
+    "resources": [
+      {
+        "dcat_type": "landing-page",
+        "description": "Source landing page carried for discovery. This bundle does not assert that the page is a machine-readable data endpoint.",
+        "format": "html",
+        "id": "development-corporation-boundary-source",
+        "media_type": "text/html",
+        "resource_type": "landing-page",
+        "title": "Official source page for Development corporation boundary",
+        "url": "https://www.planning.data.gov.uk/dataset/development-corporation-boundary"
+      }
+    ],
+    "route": "dataset/development-corporation-boundary",
+    "source": "planning-data-gov-uk",
+    "source_url": "https://www.planning.data.gov.uk/dataset/development-corporation-boundary",
+    "sources": [
+      {
+        "id": "source-record",
+        "resource": "https://www.planning.data.gov.uk/dataset.json",
+        "title": "Planning Data England dataset catalogue snapshot"
+      }
+    ],
+    "stale_after": "2026-10-25",
+    "status": "draft",
+    "summary": "development corporation administrative boundaries",
+    "tags": [
+      "administrative",
+      "beta",
+      "development-corporation-boundary",
+      "geography"
+    ],
+    "themes": [
+      "administrative"
+    ],
+    "title": "Development corporation boundary",
+    "trust_tier": "unverified",
+    "typology": "geography",
+    "wikidata": ""
+  },
+  {
+    "alternatives": [],
+    "attribution": "© Crown copyright and database right 2026",
+    "authority": {
+      "bundlePublisher": {
+        "id": "https://github.com/chris-page-gov/okf-planning",
+        "name": "OKF Planning project",
+        "url": "https://github.com/chris-page-gov/okf-planning"
+      },
+      "notEndorsedBySource": true,
+      "reviewedBy": [],
+      "sourcePublisher": [
+        {
+          "id": "planning-data-england",
+          "name": "Planning Data England / MHCLG",
+          "url": "https://www.planning.data.gov.uk/"
+        }
+      ]
+    },
+    "collection": "planning-data",
+    "confidence": "observed",
+    "description": "The types of measurement used as a development policy metric",
+    "documentation_url": "https://www.planning.data.gov.uk/dataset/development-metric",
+    "entity_count": 0,
+    "generated": {
+      "at": "2026-07-25T11:25:00Z",
+      "by": "okf-planning/0.2.0"
+    },
+    "id": "development-metric",
+    "licence_id": "ogl3",
+    "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "name": "development-metric",
+    "node_json": {
+      "@id": "https://chris-page-gov.github.io/okf-planning/dataset/development-metric",
+      "@type": "dcat:Dataset",
+      "dcat:theme": [
+        "development"
+      ],
+      "dct:description": "The types of measurement used as a development policy metric",
+      "dct:identifier": "planning:development-metric",
+      "dct:title": "Development metric",
+      "okf:collection": "planning-data",
+      "okf:entityCount": 0,
+      "okf:notEndorsedBySource": true,
+      "okf:phase": "discovery",
+      "okf:typology": "category",
+      "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+    },
+    "open": "dataset/development-metric",
+    "phase": "discovery",
+    "provenance": {
+      "generated_at": "2026-07-25T11:25:00Z",
+      "schema": "okf-provenance.v1",
+      "snapshot_id": "planning-2026-07-25-r1",
+      "source_adapter": "planning-data-gov-uk",
+      "source_record_url": "https://www.planning.data.gov.uk/dataset/development-metric",
+      "source_url": "https://www.planning.data.gov.uk/dataset.json"
+    },
+    "publisher": "planning-data-england",
+    "publisher_title": "Planning Data England / MHCLG",
+    "publisher_url": "https://www.planning.data.gov.uk/",
+    "record_type": "category",
+    "resources": [
+      {
+        "dcat_type": "landing-page",
+        "description": "Source landing page carried for discovery. This bundle does not assert that the page is a machine-readable data endpoint.",
+        "format": "html",
+        "id": "development-metric-source",
+        "media_type": "text/html",
+        "resource_type": "landing-page",
+        "title": "Official source page for Development metric",
+        "url": "https://www.planning.data.gov.uk/dataset/development-metric"
+      }
+    ],
+    "route": "dataset/development-metric",
+    "source": "planning-data-gov-uk",
+    "source_url": "https://www.planning.data.gov.uk/dataset/development-metric",
+    "sources": [
+      {
+        "id": "source-record",
+        "resource": "https://www.planning.data.gov.uk/dataset.json",
+        "title": "Planning Data England dataset catalogue snapshot"
+      }
+    ],
+    "stale_after": "2026-10-25",
+    "status": "draft",
+    "summary": "The types of measurement used as a development policy metric",
+    "tags": [
+      "category",
+      "development",
+      "discovery",
+      "planning-data"
+    ],
+    "themes": [
+      "development"
+    ],
+    "title": "Development metric",
+    "trust_tier": "unverified",
+    "typology": "category",
+    "wikidata": ""
+  },
+  {
+    "alternatives": [],
+    "attribution": "© Crown copyright and database right 2026",
+    "authority": {
+      "bundlePublisher": {
+        "id": "https://github.com/chris-page-gov/okf-planning",
+        "name": "OKF Planning project",
+        "url": "https://github.com/chris-page-gov/okf-planning"
+      },
+      "notEndorsedBySource": true,
+      "reviewedBy": [],
+      "sourcePublisher": [
+        {
+          "id": "planning-data-england",
+          "name": "Planning Data England / MHCLG",
+          "url": "https://www.planning.data.gov.uk/"
+        }
+      ]
+    },
+    "collection": "planning-data",
+    "confidence": "observed",
+    "description": "This dataset is a package made from the local-plan, waste-plan, minerals-plan and supplementary-plan datasets.",
+    "documentation_url": "https://www.planning.data.gov.uk/dataset/development-plan",
+    "entity_count": 0,
+    "generated": {
+      "at": "2026-07-25T11:25:00Z",
+      "by": "okf-planning/0.2.0"
+    },
+    "id": "development-plan",
+    "licence_id": "ogl3",
+    "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "name": "development-plan",
+    "node_json": {
+      "@id": "https://chris-page-gov.github.io/okf-planning/dataset/development-plan",
+      "@type": "dcat:Resource",
+      "dcat:theme": [
+        "development"
+      ],
+      "dct:description": "This dataset is a package made from the local-plan, waste-plan, minerals-plan and supplementary-plan datasets.",
+      "dct:identifier": "planning:development-plan",
+      "dct:title": "development plan",
+      "okf:collection": "planning-data",
+      "okf:entityCount": 0,
+      "okf:notEndorsedBySource": true,
+      "okf:phase": "alpha",
+      "okf:typology": "legal-instrument",
+      "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+    },
+    "open": "dataset/development-plan",
+    "phase": "alpha",
+    "provenance": {
+      "generated_at": "2026-07-25T11:25:00Z",
+      "schema": "okf-provenance.v1",
+      "snapshot_id": "planning-2026-07-25-r1",
+      "source_adapter": "planning-data-gov-uk",
+      "source_record_url": "https://www.planning.data.gov.uk/dataset/development-plan",
+      "source_url": "https://www.planning.data.gov.uk/dataset.json"
+    },
+    "publisher": "planning-data-england",
+    "publisher_title": "Planning Data England / MHCLG",
+    "publisher_url": "https://www.planning.data.gov.uk/",
+    "record_type": "legal-instrument",
+    "resources": [
+      {
+        "dcat_type": "landing-page",
+        "description": "Source landing page carried for discovery. This bundle does not assert that the page is a machine-readable data endpoint.",
+        "format": "html",
+        "id": "development-plan-source",
+        "media_type": "text/html",
+        "resource_type": "landing-page",
+        "title": "Official source page for development plan",
+        "url": "https://www.planning.data.gov.uk/dataset/development-plan"
+      }
+    ],
+    "route": "dataset/development-plan",
+    "source": "planning-data-gov-uk",
+    "source_url": "https://www.planning.data.gov.uk/dataset/development-plan",
+    "sources": [
+      {
+        "id": "source-record",
+        "resource": "https://www.planning.data.gov.uk/dataset.json",
+        "title": "Planning Data England dataset catalogue snapshot"
+      }
+    ],
+    "stale_after": "2026-10-25",
+    "status": "draft",
+    "summary": "This dataset is a package made from the local-plan, waste-plan, minerals-plan and supplementary-plan datasets.",
+    "tags": [
+      "alpha",
+      "development",
+      "legal-instrument",
+      "planning-data"
+    ],
+    "themes": [
+      "development"
+    ],
+    "title": "development plan",
+    "trust_tier": "unverified",
+    "typology": "legal-instrument",
+    "wikidata": "Q5266783"
+  },
+  {
+    "alternatives": [],
+    "attribution": "© Crown copyright and database right 2026",
+    "authority": {
+      "bundlePublisher": {
+        "id": "https://github.com/chris-page-gov/okf-planning",
+        "name": "OKF Planning project",
+        "url": "https://github.com/chris-page-gov/okf-planning"
+      },
+      "notEndorsedBySource": true,
+      "reviewedBy": [],
+      "sourcePublisher": [
+        {
+          "id": "planning-data-england",
+          "name": "Planning Data England / MHCLG",
+          "url": "https://www.planning.data.gov.uk/"
+        }
+      ]
+    },
+    "collection": "planning-data",
+    "confidence": "observed",
+    "description": "A boundary that a development plan covers",
+    "documentation_url": "https://www.planning.data.gov.uk/dataset/development-plan-boundary",
+    "entity_count": 0,
+    "generated": {
+      "at": "2026-07-25T11:25:00Z",
+      "by": "okf-planning/0.2.0"
+    },
+    "id": "development-plan-boundary",
+    "licence_id": "ogl3",
+    "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "name": "development-plan-boundary",
+    "node_json": {
+      "@id": "https://chris-page-gov.github.io/okf-planning/dataset/development-plan-boundary",
+      "@type": "dcat:Dataset",
+      "dcat:theme": [
+        "development"
+      ],
+      "dct:description": "A boundary that a development plan covers",
+      "dct:identifier": "planning:development-plan-boundary",
+      "dct:title": "Development plan boundary",
+      "okf:collection": "planning-data",
+      "okf:entityCount": 0,
+      "okf:notEndorsedBySource": true,
+      "okf:phase": "alpha",
+      "okf:typology": "geography",
+      "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+    },
+    "open": "dataset/development-plan-boundary",
+    "phase": "alpha",
+    "provenance": {
+      "generated_at": "2026-07-25T11:25:00Z",
+      "schema": "okf-provenance.v1",
+      "snapshot_id": "planning-2026-07-25-r1",
+      "source_adapter": "planning-data-gov-uk",
+      "source_record_url": "https://www.planning.data.gov.uk/dataset/development-plan-boundary",
+      "source_url": "https://www.planning.data.gov.uk/dataset.json"
+    },
+    "publisher": "planning-data-england",
+    "publisher_title": "Planning Data England / MHCLG",
+    "publisher_url": "https://www.planning.data.gov.uk/",
+    "record_type": "geography",
+    "resources": [
+      {
+        "dcat_type": "landing-page",
+        "description": "Source landing page carried for discovery. This bundle does not assert that the page is a machine-readable data endpoint.",
+        "format": "html",
+        "id": "development-plan-boundary-source",
+        "media_type": "text/html",
+        "resource_type": "landing-page",
+        "title": "Official source page for Development plan boundary",
+        "url": "https://www.planning.data.gov.uk/dataset/development-plan-boundary"
+      }
+    ],
+    "route": "dataset/development-plan-boundary",
+    "source": "planning-data-gov-uk",
+    "source_url": "https://www.planning.data.gov.uk/dataset/development-plan-boundary",
+    "sources": [
+      {
+        "id": "source-record",
+        "resource": "https://www.planning.data.gov.uk/dataset.json",
+        "title": "Planning Data England dataset catalogue snapshot"
+      }
+    ],
+    "stale_after": "2026-10-25",
+    "status": "draft",
+    "summary": "A boundary that a development plan covers",
+    "tags": [
+      "alpha",
+      "development",
+      "geography",
+      "planning-data"
+    ],
+    "themes": [
+      "development"
+    ],
+    "title": "Development plan boundary",
+    "trust_tier": "unverified",
+    "typology": "geography",
+    "wikidata": ""
+  },
+  {
+    "alternatives": [],
+    "attribution": "© Crown copyright and database right 2026",
+    "authority": {
+      "bundlePublisher": {
+        "id": "https://github.com/chris-page-gov/okf-planning",
+        "name": "OKF Planning project",
+        "url": "https://github.com/chris-page-gov/okf-planning"
+      },
+      "notEndorsedBySource": true,
+      "reviewedBy": [],
+      "sourcePublisher": [
+        {
+          "id": "planning-data-england",
+          "name": "Planning Data England / MHCLG",
+          "url": "https://www.planning.data.gov.uk/"
+        }
+      ]
+    },
+    "collection": "planning-data",
+    "confidence": "observed",
+    "description": "A type of boundary covered by the development plan",
+    "documentation_url": "https://www.planning.data.gov.uk/dataset/development-plan-boundary-type",
+    "entity_count": 0,
+    "generated": {
+      "at": "2026-07-25T11:25:00Z",
+      "by": "okf-planning/0.2.0"
+    },
+    "id": "development-plan-boundary-type",
+    "licence_id": "ogl3",
+    "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "name": "development-plan-boundary-type",
+    "node_json": {
+      "@id": "https://chris-page-gov.github.io/okf-planning/dataset/development-plan-boundary-type",
+      "@type": "dcat:Dataset",
+      "dcat:theme": [
+        "development"
+      ],
+      "dct:description": "A type of boundary covered by the development plan",
+      "dct:identifier": "planning:development-plan-boundary-type",
+      "dct:title": "Development plan boundary type",
+      "okf:collection": "planning-data",
+      "okf:entityCount": 0,
+      "okf:notEndorsedBySource": true,
+      "okf:phase": "alpha",
+      "okf:typology": "category",
+      "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+    },
+    "open": "dataset/development-plan-boundary-type",
+    "phase": "alpha",
+    "provenance": {
+      "generated_at": "2026-07-25T11:25:00Z",
+      "schema": "okf-provenance.v1",
+      "snapshot_id": "planning-2026-07-25-r1",
+      "source_adapter": "planning-data-gov-uk",
+      "source_record_url": "https://www.planning.data.gov.uk/dataset/development-plan-boundary-type",
+      "source_url": "https://www.planning.data.gov.uk/dataset.json"
+    },
+    "publisher": "planning-data-england",
+    "publisher_title": "Planning Data England / MHCLG",
+    "publisher_url": "https://www.planning.data.gov.uk/",
+    "record_type": "category",
+    "resources": [
+      {
+        "dcat_type": "landing-page",
+        "description": "Source landing page carried for discovery. This bundle does not assert that the page is a machine-readable data endpoint.",
+        "format": "html",
+        "id": "development-plan-boundary-type-source",
+        "media_type": "text/html",
+        "resource_type": "landing-page",
+        "title": "Official source page for Development plan boundary type",
+        "url": "https://www.planning.data.gov.uk/dataset/development-plan-boundary-type"
+      }
+    ],
+    "route": "dataset/development-plan-boundary-type",
+    "source": "planning-data-gov-uk",
+    "source_url": "https://www.planning.data.gov.uk/dataset/development-plan-boundary-type",
+    "sources": [
+      {
+        "id": "source-record",
+        "resource": "https://www.planning.data.gov.uk/dataset.json",
+        "title": "Planning Data England dataset catalogue snapshot"
+      }
+    ],
+    "stale_after": "2026-10-25",
+    "status": "draft",
+    "summary": "A type of boundary covered by the development plan",
+    "tags": [
+      "alpha",
+      "category",
+      "development",
+      "planning-data"
+    ],
+    "themes": [
+      "development"
+    ],
+    "title": "Development plan boundary type",
+    "trust_tier": "unverified",
+    "typology": "category",
+    "wikidata": ""
+  },
+  {
+    "alternatives": [],
+    "attribution": "© Crown copyright and database right 2026",
+    "authority": {
+      "bundlePublisher": {
+        "id": "https://github.com/chris-page-gov/okf-planning",
+        "name": "OKF Planning project",
+        "url": "https://github.com/chris-page-gov/okf-planning"
+      },
+      "notEndorsedBySource": true,
+      "reviewedBy": [],
+      "sourcePublisher": [
+        {
+          "id": "planning-data-england",
+          "name": "Planning Data England / MHCLG",
+          "url": "https://www.planning.data.gov.uk/"
+        }
+      ]
+    },
+    "collection": "local-plan",
+    "confidence": "observed",
+    "description": "documents associated with a development plan",
+    "documentation_url": "https://www.planning.data.gov.uk/dataset/development-plan-document",
+    "entity_count": 2686,
+    "generated": {
+      "at": "2026-07-25T11:25:00Z",
+      "by": "okf-planning/0.2.0"
+    },
+    "id": "development-plan-document",
+    "licence_id": "ogl3",
+    "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "name": "development-plan-document",
+    "node_json": {
+      "@id": "https://chris-page-gov.github.io/okf-planning/dataset/development-plan-document",
+      "@type": "dcat:Resource",
+      "dcat:theme": [
+        "development"
+      ],
+      "dct:description": "documents associated with a development plan",
+      "dct:identifier": "planning:development-plan-document",
+      "dct:title": "Development plan document",
+      "okf:collection": "local-plan",
+      "okf:entityCount": 2686,
+      "okf:notEndorsedBySource": true,
+      "okf:phase": "alpha",
+      "okf:typology": "document",
+      "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+    },
+    "open": "dataset/development-plan-document",
+    "phase": "alpha",
+    "provenance": {
+      "generated_at": "2026-07-25T11:25:00Z",
+      "schema": "okf-provenance.v1",
+      "snapshot_id": "planning-2026-07-25-r1",
+      "source_adapter": "planning-data-gov-uk",
+      "source_record_url": "https://www.planning.data.gov.uk/dataset/development-plan-document",
+      "source_url": "https://www.planning.data.gov.uk/dataset.json"
+    },
+    "publisher": "planning-data-england",
+    "publisher_title": "Planning Data England / MHCLG",
+    "publisher_url": "https://www.planning.data.gov.uk/",
+    "record_type": "document",
+    "resources": [
+      {
+        "dcat_type": "landing-page",
+        "description": "Source landing page carried for discovery. This bundle does not assert that the page is a machine-readable data endpoint.",
+        "format": "html",
+        "id": "development-plan-document-source",
+        "media_type": "text/html",
+        "resource_type": "landing-page",
+        "title": "Official source page for Development plan document",
+        "url": "https://www.planning.data.gov.uk/dataset/development-plan-document"
+      }
+    ],
+    "route": "dataset/development-plan-document",
+    "source": "planning-data-gov-uk",
+    "source_url": "https://www.planning.data.gov.uk/dataset/development-plan-document",
+    "sources": [
+      {
+        "id": "source-record",
+        "resource": "https://www.planning.data.gov.uk/dataset.json",
+        "title": "Planning Data England dataset catalogue snapshot"
+      }
+    ],
+    "stale_after": "2026-10-25",
+    "status": "draft",
+    "summary": "documents associated with a development plan",
+    "tags": [
+      "alpha",
+      "development",
+      "document",
+      "local-plan"
+    ],
+    "themes": [
+      "development"
+    ],
+    "title": "Development plan document",
+    "trust_tier": "unverified",
+    "typology": "document",
+    "wikidata": ""
+  },
+  {
+    "alternatives": [],
+    "attribution": "© Crown copyright and database right 2026",
+    "authority": {
+      "bundlePublisher": {
+        "id": "https://github.com/chris-page-gov/okf-planning",
+        "name": "OKF Planning project",
+        "url": "https://github.com/chris-page-gov/okf-planning"
+      },
+      "notEndorsedBySource": true,
+      "reviewedBy": [],
+      "sourcePublisher": [
+        {
+          "id": "planning-data-england",
+          "name": "Planning Data England / MHCLG",
+          "url": "https://www.planning.data.gov.uk/"
+        }
+      ]
+    },
+    "collection": "local-plan",
+    "confidence": "observed",
+    "description": "The types of documents published for a development plan",
+    "documentation_url": "https://www.planning.data.gov.uk/dataset/development-plan-document-type",
+    "entity_count": 16,
+    "generated": {
+      "at": "2026-07-25T11:25:00Z",
+      "by": "okf-planning/0.2.0"
+    },
+    "id": "development-plan-document-type",
+    "licence_id": "ogl3",
+    "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "name": "development-plan-document-type",
+    "node_json": {
+      "@id": "https://chris-page-gov.github.io/okf-planning/dataset/development-plan-document-type",
+      "@type": "dcat:Dataset",
+      "dcat:theme": [
+        "development"
+      ],
+      "dct:description": "The types of documents published for a development plan",
+      "dct:identifier": "planning:development-plan-document-type",
+      "dct:title": "Development plan document type",
+      "okf:collection": "local-plan",
+      "okf:entityCount": 16,
+      "okf:notEndorsedBySource": true,
+      "okf:phase": "alpha",
+      "okf:typology": "category",
+      "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+    },
+    "open": "dataset/development-plan-document-type",
+    "phase": "alpha",
+    "provenance": {
+      "generated_at": "2026-07-25T11:25:00Z",
+      "schema": "okf-provenance.v1",
+      "snapshot_id": "planning-2026-07-25-r1",
+      "source_adapter": "planning-data-gov-uk",
+      "source_record_url": "https://www.planning.data.gov.uk/dataset/development-plan-document-type",
+      "source_url": "https://www.planning.data.gov.uk/dataset.json"
+    },
+    "publisher": "planning-data-england",
+    "publisher_title": "Planning Data England / MHCLG",
+    "publisher_url": "https://www.planning.data.gov.uk/",
+    "record_type": "category",
+    "resources": [
+      {
+        "dcat_type": "landing-page",
+        "description": "Source landing page carried for discovery. This bundle does not assert that the page is a machine-readable data endpoint.",
+        "format": "html",
+        "id": "development-plan-document-type-source",
+        "media_type": "text/html",
+        "resource_type": "landing-page",
+        "title": "Official source page for Development plan document type",
+        "url": "https://www.planning.data.gov.uk/dataset/development-plan-document-type"
+      }
+    ],
+    "route": "dataset/development-plan-document-type",
+    "source": "planning-data-gov-uk",
+    "source_url": "https://www.planning.data.gov.uk/dataset/development-plan-document-type",
+    "sources": [
+      {
+        "id": "source-record",
+        "resource": "https://www.planning.data.gov.uk/dataset.json",
+        "title": "Planning Data England dataset catalogue snapshot"
+      }
+    ],
+    "stale_after": "2026-10-25",
+    "status": "draft",
+    "summary": "The types of documents published for a development plan",
+    "tags": [
+      "alpha",
+      "category",
+      "development",
+      "local-plan"
+    ],
+    "themes": [
+      "development"
+    ],
+    "title": "Development plan document type",
+    "trust_tier": "unverified",
+    "typology": "category",
+    "wikidata": ""
+  },
+  {
+    "alternatives": [],
+    "attribution": "© Crown copyright and database right 2026",
+    "authority": {
+      "bundlePublisher": {
+        "id": "https://github.com/chris-page-gov/okf-planning",
+        "name": "OKF Planning project",
+        "url": "https://github.com/chris-page-gov/okf-planning"
+      },
+      "notEndorsedBySource": true,
+      "reviewedBy": [],
+      "sourcePublisher": [
+        {
+          "id": "planning-data-england",
+          "name": "Planning Data England / MHCLG",
+          "url": "https://www.planning.data.gov.uk/"
+        }
+      ]
+    },
+    "collection": "planning-data",
+    "confidence": "observed",
+    "description": "A geography that a development plan covers",
+    "documentation_url": "https://www.planning.data.gov.uk/dataset/development-plan-geography",
+    "entity_count": 0,
+    "generated": {
+      "at": "2026-07-25T11:25:00Z",
+      "by": "okf-planning/0.2.0"
+    },
+    "id": "development-plan-geography",
+    "licence_id": "ogl3",
+    "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "name": "development-plan-geography",
+    "node_json": {
+      "@id": "https://chris-page-gov.github.io/okf-planning/dataset/development-plan-geography",
+      "@type": "dcat:Dataset",
+      "dcat:theme": [
+        "development"
+      ],
+      "dct:description": "A geography that a development plan covers",
+      "dct:identifier": "planning:development-plan-geography",
+      "dct:title": "Development plan geography",
+      "okf:collection": "planning-data",
+      "okf:entityCount": 0,
+      "okf:notEndorsedBySource": true,
+      "okf:phase": "alpha",
+      "okf:typology": "geography",
+      "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+    },
+    "open": "dataset/development-plan-geography",
+    "phase": "alpha",
+    "provenance": {
+      "generated_at": "2026-07-25T11:25:00Z",
+      "schema": "okf-provenance.v1",
+      "snapshot_id": "planning-2026-07-25-r1",
+      "source_adapter": "planning-data-gov-uk",
+      "source_record_url": "https://www.planning.data.gov.uk/dataset/development-plan-geography",
+      "source_url": "https://www.planning.data.gov.uk/dataset.json"
+    },
+    "publisher": "planning-data-england",
+    "publisher_title": "Planning Data England / MHCLG",
+    "publisher_url": "https://www.planning.data.gov.uk/",
+    "record_type": "geography",
+    "resources": [
+      {
+        "dcat_type": "landing-page",
+        "description": "Source landing page carried for discovery. This bundle does not assert that the page is a machine-readable data endpoint.",
+        "format": "html",
+        "id": "development-plan-geography-source",
+        "media_type": "text/html",
+        "resource_type": "landing-page",
+        "title": "Official source page for Development plan geography",
+        "url": "https://www.planning.data.gov.uk/dataset/development-plan-geography"
+      }
+    ],
+    "route": "dataset/development-plan-geography",
+    "source": "planning-data-gov-uk",
+    "source_url": "https://www.planning.data.gov.uk/dataset/development-plan-geography",
+    "sources": [
+      {
+        "id": "source-record",
+        "resource": "https://www.planning.data.gov.uk/dataset.json",
+        "title": "Planning Data England dataset catalogue snapshot"
+      }
+    ],
+    "stale_after": "2026-10-25",
+    "status": "draft",
+    "summary": "A geography that a development plan covers",
+    "tags": [
+      "alpha",
+      "development",
+      "geography",
+      "planning-data"
+    ],
+    "themes": [
+      "development"
+    ],
+    "title": "Development plan geography",
+    "trust_tier": "unverified",
+    "typology": "geography",
+    "wikidata": ""
+  },
+  {
+    "alternatives": [],
+    "attribution": "© Crown copyright and database right 2026",
+    "authority": {
+      "bundlePublisher": {
+        "id": "https://github.com/chris-page-gov/okf-planning",
+        "name": "OKF Planning project",
+        "url": "https://github.com/chris-page-gov/okf-planning"
+      },
+      "notEndorsedBySource": true,
+      "reviewedBy": [],
+      "sourcePublisher": [
+        {
+          "id": "planning-data-england",
+          "name": "Planning Data England / MHCLG",
+          "url": "https://www.planning.data.gov.uk/"
+        }
+      ]
+    },
+    "collection": "planning-data",
+    "confidence": "observed",
+    "description": "A type of geography that a development plan covers",
+    "documentation_url": "https://www.planning.data.gov.uk/dataset/development-plan-geography-type",
+    "entity_count": 0,
+    "generated": {
+      "at": "2026-07-25T11:25:00Z",
+      "by": "okf-planning/0.2.0"
+    },
+    "id": "development-plan-geography-type",
+    "licence_id": "ogl3",
+    "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "name": "development-plan-geography-type",
+    "node_json": {
+      "@id": "https://chris-page-gov.github.io/okf-planning/dataset/development-plan-geography-type",
+      "@type": "dcat:Dataset",
+      "dcat:theme": [
+        "development"
+      ],
+      "dct:description": "A type of geography that a development plan covers",
+      "dct:identifier": "planning:development-plan-geography-type",
+      "dct:title": "Development plan geography type",
+      "okf:collection": "planning-data",
+      "okf:entityCount": 0,
+      "okf:notEndorsedBySource": true,
+      "okf:phase": "alpha",
+      "okf:typology": "category",
+      "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+    },
+    "open": "dataset/development-plan-geography-type",
+    "phase": "alpha",
+    "provenance": {
+      "generated_at": "2026-07-25T11:25:00Z",
+      "schema": "okf-provenance.v1",
+      "snapshot_id": "planning-2026-07-25-r1",
+      "source_adapter": "planning-data-gov-uk",
+      "source_record_url": "https://www.planning.data.gov.uk/dataset/development-plan-geography-type",
+      "source_url": "https://www.planning.data.gov.uk/dataset.json"
+    },
+    "publisher": "planning-data-england",
+    "publisher_title": "Planning Data England / MHCLG",
+    "publisher_url": "https://www.planning.data.gov.uk/",
+    "record_type": "category",
+    "resources": [
+      {
+        "dcat_type": "landing-page",
+        "description": "Source landing page carried for discovery. This bundle does not assert that the page is a machine-readable data endpoint.",
+        "format": "html",
+        "id": "development-plan-geography-type-source",
+        "media_type": "text/html",
+        "resource_type": "landing-page",
+        "title": "Official source page for Development plan geography type",
+        "url": "https://www.planning.data.gov.uk/dataset/development-plan-geography-type"
+      }
+    ],
+    "route": "dataset/development-plan-geography-type",
+    "source": "planning-data-gov-uk",
+    "source_url": "https://www.planning.data.gov.uk/dataset/development-plan-geography-type",
+    "sources": [
+      {
+        "id": "source-record",
+        "resource": "https://www.planning.data.gov.uk/dataset.json",
+        "title": "Planning Data England dataset catalogue snapshot"
+      }
+    ],
+    "stale_after": "2026-10-25",
+    "status": "draft",
+    "summary": "A type of geography that a development plan covers",
+    "tags": [
+      "alpha",
+      "category",
+      "development",
+      "planning-data"
+    ],
+    "themes": [
+      "development"
+    ],
+    "title": "Development plan geography type",
+    "trust_tier": "unverified",
+    "typology": "category",
+    "wikidata": ""
+  },
+  {
+    "alternatives": [],
+    "attribution": "© Crown copyright and database right 2026",
+    "authority": {
+      "bundlePublisher": {
+        "id": "https://github.com/chris-page-gov/okf-planning",
+        "name": "OKF Planning project",
+        "url": "https://github.com/chris-page-gov/okf-planning"
+      },
+      "notEndorsedBySource": true,
+      "reviewedBy": [],
+      "sourcePublisher": [
+        {
+          "id": "planning-data-england",
+          "name": "Planning Data England / MHCLG",
+          "url": "https://www.planning.data.gov.uk/"
+        }
+      ]
+    },
+    "collection": "planning-data",
+    "confidence": "observed",
+    "description": "The different statuses a plan can have",
+    "documentation_url": "https://www.planning.data.gov.uk/dataset/development-plan-status",
+    "entity_count": 0,
+    "generated": {
+      "at": "2026-07-25T11:25:00Z",
+      "by": "okf-planning/0.2.0"
+    },
+    "id": "development-plan-status",
+    "licence_id": "ogl3",
+    "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "name": "development-plan-status",
+    "node_json": {
+      "@id": "https://chris-page-gov.github.io/okf-planning/dataset/development-plan-status",
+      "@type": "dcat:Dataset",
+      "dcat:theme": [
+        "development"
+      ],
+      "dct:description": "The different statuses a plan can have",
+      "dct:identifier": "planning:development-plan-status",
+      "dct:title": "Development plan status",
+      "okf:collection": "planning-data",
+      "okf:entityCount": 0,
+      "okf:notEndorsedBySource": true,
+      "okf:phase": "alpha",
+      "okf:typology": "category",
+      "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+    },
+    "open": "dataset/development-plan-status",
+    "phase": "alpha",
+    "provenance": {
+      "generated_at": "2026-07-25T11:25:00Z",
+      "schema": "okf-provenance.v1",
+      "snapshot_id": "planning-2026-07-25-r1",
+      "source_adapter": "planning-data-gov-uk",
+      "source_record_url": "https://www.planning.data.gov.uk/dataset/development-plan-status",
+      "source_url": "https://www.planning.data.gov.uk/dataset.json"
+    },
+    "publisher": "planning-data-england",
+    "publisher_title": "Planning Data England / MHCLG",
+    "publisher_url": "https://www.planning.data.gov.uk/",
+    "record_type": "category",
+    "resources": [
+      {
+        "dcat_type": "landing-page",
+        "description": "Source landing page carried for discovery. This bundle does not assert that the page is a machine-readable data endpoint.",
+        "format": "html",
+        "id": "development-plan-status-source",
+        "media_type": "text/html",
+        "resource_type": "landing-page",
+        "title": "Official source page for Development plan status",
+        "url": "https://www.planning.data.gov.uk/dataset/development-plan-status"
+      }
+    ],
+    "route": "dataset/development-plan-status",
+    "source": "planning-data-gov-uk",
+    "source_url": "https://www.planning.data.gov.uk/dataset/development-plan-status",
+    "sources": [
+      {
+        "id": "source-record",
+        "resource": "https://www.planning.data.gov.uk/dataset.json",
+        "title": "Planning Data England dataset catalogue snapshot"
+      }
+    ],
+    "stale_after": "2026-10-25",
+    "status": "draft",
+    "summary": "The different statuses a plan can have",
+    "tags": [
+      "alpha",
+      "category",
+      "development",
+      "planning-data"
+    ],
+    "themes": [
+      "development"
+    ],
+    "title": "Development plan status",
+    "trust_tier": "unverified",
+    "typology": "category",
+    "wikidata": ""
+  },
+  {
+    "alternatives": [],
+    "attribution": "© Crown copyright and database right 2026",
+    "authority": {
+      "bundlePublisher": {
+        "id": "https://github.com/chris-page-gov/okf-planning",
+        "name": "OKF Planning project",
+        "url": "https://github.com/chris-page-gov/okf-planning"
+      },
+      "notEndorsedBySource": true,
+      "reviewedBy": [],
+      "sourcePublisher": [
+        {
+          "id": "planning-data-england",
+          "name": "Planning Data England / MHCLG",
+          "url": "https://www.planning.data.gov.uk/"
+        }
+      ]
+    },
+    "collection": "planning-data",
+    "confidence": "observed",
+    "description": "log of past and committed milestones and events when producing a development plan",
+    "documentation_url": "https://www.planning.data.gov.uk/dataset/development-plan-timetable",
+    "entity_count": 0,
+    "generated": {
+      "at": "2026-07-25T11:25:00Z",
+      "by": "okf-planning/0.2.0"
+    },
+    "id": "development-plan-timetable",
+    "licence_id": "ogl3",
+    "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "name": "development-plan-timetable",
+    "node_json": {
+      "@id": "https://chris-page-gov.github.io/okf-planning/dataset/development-plan-timetable",
+      "@type": "dcat:Dataset",
+      "dcat:theme": [
+        "development"
+      ],
+      "dct:description": "log of past and committed milestones and events when producing a development plan",
+      "dct:identifier": "planning:development-plan-timetable",
+      "dct:title": "development plan timetable",
+      "okf:collection": "planning-data",
+      "okf:entityCount": 0,
+      "okf:notEndorsedBySource": true,
+      "okf:phase": "alpha",
+      "okf:typology": "timetable",
+      "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+    },
+    "open": "dataset/development-plan-timetable",
+    "phase": "alpha",
+    "provenance": {
+      "generated_at": "2026-07-25T11:25:00Z",
+      "schema": "okf-provenance.v1",
+      "snapshot_id": "planning-2026-07-25-r1",
+      "source_adapter": "planning-data-gov-uk",
+      "source_record_url": "https://www.planning.data.gov.uk/dataset/development-plan-timetable",
+      "source_url": "https://www.planning.data.gov.uk/dataset.json"
+    },
+    "publisher": "planning-data-england",
+    "publisher_title": "Planning Data England / MHCLG",
+    "publisher_url": "https://www.planning.data.gov.uk/",
+    "record_type": "timetable",
+    "resources": [
+      {
+        "dcat_type": "landing-page",
+        "description": "Source landing page carried for discovery. This bundle does not assert that the page is a machine-readable data endpoint.",
+        "format": "html",
+        "id": "development-plan-timetable-source",
+        "media_type": "text/html",
+        "resource_type": "landing-page",
+        "title": "Official source page for development plan timetable",
+        "url": "https://www.planning.data.gov.uk/dataset/development-plan-timetable"
+      }
+    ],
+    "route": "dataset/development-plan-timetable",
+    "source": "planning-data-gov-uk",
+    "source_url": "https://www.planning.data.gov.uk/dataset/development-plan-timetable",
+    "sources": [
+      {
+        "id": "source-record",
+        "resource": "https://www.planning.data.gov.uk/dataset.json",
+        "title": "Planning Data England dataset catalogue snapshot"
+      }
+    ],
+    "stale_after": "2026-10-25",
+    "status": "draft",
+    "summary": "log of past and committed milestones and events when producing a development plan",
+    "tags": [
+      "alpha",
+      "development",
+      "planning-data",
+      "timetable"
+    ],
+    "themes": [
+      "development"
+    ],
+    "title": "development plan timetable",
+    "trust_tier": "unverified",
+    "typology": "timetable",
+    "wikidata": ""
+  },
+  {
+    "alternatives": [],
+    "attribution": "© Crown copyright and database right 2026",
+    "authority": {
+      "bundlePublisher": {
+        "id": "https://github.com/chris-page-gov/okf-planning",
+        "name": "OKF Planning project",
+        "url": "https://github.com/chris-page-gov/okf-planning"
+      },
+      "notEndorsedBySource": true,
+      "reviewedBy": [],
+      "sourcePublisher": [
+        {
+          "id": "planning-data-england",
+          "name": "Planning Data England / MHCLG",
+          "url": "https://www.planning.data.gov.uk/"
+        }
+      ]
+    },
+    "collection": "planning-data",
+    "confidence": "observed",
+    "description": "Planning metadata record for Development plan type.",
+    "documentation_url": "https://www.planning.data.gov.uk/dataset/development-plan-type",
+    "entity_count": 0,
+    "generated": {
+      "at": "2026-07-25T11:25:00Z",
+      "by": "okf-planning/0.2.0"
+    },
+    "id": "development-plan-type",
+    "licence_id": "ogl3",
+    "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "name": "development-plan-type",
+    "node_json": {
+      "@id": "https://chris-page-gov.github.io/okf-planning/dataset/development-plan-type",
+      "@type": "dcat:Dataset",
+      "dcat:theme": [
+        "development"
+      ],
+      "dct:description": "Planning metadata record for Development plan type.",
+      "dct:identifier": "planning:development-plan-type",
+      "dct:title": "Development plan type",
+      "okf:collection": "planning-data",
+      "okf:entityCount": 0,
+      "okf:notEndorsedBySource": true,
+      "okf:phase": "alpha",
+      "okf:typology": "category",
+      "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+    },
+    "open": "dataset/development-plan-type",
+    "phase": "alpha",
+    "provenance": {
+      "generated_at": "2026-07-25T11:25:00Z",
+      "schema": "okf-provenance.v1",
+      "snapshot_id": "planning-2026-07-25-r1",
+      "source_adapter": "planning-data-gov-uk",
+      "source_record_url": "https://www.planning.data.gov.uk/dataset/development-plan-type",
+      "source_url": "https://www.planning.data.gov.uk/dataset.json"
+    },
+    "publisher": "planning-data-england",
+    "publisher_title": "Planning Data England / MHCLG",
+    "publisher_url": "https://www.planning.data.gov.uk/",
+    "record_type": "category",
+    "resources": [
+      {
+        "dcat_type": "landing-page",
+        "description": "Source landing page carried for discovery. This bundle does not assert that the page is a machine-readable data endpoint.",
+        "format": "html",
+        "id": "development-plan-type-source",
+        "media_type": "text/html",
+        "resource_type": "landing-page",
+        "title": "Official source page for Development plan type",
+        "url": "https://www.planning.data.gov.uk/dataset/development-plan-type"
+      }
+    ],
+    "route": "dataset/development-plan-type",
+    "source": "planning-data-gov-uk",
+    "source_url": "https://www.planning.data.gov.uk/dataset/development-plan-type",
+    "sources": [
+      {
+        "id": "source-record",
+        "resource": "https://www.planning.data.gov.uk/dataset.json",
+        "title": "Planning Data England dataset catalogue snapshot"
+      }
+    ],
+    "stale_after": "2026-10-25",
+    "status": "draft",
+    "summary": "Planning metadata record for Development plan type.",
+    "tags": [
+      "alpha",
+      "category",
+      "development",
+      "planning-data"
+    ],
+    "themes": [
+      "development"
+    ],
+    "title": "Development plan type",
+    "trust_tier": "unverified",
+    "typology": "category",
+    "wikidata": ""
+  },
+  {
+    "alternatives": [],
+    "attribution": "© Crown copyright and database right 2026",
+    "authority": {
+      "bundlePublisher": {
+        "id": "https://github.com/chris-page-gov/okf-planning",
+        "name": "OKF Planning project",
+        "url": "https://github.com/chris-page-gov/okf-planning"
+      },
+      "notEndorsedBySource": true,
+      "reviewedBy": [],
+      "sourcePublisher": [
+        {
+          "id": "planning-data-england",
+          "name": "Planning Data England / MHCLG",
+          "url": "https://www.planning.data.gov.uk/"
+        }
+      ]
+    },
+    "collection": "planning-data",
+    "confidence": "observed",
+    "description": "Planning metadata record for Development policy.",
+    "documentation_url": "https://www.planning.data.gov.uk/dataset/development-policy",
+    "entity_count": 0,
+    "generated": {
+      "at": "2026-07-25T11:25:00Z",
+      "by": "okf-planning/0.2.0"
+    },
+    "id": "development-policy",
+    "licence_id": "ogl3",
+    "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "name": "development-policy",
+    "node_json": {
+      "@id": "https://chris-page-gov.github.io/okf-planning/dataset/development-policy",
+      "@type": "dcat:Resource",
+      "dcat:theme": [
+        "development"
+      ],
+      "dct:description": "Planning metadata record for Development policy.",
+      "dct:identifier": "planning:development-policy",
+      "dct:title": "Development policy",
+      "okf:collection": "planning-data",
+      "okf:entityCount": 0,
+      "okf:notEndorsedBySource": true,
+      "okf:phase": "alpha",
+      "okf:typology": "policy",
+      "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+    },
+    "open": "dataset/development-policy",
+    "phase": "alpha",
+    "provenance": {
+      "generated_at": "2026-07-25T11:25:00Z",
+      "schema": "okf-provenance.v1",
+      "snapshot_id": "planning-2026-07-25-r1",
+      "source_adapter": "planning-data-gov-uk",
+      "source_record_url": "https://www.planning.data.gov.uk/dataset/development-policy",
+      "source_url": "https://www.planning.data.gov.uk/dataset.json"
+    },
+    "publisher": "planning-data-england",
+    "publisher_title": "Planning Data England / MHCLG",
+    "publisher_url": "https://www.planning.data.gov.uk/",
+    "record_type": "policy",
+    "resources": [
+      {
+        "dcat_type": "landing-page",
+        "description": "Source landing page carried for discovery. This bundle does not assert that the page is a machine-readable data endpoint.",
+        "format": "html",
+        "id": "development-policy-source",
+        "media_type": "text/html",
+        "resource_type": "landing-page",
+        "title": "Official source page for Development policy",
+        "url": "https://www.planning.data.gov.uk/dataset/development-policy"
+      }
+    ],
+    "route": "dataset/development-policy",
+    "source": "planning-data-gov-uk",
+    "source_url": "https://www.planning.data.gov.uk/dataset/development-policy",
+    "sources": [
+      {
+        "id": "source-record",
+        "resource": "https://www.planning.data.gov.uk/dataset.json",
+        "title": "Planning Data England dataset catalogue snapshot"
+      }
+    ],
+    "stale_after": "2026-10-25",
+    "status": "draft",
+    "summary": "Planning metadata record for Development policy.",
+    "tags": [
+      "alpha",
+      "development",
+      "planning-data",
+      "policy"
+    ],
+    "themes": [
+      "development"
+    ],
+    "title": "Development policy",
+    "trust_tier": "unverified",
+    "typology": "policy",
+    "wikidata": ""
+  },
+  {
+    "alternatives": [],
+    "attribution": "© Crown copyright and database right 2026",
+    "authority": {
+      "bundlePublisher": {
+        "id": "https://github.com/chris-page-gov/okf-planning",
+        "name": "OKF Planning project",
+        "url": "https://github.com/chris-page-gov/okf-planning"
+      },
+      "notEndorsedBySource": true,
+      "reviewedBy": [],
+      "sourcePublisher": [
+        {
+          "id": "planning-data-england",
+          "name": "Planning Data England / MHCLG",
+          "url": "https://www.planning.data.gov.uk/"
+        }
+      ]
+    },
+    "collection": "planning-data",
+    "confidence": "observed",
+    "description": "Planning metadata record for Development policy area.",
+    "documentation_url": "https://www.planning.data.gov.uk/dataset/development-policy-area",
+    "entity_count": 0,
+    "generated": {
+      "at": "2026-07-25T11:25:00Z",
+      "by": "okf-planning/0.2.0"
+    },
+    "id": "development-policy-area",
+    "licence_id": "ogl3",
+    "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "name": "development-policy-area",
+    "node_json": {
+      "@id": "https://chris-page-gov.github.io/okf-planning/dataset/development-policy-area",
+      "@type": "dcat:Dataset",
+      "dcat:theme": [
+        "development"
+      ],
+      "dct:description": "Planning metadata record for Development policy area.",
+      "dct:identifier": "planning:development-policy-area",
+      "dct:title": "Development policy area",
+      "okf:collection": "planning-data",
+      "okf:entityCount": 0,
+      "okf:notEndorsedBySource": true,
+      "okf:phase": "alpha",
+      "okf:typology": "geography",
+      "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+    },
+    "open": "dataset/development-policy-area",
+    "phase": "alpha",
+    "provenance": {
+      "generated_at": "2026-07-25T11:25:00Z",
+      "schema": "okf-provenance.v1",
+      "snapshot_id": "planning-2026-07-25-r1",
+      "source_adapter": "planning-data-gov-uk",
+      "source_record_url": "https://www.planning.data.gov.uk/dataset/development-policy-area",
+      "source_url": "https://www.planning.data.gov.uk/dataset.json"
+    },
+    "publisher": "planning-data-england",
+    "publisher_title": "Planning Data England / MHCLG",
+    "publisher_url": "https://www.planning.data.gov.uk/",
+    "record_type": "geography",
+    "resources": [
+      {
+        "dcat_type": "landing-page",
+        "description": "Source landing page carried for discovery. This bundle does not assert that the page is a machine-readable data endpoint.",
+        "format": "html",
+        "id": "development-policy-area-source",
+        "media_type": "text/html",
+        "resource_type": "landing-page",
+        "title": "Official source page for Development policy area",
+        "url": "https://www.planning.data.gov.uk/dataset/development-policy-area"
+      }
+    ],
+    "route": "dataset/development-policy-area",
+    "source": "planning-data-gov-uk",
+    "source_url": "https://www.planning.data.gov.uk/dataset/development-policy-area",
+    "sources": [
+      {
+        "id": "source-record",
+        "resource": "https://www.planning.data.gov.uk/dataset.json",
+        "title": "Planning Data England dataset catalogue snapshot"
+      }
+    ],
+    "stale_after": "2026-10-25",
+    "status": "draft",
+    "summary": "Planning metadata record for Development policy area.",
+    "tags": [
+      "alpha",
+      "development",
+      "geography",
+      "planning-data"
+    ],
+    "themes": [
+      "development"
+    ],
+    "title": "Development policy area",
+    "trust_tier": "unverified",
+    "typology": "geography",
+    "wikidata": ""
+  },
+  {
+    "alternatives": [],
+    "attribution": "© Crown copyright and database right 2026",
+    "authority": {
+      "bundlePublisher": {
+        "id": "https://github.com/chris-page-gov/okf-planning",
+        "name": "OKF Planning project",
+        "url": "https://github.com/chris-page-gov/okf-planning"
+      },
+      "notEndorsedBySource": true,
+      "reviewedBy": [],
+      "sourcePublisher": [
+        {
+          "id": "planning-data-england",
+          "name": "Planning Data England / MHCLG",
+          "url": "https://www.planning.data.gov.uk/"
+        }
+      ]
+    },
+    "collection": "planning-data",
+    "confidence": "observed",
+    "description": "Planning metadata record for Development policy category.",
+    "documentation_url": "https://www.planning.data.gov.uk/dataset/development-policy-category",
+    "entity_count": 0,
+    "generated": {
+      "at": "2026-07-25T11:25:00Z",
+      "by": "okf-planning/0.2.0"
+    },
+    "id": "development-policy-category",
+    "licence_id": "ogl3",
+    "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "name": "development-policy-category",
+    "node_json": {
+      "@id": "https://chris-page-gov.github.io/okf-planning/dataset/development-policy-category",
+      "@type": "dcat:Dataset",
+      "dcat:theme": [
+        "development"
+      ],
+      "dct:description": "Planning metadata record for Development policy category.",
+      "dct:identifier": "planning:development-policy-category",
+      "dct:title": "Development policy category",
+      "okf:collection": "planning-data",
+      "okf:entityCount": 0,
+      "okf:notEndorsedBySource": true,
+      "okf:phase": "alpha",
+      "okf:typology": "category",
+      "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+    },
+    "open": "dataset/development-policy-category",
+    "phase": "alpha",
+    "provenance": {
+      "generated_at": "2026-07-25T11:25:00Z",
+      "schema": "okf-provenance.v1",
+      "snapshot_id": "planning-2026-07-25-r1",
+      "source_adapter": "planning-data-gov-uk",
+      "source_record_url": "https://www.planning.data.gov.uk/dataset/development-policy-category",
+      "source_url": "https://www.planning.data.gov.uk/dataset.json"
+    },
+    "publisher": "planning-data-england",
+    "publisher_title": "Planning Data England / MHCLG",
+    "publisher_url": "https://www.planning.data.gov.uk/",
+    "record_type": "category",
+    "resources": [
+      {
+        "dcat_type": "landing-page",
+        "description": "Source landing page carried for discovery. This bundle does not assert that the page is a machine-readable data endpoint.",
+        "format": "html",
+        "id": "development-policy-category-source",
+        "media_type": "text/html",
+        "resource_type": "landing-page",
+        "title": "Official source page for Development policy category",
+        "url": "https://www.planning.data.gov.uk/dataset/development-policy-category"
+      }
+    ],
+    "route": "dataset/development-policy-category",
+    "source": "planning-data-gov-uk",
+    "source_url": "https://www.planning.data.gov.uk/dataset/development-policy-category",
+    "sources": [
+      {
+        "id": "source-record",
+        "resource": "https://www.planning.data.gov.uk/dataset.json",
+        "title": "Planning Data England dataset catalogue snapshot"
+      }
+    ],
+    "stale_after": "2026-10-25",
+    "status": "draft",
+    "summary": "Planning metadata record for Development policy category.",
+    "tags": [
+      "alpha",
+      "category",
+      "development",
+      "planning-data"
+    ],
+    "themes": [
+      "development"
+    ],
+    "title": "Development policy category",
+    "trust_tier": "unverified",
+    "typology": "category",
+    "wikidata": "Q5962346"
+  },
+  {
+    "alternatives": [],
+    "attribution": "© Crown copyright and database right 2026",
+    "authority": {
+      "bundlePublisher": {
+        "id": "https://github.com/chris-page-gov/okf-planning",
+        "name": "OKF Planning project",
+        "url": "https://github.com/chris-page-gov/okf-planning"
+      },
+      "notEndorsedBySource": true,
+      "reviewedBy": [],
+      "sourcePublisher": [
+        {
+          "id": "planning-data-england",
+          "name": "Planning Data England / MHCLG",
+          "url": "https://www.planning.data.gov.uk/"
+        }
+      ]
+    },
+    "collection": "planning-data",
+    "confidence": "observed",
+    "description": "Metrics associated with a development policy",
+    "documentation_url": "https://www.planning.data.gov.uk/dataset/development-policy-metric",
+    "entity_count": 0,
+    "generated": {
+      "at": "2026-07-25T11:25:00Z",
+      "by": "okf-planning/0.2.0"
+    },
+    "id": "development-policy-metric",
+    "licence_id": "ogl3",
+    "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "name": "development-policy-metric",
+    "node_json": {
+      "@id": "https://chris-page-gov.github.io/okf-planning/dataset/development-policy-metric",
+      "@type": "dcat:Dataset",
+      "dcat:theme": [
+        "development"
+      ],
+      "dct:description": "Metrics associated with a development policy",
+      "dct:identifier": "planning:development-policy-metric",
+      "dct:title": "Development policy metric",
+      "okf:collection": "planning-data",
+      "okf:entityCount": 0,
+      "okf:notEndorsedBySource": true,
+      "okf:phase": "alpha",
+      "okf:typology": "metric",
+      "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+    },
+    "open": "dataset/development-policy-metric",
+    "phase": "alpha",
+    "provenance": {
+      "generated_at": "2026-07-25T11:25:00Z",
+      "schema": "okf-provenance.v1",
+      "snapshot_id": "planning-2026-07-25-r1",
+      "source_adapter": "planning-data-gov-uk",
+      "source_record_url": "https://www.planning.data.gov.uk/dataset/development-policy-metric",
+      "source_url": "https://www.planning.data.gov.uk/dataset.json"
+    },
+    "publisher": "planning-data-england",
+    "publisher_title": "Planning Data England / MHCLG",
+    "publisher_url": "https://www.planning.data.gov.uk/",
+    "record_type": "metric",
+    "resources": [
+      {
+        "dcat_type": "landing-page",
+        "description": "Source landing page carried for discovery. This bundle does not assert that the page is a machine-readable data endpoint.",
+        "format": "html",
+        "id": "development-policy-metric-source",
+        "media_type": "text/html",
+        "resource_type": "landing-page",
+        "title": "Official source page for Development policy metric",
+        "url": "https://www.planning.data.gov.uk/dataset/development-policy-metric"
+      }
+    ],
+    "route": "dataset/development-policy-metric",
+    "source": "planning-data-gov-uk",
+    "source_url": "https://www.planning.data.gov.uk/dataset/development-policy-metric",
+    "sources": [
+      {
+        "id": "source-record",
+        "resource": "https://www.planning.data.gov.uk/dataset.json",
+        "title": "Planning Data England dataset catalogue snapshot"
+      }
+    ],
+    "stale_after": "2026-10-25",
+    "status": "draft",
+    "summary": "Metrics associated with a development policy",
+    "tags": [
+      "alpha",
+      "development",
+      "metric",
+      "planning-data"
+    ],
+    "themes": [
+      "development"
+    ],
+    "title": "Development policy metric",
+    "trust_tier": "unverified",
+    "typology": "metric",
+    "wikidata": ""
+  },
+  {
+    "alternatives": [],
+    "attribution": "© Crown copyright and database right 2026",
+    "authority": {
+      "bundlePublisher": {
+        "id": "https://github.com/chris-page-gov/okf-planning",
+        "name": "OKF Planning project",
+        "url": "https://github.com/chris-page-gov/okf-planning"
+      },
+      "notEndorsedBySource": true,
+      "reviewedBy": [],
+      "sourcePublisher": [
+        {
+          "id": "planning-data-england",
+          "name": "Planning Data England / MHCLG",
+          "url": "https://www.planning.data.gov.uk/"
+        }
+      ]
+    },
+    "collection": "planning-data",
+    "confidence": "observed",
+    "description": "Planning metadata record for Document.",
+    "documentation_url": "https://www.planning.data.gov.uk/dataset/document",
+    "entity_count": 0,
+    "generated": {
+      "at": "2026-07-25T11:25:00Z",
+      "by": "okf-planning/0.2.0"
+    },
+    "id": "document",
+    "licence_id": "ogl3",
+    "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "name": "document",
+    "node_json": {
+      "@id": "https://chris-page-gov.github.io/okf-planning/dataset/document",
+      "@type": "dcat:Resource",
+      "dcat:theme": [
+        "development"
+      ],
+      "dct:description": "Planning metadata record for Document.",
+      "dct:identifier": "planning:document",
+      "dct:title": "Document",
+      "okf:collection": "planning-data",
+      "okf:entityCount": 0,
+      "okf:notEndorsedBySource": true,
+      "okf:phase": "alpha",
+      "okf:typology": "document",
+      "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+    },
+    "open": "dataset/document",
+    "phase": "alpha",
+    "provenance": {
+      "generated_at": "2026-07-25T11:25:00Z",
+      "schema": "okf-provenance.v1",
+      "snapshot_id": "planning-2026-07-25-r1",
+      "source_adapter": "planning-data-gov-uk",
+      "source_record_url": "https://www.planning.data.gov.uk/dataset/document",
+      "source_url": "https://www.planning.data.gov.uk/dataset.json"
+    },
+    "publisher": "planning-data-england",
+    "publisher_title": "Planning Data England / MHCLG",
+    "publisher_url": "https://www.planning.data.gov.uk/",
+    "record_type": "document",
+    "resources": [
+      {
+        "dcat_type": "landing-page",
+        "description": "Source landing page carried for discovery. This bundle does not assert that the page is a machine-readable data endpoint.",
+        "format": "html",
+        "id": "document-source",
+        "media_type": "text/html",
+        "resource_type": "landing-page",
+        "title": "Official source page for Document",
+        "url": "https://www.planning.data.gov.uk/dataset/document"
+      }
+    ],
+    "route": "dataset/document",
+    "source": "planning-data-gov-uk",
+    "source_url": "https://www.planning.data.gov.uk/dataset/document",
+    "sources": [
+      {
+        "id": "source-record",
+        "resource": "https://www.planning.data.gov.uk/dataset.json",
+        "title": "Planning Data England dataset catalogue snapshot"
+      }
+    ],
+    "stale_after": "2026-10-25",
+    "status": "draft",
+    "summary": "Planning metadata record for Document.",
+    "tags": [
+      "alpha",
+      "development",
+      "document",
+      "planning-data"
+    ],
+    "themes": [
+      "development"
+    ],
+    "title": "Document",
+    "trust_tier": "unverified",
+    "typology": "document",
+    "wikidata": "Q49848"
+  },
+  {
+    "alternatives": [],
+    "attribution": "© Crown copyright and database right 2026",
+    "authority": {
+      "bundlePublisher": {
+        "id": "https://github.com/chris-page-gov/okf-planning",
+        "name": "OKF Planning project",
+        "url": "https://github.com/chris-page-gov/okf-planning"
+      },
+      "notEndorsedBySource": true,
+      "reviewedBy": [],
+      "sourcePublisher": [
+        {
+          "id": "planning-data-england",
+          "name": "Planning Data England / MHCLG",
+          "url": "https://www.planning.data.gov.uk/"
+        }
+      ]
+    },
+    "collection": "document",
+    "confidence": "observed",
+    "description": "Planning metadata record for Document type.",
+    "documentation_url": "https://www.planning.data.gov.uk/dataset/document-type",
+    "entity_count": 7,
+    "generated": {
+      "at": "2026-07-25T11:25:00Z",
+      "by": "okf-planning/0.2.0"
+    },
+    "id": "document-type",
+    "licence_id": "ogl3",
+    "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "name": "document-type",
+    "node_json": {
+      "@id": "https://chris-page-gov.github.io/okf-planning/dataset/document-type",
+      "@type": "dcat:Dataset",
+      "dcat:theme": [
+        "development"
+      ],
+      "dct:description": "Planning metadata record for Document type.",
+      "dct:identifier": "planning:document-type",
+      "dct:title": "Document type",
+      "okf:collection": "document",
+      "okf:entityCount": 7,
+      "okf:notEndorsedBySource": true,
+      "okf:phase": "beta",
+      "okf:typology": "category",
+      "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+    },
+    "open": "dataset/document-type",
+    "phase": "beta",
+    "provenance": {
+      "generated_at": "2026-07-25T11:25:00Z",
+      "schema": "okf-provenance.v1",
+      "snapshot_id": "planning-2026-07-25-r1",
+      "source_adapter": "planning-data-gov-uk",
+      "source_record_url": "https://www.planning.data.gov.uk/dataset/document-type",
+      "source_url": "https://www.planning.data.gov.uk/dataset.json"
+    },
+    "publisher": "planning-data-england",
+    "publisher_title": "Planning Data England / MHCLG",
+    "publisher_url": "https://www.planning.data.gov.uk/",
+    "record_type": "category",
+    "resources": [
+      {
+        "dcat_type": "landing-page",
+        "description": "Source landing page carried for discovery. This bundle does not assert that the page is a machine-readable data endpoint.",
+        "format": "html",
+        "id": "document-type-source",
+        "media_type": "text/html",
+        "resource_type": "landing-page",
+        "title": "Official source page for Document type",
+        "url": "https://www.planning.data.gov.uk/dataset/document-type"
+      }
+    ],
+    "route": "dataset/document-type",
+    "source": "planning-data-gov-uk",
+    "source_url": "https://www.planning.data.gov.uk/dataset/document-type",
+    "sources": [
+      {
+        "id": "source-record",
+        "resource": "https://www.planning.data.gov.uk/dataset.json",
+        "title": "Planning Data England dataset catalogue snapshot"
+      }
+    ],
+    "stale_after": "2026-10-25",
+    "status": "draft",
+    "summary": "Planning metadata record for Document type.",
+    "tags": [
+      "beta",
+      "category",
+      "development",
+      "document"
+    ],
+    "themes": [
+      "development"
+    ],
+    "title": "Document type",
+    "trust_tier": "unverified",
+    "typology": "category",
+    "wikidata": ""
+  },
+  {
+    "alternatives": [],
+    "attribution": "© Crown copyright and database right 2026",
+    "authority": {
+      "bundlePublisher": {
+        "id": "https://github.com/chris-page-gov/okf-planning",
+        "name": "OKF Planning project",
+        "url": "https://github.com/chris-page-gov/okf-planning"
+      },
+      "notEndorsedBySource": true,
+      "reviewedBy": [],
+      "sourcePublisher": [
+        {
+          "id": "planning-data-england",
+          "name": "Planning Data England / MHCLG",
+          "url": "https://www.planning.data.gov.uk/"
+        }
+      ]
+    },
+    "collection": "educational-establishment",
+    "confidence": "observed",
+    "description": "Planning metadata record for Educational establishment.",
+    "documentation_url": "https://www.planning.data.gov.uk/dataset/educational-establishment",
+    "entity_count": 47047,
+    "generated": {
+      "at": "2026-07-25T11:25:00Z",
+      "by": "okf-planning/0.2.0"
+    },
+    "id": "educational-establishment",
+    "licence_id": "ogl3",
+    "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "name": "educational-establishment",
+    "node_json": {
+      "@id": "https://chris-page-gov.github.io/okf-planning/dataset/educational-establishment",
+      "@type": "dcat:Dataset",
+      "dcat:theme": [
+        "administrative"
+      ],
+      "dct:description": "Planning metadata record for Educational establishment.",
+      "dct:identifier": "planning:educational-establishment",
+      "dct:title": "Educational establishment",
+      "okf:collection": "educational-establishment",
+      "okf:entityCount": 47047,
+      "okf:notEndorsedBySource": true,
+      "okf:phase": "alpha",
+      "okf:typology": "geography",
+      "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+    },
+    "open": "dataset/educational-establishment",
+    "phase": "alpha",
+    "provenance": {
+      "generated_at": "2026-07-25T11:25:00Z",
+      "schema": "okf-provenance.v1",
+      "snapshot_id": "planning-2026-07-25-r1",
+      "source_adapter": "planning-data-gov-uk",
+      "source_record_url": "https://www.planning.data.gov.uk/dataset/educational-establishment",
+      "source_url": "https://www.planning.data.gov.uk/dataset.json"
+    },
+    "publisher": "planning-data-england",
+    "publisher_title": "Planning Data England / MHCLG",
+    "publisher_url": "https://www.planning.data.gov.uk/",
+    "record_type": "geography",
+    "resources": [
+      {
+        "dcat_type": "landing-page",
+        "description": "Source landing page carried for discovery. This bundle does not assert that the page is a machine-readable data endpoint.",
+        "format": "html",
+        "id": "educational-establishment-source",
+        "media_type": "text/html",
+        "resource_type": "landing-page",
+        "title": "Official source page for Educational establishment",
+        "url": "https://www.planning.data.gov.uk/dataset/educational-establishment"
+      }
+    ],
+    "route": "dataset/educational-establishment",
+    "source": "planning-data-gov-uk",
+    "source_url": "https://www.planning.data.gov.uk/dataset/educational-establishment",
+    "sources": [
+      {
+        "id": "source-record",
+        "resource": "https://www.planning.data.gov.uk/dataset.json",
+        "title": "Planning Data England dataset catalogue snapshot"
+      }
+    ],
+    "stale_after": "2026-10-25",
+    "status": "draft",
+    "summary": "Planning metadata record for Educational establishment.",
+    "tags": [
+      "administrative",
+      "alpha",
+      "educational-establishment",
+      "geography"
+    ],
+    "themes": [
+      "administrative"
+    ],
+    "title": "Educational establishment",
+    "trust_tier": "unverified",
+    "typology": "geography",
+    "wikidata": ""
+  },
+  {
+    "alternatives": [],
+    "attribution": "© Crown copyright and database right 2026",
+    "authority": {
+      "bundlePublisher": {
+        "id": "https://github.com/chris-page-gov/okf-planning",
+        "name": "OKF Planning project",
+        "url": "https://github.com/chris-page-gov/okf-planning"
+      },
+      "notEndorsedBySource": true,
+      "reviewedBy": [],
+      "sourcePublisher": [
+        {
+          "id": "planning-data-england",
+          "name": "Planning Data England / MHCLG",
+          "url": "https://www.planning.data.gov.uk/"
+        }
+      ]
+    },
+    "collection": "planning-data",
+    "confidence": "observed",
+    "description": "Planning metadata record for Employment allocation.",
+    "documentation_url": "https://www.planning.data.gov.uk/dataset/employment-allocation",
+    "entity_count": 0,
+    "generated": {
+      "at": "2026-07-25T11:25:00Z",
+      "by": "okf-planning/0.2.0"
+    },
+    "id": "employment-allocation",
+    "licence_id": "ogl3",
+    "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "name": "employment-allocation",
+    "node_json": {
+      "@id": "https://chris-page-gov.github.io/okf-planning/dataset/employment-allocation",
+      "@type": "dcat:Dataset",
+      "dcat:theme": [
+        "development"
+      ],
+      "dct:description": "Planning metadata record for Employment allocation.",
+      "dct:identifier": "planning:employment-allocation",
+      "dct:title": "Employment allocation",
+      "okf:collection": "planning-data",
+      "okf:entityCount": 0,
+      "okf:notEndorsedBySource": true,
+      "okf:phase": "alpha",
+      "okf:typology": "geography",
+      "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+    },
+    "open": "dataset/employment-allocation",
+    "phase": "alpha",
+    "provenance": {
+      "generated_at": "2026-07-25T11:25:00Z",
+      "schema": "okf-provenance.v1",
+      "snapshot_id": "planning-2026-07-25-r1",
+      "source_adapter": "planning-data-gov-uk",
+      "source_record_url": "https://www.planning.data.gov.uk/dataset/employment-allocation",
+      "source_url": "https://www.planning.data.gov.uk/dataset.json"
+    },
+    "publisher": "planning-data-england",
+    "publisher_title": "Planning Data England / MHCLG",
+    "publisher_url": "https://www.planning.data.gov.uk/",
+    "record_type": "geography",
+    "resources": [
+      {
+        "dcat_type": "landing-page",
+        "description": "Source landing page carried for discovery. This bundle does not assert that the page is a machine-readable data endpoint.",
+        "format": "html",
+        "id": "employment-allocation-source",
+        "media_type": "text/html",
+        "resource_type": "landing-page",
+        "title": "Official source page for Employment allocation",
+        "url": "https://www.planning.data.gov.uk/dataset/employment-allocation"
+      }
+    ],
+    "route": "dataset/employment-allocation",
+    "source": "planning-data-gov-uk",
+    "source_url": "https://www.planning.data.gov.uk/dataset/employment-allocation",
+    "sources": [
+      {
+        "id": "source-record",
+        "resource": "https://www.planning.data.gov.uk/dataset.json",
+        "title": "Planning Data England dataset catalogue snapshot"
+      }
+    ],
+    "stale_after": "2026-10-25",
+    "status": "draft",
+    "summary": "Planning metadata record for Employment allocation.",
+    "tags": [
+      "alpha",
+      "development",
+      "geography",
+      "planning-data"
+    ],
+    "themes": [
+      "development"
+    ],
+    "title": "Employment allocation",
+    "trust_tier": "unverified",
+    "typology": "geography",
+    "wikidata": ""
+  },
+  {
+    "alternatives": [],
+    "attribution": "© Crown copyright and database right 2026",
+    "authority": {
+      "bundlePublisher": {
+        "id": "https://github.com/chris-page-gov/okf-planning",
+        "name": "OKF Planning project",
+        "url": "https://github.com/chris-page-gov/okf-planning"
+      },
+      "notEndorsedBySource": true,
+      "reviewedBy": [],
+      "sourcePublisher": [
+        {
+          "id": "planning-data-england",
+          "name": "Planning Data England / MHCLG",
+          "url": "https://www.planning.data.gov.uk/"
+        }
+      ]
+    },
+    "collection": "planning-data",
+    "confidence": "observed",
+    "description": "a data item",
+    "documentation_url": "https://www.planning.data.gov.uk/dataset/entity",
+    "entity_count": 0,
+    "generated": {
+      "at": "2026-07-25T11:25:00Z",
+      "by": "okf-planning/0.2.0"
+    },
+    "id": "entity",
+    "licence_id": "ogl3",
+    "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "name": "entity",
+    "node_json": {
+      "@id": "https://chris-page-gov.github.io/okf-planning/dataset/entity",
+      "@type": "dcat:Dataset",
+      "dcat:theme": [
+        "specification"
+      ],
+      "dct:description": "a data item",
+      "dct:identifier": "planning:entity",
+      "dct:title": "Entity",
+      "okf:collection": "planning-data",
+      "okf:entityCount": 0,
+      "okf:notEndorsedBySource": true,
+      "okf:phase": "alpha",
+      "okf:typology": "entity",
+      "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+    },
+    "open": "dataset/entity",
+    "phase": "alpha",
+    "provenance": {
+      "generated_at": "2026-07-25T11:25:00Z",
+      "schema": "okf-provenance.v1",
+      "snapshot_id": "planning-2026-07-25-r1",
+      "source_adapter": "planning-data-gov-uk",
+      "source_record_url": "https://www.planning.data.gov.uk/dataset/entity",
+      "source_url": "https://www.planning.data.gov.uk/dataset.json"
+    },
+    "publisher": "planning-data-england",
+    "publisher_title": "Planning Data England / MHCLG",
+    "publisher_url": "https://www.planning.data.gov.uk/",
+    "record_type": "entity",
+    "resources": [
+      {
+        "dcat_type": "landing-page",
+        "description": "Source landing page carried for discovery. This bundle does not assert that the page is a machine-readable data endpoint.",
+        "format": "html",
+        "id": "entity-source",
+        "media_type": "text/html",
+        "resource_type": "landing-page",
+        "title": "Official source page for Entity",
+        "url": "https://www.planning.data.gov.uk/dataset/entity"
+      }
+    ],
+    "route": "dataset/entity",
+    "source": "planning-data-gov-uk",
+    "source_url": "https://www.planning.data.gov.uk/dataset/entity",
+    "sources": [
+      {
+        "id": "source-record",
+        "resource": "https://www.planning.data.gov.uk/dataset.json",
+        "title": "Planning Data England dataset catalogue snapshot"
+      }
+    ],
+    "stale_after": "2026-10-25",
+    "status": "draft",
+    "summary": "a data item",
+    "tags": [
+      "alpha",
+      "entity",
+      "planning-data",
+      "specification"
+    ],
+    "themes": [
+      "specification"
+    ],
+    "title": "Entity",
+    "trust_tier": "unverified",
+    "typology": "entity",
+    "wikidata": ""
+  },
+  {
+    "alternatives": [],
+    "attribution": "© Crown copyright and database right 2026",
+    "authority": {
+      "bundlePublisher": {
+        "id": "https://github.com/chris-page-gov/okf-planning",
+        "name": "OKF Planning project",
+        "url": "https://github.com/chris-page-gov/okf-planning"
+      },
+      "notEndorsedBySource": true,
+      "reviewedBy": [],
+      "sourcePublisher": [
+        {
+          "id": "planning-data-england",
+          "name": "Planning Data England / MHCLG",
+          "url": "https://www.planning.data.gov.uk/"
+        }
+      ]
+    },
+    "collection": "planning-data",
+    "confidence": "observed",
+    "description": "The organisation responsible for managing a range of entities.",
+    "documentation_url": "https://www.planning.data.gov.uk/dataset/entity-organisation",
+    "entity_count": 0,
+    "generated": {
+      "at": "2026-07-25T11:25:00Z",
+      "by": "okf-planning/0.2.0"
+    },
+    "id": "entity-organisation",
+    "licence_id": "ogl3",
+    "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "name": "entity-organisation",
+    "node_json": {
+      "@id": "https://chris-page-gov.github.io/okf-planning/dataset/entity-organisation",
+      "@type": "dcat:Dataset",
+      "dcat:theme": [
+        "specification"
+      ],
+      "dct:description": "The organisation responsible for managing a range of entities.",
+      "dct:identifier": "planning:entity-organisation",
+      "dct:title": "Entity organisation",
+      "okf:collection": "planning-data",
+      "okf:entityCount": 0,
+      "okf:notEndorsedBySource": true,
+      "okf:phase": "alpha",
+      "okf:typology": "entity",
+      "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+    },
+    "open": "dataset/entity-organisation",
+    "phase": "alpha",
+    "provenance": {
+      "generated_at": "2026-07-25T11:25:00Z",
+      "schema": "okf-provenance.v1",
+      "snapshot_id": "planning-2026-07-25-r1",
+      "source_adapter": "planning-data-gov-uk",
+      "source_record_url": "https://www.planning.data.gov.uk/dataset/entity-organisation",
+      "source_url": "https://www.planning.data.gov.uk/dataset.json"
+    },
+    "publisher": "planning-data-england",
+    "publisher_title": "Planning Data England / MHCLG",
+    "publisher_url": "https://www.planning.data.gov.uk/",
+    "record_type": "entity",
+    "resources": [
+      {
+        "dcat_type": "landing-page",
+        "description": "Source landing page carried for discovery. This bundle does not assert that the page is a machine-readable data endpoint.",
+        "format": "html",
+        "id": "entity-organisation-source",
+        "media_type": "text/html",
+        "resource_type": "landing-page",
+        "title": "Official source page for Entity organisation",
+        "url": "https://www.planning.data.gov.uk/dataset/entity-organisation"
+      }
+    ],
+    "route": "dataset/entity-organisation",
+    "source": "planning-data-gov-uk",
+    "source_url": "https://www.planning.data.gov.uk/dataset/entity-organisation",
+    "sources": [
+      {
+        "id": "source-record",
+        "resource": "https://www.planning.data.gov.uk/dataset.json",
+        "title": "Planning Data England dataset catalogue snapshot"
+      }
+    ],
+    "stale_after": "2026-10-25",
+    "status": "draft",
+    "summary": "The organisation responsible for managing a range of entities.",
+    "tags": [
+      "alpha",
+      "entity",
+      "planning-data",
+      "specification"
+    ],
+    "themes": [
+      "specification"
+    ],
+    "title": "Entity organisation",
+    "trust_tier": "unverified",
+    "typology": "entity",
+    "wikidata": ""
+  },
+  {
+    "alternatives": [],
+    "attribution": "© Environment Agency copyright and/or database right 2026",
+    "authority": {
+      "bundlePublisher": {
+        "id": "https://github.com/chris-page-gov/okf-planning",
+        "name": "OKF Planning project",
+        "url": "https://github.com/chris-page-gov/okf-planning"
+      },
+      "notEndorsedBySource": true,
+      "reviewedBy": [],
+      "sourcePublisher": [
+        {
+          "id": "environment-agency",
+          "name": "Environment Agency",
+          "url": "https://www.gov.uk/government/organisations/environment-agency"
+        }
+      ]
+    },
+    "collection": "flood-risk-zone",
+    "confidence": "curated-unverified",
+    "description": "Statutory spatial boundaries for river and sea flood risk zones used by local planning authorities to apply the Sequential Test and Exception Test for planning applications.",
+    "documentation_url": "https://www.gov.uk/guidance/flood-risk-and-coastal-change",
+    "entity_count": 89450,
+    "generated": {
+      "at": "2026-07-25T11:25:00Z",
+      "by": "okf-planning/0.2.0"
+    },
+    "id": "environment-agency-flood-risk-zones",
+    "licence_id": "source-specific",
+    "licence_title": "Environment Agency Open Data licence",
+    "name": "environment-agency-flood-risk-zones",
+    "node_json": {
+      "@id": "https://chris-page-gov.github.io/okf-planning/dataset/environment-agency-flood-risk-zones",
+      "@type": "dcat:Dataset",
+      "dcat:theme": [
+        "environment",
+        "monitoring"
+      ],
+      "dct:description": "Statutory spatial boundaries for river and sea flood risk zones used by local planning authorities to apply the Sequential Test and Exception Test for planning applications.",
+      "dct:identifier": "planning:environment-agency-flood-risk-zones",
+      "dct:title": "Environment Agency Flood Risk Zones 2 & 3",
+      "okf:collection": "flood-risk-zone",
+      "okf:entityCount": 89450,
+      "okf:notEndorsedBySource": true,
+      "okf:phase": "live",
+      "okf:typology": "geography",
+      "prov:wasAttributedTo": "https://www.gov.uk/government/organisations/environment-agency"
+    },
+    "open": "dataset/environment-agency-flood-risk-zones",
+    "phase": "live",
+    "provenance": {
+      "generated_at": "2026-07-25T11:25:00Z",
+      "schema": "okf-provenance.v1",
+      "snapshot_id": "planning-2026-07-25-r1",
+      "source_adapter": "environment-agency",
+      "source_record_url": "https://environment.data.gov.uk/dataset/flood-map-for-planning-rivers-and-sea-flood-zone-2",
+      "source_url": "https://environment.data.gov.uk/dataset/flood-map-for-planning-rivers-and-sea-flood-zone-2"
+    },
+    "publisher": "environment-agency",
+    "publisher_title": "Environment Agency",
+    "publisher_url": "https://www.gov.uk/government/organisations/environment-agency",
+    "record_type": "geography",
+    "resources": [
+      {
+        "dcat_type": "landing-page",
+        "description": "Source landing page carried for discovery. This bundle does not assert that the page is a machine-readable data endpoint.",
+        "format": "html",
+        "id": "environment-agency-flood-risk-zones-source",
+        "media_type": "text/html",
+        "resource_type": "landing-page",
+        "title": "Official source page for Environment Agency Flood Risk Zones 2 & 3",
+        "url": "https://environment.data.gov.uk/dataset/flood-map-for-planning-rivers-and-sea-flood-zone-2"
+      },
+      {
+        "dcat_type": "documentation",
+        "description": "Source-published documentation or guidance.",
+        "format": "html",
+        "id": "environment-agency-flood-risk-zones-documentation",
+        "media_type": "text/html",
+        "resource_type": "documentation",
+        "title": "Documentation for Environment Agency Flood Risk Zones 2 & 3",
+        "url": "https://www.gov.uk/guidance/flood-risk-and-coastal-change"
+      }
+    ],
+    "route": "dataset/environment-agency-flood-risk-zones",
+    "source": "environment-agency",
+    "source_url": "https://environment.data.gov.uk/dataset/flood-map-for-planning-rivers-and-sea-flood-zone-2",
+    "sources": [
+      {
+        "id": "source-record",
+        "resource": "https://environment.data.gov.uk/dataset/flood-map-for-planning-rivers-and-sea-flood-zone-2",
+        "title": "Curated source for Environment Agency Flood Risk Zones 2 & 3"
+      }
+    ],
+    "stale_after": "2026-10-25",
+    "status": "draft",
+    "summary": "Statutory spatial boundaries for river and sea flood risk zones used by local planning authorities to apply the Sequential Test and Exception Test for planning applications.",
+    "tags": [
+      "environment",
+      "flood-risk-zone",
+      "geography",
+      "live",
+      "monitoring"
+    ],
+    "themes": [
+      "environment",
+      "monitoring"
+    ],
+    "title": "Environment Agency Flood Risk Zones 2 & 3",
+    "trust_tier": "unverified",
+    "typology": "geography",
+    "wikidata": ""
+  },
+  {
+    "alternatives": [],
+    "attribution": "© Crown copyright and database right 2026",
+    "authority": {
+      "bundlePublisher": {
+        "id": "https://github.com/chris-page-gov/okf-planning",
+        "name": "OKF Planning project",
+        "url": "https://github.com/chris-page-gov/okf-planning"
+      },
+      "notEndorsedBySource": true,
+      "reviewedBy": [],
+      "sourcePublisher": [
+        {
+          "id": "planning-data-england",
+          "name": "Planning Data England / MHCLG",
+          "url": "https://www.planning.data.gov.uk/"
+        }
+      ]
+    },
+    "collection": "planning-data",
+    "confidence": "observed",
+    "description": "A set of rules which can be turned into an expectation of a dataset",
+    "documentation_url": "https://www.planning.data.gov.uk/dataset/expect",
+    "entity_count": 0,
+    "generated": {
+      "at": "2026-07-25T11:25:00Z",
+      "by": "okf-planning/0.2.0"
+    },
+    "id": "expect",
+    "licence_id": "ogl3",
+    "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "name": "expect",
+    "node_json": {
+      "@id": "https://chris-page-gov.github.io/okf-planning/dataset/expect",
+      "@type": "dcat:Dataset",
+      "dcat:theme": [
+        "pipeline"
+      ],
+      "dct:description": "A set of rules which can be turned into an expectation of a dataset",
+      "dct:identifier": "planning:expect",
+      "dct:title": "Expectation Rule",
+      "okf:collection": "planning-data",
+      "okf:entityCount": 0,
+      "okf:notEndorsedBySource": true,
+      "okf:phase": "alpha",
+      "okf:typology": "pipeline",
+      "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+    },
+    "open": "dataset/expect",
+    "phase": "alpha",
+    "provenance": {
+      "generated_at": "2026-07-25T11:25:00Z",
+      "schema": "okf-provenance.v1",
+      "snapshot_id": "planning-2026-07-25-r1",
+      "source_adapter": "planning-data-gov-uk",
+      "source_record_url": "https://www.planning.data.gov.uk/dataset/expect",
+      "source_url": "https://www.planning.data.gov.uk/dataset.json"
+    },
+    "publisher": "planning-data-england",
+    "publisher_title": "Planning Data England / MHCLG",
+    "publisher_url": "https://www.planning.data.gov.uk/",
+    "record_type": "pipeline",
+    "resources": [
+      {
+        "dcat_type": "landing-page",
+        "description": "Source landing page carried for discovery. This bundle does not assert that the page is a machine-readable data endpoint.",
+        "format": "html",
+        "id": "expect-source",
+        "media_type": "text/html",
+        "resource_type": "landing-page",
+        "title": "Official source page for Expectation Rule",
+        "url": "https://www.planning.data.gov.uk/dataset/expect"
+      }
+    ],
+    "route": "dataset/expect",
+    "source": "planning-data-gov-uk",
+    "source_url": "https://www.planning.data.gov.uk/dataset/expect",
+    "sources": [
+      {
+        "id": "source-record",
+        "resource": "https://www.planning.data.gov.uk/dataset.json",
+        "title": "Planning Data England dataset catalogue snapshot"
+      }
+    ],
+    "stale_after": "2026-10-25",
+    "status": "draft",
+    "summary": "A set of rules which can be turned into an expectation of a dataset",
+    "tags": [
+      "alpha",
+      "pipeline",
+      "planning-data"
+    ],
+    "themes": [
+      "pipeline"
+    ],
+    "title": "Expectation Rule",
+    "trust_tier": "unverified",
+    "typology": "pipeline",
+    "wikidata": ""
+  },
+  {
+    "alternatives": [],
+    "attribution": "© Crown copyright and database right 2026",
+    "authority": {
+      "bundlePublisher": {
+        "id": "https://github.com/chris-page-gov/okf-planning",
+        "name": "OKF Planning project",
+        "url": "https://github.com/chris-page-gov/okf-planning"
+      },
+      "notEndorsedBySource": true,
+      "reviewedBy": [],
+      "sourcePublisher": [
+        {
+          "id": "planning-data-england",
+          "name": "Planning Data England / MHCLG",
+          "url": "https://www.planning.data.gov.uk/"
+        }
+      ]
+    },
+    "collection": "planning-data",
+    "confidence": "observed",
+    "description": "The output of running expectations based on the rules defined in the expect dataset",
+    "documentation_url": "https://www.planning.data.gov.uk/dataset/expectation",
+    "entity_count": 0,
+    "generated": {
+      "at": "2026-07-25T11:25:00Z",
+      "by": "okf-planning/0.2.0"
+    },
+    "id": "expectation",
+    "licence_id": "ogl3",
+    "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "name": "expectation",
+    "node_json": {
+      "@id": "https://chris-page-gov.github.io/okf-planning/dataset/expectation",
+      "@type": "dcat:Dataset",
+      "dcat:theme": [
+        "pipeline"
+      ],
+      "dct:description": "The output of running expectations based on the rules defined in the expect dataset",
+      "dct:identifier": "planning:expectation",
+      "dct:title": "Expectation Log",
+      "okf:collection": "planning-data",
+      "okf:entityCount": 0,
+      "okf:notEndorsedBySource": true,
+      "okf:phase": "alpha",
+      "okf:typology": "pipeline",
+      "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+    },
+    "open": "dataset/expectation",
+    "phase": "alpha",
+    "provenance": {
+      "generated_at": "2026-07-25T11:25:00Z",
+      "schema": "okf-provenance.v1",
+      "snapshot_id": "planning-2026-07-25-r1",
+      "source_adapter": "planning-data-gov-uk",
+      "source_record_url": "https://www.planning.data.gov.uk/dataset/expectation",
+      "source_url": "https://www.planning.data.gov.uk/dataset.json"
+    },
+    "publisher": "planning-data-england",
+    "publisher_title": "Planning Data England / MHCLG",
+    "publisher_url": "https://www.planning.data.gov.uk/",
+    "record_type": "pipeline",
+    "resources": [
+      {
+        "dcat_type": "landing-page",
+        "description": "Source landing page carried for discovery. This bundle does not assert that the page is a machine-readable data endpoint.",
+        "format": "html",
+        "id": "expectation-source",
+        "media_type": "text/html",
+        "resource_type": "landing-page",
+        "title": "Official source page for Expectation Log",
+        "url": "https://www.planning.data.gov.uk/dataset/expectation"
+      }
+    ],
+    "route": "dataset/expectation",
+    "source": "planning-data-gov-uk",
+    "source_url": "https://www.planning.data.gov.uk/dataset/expectation",
+    "sources": [
+      {
+        "id": "source-record",
+        "resource": "https://www.planning.data.gov.uk/dataset.json",
+        "title": "Planning Data England dataset catalogue snapshot"
+      }
+    ],
+    "stale_after": "2026-10-25",
+    "status": "draft",
+    "summary": "The output of running expectations based on the rules defined in the expect dataset",
+    "tags": [
+      "alpha",
+      "pipeline",
+      "planning-data"
+    ],
+    "themes": [
+      "pipeline"
+    ],
+    "title": "Expectation Log",
+    "trust_tier": "unverified",
+    "typology": "pipeline",
+    "wikidata": ""
+  },
+  {
+    "alternatives": [],
+    "attribution": "© Crown copyright and database right 2026",
+    "authority": {
+      "bundlePublisher": {
+        "id": "https://github.com/chris-page-gov/okf-planning",
+        "name": "OKF Planning project",
+        "url": "https://github.com/chris-page-gov/okf-planning"
+      },
+      "notEndorsedBySource": true,
+      "reviewedBy": [],
+      "sourcePublisher": [
+        {
+          "id": "planning-data-england",
+          "name": "Planning Data England / MHCLG",
+          "url": "https://www.planning.data.gov.uk/"
+        }
+      ]
+    },
+    "collection": "planning-data",
+    "confidence": "observed",
+    "description": "a field and its value for an entity",
+    "documentation_url": "https://www.planning.data.gov.uk/dataset/fact",
+    "entity_count": 0,
+    "generated": {
+      "at": "2026-07-25T11:25:00Z",
+      "by": "okf-planning/0.2.0"
+    },
+    "id": "fact",
+    "licence_id": "ogl3",
+    "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "name": "fact",
+    "node_json": {
+      "@id": "https://chris-page-gov.github.io/okf-planning/dataset/fact",
+      "@type": "dcat:Dataset",
+      "dcat:theme": [
+        "specification"
+      ],
+      "dct:description": "a field and its value for an entity",
+      "dct:identifier": "planning:fact",
+      "dct:title": "Fact",
+      "okf:collection": "planning-data",
+      "okf:entityCount": 0,
+      "okf:notEndorsedBySource": true,
+      "okf:phase": "alpha",
+      "okf:typology": "value",
+      "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+    },
+    "open": "dataset/fact",
+    "phase": "alpha",
+    "provenance": {
+      "generated_at": "2026-07-25T11:25:00Z",
+      "schema": "okf-provenance.v1",
+      "snapshot_id": "planning-2026-07-25-r1",
+      "source_adapter": "planning-data-gov-uk",
+      "source_record_url": "https://www.planning.data.gov.uk/dataset/fact",
+      "source_url": "https://www.planning.data.gov.uk/dataset.json"
+    },
+    "publisher": "planning-data-england",
+    "publisher_title": "Planning Data England / MHCLG",
+    "publisher_url": "https://www.planning.data.gov.uk/",
+    "record_type": "value",
+    "resources": [
+      {
+        "dcat_type": "landing-page",
+        "description": "Source landing page carried for discovery. This bundle does not assert that the page is a machine-readable data endpoint.",
+        "format": "html",
+        "id": "fact-source",
+        "media_type": "text/html",
+        "resource_type": "landing-page",
+        "title": "Official source page for Fact",
+        "url": "https://www.planning.data.gov.uk/dataset/fact"
+      }
+    ],
+    "route": "dataset/fact",
+    "source": "planning-data-gov-uk",
+    "source_url": "https://www.planning.data.gov.uk/dataset/fact",
+    "sources": [
+      {
+        "id": "source-record",
+        "resource": "https://www.planning.data.gov.uk/dataset.json",
+        "title": "Planning Data England dataset catalogue snapshot"
+      }
+    ],
+    "stale_after": "2026-10-25",
+    "status": "draft",
+    "summary": "a field and its value for an entity",
+    "tags": [
+      "alpha",
+      "planning-data",
+      "specification",
+      "value"
+    ],
+    "themes": [
+      "specification"
+    ],
+    "title": "Fact",
+    "trust_tier": "unverified",
+    "typology": "value",
+    "wikidata": ""
+  },
+  {
+    "alternatives": [],
+    "attribution": "© Crown copyright and database right 2026",
+    "authority": {
+      "bundlePublisher": {
+        "id": "https://github.com/chris-page-gov/okf-planning",
+        "name": "OKF Planning project",
+        "url": "https://github.com/chris-page-gov/okf-planning"
+      },
+      "notEndorsedBySource": true,
+      "reviewedBy": [],
+      "sourcePublisher": [
+        {
+          "id": "planning-data-england",
+          "name": "Planning Data England / MHCLG",
+          "url": "https://www.planning.data.gov.uk/"
+        }
+      ]
+    },
+    "collection": "planning-data",
+    "confidence": "observed",
+    "description": "the provenance of a fact",
+    "documentation_url": "https://www.planning.data.gov.uk/dataset/fact-resource",
+    "entity_count": 0,
+    "generated": {
+      "at": "2026-07-25T11:25:00Z",
+      "by": "okf-planning/0.2.0"
+    },
+    "id": "fact-resource",
+    "licence_id": "ogl3",
+    "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "name": "fact-resource",
+    "node_json": {
+      "@id": "https://chris-page-gov.github.io/okf-planning/dataset/fact-resource",
+      "@type": "dcat:Dataset",
+      "dcat:theme": [
+        "specification"
+      ],
+      "dct:description": "the provenance of a fact",
+      "dct:identifier": "planning:fact-resource",
+      "dct:title": "Fact resource",
+      "okf:collection": "planning-data",
+      "okf:entityCount": 0,
+      "okf:notEndorsedBySource": true,
+      "okf:phase": "alpha",
+      "okf:typology": "value",
+      "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+    },
+    "open": "dataset/fact-resource",
+    "phase": "alpha",
+    "provenance": {
+      "generated_at": "2026-07-25T11:25:00Z",
+      "schema": "okf-provenance.v1",
+      "snapshot_id": "planning-2026-07-25-r1",
+      "source_adapter": "planning-data-gov-uk",
+      "source_record_url": "https://www.planning.data.gov.uk/dataset/fact-resource",
+      "source_url": "https://www.planning.data.gov.uk/dataset.json"
+    },
+    "publisher": "planning-data-england",
+    "publisher_title": "Planning Data England / MHCLG",
+    "publisher_url": "https://www.planning.data.gov.uk/",
+    "record_type": "value",
+    "resources": [
+      {
+        "dcat_type": "landing-page",
+        "description": "Source landing page carried for discovery. This bundle does not assert that the page is a machine-readable data endpoint.",
+        "format": "html",
+        "id": "fact-resource-source",
+        "media_type": "text/html",
+        "resource_type": "landing-page",
+        "title": "Official source page for Fact resource",
+        "url": "https://www.planning.data.gov.uk/dataset/fact-resource"
+      }
+    ],
+    "route": "dataset/fact-resource",
+    "source": "planning-data-gov-uk",
+    "source_url": "https://www.planning.data.gov.uk/dataset/fact-resource",
+    "sources": [
+      {
+        "id": "source-record",
+        "resource": "https://www.planning.data.gov.uk/dataset.json",
+        "title": "Planning Data England dataset catalogue snapshot"
+      }
+    ],
+    "stale_after": "2026-10-25",
+    "status": "draft",
+    "summary": "the provenance of a fact",
+    "tags": [
+      "alpha",
+      "planning-data",
+      "specification",
+      "value"
+    ],
+    "themes": [
+      "specification"
+    ],
+    "title": "Fact resource",
+    "trust_tier": "unverified",
+    "typology": "value",
+    "wikidata": ""
+  },
+  {
+    "alternatives": [],
+    "attribution": "© Crown copyright and database right 2026",
+    "authority": {
+      "bundlePublisher": {
+        "id": "https://github.com/chris-page-gov/okf-planning",
+        "name": "OKF Planning project",
+        "url": "https://github.com/chris-page-gov/okf-planning"
+      },
+      "notEndorsedBySource": true,
+      "reviewedBy": [],
+      "sourcePublisher": [
+        {
+          "id": "planning-data-england",
+          "name": "Planning Data England / MHCLG",
+          "url": "https://www.planning.data.gov.uk/"
+        }
+      ]
+    },
+    "collection": "flood-risk-zone",
+    "confidence": "observed",
+    "description": "Planning metadata record for Flood risk level.",
+    "documentation_url": "https://www.planning.data.gov.uk/dataset/flood-risk-level",
+    "entity_count": 3,
+    "generated": {
+      "at": "2026-07-25T11:25:00Z",
+      "by": "okf-planning/0.2.0"
+    },
+    "id": "flood-risk-level",
+    "licence_id": "ogl3",
+    "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "name": "flood-risk-level",
+    "node_json": {
+      "@id": "https://chris-page-gov.github.io/okf-planning/dataset/flood-risk-level",
+      "@type": "dcat:Dataset",
+      "dcat:theme": [
+        "environment"
+      ],
+      "dct:description": "Planning metadata record for Flood risk level.",
+      "dct:identifier": "planning:flood-risk-level",
+      "dct:title": "Flood risk level",
+      "okf:collection": "flood-risk-zone",
+      "okf:entityCount": 3,
+      "okf:notEndorsedBySource": true,
+      "okf:phase": "live",
+      "okf:typology": "category",
+      "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+    },
+    "open": "dataset/flood-risk-level",
+    "phase": "live",
+    "provenance": {
+      "generated_at": "2026-07-25T11:25:00Z",
+      "schema": "okf-provenance.v1",
+      "snapshot_id": "planning-2026-07-25-r1",
+      "source_adapter": "planning-data-gov-uk",
+      "source_record_url": "https://www.planning.data.gov.uk/dataset/flood-risk-level",
+      "source_url": "https://www.planning.data.gov.uk/dataset.json"
+    },
+    "publisher": "planning-data-england",
+    "publisher_title": "Planning Data England / MHCLG",
+    "publisher_url": "https://www.planning.data.gov.uk/",
+    "record_type": "category",
+    "resources": [
+      {
+        "dcat_type": "landing-page",
+        "description": "Source landing page carried for discovery. This bundle does not assert that the page is a machine-readable data endpoint.",
+        "format": "html",
+        "id": "flood-risk-level-source",
+        "media_type": "text/html",
+        "resource_type": "landing-page",
+        "title": "Official source page for Flood risk level",
+        "url": "https://www.planning.data.gov.uk/dataset/flood-risk-level"
+      }
+    ],
+    "route": "dataset/flood-risk-level",
+    "source": "planning-data-gov-uk",
+    "source_url": "https://www.planning.data.gov.uk/dataset/flood-risk-level",
+    "sources": [
+      {
+        "id": "source-record",
+        "resource": "https://www.planning.data.gov.uk/dataset.json",
+        "title": "Planning Data England dataset catalogue snapshot"
+      }
+    ],
+    "stale_after": "2026-10-25",
+    "status": "draft",
+    "summary": "Planning metadata record for Flood risk level.",
+    "tags": [
+      "category",
+      "environment",
+      "flood-risk-zone",
+      "live"
+    ],
+    "themes": [
+      "environment"
+    ],
+    "title": "Flood risk level",
+    "trust_tier": "unverified",
+    "typology": "category",
+    "wikidata": ""
+  },
+  {
+    "alternatives": [],
+    "attribution": "© Crown copyright and database right 2026",
+    "authority": {
+      "bundlePublisher": {
+        "id": "https://github.com/chris-page-gov/okf-planning",
+        "name": "OKF Planning project",
+        "url": "https://github.com/chris-page-gov/okf-planning"
+      },
+      "notEndorsedBySource": true,
+      "reviewedBy": [],
+      "sourcePublisher": [
+        {
+          "id": "planning-data-england",
+          "name": "Planning Data England / MHCLG",
+          "url": "https://www.planning.data.gov.uk/"
+        }
+      ]
+    },
+    "collection": "flood-risk-zone",
+    "confidence": "observed",
+    "description": "Planning metadata record for Flood risk type.",
+    "documentation_url": "https://www.planning.data.gov.uk/dataset/flood-risk-type",
+    "entity_count": 5,
+    "generated": {
+      "at": "2026-07-25T11:25:00Z",
+      "by": "okf-planning/0.2.0"
+    },
+    "id": "flood-risk-type",
+    "licence_id": "ogl3",
+    "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "name": "flood-risk-type",
+    "node_json": {
+      "@id": "https://chris-page-gov.github.io/okf-planning/dataset/flood-risk-type",
+      "@type": "dcat:Dataset",
+      "dcat:theme": [
+        "environment"
+      ],
+      "dct:description": "Planning metadata record for Flood risk type.",
+      "dct:identifier": "planning:flood-risk-type",
+      "dct:title": "Flood risk type",
+      "okf:collection": "flood-risk-zone",
+      "okf:entityCount": 5,
+      "okf:notEndorsedBySource": true,
+      "okf:phase": "live",
+      "okf:typology": "category",
+      "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+    },
+    "open": "dataset/flood-risk-type",
+    "phase": "live",
+    "provenance": {
+      "generated_at": "2026-07-25T11:25:00Z",
+      "schema": "okf-provenance.v1",
+      "snapshot_id": "planning-2026-07-25-r1",
+      "source_adapter": "planning-data-gov-uk",
+      "source_record_url": "https://www.planning.data.gov.uk/dataset/flood-risk-type",
+      "source_url": "https://www.planning.data.gov.uk/dataset.json"
+    },
+    "publisher": "planning-data-england",
+    "publisher_title": "Planning Data England / MHCLG",
+    "publisher_url": "https://www.planning.data.gov.uk/",
+    "record_type": "category",
+    "resources": [
+      {
+        "dcat_type": "landing-page",
+        "description": "Source landing page carried for discovery. This bundle does not assert that the page is a machine-readable data endpoint.",
+        "format": "html",
+        "id": "flood-risk-type-source",
+        "media_type": "text/html",
+        "resource_type": "landing-page",
+        "title": "Official source page for Flood risk type",
+        "url": "https://www.planning.data.gov.uk/dataset/flood-risk-type"
+      }
+    ],
+    "route": "dataset/flood-risk-type",
+    "source": "planning-data-gov-uk",
+    "source_url": "https://www.planning.data.gov.uk/dataset/flood-risk-type",
+    "sources": [
+      {
+        "id": "source-record",
+        "resource": "https://www.planning.data.gov.uk/dataset.json",
+        "title": "Planning Data England dataset catalogue snapshot"
+      }
+    ],
+    "stale_after": "2026-10-25",
+    "status": "draft",
+    "summary": "Planning metadata record for Flood risk type.",
+    "tags": [
+      "category",
+      "environment",
+      "flood-risk-zone",
+      "live"
+    ],
+    "themes": [
+      "environment"
+    ],
+    "title": "Flood risk type",
+    "trust_tier": "unverified",
+    "typology": "category",
+    "wikidata": ""
+  },
+  {
+    "alternatives": [],
+    "attribution": "© Crown copyright and database right 2026",
+    "authority": {
+      "bundlePublisher": {
+        "id": "https://github.com/chris-page-gov/okf-planning",
+        "name": "OKF Planning project",
+        "url": "https://github.com/chris-page-gov/okf-planning"
+      },
+      "notEndorsedBySource": true,
+      "reviewedBy": [],
+      "sourcePublisher": [
+        {
+          "id": "planning-data-england",
+          "name": "Planning Data England / MHCLG",
+          "url": "https://www.planning.data.gov.uk/"
+        }
+      ]
+    },
+    "collection": "flood-risk-zone",
+    "confidence": "observed",
+    "description": "Area identified as being at risk of flooding from rivers or the sea",
+    "documentation_url": "https://www.planning.data.gov.uk/dataset/flood-risk-zone",
+    "entity_count": 780636,
+    "generated": {
+      "at": "2026-07-25T11:25:00Z",
+      "by": "okf-planning/0.2.0"
+    },
+    "id": "flood-risk-zone",
+    "licence_id": "ogl3",
+    "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "name": "flood-risk-zone",
+    "node_json": {
+      "@id": "https://chris-page-gov.github.io/okf-planning/dataset/flood-risk-zone",
+      "@type": "dcat:Dataset",
+      "dcat:theme": [
+        "environment"
+      ],
+      "dct:description": "Area identified as being at risk of flooding from rivers or the sea",
+      "dct:identifier": "planning:flood-risk-zone",
+      "dct:title": "Flood risk zone",
+      "okf:collection": "flood-risk-zone",
+      "okf:entityCount": 780636,
+      "okf:notEndorsedBySource": true,
+      "okf:phase": "live",
+      "okf:typology": "geography",
+      "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+    },
+    "open": "dataset/flood-risk-zone",
+    "phase": "live",
+    "provenance": {
+      "generated_at": "2026-07-25T11:25:00Z",
+      "schema": "okf-provenance.v1",
+      "snapshot_id": "planning-2026-07-25-r1",
+      "source_adapter": "planning-data-gov-uk",
+      "source_record_url": "https://www.planning.data.gov.uk/dataset/flood-risk-zone",
+      "source_url": "https://www.planning.data.gov.uk/dataset.json"
+    },
+    "publisher": "planning-data-england",
+    "publisher_title": "Planning Data England / MHCLG",
+    "publisher_url": "https://www.planning.data.gov.uk/",
+    "record_type": "geography",
+    "resources": [
+      {
+        "dcat_type": "landing-page",
+        "description": "Source landing page carried for discovery. This bundle does not assert that the page is a machine-readable data endpoint.",
+        "format": "html",
+        "id": "flood-risk-zone-source",
+        "media_type": "text/html",
+        "resource_type": "landing-page",
+        "title": "Official source page for Flood risk zone",
+        "url": "https://www.planning.data.gov.uk/dataset/flood-risk-zone"
+      }
+    ],
+    "route": "dataset/flood-risk-zone",
+    "source": "planning-data-gov-uk",
+    "source_url": "https://www.planning.data.gov.uk/dataset/flood-risk-zone",
+    "sources": [
+      {
+        "id": "source-record",
+        "resource": "https://www.planning.data.gov.uk/dataset.json",
+        "title": "Planning Data England dataset catalogue snapshot"
+      }
+    ],
+    "stale_after": "2026-10-25",
+    "status": "draft",
+    "summary": "Area identified as being at risk of flooding from rivers or the sea",
+    "tags": [
+      "environment",
+      "flood-risk-zone",
+      "geography",
+      "live"
+    ],
+    "themes": [
+      "environment"
+    ],
+    "title": "Flood risk zone",
+    "trust_tier": "unverified",
+    "typology": "geography",
+    "wikidata": ""
+  },
+  {
+    "alternatives": [],
+    "attribution": "© Crown copyright and database right 2026",
+    "authority": {
+      "bundlePublisher": {
+        "id": "https://github.com/chris-page-gov/okf-planning",
+        "name": "OKF Planning project",
+        "url": "https://github.com/chris-page-gov/okf-planning"
+      },
+      "notEndorsedBySource": true,
+      "reviewedBy": [],
+      "sourcePublisher": [
+        {
+          "id": "planning-data-england",
+          "name": "Planning Data England / MHCLG",
+          "url": "https://www.planning.data.gov.uk/"
+        }
+      ]
+    },
+    "collection": "flood-storage-area",
+    "confidence": "observed",
+    "description": "Areas that act as a balancing reservoir, storage basin or balancing pond for flood control",
+    "documentation_url": "https://www.planning.data.gov.uk/dataset/flood-storage-area",
+    "entity_count": 510,
+    "generated": {
+      "at": "2026-07-25T11:25:00Z",
+      "by": "okf-planning/0.2.0"
+    },
+    "id": "flood-storage-area",
+    "licence_id": "ogl3",
+    "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "name": "flood-storage-area",
+    "node_json": {
+      "@id": "https://chris-page-gov.github.io/okf-planning/dataset/flood-storage-area",
+      "@type": "dcat:Dataset",
+      "dcat:theme": [
+        "environment"
+      ],
+      "dct:description": "Areas that act as a balancing reservoir, storage basin or balancing pond for flood control",
+      "dct:identifier": "planning:flood-storage-area",
+      "dct:title": "Flood storage area",
+      "okf:collection": "flood-storage-area",
+      "okf:entityCount": 510,
+      "okf:notEndorsedBySource": true,
+      "okf:phase": "alpha",
+      "okf:typology": "geography",
+      "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+    },
+    "open": "dataset/flood-storage-area",
+    "phase": "alpha",
+    "provenance": {
+      "generated_at": "2026-07-25T11:25:00Z",
+      "schema": "okf-provenance.v1",
+      "snapshot_id": "planning-2026-07-25-r1",
+      "source_adapter": "planning-data-gov-uk",
+      "source_record_url": "https://www.planning.data.gov.uk/dataset/flood-storage-area",
+      "source_url": "https://www.planning.data.gov.uk/dataset.json"
+    },
+    "publisher": "planning-data-england",
+    "publisher_title": "Planning Data England / MHCLG",
+    "publisher_url": "https://www.planning.data.gov.uk/",
+    "record_type": "geography",
+    "resources": [
+      {
+        "dcat_type": "landing-page",
+        "description": "Source landing page carried for discovery. This bundle does not assert that the page is a machine-readable data endpoint.",
+        "format": "html",
+        "id": "flood-storage-area-source",
+        "media_type": "text/html",
+        "resource_type": "landing-page",
+        "title": "Official source page for Flood storage area",
+        "url": "https://www.planning.data.gov.uk/dataset/flood-storage-area"
+      }
+    ],
+    "route": "dataset/flood-storage-area",
+    "source": "planning-data-gov-uk",
+    "source_url": "https://www.planning.data.gov.uk/dataset/flood-storage-area",
+    "sources": [
+      {
+        "id": "source-record",
+        "resource": "https://www.planning.data.gov.uk/dataset.json",
+        "title": "Planning Data England dataset catalogue snapshot"
+      }
+    ],
+    "stale_after": "2026-10-25",
+    "status": "draft",
+    "summary": "Areas that act as a balancing reservoir, storage basin or balancing pond for flood control",
+    "tags": [
+      "alpha",
+      "environment",
+      "flood-storage-area",
+      "geography"
+    ],
+    "themes": [
+      "environment"
+    ],
+    "title": "Flood storage area",
+    "trust_tier": "unverified",
+    "typology": "geography",
+    "wikidata": ""
+  },
+  {
+    "alternatives": [],
+    "attribution": "Contains, or is based on, information supplied by the Forestry Commission. © Crown copyright and database right 2022 Ordnance Survey [AC0000814847]",
+    "authority": {
+      "bundlePublisher": {
+        "id": "https://github.com/chris-page-gov/okf-planning",
+        "name": "OKF Planning project",
+        "url": "https://github.com/chris-page-gov/okf-planning"
+      },
+      "notEndorsedBySource": true,
+      "reviewedBy": [],
+      "sourcePublisher": [
+        {
+          "id": "planning-data-england",
+          "name": "Planning Data England / MHCLG",
+          "url": "https://www.planning.data.gov.uk/"
+        }
+      ]
+    },
+    "collection": "planning-data",
+    "confidence": "observed",
+    "description": "All forest and woodland area over 0.5 hectare with a minimum of 20% canopy cover, or the potential to achieve it",
+    "documentation_url": "https://www.planning.data.gov.uk/dataset/forest-inventory",
+    "entity_count": 0,
+    "generated": {
+      "at": "2026-07-25T11:25:00Z",
+      "by": "okf-planning/0.2.0"
+    },
+    "id": "forest-inventory",
+    "licence_id": "ogl3",
+    "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "name": "forest-inventory",
+    "node_json": {
+      "@id": "https://chris-page-gov.github.io/okf-planning/dataset/forest-inventory",
+      "@type": "dcat:Dataset",
+      "dcat:theme": [
+        "environment"
+      ],
+      "dct:description": "All forest and woodland area over 0.5 hectare with a minimum of 20% canopy cover, or the potential to achieve it",
+      "dct:identifier": "planning:forest-inventory",
+      "dct:title": "Forest inventory",
+      "okf:collection": "planning-data",
+      "okf:entityCount": 0,
+      "okf:notEndorsedBySource": true,
+      "okf:phase": "alpha",
+      "okf:typology": "geography",
+      "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+    },
+    "open": "dataset/forest-inventory",
+    "phase": "alpha",
+    "provenance": {
+      "generated_at": "2026-07-25T11:25:00Z",
+      "schema": "okf-provenance.v1",
+      "snapshot_id": "planning-2026-07-25-r1",
+      "source_adapter": "planning-data-gov-uk",
+      "source_record_url": "https://www.planning.data.gov.uk/dataset/forest-inventory",
+      "source_url": "https://www.planning.data.gov.uk/dataset.json"
+    },
+    "publisher": "planning-data-england",
+    "publisher_title": "Planning Data England / MHCLG",
+    "publisher_url": "https://www.planning.data.gov.uk/",
+    "record_type": "geography",
+    "resources": [
+      {
+        "dcat_type": "landing-page",
+        "description": "Source landing page carried for discovery. This bundle does not assert that the page is a machine-readable data endpoint.",
+        "format": "html",
+        "id": "forest-inventory-source",
+        "media_type": "text/html",
+        "resource_type": "landing-page",
+        "title": "Official source page for Forest inventory",
+        "url": "https://www.planning.data.gov.uk/dataset/forest-inventory"
+      }
+    ],
+    "route": "dataset/forest-inventory",
+    "source": "planning-data-gov-uk",
+    "source_url": "https://www.planning.data.gov.uk/dataset/forest-inventory",
+    "sources": [
+      {
+        "id": "source-record",
+        "resource": "https://www.planning.data.gov.uk/dataset.json",
+        "title": "Planning Data England dataset catalogue snapshot"
+      }
+    ],
+    "stale_after": "2026-10-25",
+    "status": "draft",
+    "summary": "All forest and woodland area over 0.5 hectare with a minimum of 20% canopy cover, or the potential to achieve it",
+    "tags": [
+      "alpha",
+      "environment",
+      "geography",
+      "planning-data"
+    ],
+    "themes": [
+      "environment"
+    ],
+    "title": "Forest inventory",
+    "trust_tier": "unverified",
+    "typology": "geography",
+    "wikidata": ""
+  },
+  {
+    "alternatives": [],
+    "attribution": "© Crown copyright and database right 2026",
+    "authority": {
+      "bundlePublisher": {
+        "id": "https://github.com/chris-page-gov/okf-planning",
+        "name": "OKF Planning project",
+        "url": "https://github.com/chris-page-gov/okf-planning"
+      },
+      "notEndorsedBySource": true,
+      "reviewedBy": [],
+      "sourcePublisher": [
+        {
+          "id": "planning-data-england",
+          "name": "Planning Data England / MHCLG",
+          "url": "https://www.planning.data.gov.uk/"
+        }
+      ]
+    },
+    "collection": "organisation",
+    "confidence": "observed",
+    "description": "A selection of departments, agencies, public bodies, and teams [listed on GOV.UK](https://www.gov.uk/government/organisations).\nThis data originally came from the [government organisation register](https://www.data.gov.uk/dataset/0f669ee5-7382-4f6d-8bb3-5fd238716c3b/government-organisation-register).\nWe keep and maintain this dataset to help us identify the organisations which provide planning and housing data.",
+    "documentation_url": "https://www.planning.data.gov.uk/dataset/government-organisation",
+    "entity_count": 23,
+    "generated": {
+      "at": "2026-07-25T11:25:00Z",
+      "by": "okf-planning/0.2.0"
+    },
+    "id": "government-organisation",
+    "licence_id": "ogl3",
+    "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "name": "government-organisation",
+    "node_json": {
+      "@id": "https://chris-page-gov.github.io/okf-planning/dataset/government-organisation",
+      "@type": "prov:Agent",
+      "dcat:theme": [
+        "administrative"
+      ],
+      "dct:description": "A selection of departments, agencies, public bodies, and teams [listed on GOV.UK](https://www.gov.uk/government/organisations).\nThis data originally came from the [government organisation register](https://www.data.gov.uk/dataset/0f669ee5-7382-4f6d-8bb3-5fd238716c3b/government-organisation-register).\nWe keep and maintain this dataset to help us identify the organisations which provide planning and housing data.",
+      "dct:identifier": "planning:government-organisation",
+      "dct:title": "Government organisation",
+      "okf:collection": "organisation",
+      "okf:entityCount": 23,
+      "okf:notEndorsedBySource": true,
+      "okf:phase": "beta",
+      "okf:typology": "organisation",
+      "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+    },
+    "open": "dataset/government-organisation",
+    "phase": "beta",
+    "provenance": {
+      "generated_at": "2026-07-25T11:25:00Z",
+      "schema": "okf-provenance.v1",
+      "snapshot_id": "planning-2026-07-25-r1",
+      "source_adapter": "planning-data-gov-uk",
+      "source_record_url": "https://www.planning.data.gov.uk/dataset/government-organisation",
+      "source_url": "https://www.planning.data.gov.uk/dataset.json"
+    },
+    "publisher": "planning-data-england",
+    "publisher_title": "Planning Data England / MHCLG",
+    "publisher_url": "https://www.planning.data.gov.uk/",
+    "record_type": "organisation",
+    "resources": [
+      {
+        "dcat_type": "landing-page",
+        "description": "Source landing page carried for discovery. This bundle does not assert that the page is a machine-readable data endpoint.",
+        "format": "html",
+        "id": "government-organisation-source",
+        "media_type": "text/html",
+        "resource_type": "landing-page",
+        "title": "Official source page for Government organisation",
+        "url": "https://www.planning.data.gov.uk/dataset/government-organisation"
+      }
+    ],
+    "route": "dataset/government-organisation",
+    "source": "planning-data-gov-uk",
+    "source_url": "https://www.planning.data.gov.uk/dataset/government-organisation",
+    "sources": [
+      {
+        "id": "source-record",
+        "resource": "https://www.planning.data.gov.uk/dataset.json",
+        "title": "Planning Data England dataset catalogue snapshot"
+      }
+    ],
+    "stale_after": "2026-10-25",
+    "status": "draft",
+    "summary": "A selection of departments, agencies, public bodies, and teams [listed on GOV.UK](https://www.gov.uk/government/organisations).\nThis data originally came from the [government organisation register](ht...",
+    "tags": [
+      "administrative",
+      "beta",
+      "organisation"
+    ],
+    "themes": [
+      "administrative"
+    ],
+    "title": "Government organisation",
+    "trust_tier": "unverified",
+    "typology": "organisation",
+    "wikidata": "Q2500378"
+  },
+  {
+    "alternatives": [],
+    "attribution": "Your use of OS OpenData is subject to the terms at http://os.uk/opendata/licence\nContains Ordnance Survey data © Crown copyright and database right 2026",
+    "authority": {
+      "bundlePublisher": {
+        "id": "https://github.com/chris-page-gov/okf-planning",
+        "name": "OKF Planning project",
+        "url": "https://github.com/chris-page-gov/okf-planning"
+      },
+      "notEndorsedBySource": true,
+      "reviewedBy": [],
+      "sourcePublisher": [
+        {
+          "id": "planning-data-england",
+          "name": "Planning Data England / MHCLG",
+          "url": "https://www.planning.data.gov.uk/"
+        }
+      ]
+    },
+    "collection": "green-belt",
+    "confidence": "observed",
+    "description": "This dataset contains boundaries for land designated by a local planning authority as being [green belt](https://www.gov.uk/guidance/green-belt),\ngrouped using the [greenbelt core](/dataset/green-belt-core) category.\n\nIt can be used for planning purposes, such as preparing local plans to define areas that are kept permanently open and free from urban sprawl.\n\nLocal planning authorities provide annual returns in March and we publish the data in autumn. This provides a snapshot in time and won't reflect any changes to green belt boundaries made since the local planning authorities submitted their annual returns.",
+    "documentation_url": "https://www.planning.data.gov.uk/dataset/green-belt",
+    "entity_count": 190,
+    "generated": {
+      "at": "2026-07-25T11:25:00Z",
+      "by": "okf-planning/0.2.0"
+    },
+    "id": "green-belt",
+    "licence_id": "ogl3",
+    "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "name": "green-belt",
+    "node_json": {
+      "@id": "https://chris-page-gov.github.io/okf-planning/dataset/green-belt",
+      "@type": "dcat:Dataset",
+      "dcat:theme": [
+        "environment"
+      ],
+      "dct:description": "This dataset contains boundaries for land designated by a local planning authority as being [green belt](https://www.gov.uk/guidance/green-belt),\ngrouped using the [greenbelt core](/dataset/green-belt-core) category.\n\nIt can be used for planning purposes, such as preparing local plans to define areas that are kept permanently open and free from urban sprawl.\n\nLocal planning authorities provide annual returns in March and we publish the data in autumn. This provides a snapshot in time and won't reflect any changes to green belt boundaries made since the local planning authorities submitted their annual returns.",
+      "dct:identifier": "planning:green-belt",
+      "dct:title": "Green belt",
+      "okf:collection": "green-belt",
+      "okf:entityCount": 190,
+      "okf:notEndorsedBySource": true,
+      "okf:phase": "beta",
+      "okf:typology": "geography",
+      "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+    },
+    "open": "dataset/green-belt",
+    "phase": "beta",
+    "provenance": {
+      "generated_at": "2026-07-25T11:25:00Z",
+      "schema": "okf-provenance.v1",
+      "snapshot_id": "planning-2026-07-25-r1",
+      "source_adapter": "planning-data-gov-uk",
+      "source_record_url": "https://www.planning.data.gov.uk/dataset/green-belt",
+      "source_url": "https://www.planning.data.gov.uk/dataset.json"
+    },
+    "publisher": "planning-data-england",
+    "publisher_title": "Planning Data England / MHCLG",
+    "publisher_url": "https://www.planning.data.gov.uk/",
+    "record_type": "geography",
+    "resources": [
+      {
+        "dcat_type": "landing-page",
+        "description": "Source landing page carried for discovery. This bundle does not assert that the page is a machine-readable data endpoint.",
+        "format": "html",
+        "id": "green-belt-source",
+        "media_type": "text/html",
+        "resource_type": "landing-page",
+        "title": "Official source page for Green belt",
+        "url": "https://www.planning.data.gov.uk/dataset/green-belt"
+      }
+    ],
+    "route": "dataset/green-belt",
+    "source": "planning-data-gov-uk",
+    "source_url": "https://www.planning.data.gov.uk/dataset/green-belt",
+    "sources": [
+      {
+        "id": "source-record",
+        "resource": "https://www.planning.data.gov.uk/dataset.json",
+        "title": "Planning Data England dataset catalogue snapshot"
+      }
+    ],
+    "stale_after": "2026-10-25",
+    "status": "draft",
+    "summary": "This dataset contains boundaries for land designated by a local planning authority as being [green belt](https://www.gov.uk/guidance/green-belt),\ngrouped using the [greenbelt core](/dataset/green-belt...",
+    "tags": [
+      "beta",
+      "environment",
+      "geography",
+      "green-belt"
+    ],
+    "themes": [
+      "environment"
+    ],
+    "title": "Green belt",
+    "trust_tier": "unverified",
+    "typology": "geography",
+    "wikidata": "Q2734873"
+  },
+  {
+    "alternatives": [],
+    "attribution": "© Crown copyright and database right 2026",
+    "authority": {
+      "bundlePublisher": {
+        "id": "https://github.com/chris-page-gov/okf-planning",
+        "name": "OKF Planning project",
+        "url": "https://github.com/chris-page-gov/okf-planning"
+      },
+      "notEndorsedBySource": true,
+      "reviewedBy": [],
+      "sourcePublisher": [
+        {
+          "id": "planning-data-england",
+          "name": "Planning Data England / MHCLG",
+          "url": "https://www.planning.data.gov.uk/"
+        }
+      ]
+    },
+    "collection": "green-belt",
+    "confidence": "observed",
+    "description": "A category used to collect [green belt](/dataset/green-belt) areas which surround an single urban area.",
+    "documentation_url": "https://www.planning.data.gov.uk/dataset/green-belt-core",
+    "entity_count": 16,
+    "generated": {
+      "at": "2026-07-25T11:25:00Z",
+      "by": "okf-planning/0.2.0"
+    },
+    "id": "green-belt-core",
+    "licence_id": "ogl3",
+    "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "name": "green-belt-core",
+    "node_json": {
+      "@id": "https://chris-page-gov.github.io/okf-planning/dataset/green-belt-core",
+      "@type": "dcat:Dataset",
+      "dcat:theme": [
+        "environment"
+      ],
+      "dct:description": "A category used to collect [green belt](/dataset/green-belt) areas which surround an single urban area.",
+      "dct:identifier": "planning:green-belt-core",
+      "dct:title": "Green belt core",
+      "okf:collection": "green-belt",
+      "okf:entityCount": 16,
+      "okf:notEndorsedBySource": true,
+      "okf:phase": "beta",
+      "okf:typology": "category",
+      "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+    },
+    "open": "dataset/green-belt-core",
+    "phase": "beta",
+    "provenance": {
+      "generated_at": "2026-07-25T11:25:00Z",
+      "schema": "okf-provenance.v1",
+      "snapshot_id": "planning-2026-07-25-r1",
+      "source_adapter": "planning-data-gov-uk",
+      "source_record_url": "https://www.planning.data.gov.uk/dataset/green-belt-core",
+      "source_url": "https://www.planning.data.gov.uk/dataset.json"
+    },
+    "publisher": "planning-data-england",
+    "publisher_title": "Planning Data England / MHCLG",
+    "publisher_url": "https://www.planning.data.gov.uk/",
+    "record_type": "category",
+    "resources": [
+      {
+        "dcat_type": "landing-page",
+        "description": "Source landing page carried for discovery. This bundle does not assert that the page is a machine-readable data endpoint.",
+        "format": "html",
+        "id": "green-belt-core-source",
+        "media_type": "text/html",
+        "resource_type": "landing-page",
+        "title": "Official source page for Green belt core",
+        "url": "https://www.planning.data.gov.uk/dataset/green-belt-core"
+      }
+    ],
+    "route": "dataset/green-belt-core",
+    "source": "planning-data-gov-uk",
+    "source_url": "https://www.planning.data.gov.uk/dataset/green-belt-core",
+    "sources": [
+      {
+        "id": "source-record",
+        "resource": "https://www.planning.data.gov.uk/dataset.json",
+        "title": "Planning Data England dataset catalogue snapshot"
+      }
+    ],
+    "stale_after": "2026-10-25",
+    "status": "draft",
+    "summary": "A category used to collect [green belt](/dataset/green-belt) areas which surround an single urban area.",
+    "tags": [
+      "beta",
+      "category",
+      "environment",
+      "green-belt"
+    ],
+    "themes": [
+      "environment"
+    ],
+    "title": "Green belt core",
+    "trust_tier": "unverified",
+    "typology": "category",
+    "wikidata": "Q2734873"
+  },
+  {
+    "alternatives": [],
+    "attribution": "© Crown copyright and database right 2026",
+    "authority": {
+      "bundlePublisher": {
+        "id": "https://github.com/chris-page-gov/okf-planning",
+        "name": "OKF Planning project",
+        "url": "https://github.com/chris-page-gov/okf-planning"
+      },
+      "notEndorsedBySource": true,
+      "reviewedBy": [],
+      "sourcePublisher": [
+        {
+          "id": "planning-data-england",
+          "name": "Planning Data England / MHCLG",
+          "url": "https://www.planning.data.gov.uk/"
+        }
+      ]
+    },
+    "collection": "planning-data",
+    "confidence": "observed",
+    "description": "Planning metadata record for Guardianship site and English heritage site.",
+    "documentation_url": "https://www.planning.data.gov.uk/dataset/guardianship-site-and-english-heritage-site",
+    "entity_count": 0,
+    "generated": {
+      "at": "2026-07-25T11:25:00Z",
+      "by": "okf-planning/0.2.0"
+    },
+    "id": "guardianship-site-and-english-heritage-site",
+    "licence_id": "ogl3",
+    "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "name": "guardianship-site-and-english-heritage-site",
+    "node_json": {
+      "@id": "https://chris-page-gov.github.io/okf-planning/dataset/guardianship-site-and-english-heritage-site",
+      "@type": "dcat:Dataset",
+      "dcat:theme": [
+        "heritage"
+      ],
+      "dct:description": "Planning metadata record for Guardianship site and English heritage site.",
+      "dct:identifier": "planning:guardianship-site-and-english-heritage-site",
+      "dct:title": "Guardianship site and English heritage site",
+      "okf:collection": "planning-data",
+      "okf:entityCount": 0,
+      "okf:notEndorsedBySource": true,
+      "okf:phase": "alpha",
+      "okf:typology": "geography",
+      "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+    },
+    "open": "dataset/guardianship-site-and-english-heritage-site",
+    "phase": "alpha",
+    "provenance": {
+      "generated_at": "2026-07-25T11:25:00Z",
+      "schema": "okf-provenance.v1",
+      "snapshot_id": "planning-2026-07-25-r1",
+      "source_adapter": "planning-data-gov-uk",
+      "source_record_url": "https://www.planning.data.gov.uk/dataset/guardianship-site-and-english-heritage-site",
+      "source_url": "https://www.planning.data.gov.uk/dataset.json"
+    },
+    "publisher": "planning-data-england",
+    "publisher_title": "Planning Data England / MHCLG",
+    "publisher_url": "https://www.planning.data.gov.uk/",
+    "record_type": "geography",
+    "resources": [
+      {
+        "dcat_type": "landing-page",
+        "description": "Source landing page carried for discovery. This bundle does not assert that the page is a machine-readable data endpoint.",
+        "format": "html",
+        "id": "guardianship-site-and-english-heritage-site-source",
+        "media_type": "text/html",
+        "resource_type": "landing-page",
+        "title": "Official source page for Guardianship site and English heritage site",
+        "url": "https://www.planning.data.gov.uk/dataset/guardianship-site-and-english-heritage-site"
+      }
+    ],
+    "route": "dataset/guardianship-site-and-english-heritage-site",
+    "source": "planning-data-gov-uk",
+    "source_url": "https://www.planning.data.gov.uk/dataset/guardianship-site-and-english-heritage-site",
+    "sources": [
+      {
+        "id": "source-record",
+        "resource": "https://www.planning.data.gov.uk/dataset.json",
+        "title": "Planning Data England dataset catalogue snapshot"
+      }
+    ],
+    "stale_after": "2026-10-25",
+    "status": "draft",
+    "summary": "Planning metadata record for Guardianship site and English heritage site.",
+    "tags": [
+      "alpha",
+      "geography",
+      "heritage",
+      "planning-data"
+    ],
+    "themes": [
+      "heritage"
+    ],
+    "title": "Guardianship site and English heritage site",
+    "trust_tier": "unverified",
+    "typology": "geography",
+    "wikidata": ""
+  },
+  {
+    "alternatives": [],
+    "attribution": "© Crown copyright and database right 2026",
+    "authority": {
+      "bundlePublisher": {
+        "id": "https://github.com/chris-page-gov/okf-planning",
+        "name": "OKF Planning project",
+        "url": "https://github.com/chris-page-gov/okf-planning"
+      },
+      "notEndorsedBySource": true,
+      "reviewedBy": [],
+      "sourcePublisher": [
+        {
+          "id": "planning-data-england",
+          "name": "Planning Data England / MHCLG",
+          "url": "https://www.planning.data.gov.uk/"
+        }
+      ]
+    },
+    "collection": "planning-data",
+    "confidence": "observed",
+    "description": "Planning metadata record for Gypsy and traveller site.",
+    "documentation_url": "https://www.planning.data.gov.uk/dataset/gypsy-and-traveller-site",
+    "entity_count": 0,
+    "generated": {
+      "at": "2026-07-25T11:25:00Z",
+      "by": "okf-planning/0.2.0"
+    },
+    "id": "gypsy-and-traveller-site",
+    "licence_id": "ogl3",
+    "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "name": "gypsy-and-traveller-site",
+    "node_json": {
+      "@id": "https://chris-page-gov.github.io/okf-planning/dataset/gypsy-and-traveller-site",
+      "@type": "dcat:Dataset",
+      "dcat:theme": [
+        "development"
+      ],
+      "dct:description": "Planning metadata record for Gypsy and traveller site.",
+      "dct:identifier": "planning:gypsy-and-traveller-site",
+      "dct:title": "Gypsy and traveller site",
+      "okf:collection": "planning-data",
+      "okf:entityCount": 0,
+      "okf:notEndorsedBySource": true,
+      "okf:phase": "alpha",
+      "okf:typology": "geography",
+      "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+    },
+    "open": "dataset/gypsy-and-traveller-site",
+    "phase": "alpha",
+    "provenance": {
+      "generated_at": "2026-07-25T11:25:00Z",
+      "schema": "okf-provenance.v1",
+      "snapshot_id": "planning-2026-07-25-r1",
+      "source_adapter": "planning-data-gov-uk",
+      "source_record_url": "https://www.planning.data.gov.uk/dataset/gypsy-and-traveller-site",
+      "source_url": "https://www.planning.data.gov.uk/dataset.json"
+    },
+    "publisher": "planning-data-england",
+    "publisher_title": "Planning Data England / MHCLG",
+    "publisher_url": "https://www.planning.data.gov.uk/",
+    "record_type": "geography",
+    "resources": [
+      {
+        "dcat_type": "landing-page",
+        "description": "Source landing page carried for discovery. This bundle does not assert that the page is a machine-readable data endpoint.",
+        "format": "html",
+        "id": "gypsy-and-traveller-site-source",
+        "media_type": "text/html",
+        "resource_type": "landing-page",
+        "title": "Official source page for Gypsy and traveller site",
+        "url": "https://www.planning.data.gov.uk/dataset/gypsy-and-traveller-site"
+      }
+    ],
+    "route": "dataset/gypsy-and-traveller-site",
+    "source": "planning-data-gov-uk",
+    "source_url": "https://www.planning.data.gov.uk/dataset/gypsy-and-traveller-site",
+    "sources": [
+      {
+        "id": "source-record",
+        "resource": "https://www.planning.data.gov.uk/dataset.json",
+        "title": "Planning Data England dataset catalogue snapshot"
+      }
+    ],
+    "stale_after": "2026-10-25",
+    "status": "draft",
+    "summary": "Planning metadata record for Gypsy and traveller site.",
+    "tags": [
+      "alpha",
+      "development",
+      "geography",
+      "planning-data"
+    ],
+    "themes": [
+      "development"
+    ],
+    "title": "Gypsy and traveller site",
+    "trust_tier": "unverified",
+    "typology": "geography",
+    "wikidata": "Q74497345"
+  },
+  {
+    "alternatives": [],
+    "attribution": "© Crown copyright and database right 2026",
+    "authority": {
+      "bundlePublisher": {
+        "id": "https://github.com/chris-page-gov/okf-planning",
+        "name": "OKF Planning project",
+        "url": "https://github.com/chris-page-gov/okf-planning"
+      },
+      "notEndorsedBySource": true,
+      "reviewedBy": [],
+      "sourcePublisher": [
+        {
+          "id": "planning-data-england",
+          "name": "Planning Data England / MHCLG",
+          "url": "https://www.planning.data.gov.uk/"
+        }
+      ]
+    },
+    "collection": "planning-data",
+    "confidence": "observed",
+    "description": "Planning metadata record for Heritage action zone.",
+    "documentation_url": "https://www.planning.data.gov.uk/dataset/heritage-action-zone",
+    "entity_count": 0,
+    "generated": {
+      "at": "2026-07-25T11:25:00Z",
+      "by": "okf-planning/0.2.0"
+    },
+    "id": "heritage-action-zone",
+    "licence_id": "ogl3",
+    "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "name": "heritage-action-zone",
+    "node_json": {
+      "@id": "https://chris-page-gov.github.io/okf-planning/dataset/heritage-action-zone",
+      "@type": "dcat:Dataset",
+      "dcat:theme": [
+        "heritage"
+      ],
+      "dct:description": "Planning metadata record for Heritage action zone.",
+      "dct:identifier": "planning:heritage-action-zone",
+      "dct:title": "Heritage action zone",
+      "okf:collection": "planning-data",
+      "okf:entityCount": 0,
+      "okf:notEndorsedBySource": true,
+      "okf:phase": "alpha",
+      "okf:typology": "geography",
+      "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+    },
+    "open": "dataset/heritage-action-zone",
+    "phase": "alpha",
+    "provenance": {
+      "generated_at": "2026-07-25T11:25:00Z",
+      "schema": "okf-provenance.v1",
+      "snapshot_id": "planning-2026-07-25-r1",
+      "source_adapter": "planning-data-gov-uk",
+      "source_record_url": "https://www.planning.data.gov.uk/dataset/heritage-action-zone",
+      "source_url": "https://www.planning.data.gov.uk/dataset.json"
+    },
+    "publisher": "planning-data-england",
+    "publisher_title": "Planning Data England / MHCLG",
+    "publisher_url": "https://www.planning.data.gov.uk/",
+    "record_type": "geography",
+    "resources": [
+      {
+        "dcat_type": "landing-page",
+        "description": "Source landing page carried for discovery. This bundle does not assert that the page is a machine-readable data endpoint.",
+        "format": "html",
+        "id": "heritage-action-zone-source",
+        "media_type": "text/html",
+        "resource_type": "landing-page",
+        "title": "Official source page for Heritage action zone",
+        "url": "https://www.planning.data.gov.uk/dataset/heritage-action-zone"
+      }
+    ],
+    "route": "dataset/heritage-action-zone",
+    "source": "planning-data-gov-uk",
+    "source_url": "https://www.planning.data.gov.uk/dataset/heritage-action-zone",
+    "sources": [
+      {
+        "id": "source-record",
+        "resource": "https://www.planning.data.gov.uk/dataset.json",
+        "title": "Planning Data England dataset catalogue snapshot"
+      }
+    ],
+    "stale_after": "2026-10-25",
+    "status": "draft",
+    "summary": "Planning metadata record for Heritage action zone.",
+    "tags": [
+      "alpha",
+      "geography",
+      "heritage",
+      "planning-data"
+    ],
+    "themes": [
+      "heritage"
+    ],
+    "title": "Heritage action zone",
+    "trust_tier": "unverified",
+    "typology": "geography",
+    "wikidata": ""
+  },
+  {
+    "alternatives": [],
+    "attribution": "© Historic England 2026. Contains Ordnance Survey data © Crown copyright and database right 2026.\nThe Historic England GIS Data contained in this material was obtained on [date].\nThe most publicly available up to date Historic England GIS Data can be obtained from [HistoricEngland.org.uk](https://historicengland.org.uk).",
+    "authority": {
+      "bundlePublisher": {
+        "id": "https://github.com/chris-page-gov/okf-planning",
+        "name": "OKF Planning project",
+        "url": "https://github.com/chris-page-gov/okf-planning"
+      },
+      "notEndorsedBySource": true,
+      "reviewedBy": [],
+      "sourcePublisher": [
+        {
+          "id": "planning-data-england",
+          "name": "Planning Data England / MHCLG",
+          "url": "https://www.planning.data.gov.uk/"
+        }
+      ]
+    },
+    "collection": "historic-england",
+    "confidence": "observed",
+    "description": "The [Heritage at risk register](https://historicengland.org.uk/advice/heritage-at-risk/search-register/) is updated annually by [Historic England](https://historicengland.org.uk/).",
+    "documentation_url": "https://www.planning.data.gov.uk/dataset/heritage-at-risk",
+    "entity_count": 5490,
+    "generated": {
+      "at": "2026-07-25T11:25:00Z",
+      "by": "okf-planning/0.2.0"
+    },
+    "id": "heritage-at-risk",
+    "licence_id": "ogl3",
+    "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "name": "heritage-at-risk",
+    "node_json": {
+      "@id": "https://chris-page-gov.github.io/okf-planning/dataset/heritage-at-risk",
+      "@type": "dcat:Dataset",
+      "dcat:theme": [
+        "heritage"
+      ],
+      "dct:description": "The [Heritage at risk register](https://historicengland.org.uk/advice/heritage-at-risk/search-register/) is updated annually by [Historic England](https://historicengland.org.uk/).",
+      "dct:identifier": "planning:heritage-at-risk",
+      "dct:title": "Heritage at risk",
+      "okf:collection": "historic-england",
+      "okf:entityCount": 5490,
+      "okf:notEndorsedBySource": true,
+      "okf:phase": "beta",
+      "okf:typology": "geography",
+      "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+    },
+    "open": "dataset/heritage-at-risk",
+    "phase": "beta",
+    "provenance": {
+      "generated_at": "2026-07-25T11:25:00Z",
+      "schema": "okf-provenance.v1",
+      "snapshot_id": "planning-2026-07-25-r1",
+      "source_adapter": "planning-data-gov-uk",
+      "source_record_url": "https://www.planning.data.gov.uk/dataset/heritage-at-risk",
+      "source_url": "https://www.planning.data.gov.uk/dataset.json"
+    },
+    "publisher": "planning-data-england",
+    "publisher_title": "Planning Data England / MHCLG",
+    "publisher_url": "https://www.planning.data.gov.uk/",
+    "record_type": "geography",
+    "resources": [
+      {
+        "dcat_type": "landing-page",
+        "description": "Source landing page carried for discovery. This bundle does not assert that the page is a machine-readable data endpoint.",
+        "format": "html",
+        "id": "heritage-at-risk-source",
+        "media_type": "text/html",
+        "resource_type": "landing-page",
+        "title": "Official source page for Heritage at risk",
+        "url": "https://www.planning.data.gov.uk/dataset/heritage-at-risk"
+      }
+    ],
+    "route": "dataset/heritage-at-risk",
+    "source": "planning-data-gov-uk",
+    "source_url": "https://www.planning.data.gov.uk/dataset/heritage-at-risk",
+    "sources": [
+      {
+        "id": "source-record",
+        "resource": "https://www.planning.data.gov.uk/dataset.json",
+        "title": "Planning Data England dataset catalogue snapshot"
+      }
+    ],
+    "stale_after": "2026-10-25",
+    "status": "draft",
+    "summary": "The [Heritage at risk register](https://historicengland.org.uk/advice/heritage-at-risk/search-register/) is updated annually by [Historic England](https://historicengland.org.uk/).",
+    "tags": [
+      "beta",
+      "geography",
+      "heritage",
+      "historic-england"
+    ],
+    "themes": [
+      "heritage"
+    ],
+    "title": "Heritage at risk",
+    "trust_tier": "unverified",
+    "typology": "geography",
+    "wikidata": "Q16983914"
+  },
+  {
+    "alternatives": [],
+    "attribution": "© Natural England copyright. Contains Ordnance Survey data © Crown copyright and database right 2026.",
+    "authority": {
+      "bundlePublisher": {
+        "id": "https://github.com/chris-page-gov/okf-planning",
+        "name": "OKF Planning project",
+        "url": "https://github.com/chris-page-gov/okf-planning"
+      },
+      "notEndorsedBySource": true,
+      "reviewedBy": [],
+      "sourcePublisher": [
+        {
+          "id": "planning-data-england",
+          "name": "Planning Data England / MHCLG",
+          "url": "https://www.planning.data.gov.uk/"
+        }
+      ]
+    },
+    "collection": "heritage-coast",
+    "confidence": "observed",
+    "description": "A [heritage coast](https://www.gov.uk/government/publications/heritage-coasts-protecting-undeveloped-coast/heritage-coasts-definition-purpose-and-natural-englands-role) as defined by agreement between the relevant maritime local authorities and [Natural England](https://www.gov.uk/government/organisations/natural-england).",
+    "documentation_url": "https://www.planning.data.gov.uk/dataset/heritage-coast",
+    "entity_count": 32,
+    "generated": {
+      "at": "2026-07-25T11:25:00Z",
+      "by": "okf-planning/0.2.0"
+    },
+    "id": "heritage-coast",
+    "licence_id": "ogl3",
+    "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "name": "heritage-coast",
+    "node_json": {
+      "@id": "https://chris-page-gov.github.io/okf-planning/dataset/heritage-coast",
+      "@type": "dcat:Dataset",
+      "dcat:theme": [
+        "environment",
+        "heritage"
+      ],
+      "dct:description": "A [heritage coast](https://www.gov.uk/government/publications/heritage-coasts-protecting-undeveloped-coast/heritage-coasts-definition-purpose-and-natural-englands-role) as defined by agreement between the relevant maritime local authorities and [Natural England](https://www.gov.uk/government/organisations/natural-england).",
+      "dct:identifier": "planning:heritage-coast",
+      "dct:title": "Heritage coast",
+      "okf:collection": "heritage-coast",
+      "okf:entityCount": 32,
+      "okf:notEndorsedBySource": true,
+      "okf:phase": "beta",
+      "okf:typology": "geography",
+      "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+    },
+    "open": "dataset/heritage-coast",
+    "phase": "beta",
+    "provenance": {
+      "generated_at": "2026-07-25T11:25:00Z",
+      "schema": "okf-provenance.v1",
+      "snapshot_id": "planning-2026-07-25-r1",
+      "source_adapter": "planning-data-gov-uk",
+      "source_record_url": "https://www.planning.data.gov.uk/dataset/heritage-coast",
+      "source_url": "https://www.planning.data.gov.uk/dataset.json"
+    },
+    "publisher": "planning-data-england",
+    "publisher_title": "Planning Data England / MHCLG",
+    "publisher_url": "https://www.planning.data.gov.uk/",
+    "record_type": "geography",
+    "resources": [
+      {
+        "dcat_type": "landing-page",
+        "description": "Source landing page carried for discovery. This bundle does not assert that the page is a machine-readable data endpoint.",
+        "format": "html",
+        "id": "heritage-coast-source",
+        "media_type": "text/html",
+        "resource_type": "landing-page",
+        "title": "Official source page for Heritage coast",
+        "url": "https://www.planning.data.gov.uk/dataset/heritage-coast"
+      }
+    ],
+    "route": "dataset/heritage-coast",
+    "source": "planning-data-gov-uk",
+    "source_url": "https://www.planning.data.gov.uk/dataset/heritage-coast",
+    "sources": [
+      {
+        "id": "source-record",
+        "resource": "https://www.planning.data.gov.uk/dataset.json",
+        "title": "Planning Data England dataset catalogue snapshot"
+      }
+    ],
+    "stale_after": "2026-10-25",
+    "status": "draft",
+    "summary": "A [heritage coast](https://www.gov.uk/government/publications/heritage-coasts-protecting-undeveloped-coast/heritage-coasts-definition-purpose-and-natural-englands-role) as defined by agreement between...",
+    "tags": [
+      "beta",
+      "environment",
+      "geography",
+      "heritage",
+      "heritage-coast"
+    ],
+    "themes": [
+      "environment",
+      "heritage"
+    ],
+    "title": "Heritage coast",
+    "trust_tier": "unverified",
+    "typology": "geography",
+    "wikidata": "Q13125592"
+  },
+  {
+    "alternatives": [],
+    "attribution": "© Historic England 2026. Contains Ordnance Survey data © Crown copyright and database right 2026",
+    "authority": {
+      "bundlePublisher": {
+        "id": "https://github.com/chris-page-gov/okf-planning",
+        "name": "OKF Planning project",
+        "url": "https://github.com/chris-page-gov/okf-planning"
+      },
+      "notEndorsedBySource": true,
+      "reviewedBy": [],
+      "sourcePublisher": [
+        {
+          "id": "historic-england",
+          "name": "Historic England",
+          "url": "https://historicengland.org.uk/"
+        }
+      ]
+    },
+    "collection": "historic-england",
+    "confidence": "curated-unverified",
+    "description": "Official database of statutory protected historic buildings, scheduled monuments, registered parks and gardens, battlefields, and protected wreck sites in England published by Historic England.",
+    "documentation_url": "https://historicengland.org.uk/services-skills/dataset-downloads/",
+    "entity_count": 405120,
+    "generated": {
+      "at": "2026-07-25T11:25:00Z",
+      "by": "okf-planning/0.2.0"
+    },
+    "id": "historic-england-nhle-heritage",
+    "licence_id": "source-specific",
+    "licence_title": "Contains Historic England data © Historic England 2026",
+    "name": "historic-england-nhle-heritage",
+    "node_json": {
+      "@id": "https://chris-page-gov.github.io/okf-planning/dataset/historic-england-nhle-heritage",
+      "@type": "dcat:Dataset",
+      "dcat:theme": [
+        "environment",
+        "heritage"
+      ],
+      "dct:description": "Official database of statutory protected historic buildings, scheduled monuments, registered parks and gardens, battlefields, and protected wreck sites in England published by Historic England.",
+      "dct:identifier": "planning:historic-england-nhle-heritage",
+      "dct:title": "National Heritage List for England (NHLE)",
+      "okf:collection": "historic-england",
+      "okf:entityCount": 405120,
+      "okf:notEndorsedBySource": true,
+      "okf:phase": "live",
+      "okf:typology": "geography",
+      "prov:wasAttributedTo": "https://historicengland.org.uk/"
+    },
+    "open": "dataset/historic-england-nhle-heritage",
+    "phase": "live",
+    "provenance": {
+      "generated_at": "2026-07-25T11:25:00Z",
+      "schema": "okf-provenance.v1",
+      "snapshot_id": "planning-2026-07-25-r1",
+      "source_adapter": "historic-england",
+      "source_record_url": "https://historicengland.org.uk/listing/the-list/",
+      "source_url": "https://historicengland.org.uk/listing/the-list/"
+    },
+    "publisher": "historic-england",
+    "publisher_title": "Historic England",
+    "publisher_url": "https://historicengland.org.uk/",
+    "record_type": "geography",
+    "resources": [
+      {
+        "dcat_type": "landing-page",
+        "description": "Source landing page carried for discovery. This bundle does not assert that the page is a machine-readable data endpoint.",
+        "format": "html",
+        "id": "historic-england-nhle-heritage-source",
+        "media_type": "text/html",
+        "resource_type": "landing-page",
+        "title": "Official source page for National Heritage List for England (NHLE)",
+        "url": "https://historicengland.org.uk/listing/the-list/"
+      },
+      {
+        "dcat_type": "documentation",
+        "description": "Source-published documentation or guidance.",
+        "format": "html",
+        "id": "historic-england-nhle-heritage-documentation",
+        "media_type": "text/html",
+        "resource_type": "documentation",
+        "title": "Documentation for National Heritage List for England (NHLE)",
+        "url": "https://historicengland.org.uk/services-skills/dataset-downloads/"
+      }
+    ],
+    "route": "dataset/historic-england-nhle-heritage",
+    "source": "historic-england",
+    "source_url": "https://historicengland.org.uk/listing/the-list/",
+    "sources": [
+      {
+        "id": "source-record",
+        "resource": "https://historicengland.org.uk/listing/the-list/",
+        "title": "Curated source for National Heritage List for England (NHLE)"
+      }
+    ],
+    "stale_after": "2026-10-25",
+    "status": "draft",
+    "summary": "Official database of statutory protected historic buildings, scheduled monuments, registered parks and gardens, battlefields, and protected wreck sites in England published by Historic England.",
+    "tags": [
+      "environment",
+      "geography",
+      "heritage",
+      "historic-england",
+      "live"
+    ],
+    "themes": [
+      "environment",
+      "heritage"
+    ],
+    "title": "National Heritage List for England (NHLE)",
+    "trust_tier": "unverified",
+    "typology": "geography",
+    "wikidata": "Q6973052"
+  },
+  {
+    "alternatives": [],
+    "attribution": "© Crown copyright and database right 2026",
+    "authority": {
+      "bundlePublisher": {
+        "id": "https://github.com/chris-page-gov/okf-planning",
+        "name": "OKF Planning project",
+        "url": "https://github.com/chris-page-gov/okf-planning"
+      },
+      "notEndorsedBySource": true,
+      "reviewedBy": [],
+      "sourcePublisher": [
+        {
+          "id": "planning-data-england",
+          "name": "Planning Data England / MHCLG",
+          "url": "https://www.planning.data.gov.uk/"
+        }
+      ]
+    },
+    "collection": "planning-data",
+    "confidence": "observed",
+    "description": "Planning metadata record for Historic (non-designed) rural landscape/local landscape area.",
+    "documentation_url": "https://www.planning.data.gov.uk/dataset/historic-non-designed-rural-landscape-local-landscape-area",
+    "entity_count": 0,
+    "generated": {
+      "at": "2026-07-25T11:25:00Z",
+      "by": "okf-planning/0.2.0"
+    },
+    "id": "historic-non-designed-rural-landscape-local-landscape-area",
+    "licence_id": "ogl3",
+    "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "name": "historic-non-designed-rural-landscape-local-landscape-area",
+    "node_json": {
+      "@id": "https://chris-page-gov.github.io/okf-planning/dataset/historic-non-designed-rural-landscape-local-landscape-area",
+      "@type": "dcat:Dataset",
+      "dcat:theme": [
+        "heritage"
+      ],
+      "dct:description": "Planning metadata record for Historic (non-designed) rural landscape/local landscape area.",
+      "dct:identifier": "planning:historic-non-designed-rural-landscape-local-landscape-area",
+      "dct:title": "Historic (non-designed) rural landscape/local landscape area",
+      "okf:collection": "planning-data",
+      "okf:entityCount": 0,
+      "okf:notEndorsedBySource": true,
+      "okf:phase": "alpha",
+      "okf:typology": "geography",
+      "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+    },
+    "open": "dataset/historic-non-designed-rural-landscape-local-landscape-area",
+    "phase": "alpha",
+    "provenance": {
+      "generated_at": "2026-07-25T11:25:00Z",
+      "schema": "okf-provenance.v1",
+      "snapshot_id": "planning-2026-07-25-r1",
+      "source_adapter": "planning-data-gov-uk",
+      "source_record_url": "https://www.planning.data.gov.uk/dataset/historic-non-designed-rural-landscape-local-landscape-area",
+      "source_url": "https://www.planning.data.gov.uk/dataset.json"
+    },
+    "publisher": "planning-data-england",
+    "publisher_title": "Planning Data England / MHCLG",
+    "publisher_url": "https://www.planning.data.gov.uk/",
+    "record_type": "geography",
+    "resources": [
+      {
+        "dcat_type": "landing-page",
+        "description": "Source landing page carried for discovery. This bundle does not assert that the page is a machine-readable data endpoint.",
+        "format": "html",
+        "id": "historic-non-designed-rural-landscape-local-landscape-area-source",
+        "media_type": "text/html",
+        "resource_type": "landing-page",
+        "title": "Official source page for Historic (non-designed) rural landscape/local landscape area",
+        "url": "https://www.planning.data.gov.uk/dataset/historic-non-designed-rural-landscape-local-landscape-area"
+      }
+    ],
+    "route": "dataset/historic-non-designed-rural-landscape-local-landscape-area",
+    "source": "planning-data-gov-uk",
+    "source_url": "https://www.planning.data.gov.uk/dataset/historic-non-designed-rural-landscape-local-landscape-area",
+    "sources": [
+      {
+        "id": "source-record",
+        "resource": "https://www.planning.data.gov.uk/dataset.json",
+        "title": "Planning Data England dataset catalogue snapshot"
+      }
+    ],
+    "stale_after": "2026-10-25",
+    "status": "draft",
+    "summary": "Planning metadata record for Historic (non-designed) rural landscape/local landscape area.",
+    "tags": [
+      "alpha",
+      "geography",
+      "heritage",
+      "planning-data"
+    ],
+    "themes": [
+      "heritage"
+    ],
+    "title": "Historic (non-designed) rural landscape/local landscape area",
+    "trust_tier": "unverified",
+    "typology": "geography",
+    "wikidata": ""
+  },
+  {
+    "alternatives": [],
+    "attribution": "© Crown copyright and database right 2026",
+    "authority": {
+      "bundlePublisher": {
+        "id": "https://github.com/chris-page-gov/okf-planning",
+        "name": "OKF Planning project",
+        "url": "https://github.com/chris-page-gov/okf-planning"
+      },
+      "notEndorsedBySource": true,
+      "reviewedBy": [],
+      "sourcePublisher": [
+        {
+          "id": "planning-data-england",
+          "name": "Planning Data England / MHCLG",
+          "url": "https://www.planning.data.gov.uk/"
+        }
+      ]
+    },
+    "collection": "planning-data",
+    "confidence": "observed",
+    "description": "Planning metadata record for Historic stone quarry.",
+    "documentation_url": "https://www.planning.data.gov.uk/dataset/historic-stone-quarry",
+    "entity_count": 0,
+    "generated": {
+      "at": "2026-07-25T11:25:00Z",
+      "by": "okf-planning/0.2.0"
+    },
+    "id": "historic-stone-quarry",
+    "licence_id": "ogl3",
+    "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "name": "historic-stone-quarry",
+    "node_json": {
+      "@id": "https://chris-page-gov.github.io/okf-planning/dataset/historic-stone-quarry",
+      "@type": "dcat:Dataset",
+      "dcat:theme": [
+        "heritage"
+      ],
+      "dct:description": "Planning metadata record for Historic stone quarry.",
+      "dct:identifier": "planning:historic-stone-quarry",
+      "dct:title": "Historic stone quarry",
+      "okf:collection": "planning-data",
+      "okf:entityCount": 0,
+      "okf:notEndorsedBySource": true,
+      "okf:phase": "alpha",
+      "okf:typology": "geography",
+      "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+    },
+    "open": "dataset/historic-stone-quarry",
+    "phase": "alpha",
+    "provenance": {
+      "generated_at": "2026-07-25T11:25:00Z",
+      "schema": "okf-provenance.v1",
+      "snapshot_id": "planning-2026-07-25-r1",
+      "source_adapter": "planning-data-gov-uk",
+      "source_record_url": "https://www.planning.data.gov.uk/dataset/historic-stone-quarry",
+      "source_url": "https://www.planning.data.gov.uk/dataset.json"
+    },
+    "publisher": "planning-data-england",
+    "publisher_title": "Planning Data England / MHCLG",
+    "publisher_url": "https://www.planning.data.gov.uk/",
+    "record_type": "geography",
+    "resources": [
+      {
+        "dcat_type": "landing-page",
+        "description": "Source landing page carried for discovery. This bundle does not assert that the page is a machine-readable data endpoint.",
+        "format": "html",
+        "id": "historic-stone-quarry-source",
+        "media_type": "text/html",
+        "resource_type": "landing-page",
+        "title": "Official source page for Historic stone quarry",
+        "url": "https://www.planning.data.gov.uk/dataset/historic-stone-quarry"
+      }
+    ],
+    "route": "dataset/historic-stone-quarry",
+    "source": "planning-data-gov-uk",
+    "source_url": "https://www.planning.data.gov.uk/dataset/historic-stone-quarry",
+    "sources": [
+      {
+        "id": "source-record",
+        "resource": "https://www.planning.data.gov.uk/dataset.json",
+        "title": "Planning Data England dataset catalogue snapshot"
+      }
+    ],
+    "stale_after": "2026-10-25",
+    "status": "draft",
+    "summary": "Planning metadata record for Historic stone quarry.",
+    "tags": [
+      "alpha",
+      "geography",
+      "heritage",
+      "planning-data"
+    ],
+    "themes": [
+      "heritage"
+    ],
+    "title": "Historic stone quarry",
+    "trust_tier": "unverified",
+    "typology": "geography",
+    "wikidata": ""
+  },
+  {
+    "alternatives": [],
+    "attribution": "© HM Land Registry 2026",
+    "authority": {
+      "bundlePublisher": {
+        "id": "https://github.com/chris-page-gov/okf-planning",
+        "name": "OKF Planning project",
+        "url": "https://github.com/chris-page-gov/okf-planning"
+      },
+      "notEndorsedBySource": true,
+      "reviewedBy": [],
+      "sourcePublisher": [
+        {
+          "id": "hm-land-registry",
+          "name": "HM Land Registry",
+          "url": "https://www.gov.uk/government/organisations/land-registry"
+        }
+      ]
+    },
+    "collection": "land-registry",
+    "confidence": "curated-unverified",
+    "description": "Cadastral parcel spatial boundaries corresponding to registered land titles in England and Wales under the EU INSPIRE Directive dataset.",
+    "documentation_url": "https://www.gov.uk/guidance/inspire-index-polygons-spatial-data",
+    "entity_count": 28500000,
+    "generated": {
+      "at": "2026-07-25T11:25:00Z",
+      "by": "okf-planning/0.2.0"
+    },
+    "id": "hm-land-registry-inspire-index-polygons",
+    "licence_id": "source-specific",
+    "licence_title": "HM Land Registry INSPIRE Licence",
+    "name": "hm-land-registry-inspire-index-polygons",
+    "node_json": {
+      "@id": "https://chris-page-gov.github.io/okf-planning/dataset/hm-land-registry-inspire-index-polygons",
+      "@type": "dcat:Dataset",
+      "dcat:theme": [
+        "administrative",
+        "development",
+        "housing"
+      ],
+      "dct:description": "Cadastral parcel spatial boundaries corresponding to registered land titles in England and Wales under the EU INSPIRE Directive dataset.",
+      "dct:identifier": "planning:hm-land-registry-inspire-index-polygons",
+      "dct:title": "HM Land Registry INSPIRE Index Polygons",
+      "okf:collection": "land-registry",
+      "okf:entityCount": 28500000,
+      "okf:notEndorsedBySource": true,
+      "okf:phase": "live",
+      "okf:typology": "geography",
+      "prov:wasAttributedTo": "https://www.gov.uk/government/organisations/land-registry"
+    },
+    "open": "dataset/hm-land-registry-inspire-index-polygons",
+    "phase": "live",
+    "provenance": {
+      "generated_at": "2026-07-25T11:25:00Z",
+      "schema": "okf-provenance.v1",
+      "snapshot_id": "planning-2026-07-25-r1",
+      "source_adapter": "hm-land-registry",
+      "source_record_url": "https://use-land-property-data.service.gov.uk/datasets/inspire",
+      "source_url": "https://use-land-property-data.service.gov.uk/datasets/inspire"
+    },
+    "publisher": "hm-land-registry",
+    "publisher_title": "HM Land Registry",
+    "publisher_url": "https://www.gov.uk/government/organisations/land-registry",
+    "record_type": "geography",
+    "resources": [
+      {
+        "dcat_type": "landing-page",
+        "description": "Source landing page carried for discovery. This bundle does not assert that the page is a machine-readable data endpoint.",
+        "format": "html",
+        "id": "hm-land-registry-inspire-index-polygons-source",
+        "media_type": "text/html",
+        "resource_type": "landing-page",
+        "title": "Official source page for HM Land Registry INSPIRE Index Polygons",
+        "url": "https://use-land-property-data.service.gov.uk/datasets/inspire"
+      },
+      {
+        "dcat_type": "documentation",
+        "description": "Source-published documentation or guidance.",
+        "format": "html",
+        "id": "hm-land-registry-inspire-index-polygons-documentation",
+        "media_type": "text/html",
+        "resource_type": "documentation",
+        "title": "Documentation for HM Land Registry INSPIRE Index Polygons",
+        "url": "https://www.gov.uk/guidance/inspire-index-polygons-spatial-data"
+      }
+    ],
+    "route": "dataset/hm-land-registry-inspire-index-polygons",
+    "source": "hm-land-registry",
+    "source_url": "https://use-land-property-data.service.gov.uk/datasets/inspire",
+    "sources": [
+      {
+        "id": "source-record",
+        "resource": "https://use-land-property-data.service.gov.uk/datasets/inspire",
+        "title": "Curated source for HM Land Registry INSPIRE Index Polygons"
+      }
+    ],
+    "stale_after": "2026-10-25",
+    "status": "draft",
+    "summary": "Cadastral parcel spatial boundaries corresponding to registered land titles in England and Wales under the EU INSPIRE Directive dataset.",
+    "tags": [
+      "administrative",
+      "development",
+      "geography",
+      "housing",
+      "land-registry",
+      "live"
+    ],
+    "themes": [
+      "administrative",
+      "development",
+      "housing"
+    ],
+    "title": "HM Land Registry INSPIRE Index Polygons",
+    "trust_tier": "unverified",
+    "typology": "geography",
+    "wikidata": "Q5635035"
+  },
+  {
+    "alternatives": [],
+    "attribution": "© Crown copyright and database right 2026",
+    "authority": {
+      "bundlePublisher": {
+        "id": "https://github.com/chris-page-gov/okf-planning",
+        "name": "OKF Planning project",
+        "url": "https://github.com/chris-page-gov/okf-planning"
+      },
+      "notEndorsedBySource": true,
+      "reviewedBy": [],
+      "sourcePublisher": [
+        {
+          "id": "planning-data-england",
+          "name": "Planning Data England / MHCLG",
+          "url": "https://www.planning.data.gov.uk/"
+        }
+      ]
+    },
+    "collection": "planning-data",
+    "confidence": "observed",
+    "description": "Planning metadata record for HS2 safeguarded area.",
+    "documentation_url": "https://www.planning.data.gov.uk/dataset/hs2-safeguarded-area",
+    "entity_count": 0,
+    "generated": {
+      "at": "2026-07-25T11:25:00Z",
+      "by": "okf-planning/0.2.0"
+    },
+    "id": "hs2-safeguarded-area",
+    "licence_id": "ogl3",
+    "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "name": "hs2-safeguarded-area",
+    "node_json": {
+      "@id": "https://chris-page-gov.github.io/okf-planning/dataset/hs2-safeguarded-area",
+      "@type": "dcat:Dataset",
+      "dcat:theme": [
+        "transport"
+      ],
+      "dct:description": "Planning metadata record for HS2 safeguarded area.",
+      "dct:identifier": "planning:hs2-safeguarded-area",
+      "dct:title": "HS2 safeguarded area",
+      "okf:collection": "planning-data",
+      "okf:entityCount": 0,
+      "okf:notEndorsedBySource": true,
+      "okf:phase": "alpha",
+      "okf:typology": "geography",
+      "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+    },
+    "open": "dataset/hs2-safeguarded-area",
+    "phase": "alpha",
+    "provenance": {
+      "generated_at": "2026-07-25T11:25:00Z",
+      "schema": "okf-provenance.v1",
+      "snapshot_id": "planning-2026-07-25-r1",
+      "source_adapter": "planning-data-gov-uk",
+      "source_record_url": "https://www.planning.data.gov.uk/dataset/hs2-safeguarded-area",
+      "source_url": "https://www.planning.data.gov.uk/dataset.json"
+    },
+    "publisher": "planning-data-england",
+    "publisher_title": "Planning Data England / MHCLG",
+    "publisher_url": "https://www.planning.data.gov.uk/",
+    "record_type": "geography",
+    "resources": [
+      {
+        "dcat_type": "landing-page",
+        "description": "Source landing page carried for discovery. This bundle does not assert that the page is a machine-readable data endpoint.",
+        "format": "html",
+        "id": "hs2-safeguarded-area-source",
+        "media_type": "text/html",
+        "resource_type": "landing-page",
+        "title": "Official source page for HS2 safeguarded area",
+        "url": "https://www.planning.data.gov.uk/dataset/hs2-safeguarded-area"
+      }
+    ],
+    "route": "dataset/hs2-safeguarded-area",
+    "source": "planning-data-gov-uk",
+    "source_url": "https://www.planning.data.gov.uk/dataset/hs2-safeguarded-area",
+    "sources": [
+      {
+        "id": "source-record",
+        "resource": "https://www.planning.data.gov.uk/dataset.json",
+        "title": "Planning Data England dataset catalogue snapshot"
+      }
+    ],
+    "stale_after": "2026-10-25",
+    "status": "draft",
+    "summary": "Planning metadata record for HS2 safeguarded area.",
+    "tags": [
+      "alpha",
+      "geography",
+      "planning-data",
+      "transport"
+    ],
+    "themes": [
+      "transport"
+    ],
+    "title": "HS2 safeguarded area",
+    "trust_tier": "unverified",
+    "typology": "geography",
+    "wikidata": ""
+  },
+  {
+    "alternatives": [],
+    "attribution": "© Crown copyright and database right 2026",
+    "authority": {
+      "bundlePublisher": {
+        "id": "https://github.com/chris-page-gov/okf-planning",
+        "name": "OKF Planning project",
+        "url": "https://github.com/chris-page-gov/okf-planning"
+      },
+      "notEndorsedBySource": true,
+      "reviewedBy": [],
+      "sourcePublisher": [
+        {
+          "id": "planning-data-england",
+          "name": "Planning Data England / MHCLG",
+          "url": "https://www.planning.data.gov.uk/"
+        }
+      ]
+    },
+    "collection": "infrastructure-funding-statement",
+    "confidence": "observed",
+    "description": "Planning metadata record for Infrastructure funding statement.",
+    "documentation_url": "https://www.planning.data.gov.uk/dataset/infrastructure-funding-statement",
+    "entity_count": 231,
+    "generated": {
+      "at": "2026-07-25T11:25:00Z",
+      "by": "okf-planning/0.2.0"
+    },
+    "id": "infrastructure-funding-statement",
+    "licence_id": "ogl3",
+    "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "name": "infrastructure-funding-statement",
+    "node_json": {
+      "@id": "https://chris-page-gov.github.io/okf-planning/dataset/infrastructure-funding-statement",
+      "@type": "dcat:Resource",
+      "dcat:theme": [
+        "development"
+      ],
+      "dct:description": "Planning metadata record for Infrastructure funding statement.",
+      "dct:identifier": "planning:infrastructure-funding-statement",
+      "dct:title": "Infrastructure funding statement",
+      "okf:collection": "infrastructure-funding-statement",
+      "okf:entityCount": 231,
+      "okf:notEndorsedBySource": true,
+      "okf:phase": "beta",
+      "okf:typology": "document",
+      "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+    },
+    "open": "dataset/infrastructure-funding-statement",
+    "phase": "beta",
+    "provenance": {
+      "generated_at": "2026-07-25T11:25:00Z",
+      "schema": "okf-provenance.v1",
+      "snapshot_id": "planning-2026-07-25-r1",
+      "source_adapter": "planning-data-gov-uk",
+      "source_record_url": "https://www.planning.data.gov.uk/dataset/infrastructure-funding-statement",
+      "source_url": "https://www.planning.data.gov.uk/dataset.json"
+    },
+    "publisher": "planning-data-england",
+    "publisher_title": "Planning Data England / MHCLG",
+    "publisher_url": "https://www.planning.data.gov.uk/",
+    "record_type": "document",
+    "resources": [
+      {
+        "dcat_type": "landing-page",
+        "description": "Source landing page carried for discovery. This bundle does not assert that the page is a machine-readable data endpoint.",
+        "format": "html",
+        "id": "infrastructure-funding-statement-source",
+        "media_type": "text/html",
+        "resource_type": "landing-page",
+        "title": "Official source page for Infrastructure funding statement",
+        "url": "https://www.planning.data.gov.uk/dataset/infrastructure-funding-statement"
+      }
+    ],
+    "route": "dataset/infrastructure-funding-statement",
+    "source": "planning-data-gov-uk",
+    "source_url": "https://www.planning.data.gov.uk/dataset/infrastructure-funding-statement",
+    "sources": [
+      {
+        "id": "source-record",
+        "resource": "https://www.planning.data.gov.uk/dataset.json",
+        "title": "Planning Data England dataset catalogue snapshot"
+      }
+    ],
+    "stale_after": "2026-10-25",
+    "status": "draft",
+    "summary": "Planning metadata record for Infrastructure funding statement.",
+    "tags": [
+      "beta",
+      "development",
+      "document",
+      "infrastructure-funding-statement"
+    ],
+    "themes": [
+      "development"
+    ],
+    "title": "Infrastructure funding statement",
+    "trust_tier": "unverified",
+    "typology": "document",
+    "wikidata": ""
+  },
+  {
+    "alternatives": [],
+    "attribution": "© Crown copyright and database right 2026",
+    "authority": {
+      "bundlePublisher": {
+        "id": "https://github.com/chris-page-gov/okf-planning",
+        "name": "OKF Planning project",
+        "url": "https://github.com/chris-page-gov/okf-planning"
+      },
+      "notEndorsedBySource": true,
+      "reviewedBy": [],
+      "sourcePublisher": [
+        {
+          "id": "planning-data-england",
+          "name": "Planning Data England / MHCLG",
+          "url": "https://www.planning.data.gov.uk/"
+        }
+      ]
+    },
+    "collection": "infrastructure-project",
+    "confidence": "observed",
+    "description": "An application for a infrastructure development",
+    "documentation_url": "https://www.planning.data.gov.uk/dataset/infrastructure-project",
+    "entity_count": 233,
+    "generated": {
+      "at": "2026-07-25T11:25:00Z",
+      "by": "okf-planning/0.2.0"
+    },
+    "id": "infrastructure-project",
+    "licence_id": "ogl3",
+    "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "name": "infrastructure-project",
+    "node_json": {
+      "@id": "https://chris-page-gov.github.io/okf-planning/dataset/infrastructure-project",
+      "@type": "dcat:Dataset",
+      "dcat:theme": [
+        "development"
+      ],
+      "dct:description": "An application for a infrastructure development",
+      "dct:identifier": "planning:infrastructure-project",
+      "dct:title": "Infrastructure project",
+      "okf:collection": "infrastructure-project",
+      "okf:entityCount": 233,
+      "okf:notEndorsedBySource": true,
+      "okf:phase": "beta",
+      "okf:typology": "geography",
+      "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+    },
+    "open": "dataset/infrastructure-project",
+    "phase": "beta",
+    "provenance": {
+      "generated_at": "2026-07-25T11:25:00Z",
+      "schema": "okf-provenance.v1",
+      "snapshot_id": "planning-2026-07-25-r1",
+      "source_adapter": "planning-data-gov-uk",
+      "source_record_url": "https://www.planning.data.gov.uk/dataset/infrastructure-project",
+      "source_url": "https://www.planning.data.gov.uk/dataset.json"
+    },
+    "publisher": "planning-data-england",
+    "publisher_title": "Planning Data England / MHCLG",
+    "publisher_url": "https://www.planning.data.gov.uk/",
+    "record_type": "geography",
+    "resources": [
+      {
+        "dcat_type": "landing-page",
+        "description": "Source landing page carried for discovery. This bundle does not assert that the page is a machine-readable data endpoint.",
+        "format": "html",
+        "id": "infrastructure-project-source",
+        "media_type": "text/html",
+        "resource_type": "landing-page",
+        "title": "Official source page for Infrastructure project",
+        "url": "https://www.planning.data.gov.uk/dataset/infrastructure-project"
+      }
+    ],
+    "route": "dataset/infrastructure-project",
+    "source": "planning-data-gov-uk",
+    "source_url": "https://www.planning.data.gov.uk/dataset/infrastructure-project",
+    "sources": [
+      {
+        "id": "source-record",
+        "resource": "https://www.planning.data.gov.uk/dataset.json",
+        "title": "Planning Data England dataset catalogue snapshot"
+      }
+    ],
+    "stale_after": "2026-10-25",
+    "status": "draft",
+    "summary": "An application for a infrastructure development",
+    "tags": [
+      "beta",
+      "development",
+      "geography",
+      "infrastructure-project"
+    ],
+    "themes": [
+      "development"
+    ],
+    "title": "Infrastructure project",
+    "trust_tier": "unverified",
+    "typology": "geography",
+    "wikidata": ""
+  },
+  {
+    "alternatives": [],
+    "attribution": "© Crown copyright and database right 2026",
+    "authority": {
+      "bundlePublisher": {
+        "id": "https://github.com/chris-page-gov/okf-planning",
+        "name": "OKF Planning project",
+        "url": "https://github.com/chris-page-gov/okf-planning"
+      },
+      "notEndorsedBySource": true,
+      "reviewedBy": [],
+      "sourcePublisher": [
+        {
+          "id": "planning-data-england",
+          "name": "Planning Data England / MHCLG",
+          "url": "https://www.planning.data.gov.uk/"
+        }
+      ]
+    },
+    "collection": "infrastructure-project",
+    "confidence": "observed",
+    "description": "The types of decision for infrastructure projects",
+    "documentation_url": "https://www.planning.data.gov.uk/dataset/infrastructure-project-decision",
+    "entity_count": 4,
+    "generated": {
+      "at": "2026-07-25T11:25:00Z",
+      "by": "okf-planning/0.2.0"
+    },
+    "id": "infrastructure-project-decision",
+    "licence_id": "ogl3",
+    "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "name": "infrastructure-project-decision",
+    "node_json": {
+      "@id": "https://chris-page-gov.github.io/okf-planning/dataset/infrastructure-project-decision",
+      "@type": "dcat:Dataset",
+      "dcat:theme": [
+        "development"
+      ],
+      "dct:description": "The types of decision for infrastructure projects",
+      "dct:identifier": "planning:infrastructure-project-decision",
+      "dct:title": "Infrastructure project decision",
+      "okf:collection": "infrastructure-project",
+      "okf:entityCount": 4,
+      "okf:notEndorsedBySource": true,
+      "okf:phase": "beta",
+      "okf:typology": "category",
+      "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+    },
+    "open": "dataset/infrastructure-project-decision",
+    "phase": "beta",
+    "provenance": {
+      "generated_at": "2026-07-25T11:25:00Z",
+      "schema": "okf-provenance.v1",
+      "snapshot_id": "planning-2026-07-25-r1",
+      "source_adapter": "planning-data-gov-uk",
+      "source_record_url": "https://www.planning.data.gov.uk/dataset/infrastructure-project-decision",
+      "source_url": "https://www.planning.data.gov.uk/dataset.json"
+    },
+    "publisher": "planning-data-england",
+    "publisher_title": "Planning Data England / MHCLG",
+    "publisher_url": "https://www.planning.data.gov.uk/",
+    "record_type": "category",
+    "resources": [
+      {
+        "dcat_type": "landing-page",
+        "description": "Source landing page carried for discovery. This bundle does not assert that the page is a machine-readable data endpoint.",
+        "format": "html",
+        "id": "infrastructure-project-decision-source",
+        "media_type": "text/html",
+        "resource_type": "landing-page",
+        "title": "Official source page for Infrastructure project decision",
+        "url": "https://www.planning.data.gov.uk/dataset/infrastructure-project-decision"
+      }
+    ],
+    "route": "dataset/infrastructure-project-decision",
+    "source": "planning-data-gov-uk",
+    "source_url": "https://www.planning.data.gov.uk/dataset/infrastructure-project-decision",
+    "sources": [
+      {
+        "id": "source-record",
+        "resource": "https://www.planning.data.gov.uk/dataset.json",
+        "title": "Planning Data England dataset catalogue snapshot"
+      }
+    ],
+    "stale_after": "2026-10-25",
+    "status": "draft",
+    "summary": "The types of decision for infrastructure projects",
+    "tags": [
+      "beta",
+      "category",
+      "development",
+      "infrastructure-project"
+    ],
+    "themes": [
+      "development"
+    ],
+    "title": "Infrastructure project decision",
+    "trust_tier": "unverified",
+    "typology": "category",
+    "wikidata": ""
+  },
+  {
+    "alternatives": [],
+    "attribution": "© Crown copyright and database right 2026",
+    "authority": {
+      "bundlePublisher": {
+        "id": "https://github.com/chris-page-gov/okf-planning",
+        "name": "OKF Planning project",
+        "url": "https://github.com/chris-page-gov/okf-planning"
+      },
+      "notEndorsedBySource": true,
+      "reviewedBy": [],
+      "sourcePublisher": [
+        {
+          "id": "planning-data-england",
+          "name": "Planning Data England / MHCLG",
+          "url": "https://www.planning.data.gov.uk/"
+        }
+      ]
+    },
+    "collection": "planning-data",
+    "confidence": "observed",
+    "description": "The documents published and produced for a infrastructure project",
+    "documentation_url": "https://www.planning.data.gov.uk/dataset/infrastructure-project-document",
+    "entity_count": 0,
+    "generated": {
+      "at": "2026-07-25T11:25:00Z",
+      "by": "okf-planning/0.2.0"
+    },
+    "id": "infrastructure-project-document",
+    "licence_id": "ogl3",
+    "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "name": "infrastructure-project-document",
+    "node_json": {
+      "@id": "https://chris-page-gov.github.io/okf-planning/dataset/infrastructure-project-document",
+      "@type": "dcat:Resource",
+      "dcat:theme": [
+        "development"
+      ],
+      "dct:description": "The documents published and produced for a infrastructure project",
+      "dct:identifier": "planning:infrastructure-project-document",
+      "dct:title": "Infrastructure project document",
+      "okf:collection": "planning-data",
+      "okf:entityCount": 0,
+      "okf:notEndorsedBySource": true,
+      "okf:phase": "beta",
+      "okf:typology": "document",
+      "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+    },
+    "open": "dataset/infrastructure-project-document",
+    "phase": "beta",
+    "provenance": {
+      "generated_at": "2026-07-25T11:25:00Z",
+      "schema": "okf-provenance.v1",
+      "snapshot_id": "planning-2026-07-25-r1",
+      "source_adapter": "planning-data-gov-uk",
+      "source_record_url": "https://www.planning.data.gov.uk/dataset/infrastructure-project-document",
+      "source_url": "https://www.planning.data.gov.uk/dataset.json"
+    },
+    "publisher": "planning-data-england",
+    "publisher_title": "Planning Data England / MHCLG",
+    "publisher_url": "https://www.planning.data.gov.uk/",
+    "record_type": "document",
+    "resources": [
+      {
+        "dcat_type": "landing-page",
+        "description": "Source landing page carried for discovery. This bundle does not assert that the page is a machine-readable data endpoint.",
+        "format": "html",
+        "id": "infrastructure-project-document-source",
+        "media_type": "text/html",
+        "resource_type": "landing-page",
+        "title": "Official source page for Infrastructure project document",
+        "url": "https://www.planning.data.gov.uk/dataset/infrastructure-project-document"
+      }
+    ],
+    "route": "dataset/infrastructure-project-document",
+    "source": "planning-data-gov-uk",
+    "source_url": "https://www.planning.data.gov.uk/dataset/infrastructure-project-document",
+    "sources": [
+      {
+        "id": "source-record",
+        "resource": "https://www.planning.data.gov.uk/dataset.json",
+        "title": "Planning Data England dataset catalogue snapshot"
+      }
+    ],
+    "stale_after": "2026-10-25",
+    "status": "draft",
+    "summary": "The documents published and produced for a infrastructure project",
+    "tags": [
+      "beta",
+      "development",
+      "document",
+      "planning-data"
+    ],
+    "themes": [
+      "development"
+    ],
+    "title": "Infrastructure project document",
+    "trust_tier": "unverified",
+    "typology": "document",
+    "wikidata": ""
+  },
+  {
+    "alternatives": [],
+    "attribution": "© Crown copyright and database right 2026",
+    "authority": {
+      "bundlePublisher": {
+        "id": "https://github.com/chris-page-gov/okf-planning",
+        "name": "OKF Planning project",
+        "url": "https://github.com/chris-page-gov/okf-planning"
+      },
+      "notEndorsedBySource": true,
+      "reviewedBy": [],
+      "sourcePublisher": [
+        {
+          "id": "planning-data-england",
+          "name": "Planning Data England / MHCLG",
+          "url": "https://www.planning.data.gov.uk/"
+        }
+      ]
+    },
+    "collection": "infrastructure-project",
+    "confidence": "observed",
+    "description": "The types of document produced and published for infrastructure projects",
+    "documentation_url": "https://www.planning.data.gov.uk/dataset/infrastructure-project-document-type",
+    "entity_count": 5,
+    "generated": {
+      "at": "2026-07-25T11:25:00Z",
+      "by": "okf-planning/0.2.0"
+    },
+    "id": "infrastructure-project-document-type",
+    "licence_id": "ogl3",
+    "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "name": "infrastructure-project-document-type",
+    "node_json": {
+      "@id": "https://chris-page-gov.github.io/okf-planning/dataset/infrastructure-project-document-type",
+      "@type": "dcat:Dataset",
+      "dcat:theme": [
+        "development"
+      ],
+      "dct:description": "The types of document produced and published for infrastructure projects",
+      "dct:identifier": "planning:infrastructure-project-document-type",
+      "dct:title": "Infrastructure project document type",
+      "okf:collection": "infrastructure-project",
+      "okf:entityCount": 5,
+      "okf:notEndorsedBySource": true,
+      "okf:phase": "beta",
+      "okf:typology": "category",
+      "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
+    },
+    "open": "dataset/infrastructure-project-document-type",
+    "phase": "beta",
+    "provenance": {
+      "generated_at": "2026-07-25T11:25:00Z",
+      "schema": "okf-provenance.v1",
+      "snapshot_id": "planning-2026-07-25-r1",
+      "source_adapter": "planning-data-gov-uk",
+      "source_record_url": "https://www.planning.data.gov.uk/dataset/infrastructure-project-document-type",
+      "source_url": "https://www.planning.data.gov.uk/dataset.json"
+    },
+    "publisher": "planning-data-england",
+    "publisher_title": "Planning Data England / MHCLG",
+    "publisher_url": "https://www.planning.data.gov.uk/",
+    "record_type": "category",
+    "resources": [
+      {
+        "dcat_type": "landing-page",
+        "description": "Source landing page carried for discovery. This bundle does not assert that the page is a machine-readable data endpoint.",
+        "format": "html",
+        "id": "infrastructure-project-document-type-source",
+        "media_type": "text/html",
+        "resource_type": "landing-page",
+        "title": "Official source page for Infrastructure project document type",
+        "url": "https://www.planning.data.gov.uk/dataset/infrastructure-project-document-type"
+      }
+    ],
+    "route": "dataset/infrastructure-project-document-type",
+    "source": "planning-data-gov-uk",
+    "source_url": "https://www.planning.data.gov.uk/dataset/infrastructure-project-document-type",
+    "sources": [
+      {
+        "id": "source-record",
+        "resource": "https://www.planning.data.gov.uk/dataset.json",
+        "title": "Planning Data England dataset catalogue snapshot"
+      }
+    ],
+    "stale_after": "2026-10-25",
+    "status": "draft",
+    "summary": "The types of document produced and published for infrastructure projects",
+    "tags": [
+      "beta",
+      "category",
+      "development",
+      "infrastructure-project"
+    ],
+    "themes": [
+      "development"
+    ],
+    "title": "Infrastructure project document type",
+    "trust_tier": "unverified",
+    "typology": "category",
+    "wikidata": ""
+  }
+]
