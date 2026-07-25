@@ -400,6 +400,16 @@ def build_bundle(
             "relationships": len(relationships),
             "record_shards": len(record_shards),
         },
+        "indexes": {
+            "overview": "data/overview.json",
+            "analysis": "data/analysis/overview.json",
+            "search": "data/search/manifest.json",
+            "governance": "data/governance/release.json",
+            "context_set": "data/governance/context-set.json",
+            "reconciliation": "data/reconciliation/report.json",
+            "coverage": "data/coverage/ledger.json",
+            "evaluation": "data/evaluation/report.json",
+        },
         "record_shards": record_shards,
     }
     with open(os.path.join(data_dir, "manifest.json"), "w", encoding="utf-8") as f:

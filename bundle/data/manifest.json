@@ -7,6 +7,16 @@
     "relationships": 40,
     "record_shards": 5
   },
+  "indexes": {
+    "overview": "data/overview.json",
+    "analysis": "data/analysis/overview.json",
+    "search": "data/search/manifest.json",
+    "governance": "data/governance/release.json",
+    "context_set": "data/governance/context-set.json",
+    "reconciliation": "data/reconciliation/report.json",
+    "coverage": "data/coverage/ledger.json",
+    "evaluation": "data/evaluation/report.json"
+  },
   "record_shards": [
     "data/records/shard-0.json",
     "data/records/shard-1.json",
