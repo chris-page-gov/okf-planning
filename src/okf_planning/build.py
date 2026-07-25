@@ -16,7 +16,7 @@ from okf_planning.sources import get_all_augmented_datasets
 
 logger = logging.getLogger(__name__)
 
-DEFAULT_BASE_URL = "https://chris-page-gov.github.io/okg-planning/"
+DEFAULT_BASE_URL = "https://chris-page-gov.github.io/okf-planning/"
 SNAPSHOT_ID = "planning-2026-07-25-r1"
 
 

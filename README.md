@@ -1,6 +1,6 @@
 # Open Knowledge Format (OKF) Bundle for UK Planning & Housing Data in England
 
-`okg-planning` is a metadata-only discovery layer for public planning and housing data in England, exposed through the Ministry of Housing, Communities & Local Government (**MHCLG**) [Planning and housing data in England Beta API](https://www.planning.data.gov.uk/docs) and augmented with national planning policies, statutory instruments, and spatial environmental designations.
+`okf-planning` is a metadata-only discovery layer for public planning and housing data in England, exposed through the Ministry of Housing, Communities & Local Government (**MHCLG**) [Planning and housing data in England Beta API](https://www.planning.data.gov.uk/docs) and augmented with national planning policies, statutory instruments, and spatial environmental designations.
 
 Built on **Open Knowledge Format (OKF) Standard 0.2**, this bundle extends 0.1 by introducing canonical **YAML-LD** (`okf-bundle.yamlld`), DCAT 3 / SKOS / PROV-O semantic graphs, and a GitHub Pages federation model.
 
@@ -11,7 +11,7 @@ Built on **Open Knowledge Format (OKF) Standard 0.2**, this bundle extends 0.1 b
 | Resource | Link |
 | --- | --- |
 | **Human Discovery UI** | [index.html](file:///Users/crpage/repos/okg-planning/bundle/index.html) |
-| **Open in OKF Explorer** | [OKF Explorer Direct Link](https://chris-page-gov.github.io/okf-explorer/?bundle=https%3A%2F%2Fchris-page-gov.github.io%2Fokg-planning%2Fokf-explorer.json) |
+| **Open in OKF Explorer** | [OKF Explorer Direct Link](https://chris-page-gov.github.io/okf-explorer/?bundle=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-planning%2Fokf-explorer.json) |
 | **OKF Explorer Runtime Descriptor** | [okf-explorer.json](file:///Users/crpage/repos/okg-planning/bundle/okf-explorer.json) |
 | **Canonical YAML-LD Bundle (0.2)** | [okf-bundle.yamlld](file:///Users/crpage/repos/okg-planning/bundle/okf-bundle.yamlld) |
 | **Expanded JSON-LD Bundle** | [okf-bundle.jsonld](file:///Users/crpage/repos/okg-planning/bundle/okf-bundle.jsonld) |

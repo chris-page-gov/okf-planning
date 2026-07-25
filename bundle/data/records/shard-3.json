@@ -58,7 +58,7 @@
       ],
       "alternatives": [],
       "node_json": {
-        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/parish",
+        "@id": "https://chris-page-gov.github.io/okf-planning/dataset/parish",
         "@type": "dcat:Dataset",
         "dct:identifier": "planning:parish",
         "dct:title": "Civil parish",
@@ -134,7 +134,7 @@
       ],
       "alternatives": [],
       "node_json": {
-        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/park-and-garden",
+        "@id": "https://chris-page-gov.github.io/okf-planning/dataset/park-and-garden",
         "@type": "dcat:Dataset",
         "dct:identifier": "planning:park-and-garden",
         "dct:title": "Historic parks and gardens",
@@ -211,7 +211,7 @@
       ],
       "alternatives": [],
       "node_json": {
-        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/park-and-garden-grade",
+        "@id": "https://chris-page-gov.github.io/okf-planning/dataset/park-and-garden-grade",
         "@type": "dcat:Dataset",
         "dct:identifier": "planning:park-and-garden-grade",
         "dct:title": "Park and garden grade",
@@ -286,7 +286,7 @@
       ],
       "alternatives": [],
       "node_json": {
-        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/passenger-transport-executive",
+        "@id": "https://chris-page-gov.github.io/okf-planning/dataset/passenger-transport-executive",
         "@type": "dcat:Dataset",
         "dct:identifier": "planning:passenger-transport-executive",
         "dct:title": "Passenger transport executive",
@@ -360,7 +360,7 @@
       ],
       "alternatives": [],
       "node_json": {
-        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/permitted-development-right",
+        "@id": "https://chris-page-gov.github.io/okf-planning/dataset/permitted-development-right",
         "@type": "dcat:Dataset",
         "dct:identifier": "planning:permitted-development-right",
         "dct:title": "Permitted development right",
@@ -434,7 +434,7 @@
       ],
       "alternatives": [],
       "node_json": {
-        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/permitted-development-right-part",
+        "@id": "https://chris-page-gov.github.io/okf-planning/dataset/permitted-development-right-part",
         "@type": "dcat:Dataset",
         "dct:identifier": "planning:permitted-development-right-part",
         "dct:title": "Permitted development right part",
@@ -508,7 +508,7 @@
       ],
       "alternatives": [],
       "node_json": {
-        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/phase",
+        "@id": "https://chris-page-gov.github.io/okf-planning/dataset/phase",
         "@type": "dcat:Dataset",
         "dct:identifier": "planning:phase",
         "dct:title": "Phase",
@@ -582,7 +582,7 @@
       ],
       "alternatives": [],
       "node_json": {
-        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/plan",
+        "@id": "https://chris-page-gov.github.io/okf-planning/dataset/plan",
         "@type": "dcat:Dataset",
         "dct:identifier": "planning:plan",
         "dct:title": "plan",
@@ -656,7 +656,7 @@
       ],
       "alternatives": [],
       "node_json": {
-        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/plan-event",
+        "@id": "https://chris-page-gov.github.io/okf-planning/dataset/plan-event",
         "@type": "dcat:Dataset",
         "dct:identifier": "planning:plan-event",
         "dct:title": "Plan event",
@@ -734,7 +734,7 @@
       ],
       "alternatives": [],
       "node_json": {
-        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/planning-application",
+        "@id": "https://chris-page-gov.github.io/okf-planning/dataset/planning-application",
         "@type": "dcat:Dataset",
         "dct:identifier": "planning:planning-application",
         "dct:title": "Planning application",
@@ -812,7 +812,7 @@
       ],
       "alternatives": [],
       "node_json": {
-        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/planning-application-category",
+        "@id": "https://chris-page-gov.github.io/okf-planning/dataset/planning-application-category",
         "@type": "dcat:Dataset",
         "dct:identifier": "planning:planning-application-category",
         "dct:title": "Planning application category",
@@ -889,7 +889,7 @@
       ],
       "alternatives": [],
       "node_json": {
-        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/planning-application-condition",
+        "@id": "https://chris-page-gov.github.io/okf-planning/dataset/planning-application-condition",
         "@type": "dcat:Dataset",
         "dct:identifier": "planning:planning-application-condition",
         "dct:title": "Planning application condition",
@@ -964,7 +964,7 @@
       ],
       "alternatives": [],
       "node_json": {
-        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/planning-application-document",
+        "@id": "https://chris-page-gov.github.io/okf-planning/dataset/planning-application-document",
         "@type": "dcat:Dataset",
         "dct:identifier": "planning:planning-application-document",
         "dct:title": "Planning application document",
@@ -1038,7 +1038,7 @@
       ],
       "alternatives": [],
       "node_json": {
-        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/planning-application-log",
+        "@id": "https://chris-page-gov.github.io/okf-planning/dataset/planning-application-log",
         "@type": "dcat:Dataset",
         "dct:identifier": "planning:planning-application-log",
         "dct:title": "Planning application log",
@@ -1114,7 +1114,7 @@
       ],
       "alternatives": [],
       "node_json": {
-        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/planning-application-status",
+        "@id": "https://chris-page-gov.github.io/okf-planning/dataset/planning-application-status",
         "@type": "dcat:Dataset",
         "dct:identifier": "planning:planning-application-status",
         "dct:title": "Planning application status",
@@ -1191,7 +1191,7 @@
       ],
       "alternatives": [],
       "node_json": {
-        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/planning-application-type",
+        "@id": "https://chris-page-gov.github.io/okf-planning/dataset/planning-application-type",
         "@type": "dcat:Dataset",
         "dct:identifier": "planning:planning-application-type",
         "dct:title": "Planning application type",
@@ -1268,7 +1268,7 @@
       ],
       "alternatives": [],
       "node_json": {
-        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/planning-condition",
+        "@id": "https://chris-page-gov.github.io/okf-planning/dataset/planning-condition",
         "@type": "dcat:Dataset",
         "dct:identifier": "planning:planning-condition",
         "dct:title": "Planning condition",
@@ -1345,7 +1345,7 @@
       ],
       "alternatives": [],
       "node_json": {
-        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/planning-condition-purpose",
+        "@id": "https://chris-page-gov.github.io/okf-planning/dataset/planning-condition-purpose",
         "@type": "dcat:Dataset",
         "dct:identifier": "planning:planning-condition-purpose",
         "dct:title": "Planning condition purpose",
@@ -1422,7 +1422,7 @@
       ],
       "alternatives": [],
       "node_json": {
-        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/planning-condition-target",
+        "@id": "https://chris-page-gov.github.io/okf-planning/dataset/planning-condition-target",
         "@type": "dcat:Dataset",
         "dct:identifier": "planning:planning-condition-target",
         "dct:title": "Planning condition target",
@@ -1499,7 +1499,7 @@
       ],
       "alternatives": [],
       "node_json": {
-        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/planning-condition-type",
+        "@id": "https://chris-page-gov.github.io/okf-planning/dataset/planning-condition-type",
         "@type": "dcat:Dataset",
         "dct:identifier": "planning:planning-condition-type",
         "dct:title": "Planning condition type",
@@ -1576,7 +1576,7 @@
       ],
       "alternatives": [],
       "node_json": {
-        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/planning-decision",
+        "@id": "https://chris-page-gov.github.io/okf-planning/dataset/planning-decision",
         "@type": "dcat:Dataset",
         "dct:identifier": "planning:planning-decision",
         "dct:title": "Planning decision",
@@ -1653,7 +1653,7 @@
       ],
       "alternatives": [],
       "node_json": {
-        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/planning-decision-type",
+        "@id": "https://chris-page-gov.github.io/okf-planning/dataset/planning-decision-type",
         "@type": "dcat:Dataset",
         "dct:identifier": "planning:planning-decision-type",
         "dct:title": "Planning decision type",
@@ -1730,7 +1730,7 @@
       ],
       "alternatives": [],
       "node_json": {
-        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/planning-development-category",
+        "@id": "https://chris-page-gov.github.io/okf-planning/dataset/planning-development-category",
         "@type": "dcat:Dataset",
         "dct:identifier": "planning:planning-development-category",
         "dct:title": "Planning development category",
@@ -1805,7 +1805,7 @@
       ],
       "alternatives": [],
       "node_json": {
-        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/planning-permission-status",
+        "@id": "https://chris-page-gov.github.io/okf-planning/dataset/planning-permission-status",
         "@type": "dcat:Dataset",
         "dct:identifier": "planning:planning-permission-status",
         "dct:title": "Planning permission status",
@@ -1879,7 +1879,7 @@
       ],
       "alternatives": [],
       "node_json": {
-        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/planning-permission-type",
+        "@id": "https://chris-page-gov.github.io/okf-planning/dataset/planning-permission-type",
         "@type": "dcat:Dataset",
         "dct:identifier": "planning:planning-permission-type",
         "dct:title": "Planning permission type",
@@ -1953,7 +1953,7 @@
       ],
       "alternatives": [],
       "node_json": {
-        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/plan-timetable",
+        "@id": "https://chris-page-gov.github.io/okf-planning/dataset/plan-timetable",
         "@type": "dcat:Dataset",
         "dct:identifier": "planning:plan-timetable",
         "dct:title": "plan timetable",
@@ -2027,7 +2027,7 @@
       ],
       "alternatives": [],
       "node_json": {
-        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/policy",
+        "@id": "https://chris-page-gov.github.io/okf-planning/dataset/policy",
         "@type": "dcat:Dataset",
         "dct:identifier": "planning:policy",
         "dct:title": "Policy",
@@ -2101,7 +2101,7 @@
       ],
       "alternatives": [],
       "node_json": {
-        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/postcode",
+        "@id": "https://chris-page-gov.github.io/okf-planning/dataset/postcode",
         "@type": "dcat:Dataset",
         "dct:identifier": "planning:postcode",
         "dct:title": "Postcode",
@@ -2175,7 +2175,7 @@
       ],
       "alternatives": [],
       "node_json": {
-        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/prefix",
+        "@id": "https://chris-page-gov.github.io/okf-planning/dataset/prefix",
         "@type": "dcat:Dataset",
         "dct:identifier": "planning:prefix",
         "dct:title": "Prefix",
@@ -2249,7 +2249,7 @@
       ],
       "alternatives": [],
       "node_json": {
-        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/proposed-ramsar-site",
+        "@id": "https://chris-page-gov.github.io/okf-planning/dataset/proposed-ramsar-site",
         "@type": "dcat:Dataset",
         "dct:identifier": "planning:proposed-ramsar-site",
         "dct:title": "Proposed ramsar site",
@@ -2323,7 +2323,7 @@
       ],
       "alternatives": [],
       "node_json": {
-        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/protected-land",
+        "@id": "https://chris-page-gov.github.io/okf-planning/dataset/protected-land",
         "@type": "dcat:Dataset",
         "dct:identifier": "planning:protected-land",
         "dct:title": "Protected land",
@@ -2397,7 +2397,7 @@
       ],
       "alternatives": [],
       "node_json": {
-        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/protected-view",
+        "@id": "https://chris-page-gov.github.io/okf-planning/dataset/protected-view",
         "@type": "dcat:Dataset",
         "dct:identifier": "planning:protected-view",
         "dct:title": "Protected view",
@@ -2471,7 +2471,7 @@
       ],
       "alternatives": [],
       "node_json": {
-        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/protected-wreck-site",
+        "@id": "https://chris-page-gov.github.io/okf-planning/dataset/protected-wreck-site",
         "@type": "dcat:Dataset",
         "dct:identifier": "planning:protected-wreck-site",
         "dct:title": "Protected wreck site",
@@ -2545,7 +2545,7 @@
       ],
       "alternatives": [],
       "node_json": {
-        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/public-authority",
+        "@id": "https://chris-page-gov.github.io/okf-planning/dataset/public-authority",
         "@type": "dcat:Dataset",
         "dct:identifier": "planning:public-authority",
         "dct:title": "Public authority",
@@ -2619,7 +2619,7 @@
       ],
       "alternatives": [],
       "node_json": {
-        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/public-safety-zone-around-airport",
+        "@id": "https://chris-page-gov.github.io/okf-planning/dataset/public-safety-zone-around-airport",
         "@type": "dcat:Dataset",
         "dct:identifier": "planning:public-safety-zone-around-airport",
         "dct:title": "Public safety zone around airport",
@@ -2693,7 +2693,7 @@
       ],
       "alternatives": [],
       "node_json": {
-        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/ramsar",
+        "@id": "https://chris-page-gov.github.io/okf-planning/dataset/ramsar",
         "@type": "dcat:Dataset",
         "dct:identifier": "planning:ramsar",
         "dct:title": "Ramsar site",
@@ -2767,7 +2767,7 @@
       ],
       "alternatives": [],
       "node_json": {
-        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/realm",
+        "@id": "https://chris-page-gov.github.io/okf-planning/dataset/realm",
         "@type": "dcat:Dataset",
         "dct:identifier": "planning:realm",
         "dct:title": "Realm",
@@ -2841,7 +2841,7 @@
       ],
       "alternatives": [],
       "node_json": {
-        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/region",
+        "@id": "https://chris-page-gov.github.io/okf-planning/dataset/region",
         "@type": "dcat:Dataset",
         "dct:identifier": "planning:region",
         "dct:title": "Region",
@@ -2915,7 +2915,7 @@
       ],
       "alternatives": [],
       "node_json": {
-        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/regional-park-authority",
+        "@id": "https://chris-page-gov.github.io/okf-planning/dataset/regional-park-authority",
         "@type": "dcat:Dataset",
         "dct:identifier": "planning:regional-park-authority",
         "dct:title": "Regional park authority",
@@ -2989,7 +2989,7 @@
       ],
       "alternatives": [],
       "node_json": {
-        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/requirement-level",
+        "@id": "https://chris-page-gov.github.io/okf-planning/dataset/requirement-level",
         "@type": "dcat:Dataset",
         "dct:identifier": "planning:requirement-level",
         "dct:title": "Requirement level",
@@ -3063,7 +3063,7 @@
       ],
       "alternatives": [],
       "node_json": {
-        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/safeguarded-aerodrome",
+        "@id": "https://chris-page-gov.github.io/okf-planning/dataset/safeguarded-aerodrome",
         "@type": "dcat:Dataset",
         "dct:identifier": "planning:safeguarded-aerodrome",
         "dct:title": "Safeguarded aerodrome",
@@ -3137,7 +3137,7 @@
       ],
       "alternatives": [],
       "node_json": {
-        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/safeguarded-military-explosives-site",
+        "@id": "https://chris-page-gov.github.io/okf-planning/dataset/safeguarded-military-explosives-site",
         "@type": "dcat:Dataset",
         "dct:identifier": "planning:safeguarded-military-explosives-site",
         "dct:title": "Safeguarded military explosives site",
@@ -3211,7 +3211,7 @@
       ],
       "alternatives": [],
       "node_json": {
-        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/safeguarded-wharf",
+        "@id": "https://chris-page-gov.github.io/okf-planning/dataset/safeguarded-wharf",
         "@type": "dcat:Dataset",
         "dct:identifier": "planning:safeguarded-wharf",
         "dct:title": "Safeguarded wharf",
@@ -3285,7 +3285,7 @@
       ],
       "alternatives": [],
       "node_json": {
-        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/safety-hazard-area",
+        "@id": "https://chris-page-gov.github.io/okf-planning/dataset/safety-hazard-area",
         "@type": "dcat:Dataset",
         "dct:identifier": "planning:safety-hazard-area",
         "dct:title": "Safety hazard area",
@@ -3359,7 +3359,7 @@
       ],
       "alternatives": [],
       "node_json": {
-        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/scheduled-monument",
+        "@id": "https://chris-page-gov.github.io/okf-planning/dataset/scheduled-monument",
         "@type": "dcat:Dataset",
         "dct:identifier": "planning:scheduled-monument",
         "dct:title": "Scheduled monument",
@@ -3433,7 +3433,7 @@
       ],
       "alternatives": [],
       "node_json": {
-        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/self-and-custom-buildarea",
+        "@id": "https://chris-page-gov.github.io/okf-planning/dataset/self-and-custom-buildarea",
         "@type": "dcat:Dataset",
         "dct:identifier": "planning:self-and-custom-buildarea",
         "dct:title": "Self and custom build area",
@@ -3507,7 +3507,7 @@
       ],
       "alternatives": [],
       "node_json": {
-        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/site-category",
+        "@id": "https://chris-page-gov.github.io/okf-planning/dataset/site-category",
         "@type": "dcat:Dataset",
         "dct:identifier": "planning:site-category",
         "dct:title": "Site category",
@@ -3581,7 +3581,7 @@
       ],
       "alternatives": [],
       "node_json": {
-        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/site-of-special-scientific-interest",
+        "@id": "https://chris-page-gov.github.io/okf-planning/dataset/site-of-special-scientific-interest",
         "@type": "dcat:Dataset",
         "dct:identifier": "planning:site-of-special-scientific-interest",
         "dct:title": "Site of special scientific interest",
@@ -3655,7 +3655,7 @@
       ],
       "alternatives": [],
       "node_json": {
-        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/special-area-of-conservation",
+        "@id": "https://chris-page-gov.github.io/okf-planning/dataset/special-area-of-conservation",
         "@type": "dcat:Dataset",
         "dct:identifier": "planning:special-area-of-conservation",
         "dct:title": "Special area of conservation",
@@ -3729,7 +3729,7 @@
       ],
       "alternatives": [],
       "node_json": {
-        "@id": "https://chris-page-gov.github.io/okg-planning/dataset/special-protection-area",
+        "@id": "https://chris-page-gov.github.io/okf-planning/dataset/special-protection-area",
         "@type": "dcat:Dataset",
         "dct:identifier": "planning:special-protection-area",
         "dct:title": "Special protection area",

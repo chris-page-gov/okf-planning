@@ -1,9 +1,9 @@
 {
   "@context": "https://chris-page-gov.github.io/okf-explorer/profile/bundle-wiki/v1/context.jsonld",
-  "@id": "https://chris-page-gov.github.io/okg-planning/okf-explorer.json",
+  "@id": "https://chris-page-gov.github.io/okf-planning/okf-explorer.json",
   "schema": "okf-explorer-large-corpus.v1",
   "profile": "https://chris-page-gov.github.io/okf-explorer/profile/bundle-wiki/v1/",
-  "semantic_descriptor": "https://chris-page-gov.github.io/okg-planning/okf-bundle.yamlld",
+  "semantic_descriptor": "https://chris-page-gov.github.io/okf-planning/okf-bundle.yamlld",
   "title": "UK Planning & Housing Data OKF",
   "version": "0.2.0",
   "status": "bounded-demonstrator",
@@ -13,15 +13,15 @@
   "generated_at": "2026-07-25T08:00:00Z",
   "authority": {
     "bundlePublisher": {
-      "id": "https://chris-page-gov.github.io/okg-planning/",
+      "id": "https://chris-page-gov.github.io/okf-planning/",
       "name": "OKF Planning project",
-      "url": "https://chris-page-gov.github.io/okg-planning/"
+      "url": "https://chris-page-gov.github.io/okf-planning/"
     },
     "semanticAuthority": {
-      "id": "https://chris-page-gov.github.io/okg-planning/",
+      "id": "https://chris-page-gov.github.io/okf-planning/",
       "name": "OKF Planning project",
       "scope": "this generated bundle release only",
-      "url": "https://chris-page-gov.github.io/okg-planning/"
+      "url": "https://chris-page-gov.github.io/okf-planning/"
     },
     "operationalAuthority": "external live-data service",
     "decisionAuthority": "accountable external person or institution",
