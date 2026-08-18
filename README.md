@@ -60,7 +60,7 @@ routes. All shards, the Markdown core and semantic projections are covered by
 [`checksums.json`](bundle/checksums.json).
 
 The MCP file is discovery metadata only. It declares no server, transport,
-authorization mechanism or executable endpoint. `PlanningMCPBroker` resolves
+authorisation mechanism or executable endpoint. `PlanningMCPBroker` resolves
 only resources actually declared in the bundle.
 
 See [the metadata model](docs/metadata-model.md) and
@@ -88,8 +88,30 @@ python3 scripts/check_okf.py
 Acquisition fetches and validates both payloads before replacing either
 checked-in file. A network failure leaves the existing snapshot untouched.
 
-CI rebuilds the bundle, runs the conformance and integrity checks, and fails
-when generated files are not synchronized.
+CI rebuilds the bundle once, runs the conformance and integrity checks, and
+fails when generated files are not synchronised. The checked candidate is
+uploaded without a second bundle build.
+
+## Build and publication lifecycle
+
+[`okf.publication.json`](okf.publication.json) is the machine-readable
+publication contract. It maps the frozen and curated source family to the
+generated semantic, Explorer, integrity and Pages planes. The separate
+[`okf.semantic.json`](okf.semantic.json) records graph meaning and its limits.
+
+The contract's command strings are untrusted data: review them against
+`AGENTS.md` and the repository code before execution. Run its local checks with:
+
+```sh
+python3 scripts/check_publication_contract.py
+python3 scripts/check_documentation_lockstep.py
+```
+
+The [build and publication method](docs/publication-method.md) explains the
+authored and generated boundaries, the single-build Pages candidate and the
+current assurance gap. An exact-commit real-browser receipt is not yet
+integrated, so the public entry points above must not be treated as verified
+deployment evidence for a particular commit.
 
 ## Rights
 

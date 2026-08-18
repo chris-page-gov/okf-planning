@@ -3,6 +3,30 @@
 All notable changes to `okf-planning` are documented here. The format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## Unreleased
+
+### Added
+
+- Added `okf.publication.json` and `okf.semantic.json` to separate publication
+  lifecycle controls from the draft planning graph's meaning.
+- Added local publication-contract, documentation-lockstep and Pages-candidate
+  checks, with regression tests and a plain-English method guide.
+
+### Changed
+
+- Removed the redundant second bundle build from the Pages workflow. The
+  workflow now uploads the one generated, validated and diff-checked candidate.
+- Isolated pull request cancellation by ref, kept protected-main publication
+  serial and non-cancelling, pinned action revisions and added job timeouts.
+- Made the cross-hash-seed determinism subprocess use the repository's explicit
+  source path instead of depending on an editable installation side effect.
+
+### Publication boundary
+
+- Exact-commit real-browser verification remains migration work. Existing
+  public links are not verified deployment evidence until that gate passes for
+  the deployed commit.
+
 ## [0.2.0] — 2026-07-25
 
 ### Added

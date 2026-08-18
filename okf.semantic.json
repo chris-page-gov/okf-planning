@@ -1,0 +1,92 @@
+{
+  "schema": "okf-repository-semantic-contract.v1",
+  "repository": {
+    "name": "okf-planning",
+    "role": "large-corpus-producer",
+    "root_index": "bundle/index.md"
+  },
+  "okf_core": {
+    "version": "0.2",
+    "status": "conformant",
+    "specification": "https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/3fcbb9f828c2f23d109c855ee403c3a4c81f3a96/okf/SPEC.md"
+  },
+  "semantic_layer": {
+    "profile": "https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/3fcbb9f828c2f23d109c855ee403c3a4c81f3a96/okf/SPEC.md",
+    "state": "generated-json-ld-with-byte-equivalent-yaml-ld-projection",
+    "authoritative_inputs": [
+      "source/dataset.json",
+      "source/organisation.json",
+      "src/okf_planning/sources.py",
+      "src/okf_planning/model.py",
+      "src/okf_planning/build.py"
+    ],
+    "context_policy": "generated-local-context-no-browser-remote-expansion",
+    "identity_policy": "stable-dataset-identifiers-plus-local-okf-routes",
+    "outputs": [
+      {
+        "path": "bundle/okf-bundle.yamlld",
+        "role": "semantic-yaml-ld",
+        "generated": true,
+        "required": true
+      },
+      {
+        "path": "bundle/okf-bundle.jsonld",
+        "role": "semantic-json-ld",
+        "generated": true,
+        "required": true
+      },
+      {
+        "path": "bundle/okf-explorer.json",
+        "role": "explorer-runtime",
+        "generated": true,
+        "required": true
+      },
+      {
+        "path": "bundle/data/relationships-0.json",
+        "role": "relationship-runtime",
+        "generated": true,
+        "required": true
+      }
+    ],
+    "limitations": [
+      "The publication is a draft, unverified independent catalogue snapshot and does not imply endorsement by MHCLG or any source publisher.",
+      "Relationships are inferred by deterministic collection rules and do not use the additive Bundle Wiki v1 evidence-bearing assertion profile.",
+      "The YAML-LD file is the byte-equivalent JSON representation already produced by this repository; compatibility with every YAML-LD consumer is not claimed."
+    ]
+  },
+  "reader": {
+    "consumer": "https://chris-page-gov.github.io/okf-explorer/",
+    "delivery": "json-large-corpus",
+    "preserves": [
+      "stable-dataset-identities",
+      "local-routes",
+      "source-provenance",
+      "source-specific-rights",
+      "draft-lifecycle",
+      "inferred-relationship-status",
+      "snapshot-boundary"
+    ]
+  },
+  "relationship_contract": {
+    "authoring": "generated-from-deterministic-collection-rules",
+    "direct_triple_policy": "generated-from-one-bounded-source-model",
+    "predicate_policy": "governed-local-relationship-kinds",
+    "required_fields": [
+      "source",
+      "target",
+      "kind",
+      "confidence",
+      "evidence_type"
+    ],
+    "schema": "https://github.com/chris-page-gov/okf-planning/blob/de342fbfd43f7320a7de0b0af71a22286d86e7a7/docs/metadata-model.md"
+  },
+  "tooling": {
+    "build": [
+      "python3 scripts/build_bundle.py"
+    ],
+    "check": [
+      "python3 scripts/check_okf.py",
+      "pytest"
+    ]
+  }
+}
