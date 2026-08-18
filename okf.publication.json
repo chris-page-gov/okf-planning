@@ -1,0 +1,584 @@
+{
+  "schema": "okf-repository-publication-contract.v1",
+  "modified": "2026-08-18",
+  "locale": "en-GB",
+  "time_zone": "Europe/London",
+  "repository": {
+    "name": "okf-planning",
+    "url": "https://github.com/chris-page-gov/okf-planning",
+    "role": "large-corpus-producer",
+    "root_index": "bundle/index.md",
+    "lifecycle": "migration"
+  },
+  "semantic_contract": {
+    "path": "okf.semantic.json",
+    "profile": "https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/3fcbb9f828c2f23d109c855ee403c3a4c81f3a96/okf/SPEC.md"
+  },
+  "source_families": [
+    {
+      "id": "planning-catalogue-snapshot",
+      "label": "Frozen Planning Data catalogue and curated records",
+      "description": "The two checked-in Planning Data England JSON snapshots plus explicitly curated policy, legislation, guidance, heritage and environment metadata in the versioned source adapter.",
+      "kind": "mixed",
+      "paths": [
+        "source/**",
+        "src/okf_planning/sources.py"
+      ],
+      "formats": [
+        "application/json",
+        "text/x-python"
+      ],
+      "origin": "mixed",
+      "authority": "mixed",
+      "snapshot_policy": "pinned-revision",
+      "inventory": {
+        "method": "pinned-source-register",
+        "manifest_path": "bundle/data/governance/release.json",
+        "identity": [
+          "relative-path",
+          "sha256",
+          "source-identifier",
+          "source-version",
+          "observed-at"
+        ]
+      },
+      "rights": {
+        "status": "mixed",
+        "evidence": [
+          "https://github.com/chris-page-gov/okf-planning/blob/main/LICENSE",
+          "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        ],
+        "limitations": [
+          "Source-specific licence and attribution statements remain authoritative for each record; the repository licence does not override them."
+        ]
+      },
+      "sensitivity": {
+        "status": "public-no-personal-data",
+        "assessment": "The publication contains public catalogue and policy metadata; it does not acquire planning applications, observation data, credentials or personal information.",
+        "evidence": [
+          "https://github.com/chris-page-gov/okf-planning/blob/main/README.md"
+        ]
+      },
+      "extraction": {
+        "mode": "versioned-adapter",
+        "network_access": "separate-authorised-step",
+        "command_ids": [
+          "acquire-source",
+          "build-bundle"
+        ],
+        "limitations": [
+          "Ordinary builds are offline. Acquisition is explicit and atomically replaces both source files only after both remote payloads validate."
+        ]
+      },
+      "invalidates": [
+        "source",
+        "semantic",
+        "runtime",
+        "application",
+        "documentation",
+        "release",
+        "deployment"
+      ],
+      "limitations": [
+        "Curated records are independent editorial mappings to source-published pages and do not imply source-publisher endorsement.",
+        "Entity counts have not been independently validated and are not a completeness score."
+      ]
+    }
+  ],
+  "boundaries": {
+    "authored": [
+      {
+        "path": "source/**",
+        "role": "source-envelope",
+        "source_family_id": "planning-catalogue-snapshot"
+      },
+      {
+        "path": "src/okf_planning/sources.py",
+        "role": "source-register",
+        "source_family_id": "planning-catalogue-snapshot"
+      },
+      {
+        "path": "src/**",
+        "role": "generator"
+      },
+      {
+        "path": "scripts/**",
+        "role": "generator"
+      },
+      {
+        "path": "tests/**",
+        "role": "test"
+      },
+      {
+        "path": "bundle/index.html",
+        "role": "content"
+      },
+      {
+        "path": "bundle/app.js",
+        "role": "content"
+      },
+      {
+        "path": "bundle/styles.css",
+        "role": "content"
+      },
+      {
+        "path": "README.md",
+        "role": "documentation"
+      },
+      {
+        "path": "docs/**",
+        "role": "documentation"
+      },
+      {
+        "path": "AGENTS.md",
+        "role": "policy"
+      },
+      {
+        "path": "CHANGELOG.md",
+        "role": "changelog"
+      },
+      {
+        "path": "okf.semantic.json",
+        "role": "policy"
+      },
+      {
+        "path": "okf.publication.json",
+        "role": "publication-contract",
+        "source_family_id": "planning-catalogue-snapshot"
+      },
+      {
+        "path": ".github/workflows/**",
+        "role": "workflow"
+      }
+    ],
+    "generated": [
+      {
+        "path": "bundle/okf-bundle.yamlld",
+        "role": "semantic-yaml-ld",
+        "plane": "semantic",
+        "required": true,
+        "build_command_ids": [
+          "build-bundle"
+        ],
+        "check_command_ids": [
+          "check-okf",
+          "test-suite"
+        ]
+      },
+      {
+        "path": "bundle/okf-bundle.jsonld",
+        "role": "semantic-json-ld",
+        "plane": "semantic",
+        "required": true,
+        "build_command_ids": [
+          "build-bundle"
+        ],
+        "check_command_ids": [
+          "check-okf",
+          "test-suite"
+        ]
+      },
+      {
+        "path": "bundle/concepts/**",
+        "role": "other",
+        "plane": "semantic",
+        "required": true,
+        "build_command_ids": [
+          "build-bundle"
+        ],
+        "check_command_ids": [
+          "check-okf",
+          "test-suite"
+        ]
+      },
+      {
+        "path": "bundle/data/**",
+        "role": "semantic-shards",
+        "plane": "runtime",
+        "required": true,
+        "build_command_ids": [
+          "build-bundle"
+        ],
+        "check_command_ids": [
+          "check-okf",
+          "test-suite"
+        ]
+      },
+      {
+        "path": "bundle/okf-explorer.json",
+        "role": "explorer-runtime",
+        "plane": "application",
+        "required": true,
+        "build_command_ids": [
+          "build-bundle"
+        ],
+        "check_command_ids": [
+          "check-okf",
+          "test-suite"
+        ]
+      },
+      {
+        "path": "bundle/checksums.json",
+        "role": "checksum-manifest",
+        "plane": "release",
+        "required": true,
+        "build_command_ids": [
+          "build-bundle"
+        ],
+        "check_command_ids": [
+          "check-clean-candidate",
+          "test-suite"
+        ]
+      },
+      {
+        "path": "bundle/.nojekyll",
+        "role": "site",
+        "plane": "deployment",
+        "required": true,
+        "build_command_ids": [
+          "package-pages"
+        ],
+        "check_command_ids": [
+          "check-pages-candidate"
+        ]
+      }
+    ]
+  },
+  "planes": [
+    {
+      "id": "source",
+      "depends_on": [],
+      "paths": [
+        "source/**",
+        "src/okf_planning/sources.py",
+        "scripts/acquire_planning_data.py",
+        "okf.publication.json",
+        "okf.semantic.json"
+      ],
+      "command_ids": [
+        "acquire-source",
+        "check-publication-contract"
+      ]
+    },
+    {
+      "id": "semantic",
+      "depends_on": [
+        "source"
+      ],
+      "paths": [
+        "src/**",
+        "scripts/**",
+        "tests/**",
+        "bundle/index.md",
+        "bundle/log.md",
+        "bundle/concepts/**",
+        "bundle/context/**",
+        "bundle/okf-bundle.yamlld",
+        "bundle/okf-bundle.jsonld"
+      ],
+      "command_ids": [
+        "build-bundle",
+        "check-okf",
+        "test-suite"
+      ]
+    },
+    {
+      "id": "runtime",
+      "depends_on": [
+        "semantic"
+      ],
+      "paths": [
+        "bundle/data/**"
+      ],
+      "command_ids": [
+        "build-bundle",
+        "check-okf",
+        "test-suite"
+      ]
+    },
+    {
+      "id": "documentation",
+      "depends_on": [
+        "source"
+      ],
+      "paths": [
+        "README.md",
+        "docs/**",
+        "AGENTS.md",
+        "CHANGELOG.md"
+      ],
+      "command_ids": [
+        "check-publication-contract",
+        "check-lockstep"
+      ]
+    },
+    {
+      "id": "application",
+      "depends_on": [
+        "runtime"
+      ],
+      "paths": [
+        "bundle/okf-explorer.json",
+        "bundle/data/search/**",
+        "bundle/index.html",
+        "bundle/app.js",
+        "bundle/styles.css"
+      ],
+      "command_ids": [
+        "build-bundle",
+        "check-pages-candidate",
+        "test-suite"
+      ]
+    },
+    {
+      "id": "release",
+      "depends_on": [
+        "semantic",
+        "runtime",
+        "documentation",
+        "application"
+      ],
+      "paths": [
+        "bundle/checksums.json",
+        "bundle/data/governance/**",
+        "bundle/data/evaluation/**"
+      ],
+      "command_ids": [
+        "build-bundle",
+        "check-clean-candidate",
+        "check-lockstep",
+        "test-suite"
+      ]
+    },
+    {
+      "id": "deployment",
+      "depends_on": [
+        "release"
+      ],
+      "paths": [
+        ".github/workflows/**",
+        "bundle/.nojekyll"
+      ],
+      "command_ids": [
+        "package-pages",
+        "check-pages-candidate"
+      ]
+    }
+  ],
+  "tooling": {
+    "commands": [
+      {
+        "id": "acquire-source",
+        "kind": "acquire",
+        "planes": [
+          "source"
+        ],
+        "command": "python3 scripts/acquire_planning_data.py",
+        "source": "README.md",
+        "review_status": "reviewed-local-guidance",
+        "network": "acquisition",
+        "mutates": "source-and-generated",
+        "timeout_minutes": 5
+      },
+      {
+        "id": "build-bundle",
+        "kind": "build",
+        "planes": [
+          "semantic",
+          "runtime",
+          "application",
+          "release"
+        ],
+        "command": "python3 scripts/build_bundle.py",
+        "source": "AGENTS.md",
+        "review_status": "reviewed-local-guidance",
+        "network": "none",
+        "mutates": "generated-only",
+        "timeout_minutes": 10
+      },
+      {
+        "id": "check-okf",
+        "kind": "check",
+        "planes": [
+          "semantic",
+          "runtime"
+        ],
+        "command": "python3 scripts/check_okf.py",
+        "source": "AGENTS.md",
+        "review_status": "reviewed-local-guidance",
+        "network": "none",
+        "mutates": "none",
+        "timeout_minutes": 5
+      },
+      {
+        "id": "check-publication-contract",
+        "kind": "check",
+        "planes": [
+          "source",
+          "documentation"
+        ],
+        "command": "python3 scripts/check_publication_contract.py",
+        "source": "AGENTS.md",
+        "review_status": "reviewed-local-guidance",
+        "network": "none",
+        "mutates": "none",
+        "timeout_minutes": 2
+      },
+      {
+        "id": "check-lockstep",
+        "kind": "check",
+        "planes": [
+          "documentation",
+          "release"
+        ],
+        "command": "python3 scripts/check_documentation_lockstep.py",
+        "source": "AGENTS.md",
+        "review_status": "reviewed-local-guidance",
+        "network": "none",
+        "mutates": "none",
+        "timeout_minutes": 2
+      },
+      {
+        "id": "test-suite",
+        "kind": "test",
+        "planes": [
+          "semantic",
+          "runtime",
+          "application",
+          "release"
+        ],
+        "command": "pytest",
+        "source": "AGENTS.md",
+        "review_status": "reviewed-local-guidance",
+        "network": "none",
+        "mutates": "none",
+        "timeout_minutes": 15
+      },
+      {
+        "id": "check-clean-candidate",
+        "kind": "check",
+        "planes": [
+          "release"
+        ],
+        "command": "git diff --exit-code",
+        "source": ".github/workflows/pages.yml",
+        "review_status": "reviewed-local-guidance",
+        "network": "none",
+        "mutates": "none",
+        "timeout_minutes": 2
+      },
+      {
+        "id": "package-pages",
+        "kind": "build",
+        "planes": [
+          "deployment"
+        ],
+        "command": "touch bundle/.nojekyll",
+        "source": ".github/workflows/pages.yml",
+        "review_status": "reviewed-local-guidance",
+        "network": "none",
+        "mutates": "generated-only",
+        "timeout_minutes": 1
+      },
+      {
+        "id": "check-pages-candidate",
+        "kind": "check",
+        "planes": [
+          "application",
+          "deployment"
+        ],
+        "command": "python3 scripts/check_pages_candidate.py --require-nojekyll",
+        "source": ".github/workflows/pages.yml",
+        "review_status": "reviewed-local-guidance",
+        "network": "none",
+        "mutates": "none",
+        "timeout_minutes": 2
+      }
+    ]
+  },
+  "lockstep": {
+    "controlled_paths": [
+      "okf.publication.json",
+      "okf.semantic.json",
+      "source/**",
+      "src/**",
+      "scripts/**",
+      "tests/**",
+      "bundle/**",
+      "pyproject.toml",
+      ".github/workflows/**"
+    ],
+    "documentation_paths": [
+      "README.md",
+      "docs/**",
+      "AGENTS.md"
+    ],
+    "changelog_path": "CHANGELOG.md",
+    "check_command_id": "check-lockstep",
+    "dependency_update_policy": "assess-release-bound-bytes-no-blanket-exemption",
+    "unknown_path_policy": "fail-closed"
+  },
+  "ci": {
+    "provider": "github-actions",
+    "workflow_paths": [
+      ".github/workflows/pages.yml"
+    ],
+    "impact_routing": "full-suite",
+    "parallelism": "serial",
+    "unknown_path_policy": "full-suite",
+    "browser": {
+      "ordinary": {
+        "policy": "not-applicable",
+        "engines": [],
+        "command_ids": []
+      },
+      "cross_engine": {
+        "policy": "not-applicable",
+        "engines": [],
+        "command_ids": [],
+        "installation": {
+          "policy": "none",
+          "command_ids": []
+        }
+      }
+    }
+  },
+  "publication": {
+    "mode": "automatic-protected-main",
+    "scope": "bounded-demonstrator",
+    "authority": {
+      "decision": "Protected main publishes the independent, draft and unverified planning metadata snapshot described by the README and generated release record.",
+      "evidence_paths": [
+        "README.md",
+        "bundle/data/governance/release.json"
+      ]
+    },
+    "candidate_policy": "promote-exact-assured-bytes-without-rebuild",
+    "targets": [
+      {
+        "id": "github-pages",
+        "kind": "github-pages",
+        "workflow_path": ".github/workflows/pages.yml",
+        "public_base_url": "https://chris-page-gov.github.io/okf-planning/",
+        "exact_commit_required": true,
+        "promote_without_rebuild": true
+      }
+    ]
+  },
+  "verification": {
+    "required": false,
+    "browser": "not-applicable",
+    "exact_commit_required": true,
+    "identity_checks": [],
+    "journeys": [],
+    "console_policy": "not-applicable",
+    "command_ids": []
+  },
+  "limitations": [
+    "The repository is migrating to publication-method v1: Pages promotes one generated and diff-checked candidate without a second bundle build, but an exact-commit real-browser receipt is not yet integrated.",
+    "The checksum catalogue covers generator-owned outputs and not the hand-authored index.html, app.js, styles.css or the packaging-only .nojekyll marker; the Git commit remains their current identity boundary.",
+    "The publication remains a draft, unverified independent catalogue and does not imply source-publisher endorsement or live upstream freshness.",
+    "The acquisition command mutates only checked-in source files; the contract's broader source-and-generated mutation category requires a separate reviewed build before publication.",
+    "Declared command strings are untrusted metadata and must be reviewed against repository guidance before execution."
+  ]
+}

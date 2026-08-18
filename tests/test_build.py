@@ -152,14 +152,22 @@ class TestBuild(unittest.TestCase):
 
     def test_build_is_stable_across_python_hash_seeds(self):
         script = (
-            "from okf_planning.build import build_bundle;"
             "import sys;"
+            "sys.path.insert(0, sys.argv[3]);"
+            "from okf_planning.build import build_bundle;"
             "build_bundle(sys.argv[1], cache_dir=sys.argv[2])"
         )
         with tempfile.TemporaryDirectory() as first, tempfile.TemporaryDirectory() as second:
             for seed, output in (("1", first), ("8675309", second)):
                 subprocess.run(
-                    [sys.executable, "-c", script, output, str(SOURCE)],
+                    [
+                        sys.executable,
+                        "-c",
+                        script,
+                        output,
+                        str(SOURCE),
+                        str(ROOT / "src"),
+                    ],
                     check=True,
                     env={**os.environ, "PYTHONHASHSEED": seed},
                     capture_output=True,
