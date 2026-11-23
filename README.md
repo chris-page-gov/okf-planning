@@ -118,3 +118,7 @@ deployment evidence for a particular commit.
 Source-specific licence and attribution statements are carried on records.
 Repository code is licensed under the [MIT License](LICENSE). No single bundle
 licence overrides the rights declared by source publishers.
+
+## OKF standards and bundle discovery
+
+The [central standards register](https://github.com/chris-page-gov/okf-explorer/blob/main/docs/okf-standards.md) records current and historical OKF specifications, version-specific pins and the public bundle catalogue. Use the [machine-readable register](https://raw.githubusercontent.com/chris-page-gov/okf-explorer/main/registry/okf-standards.json) to resolve the version implemented by this repository.

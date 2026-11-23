@@ -53,3 +53,11 @@ python3 scripts/check_publication_contract.py
 python3 scripts/check_documentation_lockstep.py
 pytest
 ```
+
+<!-- okf-standards:start -->
+## OKF standards references
+
+Read [the central standards and bundle catalogue reference](https://github.com/chris-page-gov/okf-explorer/blob/main/docs/okf-standards.md)
+before changing specification links or an OKF version declaration. Resolve the
+implemented version through the shared register and preserve historical pins.
+<!-- okf-standards:end -->
