@@ -1,0 +1,149 @@
+{
+  "dataset/levelling-up-and-regeneration-act-2023": [
+    {
+      "authority": "derived",
+      "confidence": "inferred",
+      "derivation": "deterministic-collection-rule",
+      "evidence_type": "deterministic-collection-rule",
+      "kind": "governed-by",
+      "note": "Rule-based linkage for local-plan catalogue records.",
+      "rule": "Rule-based linkage for local-plan catalogue records.",
+      "source": "dataset/development-plan-document",
+      "target": "dataset/levelling-up-and-regeneration-act-2023"
+    },
+    {
+      "authority": "derived",
+      "confidence": "inferred",
+      "derivation": "deterministic-collection-rule",
+      "evidence_type": "deterministic-collection-rule",
+      "kind": "governed-by",
+      "note": "Rule-based linkage for local-plan catalogue records.",
+      "rule": "Rule-based linkage for local-plan catalogue records.",
+      "source": "dataset/development-plan-document-type",
+      "target": "dataset/levelling-up-and-regeneration-act-2023"
+    },
+    {
+      "authority": "derived",
+      "confidence": "inferred",
+      "derivation": "deterministic-collection-rule",
+      "evidence_type": "deterministic-collection-rule",
+      "kind": "governed-by",
+      "note": "Rule-based linkage for local-plan catalogue records.",
+      "rule": "Rule-based linkage for local-plan catalogue records.",
+      "source": "dataset/local-plan",
+      "target": "dataset/levelling-up-and-regeneration-act-2023"
+    },
+    {
+      "authority": "derived",
+      "confidence": "inferred",
+      "derivation": "deterministic-collection-rule",
+      "evidence_type": "deterministic-collection-rule",
+      "kind": "governed-by",
+      "note": "Rule-based linkage for local-plan catalogue records.",
+      "rule": "Rule-based linkage for local-plan catalogue records.",
+      "source": "dataset/local-plan-boundary",
+      "target": "dataset/levelling-up-and-regeneration-act-2023"
+    },
+    {
+      "authority": "derived",
+      "confidence": "inferred",
+      "derivation": "deterministic-collection-rule",
+      "evidence_type": "deterministic-collection-rule",
+      "kind": "governed-by",
+      "note": "Rule-based linkage for local-plan catalogue records.",
+      "rule": "Rule-based linkage for local-plan catalogue records.",
+      "source": "dataset/minerals-plan",
+      "target": "dataset/levelling-up-and-regeneration-act-2023"
+    },
+    {
+      "authority": "derived",
+      "confidence": "inferred",
+      "derivation": "deterministic-collection-rule",
+      "evidence_type": "deterministic-collection-rule",
+      "kind": "governed-by",
+      "note": "Rule-based linkage for local-plan catalogue records.",
+      "rule": "Rule-based linkage for local-plan catalogue records.",
+      "source": "dataset/minerals-plan-boundary",
+      "target": "dataset/levelling-up-and-regeneration-act-2023"
+    },
+    {
+      "authority": "derived",
+      "confidence": "inferred",
+      "derivation": "deterministic-collection-rule",
+      "evidence_type": "deterministic-collection-rule",
+      "kind": "governed-by",
+      "note": "Rule-based linkage for local-plan catalogue records.",
+      "rule": "Rule-based linkage for local-plan catalogue records.",
+      "source": "dataset/plan-event",
+      "target": "dataset/levelling-up-and-regeneration-act-2023"
+    },
+    {
+      "authority": "derived",
+      "confidence": "inferred",
+      "derivation": "deterministic-collection-rule",
+      "evidence_type": "deterministic-collection-rule",
+      "kind": "governed-by",
+      "note": "Rule-based linkage for local-plan catalogue records.",
+      "rule": "Rule-based linkage for local-plan catalogue records.",
+      "source": "dataset/plan-timetable",
+      "target": "dataset/levelling-up-and-regeneration-act-2023"
+    },
+    {
+      "authority": "derived",
+      "confidence": "inferred",
+      "derivation": "deterministic-collection-rule",
+      "evidence_type": "deterministic-collection-rule",
+      "kind": "governed-by",
+      "note": "Rule-based linkage for local-plan catalogue records.",
+      "rule": "Rule-based linkage for local-plan catalogue records.",
+      "source": "dataset/supplementary-plan",
+      "target": "dataset/levelling-up-and-regeneration-act-2023"
+    },
+    {
+      "authority": "derived",
+      "confidence": "inferred",
+      "derivation": "deterministic-collection-rule",
+      "evidence_type": "deterministic-collection-rule",
+      "kind": "governed-by",
+      "note": "Rule-based linkage for local-plan catalogue records.",
+      "rule": "Rule-based linkage for local-plan catalogue records.",
+      "source": "dataset/waste-plan",
+      "target": "dataset/levelling-up-and-regeneration-act-2023"
+    },
+    {
+      "authority": "derived",
+      "confidence": "inferred",
+      "derivation": "deterministic-collection-rule",
+      "evidence_type": "deterministic-collection-rule",
+      "kind": "governed-by",
+      "note": "Rule-based linkage for local-plan catalogue records.",
+      "rule": "Rule-based linkage for local-plan catalogue records.",
+      "source": "dataset/waste-plan-boundary",
+      "target": "dataset/levelling-up-and-regeneration-act-2023"
+    }
+  ],
+  "dataset/minerals-plan-boundary": [
+    {
+      "authority": "derived",
+      "confidence": "inferred",
+      "derivation": "deterministic-collection-rule",
+      "evidence_type": "deterministic-collection-rule",
+      "kind": "governed-by",
+      "note": "Rule-based linkage for local-plan catalogue records.",
+      "rule": "Rule-based linkage for local-plan catalogue records.",
+      "source": "dataset/minerals-plan-boundary",
+      "target": "dataset/levelling-up-and-regeneration-act-2023"
+    },
+    {
+      "authority": "derived",
+      "confidence": "inferred",
+      "derivation": "deterministic-collection-rule",
+      "evidence_type": "deterministic-collection-rule",
+      "kind": "conforms-to-policy",
+      "note": "Rule-based linkage for local-plan catalogue records.",
+      "rule": "Rule-based linkage for local-plan catalogue records.",
+      "source": "dataset/minerals-plan-boundary",
+      "target": "dataset/nppf-framework-policy"
+    }
+  ]
+}

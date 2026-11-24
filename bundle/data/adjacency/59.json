@@ -1,0 +1,125 @@
+{
+  "dataset/town-and-country-planning-act-1990": [
+    {
+      "authority": "derived",
+      "confidence": "inferred",
+      "derivation": "deterministic-collection-rule",
+      "evidence_type": "deterministic-collection-rule",
+      "kind": "governed-by",
+      "note": "Rule-based catalogue linkage to the principal planning legislation represented in this bundle.",
+      "rule": "Rule-based catalogue linkage to the principal planning legislation represented in this bundle.",
+      "source": "dataset/battlefield",
+      "target": "dataset/town-and-country-planning-act-1990"
+    },
+    {
+      "authority": "derived",
+      "confidence": "inferred",
+      "derivation": "deterministic-collection-rule",
+      "evidence_type": "deterministic-collection-rule",
+      "kind": "governed-by",
+      "note": "Rule-based catalogue linkage to the principal planning legislation represented in this bundle.",
+      "rule": "Rule-based catalogue linkage to the principal planning legislation represented in this bundle.",
+      "source": "dataset/building-preservation-notice",
+      "target": "dataset/town-and-country-planning-act-1990"
+    },
+    {
+      "authority": "derived",
+      "confidence": "inferred",
+      "derivation": "deterministic-collection-rule",
+      "evidence_type": "deterministic-collection-rule",
+      "kind": "governed-by",
+      "note": "Rule-based catalogue linkage to the principal planning legislation represented in this bundle.",
+      "rule": "Rule-based catalogue linkage to the principal planning legislation represented in this bundle.",
+      "source": "dataset/certificate-of-immunity",
+      "target": "dataset/town-and-country-planning-act-1990"
+    },
+    {
+      "authority": "derived",
+      "confidence": "inferred",
+      "derivation": "deterministic-collection-rule",
+      "evidence_type": "deterministic-collection-rule",
+      "kind": "governed-by",
+      "note": "Rule-based catalogue linkage to the principal planning legislation represented in this bundle.",
+      "rule": "Rule-based catalogue linkage to the principal planning legislation represented in this bundle.",
+      "source": "dataset/heritage-at-risk",
+      "target": "dataset/town-and-country-planning-act-1990"
+    },
+    {
+      "authority": "derived",
+      "confidence": "inferred",
+      "derivation": "deterministic-collection-rule",
+      "evidence_type": "deterministic-collection-rule",
+      "kind": "governed-by",
+      "note": "Rule-based catalogue linkage to the principal planning legislation represented in this bundle.",
+      "rule": "Rule-based catalogue linkage to the principal planning legislation represented in this bundle.",
+      "source": "dataset/historic-england-nhle-heritage",
+      "target": "dataset/town-and-country-planning-act-1990"
+    },
+    {
+      "authority": "derived",
+      "confidence": "inferred",
+      "derivation": "deterministic-collection-rule",
+      "evidence_type": "deterministic-collection-rule",
+      "kind": "governed-by",
+      "note": "Rule-based catalogue linkage to the principal planning legislation represented in this bundle.",
+      "rule": "Rule-based catalogue linkage to the principal planning legislation represented in this bundle.",
+      "source": "dataset/park-and-garden",
+      "target": "dataset/town-and-country-planning-act-1990"
+    },
+    {
+      "authority": "derived",
+      "confidence": "inferred",
+      "derivation": "deterministic-collection-rule",
+      "evidence_type": "deterministic-collection-rule",
+      "kind": "governed-by",
+      "note": "Rule-based catalogue linkage to the principal planning legislation represented in this bundle.",
+      "rule": "Rule-based catalogue linkage to the principal planning legislation represented in this bundle.",
+      "source": "dataset/park-and-garden-grade",
+      "target": "dataset/town-and-country-planning-act-1990"
+    },
+    {
+      "authority": "derived",
+      "confidence": "inferred",
+      "derivation": "deterministic-collection-rule",
+      "evidence_type": "deterministic-collection-rule",
+      "kind": "governed-by",
+      "note": "Rule-based catalogue linkage to the principal planning legislation represented in this bundle.",
+      "rule": "Rule-based catalogue linkage to the principal planning legislation represented in this bundle.",
+      "source": "dataset/protected-wreck-site",
+      "target": "dataset/town-and-country-planning-act-1990"
+    },
+    {
+      "authority": "derived",
+      "confidence": "inferred",
+      "derivation": "deterministic-collection-rule",
+      "evidence_type": "deterministic-collection-rule",
+      "kind": "governed-by",
+      "note": "Rule-based catalogue linkage to the principal planning legislation represented in this bundle.",
+      "rule": "Rule-based catalogue linkage to the principal planning legislation represented in this bundle.",
+      "source": "dataset/scheduled-monument",
+      "target": "dataset/town-and-country-planning-act-1990"
+    },
+    {
+      "authority": "derived",
+      "confidence": "inferred",
+      "derivation": "deterministic-collection-rule",
+      "evidence_type": "deterministic-collection-rule",
+      "kind": "governed-by",
+      "note": "Rule-based catalogue linkage to the principal planning legislation represented in this bundle.",
+      "rule": "Rule-based catalogue linkage to the principal planning legislation represented in this bundle.",
+      "source": "dataset/world-heritage-site",
+      "target": "dataset/town-and-country-planning-act-1990"
+    },
+    {
+      "authority": "derived",
+      "confidence": "inferred",
+      "derivation": "deterministic-collection-rule",
+      "evidence_type": "deterministic-collection-rule",
+      "kind": "governed-by",
+      "note": "Rule-based catalogue linkage to the principal planning legislation represented in this bundle.",
+      "rule": "Rule-based catalogue linkage to the principal planning legislation represented in this bundle.",
+      "source": "dataset/world-heritage-site-buffer-zone",
+      "target": "dataset/town-and-country-planning-act-1990"
+    }
+  ]
+}

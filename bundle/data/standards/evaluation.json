@@ -5,10 +5,10 @@
       "evidence": "okf-bundle.jsonld",
       "status": "mapped-not-certified"
     },
-    "okf_0_2": {
+    "okf_0_3": {
       "checked_concepts": 230,
       "errors": [],
-      "okf_version": "0.2",
+      "okf_version": "0.3",
       "status": "conformant"
     },
     "prov_o": {

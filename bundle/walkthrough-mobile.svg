@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 1100" role="img" aria-labelledby="title desc">
+<title id="title">Design-code records and their inferred policy links</title>
+<desc id="desc">Three source records link to the same National Planning Policy Framework record. Every edge is inferred by a deterministic collection rule, not a compliance decision.</desc>
+<defs><marker id="arrow" markerUnits="userSpaceOnUse" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10Z" fill="#355a7b"/></marker></defs>
+<rect width="390" height="1100" fill="#f4f7fb"/>
+<text x="20" y="35" font-family="system-ui,sans-serif" font-size="21" fill="#172b4d">Source discovery, with</text>
+<text x="20" y="57" font-family="system-ui,sans-serif" font-size="21" fill="#172b4d">qualified links</text>
+<text x="20" y="95" font-family="system-ui,sans-serif" font-size="14" fill="#172b4d">July 2026 snapshot · October review</text>
+<text x="20" y="117" font-family="system-ui,sans-serif" font-size="14" fill="#172b4d">overdue</text>
+<rect x="20" y="145" width="350" height="90" rx="12" fill="white" stroke="#355a7b"/>
+<rect x="20" y="300" width="350" height="90" rx="12" fill="white" stroke="#355a7b"/>
+<text x="35" y="177" font-family="system-ui,sans-serif" font-size="17" fill="#172b4d">Design code</text>
+<text x="35" y="326" font-family="system-ui,sans-serif" font-size="15" fill="#172b4d">National Planning Policy Framework</text>
+<text x="35" y="348" font-family="system-ui,sans-serif" font-size="15" fill="#172b4d">(NPPF)</text>
+<path d="M195 241 V292" stroke="#355a7b" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="22" y="265" font-family="system-ui,sans-serif" font-size="13" fill="#172b4d">derived-from-policy</text>
+<text x="22" y="286" font-family="system-ui,sans-serif" font-size="12" fill="#172b4d">inferred · collection rule</text>
+<rect x="20" y="425" width="350" height="90" rx="12" fill="white" stroke="#355a7b"/>
+<rect x="20" y="580" width="350" height="90" rx="12" fill="white" stroke="#355a7b"/>
+<text x="35" y="457" font-family="system-ui,sans-serif" font-size="17" fill="#172b4d">Design code area</text>
+<text x="35" y="606" font-family="system-ui,sans-serif" font-size="15" fill="#172b4d">National Planning Policy Framework</text>
+<text x="35" y="628" font-family="system-ui,sans-serif" font-size="15" fill="#172b4d">(NPPF)</text>
+<path d="M195 521 V572" stroke="#355a7b" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="22" y="545" font-family="system-ui,sans-serif" font-size="13" fill="#172b4d">derived-from-policy</text>
+<text x="22" y="566" font-family="system-ui,sans-serif" font-size="12" fill="#172b4d">inferred · collection rule</text>
+<rect x="20" y="705" width="350" height="90" rx="12" fill="white" stroke="#355a7b"/>
+<rect x="20" y="860" width="350" height="90" rx="12" fill="white" stroke="#355a7b"/>
+<text x="35" y="737" font-family="system-ui,sans-serif" font-size="17" fill="#172b4d">Design code rule</text>
+<text x="35" y="886" font-family="system-ui,sans-serif" font-size="15" fill="#172b4d">National Planning Policy Framework</text>
+<text x="35" y="908" font-family="system-ui,sans-serif" font-size="15" fill="#172b4d">(NPPF)</text>
+<path d="M195 801 V852" stroke="#355a7b" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="22" y="825" font-family="system-ui,sans-serif" font-size="13" fill="#172b4d">derived-from-policy</text>
+<text x="22" y="846" font-family="system-ui,sans-serif" font-size="12" fill="#172b4d">inferred · collection rule</text>
+<text x="20" y="1025" font-family="system-ui,sans-serif" font-size="15" fill="#172b4d">A link does not establish</text>
+<text x="20" y="1047" font-family="system-ui,sans-serif" font-size="15" fill="#172b4d">compliance.</text>
+<text x="20" y="1075" font-family="system-ui,sans-serif" font-size="13" fill="#172b4d">Repeated NPPF boxes are the same record.</text>
+</svg>

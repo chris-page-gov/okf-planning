@@ -6,6 +6,7 @@ import re
 import sys
 import tempfile
 import unittest
+from unittest.mock import patch
 from pathlib import Path
 
 
@@ -15,14 +16,24 @@ sys.path.insert(0, str(ROOT / "scripts"))
 import check_documentation_lockstep as lockstep  # noqa: E402
 import check_pages_candidate as pages  # noqa: E402
 import check_publication_contract as contract_check  # noqa: E402
+import package_pages  # noqa: E402
 
 
 class PublicationMethodTests(unittest.TestCase):
+    def test_dirty_source_cannot_be_packaged_for_publication(self):
+        with tempfile.TemporaryDirectory(prefix="okf-planning-package-") as directory:
+            output = Path(directory) / "candidate"
+            with patch(
+                "package_pages.subprocess.check_output",
+                return_value=" M src/okf_planning/build.py\n",
+            ):
+                with self.assertRaisesRegex(ValueError, "clean exact source revision"):
+                    package_pages.package(output)
+            self.assertFalse(output.exists())
+
     @classmethod
     def setUpClass(cls) -> None:
-        cls.contract = json.loads(
-            (ROOT / "okf.publication.json").read_text(encoding="utf-8")
-        )
+        cls.contract = json.loads((ROOT / "okf.publication.json").read_text(encoding="utf-8"))
 
     def test_contract_has_valid_local_references(self) -> None:
         self.assertEqual([], contract_check.validate_document(self.contract))
@@ -31,11 +42,14 @@ class PublicationMethodTests(unittest.TestCase):
         document = copy.deepcopy(self.contract)
         document["planes"][0]["command_ids"].append("not-declared")
         self.assertTrue(
-            any(
-                "unknown command" in error
-                for error in contract_check.validate_document(document)
-            )
+            any("unknown command" in error for error in contract_check.validate_document(document))
         )
+
+    def test_unknown_changed_path_fails_even_with_documentation(self) -> None:
+        errors, _, _ = lockstep.lockstep_errors(
+            self.contract, {"unowned/new-source.json", "README.md", "CHANGELOG.md"}
+        )
+        self.assertTrue(any("lack a declared lifecycle boundary" in error for error in errors))
 
     def test_plane_cycle_is_rejected(self) -> None:
         document = copy.deepcopy(self.contract)

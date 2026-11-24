@@ -31,7 +31,7 @@ class OKFPlanningAlternative:
 
 @dataclass
 class OKFPlanningRecord:
-    """Normalized OKF Planning Record (dataset, policy, legal instrument, or geography)."""
+    """Normalised OKF Planning record (dataset, policy, legal instrument or geography)."""
 
     id: str
     route: str
@@ -83,7 +83,7 @@ class OKFPlanningRecord:
 
     @property
     def source_entry(self) -> dict[str, Any]:
-        """Return the OKF v0.2 provenance source for this concept."""
+        """Return the OKF v0.3 provenance source for this concept."""
         if self.source_adapter == "planning-data-gov-uk":
             resource = "https://www.planning.data.gov.uk/dataset.json"
             title = "Planning Data England dataset catalogue snapshot"
@@ -105,6 +105,14 @@ class OKFPlanningRecord:
             "open": self.route,
             "title": self.title,
             "description": self.description,
+            "notes": self.description,
+            "url": self.source_url,
+            "documentation": self.documentation_url,
+            "source_adapter": self.source_adapter,
+            "resource_count": len(self.resources),
+            "metadata_created": self.metadata_created,
+            "metadata_modified": self.metadata_modified,
+            "lifecycle_status": self.status,
             "summary": (
                 self.description[:200] + "..."
                 if len(self.description) > 200
@@ -118,6 +126,8 @@ class OKFPlanningRecord:
             "entity_count": self.entity_count,
             "licence_id": self.licence,
             "licence_title": self.licence_text,
+            "license_id": self.licence,
+            "license_title": self.licence_text,
             "attribution": self.attribution_text,
             "source": self.source_adapter,
             "source_url": self.source_url,

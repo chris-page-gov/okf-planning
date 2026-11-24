@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://chris-page-gov.github.io/okf-planning/profile/planning-metadata/v1/relationship.schema.json",
+  "title": "Planning metadata profile v1 inferred catalogue relationship",
+  "type": "object",
+  "required": ["source", "target", "kind", "confidence", "evidence_type"],
+  "properties": {
+    "source": {"type": "string", "pattern": "^dataset/[^\\s]+$"},
+    "target": {"type": "string", "pattern": "^dataset/[^\\s]+$"},
+    "kind": {"enum": ["conforms-to-policy", "derived-from-policy", "governed-by"]},
+    "confidence": {"const": "inferred"},
+    "evidence_type": {"const": "deterministic-collection-rule"},
+    "note": {"type": "string"}
+  },
+  "additionalProperties": true
+}

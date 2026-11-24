@@ -1,0 +1,10 @@
+{
+  "dataset/agricultural-land-classification": [
+    0,
+    1
+  ],
+  "dataset/ward": [
+    4,
+    22
+  ]
+}

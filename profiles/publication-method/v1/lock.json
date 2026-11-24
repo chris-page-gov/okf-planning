@@ -1,0 +1,8 @@
+{
+  "source_repository": "https://github.com/chris-page-gov/okf-explorer",
+  "source_commit": "3b74ef36a2fab974e8fd82519fa77344228140a7",
+  "files": {
+    "repository-publication.schema.json": "04c5d229a2900616d7a194d256ae1edb162d2c18beec7e2354723ce711b4eec3",
+    "source-family.schema.json": "8c4734f554920fd34157ce90172a53ced492198d3761e7a62ebebf51036b3f6b"
+  }
+}

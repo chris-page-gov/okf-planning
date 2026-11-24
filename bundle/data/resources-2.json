@@ -1,5 +1,6 @@
 [
   {
+    "core_role": "extension",
     "dataset": "public-safety-zone-around-airport",
     "dataset_id": "public-safety-zone-around-airport",
     "dataset_route": "dataset/public-safety-zone-around-airport",
@@ -18,6 +19,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/public-safety-zone-around-airport"
   },
   {
+    "core_role": "extension",
     "dataset": "ramsar",
     "dataset_id": "ramsar",
     "dataset_route": "dataset/ramsar",
@@ -36,6 +38,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/ramsar"
   },
   {
+    "core_role": "extension",
     "dataset": "realm",
     "dataset_id": "realm",
     "dataset_route": "dataset/realm",
@@ -54,6 +57,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/realm"
   },
   {
+    "core_role": "extension",
     "dataset": "region",
     "dataset_id": "region",
     "dataset_route": "dataset/region",
@@ -72,6 +76,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/region"
   },
   {
+    "core_role": "extension",
     "dataset": "regional-park-authority",
     "dataset_id": "regional-park-authority",
     "dataset_route": "dataset/regional-park-authority",
@@ -90,6 +95,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/regional-park-authority"
   },
   {
+    "core_role": "extension",
     "dataset": "requirement-level",
     "dataset_id": "requirement-level",
     "dataset_route": "dataset/requirement-level",
@@ -108,6 +114,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/requirement-level"
   },
   {
+    "core_role": "extension",
     "dataset": "safeguarded-aerodrome",
     "dataset_id": "safeguarded-aerodrome",
     "dataset_route": "dataset/safeguarded-aerodrome",
@@ -126,6 +133,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/safeguarded-aerodrome"
   },
   {
+    "core_role": "extension",
     "dataset": "safeguarded-military-explosives-site",
     "dataset_id": "safeguarded-military-explosives-site",
     "dataset_route": "dataset/safeguarded-military-explosives-site",
@@ -144,6 +152,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/safeguarded-military-explosives-site"
   },
   {
+    "core_role": "extension",
     "dataset": "safeguarded-wharf",
     "dataset_id": "safeguarded-wharf",
     "dataset_route": "dataset/safeguarded-wharf",
@@ -162,6 +171,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/safeguarded-wharf"
   },
   {
+    "core_role": "extension",
     "dataset": "safety-hazard-area",
     "dataset_id": "safety-hazard-area",
     "dataset_route": "dataset/safety-hazard-area",
@@ -180,6 +190,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/safety-hazard-area"
   },
   {
+    "core_role": "extension",
     "dataset": "scheduled-monument",
     "dataset_id": "scheduled-monument",
     "dataset_route": "dataset/scheduled-monument",
@@ -198,6 +209,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/scheduled-monument"
   },
   {
+    "core_role": "extension",
     "dataset": "self-and-custom-buildarea",
     "dataset_id": "self-and-custom-buildarea",
     "dataset_route": "dataset/self-and-custom-buildarea",
@@ -216,6 +228,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/self-and-custom-buildarea"
   },
   {
+    "core_role": "extension",
     "dataset": "site-category",
     "dataset_id": "site-category",
     "dataset_route": "dataset/site-category",
@@ -234,6 +247,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/site-category"
   },
   {
+    "core_role": "extension",
     "dataset": "site-of-special-scientific-interest",
     "dataset_id": "site-of-special-scientific-interest",
     "dataset_route": "dataset/site-of-special-scientific-interest",
@@ -252,6 +266,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/site-of-special-scientific-interest"
   },
   {
+    "core_role": "extension",
     "dataset": "special-area-of-conservation",
     "dataset_id": "special-area-of-conservation",
     "dataset_route": "dataset/special-area-of-conservation",
@@ -270,6 +285,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/special-area-of-conservation"
   },
   {
+    "core_role": "extension",
     "dataset": "special-protection-area",
     "dataset_id": "special-protection-area",
     "dataset_route": "dataset/special-protection-area",
@@ -288,6 +304,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/special-protection-area"
   },
   {
+    "core_role": "extension",
     "dataset": "street",
     "dataset_id": "street",
     "dataset_route": "dataset/street",
@@ -306,6 +323,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/street"
   },
   {
+    "core_role": "extension",
     "dataset": "suitable-alternative-green-space",
     "dataset_id": "suitable-alternative-green-space",
     "dataset_route": "dataset/suitable-alternative-green-space",
@@ -324,6 +342,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/suitable-alternative-green-space"
   },
   {
+    "core_role": "extension",
     "dataset": "supplementary-plan",
     "dataset_id": "supplementary-plan",
     "dataset_route": "dataset/supplementary-plan",
@@ -342,6 +361,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/supplementary-plan"
   },
   {
+    "core_role": "extension",
     "dataset": "task",
     "dataset_id": "task",
     "dataset_route": "dataset/task",
@@ -360,6 +380,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/task"
   },
   {
+    "core_role": "extension",
     "dataset": "title-boundary",
     "dataset_id": "title-boundary",
     "dataset_route": "dataset/title-boundary",
@@ -378,6 +399,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/title-boundary"
   },
   {
+    "core_role": "extension",
     "dataset": "town-and-country-planning-act-1990",
     "dataset_id": "town-and-country-planning-act-1990",
     "dataset_route": "dataset/town-and-country-planning-act-1990",
@@ -396,6 +418,7 @@
     "url": "https://www.legislation.gov.uk/ukpga/1990/8/contents"
   },
   {
+    "core_role": "extension",
     "dataset": "town-and-country-planning-act-1990",
     "dataset_id": "town-and-country-planning-act-1990",
     "dataset_route": "dataset/town-and-country-planning-act-1990",
@@ -414,6 +437,7 @@
     "url": "https://www.legislation.gov.uk/ukpga/1990/8"
   },
   {
+    "core_role": "extension",
     "dataset": "transport-access-node",
     "dataset_id": "transport-access-node",
     "dataset_route": "dataset/transport-access-node",
@@ -432,6 +456,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/transport-access-node"
   },
   {
+    "core_role": "extension",
     "dataset": "transport-under-tcpa-route",
     "dataset_id": "transport-under-tcpa-route",
     "dataset_route": "dataset/transport-under-tcpa-route",
@@ -450,6 +475,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/transport-under-tcpa-route"
   },
   {
+    "core_role": "extension",
     "dataset": "tree",
     "dataset_id": "tree",
     "dataset_route": "dataset/tree",
@@ -468,6 +494,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/tree"
   },
   {
+    "core_role": "extension",
     "dataset": "tree-preservation-order",
     "dataset_id": "tree-preservation-order",
     "dataset_route": "dataset/tree-preservation-order",
@@ -486,6 +513,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/tree-preservation-order"
   },
   {
+    "core_role": "extension",
     "dataset": "tree-preservation-zone",
     "dataset_id": "tree-preservation-zone",
     "dataset_route": "dataset/tree-preservation-zone",
@@ -504,6 +532,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/tree-preservation-zone"
   },
   {
+    "core_role": "extension",
     "dataset": "tree-preservation-zone-type",
     "dataset_id": "tree-preservation-zone-type",
     "dataset_route": "dataset/tree-preservation-zone-type",
@@ -522,6 +551,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/tree-preservation-zone-type"
   },
   {
+    "core_role": "extension",
     "dataset": "uprn",
     "dataset_id": "uprn",
     "dataset_route": "dataset/uprn",
@@ -540,6 +570,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/uprn"
   },
   {
+    "core_role": "extension",
     "dataset": "use-classes-order-1987",
     "dataset_id": "use-classes-order-1987",
     "dataset_route": "dataset/use-classes-order-1987",
@@ -558,6 +589,7 @@
     "url": "https://www.legislation.gov.uk/uksi/1987/764/contents"
   },
   {
+    "core_role": "extension",
     "dataset": "use-classes-order-1987",
     "dataset_id": "use-classes-order-1987",
     "dataset_route": "dataset/use-classes-order-1987",
@@ -576,6 +608,7 @@
     "url": "https://www.gov.uk/guidance/change-of-use"
   },
   {
+    "core_role": "extension",
     "dataset": "ward",
     "dataset_id": "ward",
     "dataset_route": "dataset/ward",
@@ -594,6 +627,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/ward"
   },
   {
+    "core_role": "extension",
     "dataset": "waste-authority",
     "dataset_id": "waste-authority",
     "dataset_route": "dataset/waste-authority",
@@ -612,6 +646,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/waste-authority"
   },
   {
+    "core_role": "extension",
     "dataset": "waste-plan",
     "dataset_id": "waste-plan",
     "dataset_route": "dataset/waste-plan",
@@ -630,6 +665,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/waste-plan"
   },
   {
+    "core_role": "extension",
     "dataset": "waste-plan-boundary",
     "dataset_id": "waste-plan-boundary",
     "dataset_route": "dataset/waste-plan-boundary",
@@ -648,6 +684,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/waste-plan-boundary"
   },
   {
+    "core_role": "extension",
     "dataset": "wildbelt",
     "dataset_id": "wildbelt",
     "dataset_route": "dataset/wildbelt",
@@ -666,6 +703,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/wildbelt"
   },
   {
+    "core_role": "extension",
     "dataset": "wildlife",
     "dataset_id": "wildlife",
     "dataset_route": "dataset/wildlife",
@@ -684,6 +722,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/wildlife"
   },
   {
+    "core_role": "extension",
     "dataset": "world-heritage-site",
     "dataset_id": "world-heritage-site",
     "dataset_route": "dataset/world-heritage-site",
@@ -702,6 +741,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/world-heritage-site"
   },
   {
+    "core_role": "extension",
     "dataset": "world-heritage-site-buffer-zone",
     "dataset_id": "world-heritage-site-buffer-zone",
     "dataset_route": "dataset/world-heritage-site-buffer-zone",

@@ -1,0 +1,10 @@
+{
+  "dataset/brownfield-land": [
+    0,
+    16
+  ],
+  "dataset/planning-application-type": [
+    3,
+    22
+  ]
+}

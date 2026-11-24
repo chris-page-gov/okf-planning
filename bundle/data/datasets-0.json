@@ -20,7 +20,9 @@
     },
     "collection": "planning-data",
     "confidence": "observed",
+    "core_role": "concept",
     "description": "Planning metadata record for Address.",
+    "documentation": "https://www.planning.data.gov.uk/dataset/address",
     "documentation_url": "https://www.planning.data.gov.uk/dataset/address",
     "entity_count": 0,
     "generated": {
@@ -30,6 +32,11 @@
     "id": "address",
     "licence_id": "ogl3",
     "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "license_id": "ogl3",
+    "license_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "lifecycle_status": "draft",
+    "metadata_created": "2026-07-25T11:25:00Z",
+    "metadata_modified": "2026-07-25T11:25:00Z",
     "name": "address",
     "node_json": {
       "@id": "https://chris-page-gov.github.io/okf-planning/dataset/address",
@@ -47,6 +54,7 @@
       "okf:typology": "geography",
       "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
     },
+    "notes": "Planning metadata record for Address.",
     "open": "dataset/address",
     "phase": "alpha",
     "provenance": {
@@ -61,6 +69,7 @@
     "publisher_title": "Planning Data England / MHCLG",
     "publisher_url": "https://www.planning.data.gov.uk/",
     "record_type": "geography",
+    "resource_count": 1,
     "resources": [
       {
         "dcat_type": "landing-page",
@@ -75,6 +84,7 @@
     ],
     "route": "dataset/address",
     "source": "planning-data-gov-uk",
+    "source_adapter": "planning-data-gov-uk",
     "source_url": "https://www.planning.data.gov.uk/dataset/address",
     "sources": [
       {
@@ -98,6 +108,7 @@
     "title": "Address",
     "trust_tier": "unverified",
     "typology": "geography",
+    "url": "https://www.planning.data.gov.uk/dataset/address",
     "wikidata": ""
   },
   {
@@ -121,7 +132,9 @@
     },
     "collection": "agricultural-land-classification",
     "confidence": "observed",
+    "core_role": "concept",
     "description": "land graded by its quality for agricultural use",
+    "documentation": "https://www.planning.data.gov.uk/dataset/agricultural-land-classification",
     "documentation_url": "https://www.planning.data.gov.uk/dataset/agricultural-land-classification",
     "entity_count": 585,
     "generated": {
@@ -131,6 +144,11 @@
     "id": "agricultural-land-classification",
     "licence_id": "ogl3",
     "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "license_id": "ogl3",
+    "license_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "lifecycle_status": "draft",
+    "metadata_created": "2026-07-25T11:25:00Z",
+    "metadata_modified": "2026-07-25T11:25:00Z",
     "name": "agricultural-land-classification",
     "node_json": {
       "@id": "https://chris-page-gov.github.io/okf-planning/dataset/agricultural-land-classification",
@@ -148,6 +166,7 @@
       "okf:typology": "geography",
       "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
     },
+    "notes": "land graded by its quality for agricultural use",
     "open": "dataset/agricultural-land-classification",
     "phase": "alpha",
     "provenance": {
@@ -162,6 +181,7 @@
     "publisher_title": "Planning Data England / MHCLG",
     "publisher_url": "https://www.planning.data.gov.uk/",
     "record_type": "geography",
+    "resource_count": 1,
     "resources": [
       {
         "dcat_type": "landing-page",
@@ -176,6 +196,7 @@
     ],
     "route": "dataset/agricultural-land-classification",
     "source": "planning-data-gov-uk",
+    "source_adapter": "planning-data-gov-uk",
     "source_url": "https://www.planning.data.gov.uk/dataset/agricultural-land-classification",
     "sources": [
       {
@@ -199,6 +220,7 @@
     "title": "Agricultural land classification",
     "trust_tier": "unverified",
     "typology": "geography",
+    "url": "https://www.planning.data.gov.uk/dataset/agricultural-land-classification",
     "wikidata": ""
   },
   {
@@ -222,7 +244,9 @@
     },
     "collection": "air-quality-management-area",
     "confidence": "observed",
+    "core_role": "concept",
     "description": "Areas where air pollution levels have exceeded the national air quality objectives",
+    "documentation": "https://www.planning.data.gov.uk/dataset/air-quality-management-area",
     "documentation_url": "https://www.planning.data.gov.uk/dataset/air-quality-management-area",
     "entity_count": 498,
     "generated": {
@@ -232,6 +256,11 @@
     "id": "air-quality-management-area",
     "licence_id": "ogl3",
     "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "license_id": "ogl3",
+    "license_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "lifecycle_status": "draft",
+    "metadata_created": "2026-07-25T11:25:00Z",
+    "metadata_modified": "2026-07-25T11:25:00Z",
     "name": "air-quality-management-area",
     "node_json": {
       "@id": "https://chris-page-gov.github.io/okf-planning/dataset/air-quality-management-area",
@@ -249,6 +278,7 @@
       "okf:typology": "geography",
       "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
     },
+    "notes": "Areas where air pollution levels have exceeded the national air quality objectives",
     "open": "dataset/air-quality-management-area",
     "phase": "live",
     "provenance": {
@@ -263,6 +293,7 @@
     "publisher_title": "Planning Data England / MHCLG",
     "publisher_url": "https://www.planning.data.gov.uk/",
     "record_type": "geography",
+    "resource_count": 1,
     "resources": [
       {
         "dcat_type": "landing-page",
@@ -277,6 +308,7 @@
     ],
     "route": "dataset/air-quality-management-area",
     "source": "planning-data-gov-uk",
+    "source_adapter": "planning-data-gov-uk",
     "source_url": "https://www.planning.data.gov.uk/dataset/air-quality-management-area",
     "sources": [
       {
@@ -300,6 +332,7 @@
     "title": "Air quality management area",
     "trust_tier": "unverified",
     "typology": "geography",
+    "url": "https://www.planning.data.gov.uk/dataset/air-quality-management-area",
     "wikidata": ""
   },
   {
@@ -323,7 +356,9 @@
     },
     "collection": "ancient-woodland",
     "confidence": "observed",
+    "core_role": "concept",
     "description": "An area that’s been wooded continuously since at least 1600 AD",
+    "documentation": "https://www.planning.data.gov.uk/dataset/ancient-woodland",
     "documentation_url": "https://www.planning.data.gov.uk/dataset/ancient-woodland",
     "entity_count": 44373,
     "generated": {
@@ -333,6 +368,11 @@
     "id": "ancient-woodland",
     "licence_id": "ogl3",
     "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "license_id": "ogl3",
+    "license_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "lifecycle_status": "draft",
+    "metadata_created": "2026-07-25T11:25:00Z",
+    "metadata_modified": "2026-07-25T11:25:00Z",
     "name": "ancient-woodland",
     "node_json": {
       "@id": "https://chris-page-gov.github.io/okf-planning/dataset/ancient-woodland",
@@ -350,6 +390,7 @@
       "okf:typology": "geography",
       "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
     },
+    "notes": "An area that’s been wooded continuously since at least 1600 AD",
     "open": "dataset/ancient-woodland",
     "phase": "live",
     "provenance": {
@@ -364,6 +405,7 @@
     "publisher_title": "Planning Data England / MHCLG",
     "publisher_url": "https://www.planning.data.gov.uk/",
     "record_type": "geography",
+    "resource_count": 1,
     "resources": [
       {
         "dcat_type": "landing-page",
@@ -378,6 +420,7 @@
     ],
     "route": "dataset/ancient-woodland",
     "source": "planning-data-gov-uk",
+    "source_adapter": "planning-data-gov-uk",
     "source_url": "https://www.planning.data.gov.uk/dataset/ancient-woodland",
     "sources": [
       {
@@ -401,6 +444,7 @@
     "title": "Ancient woodland",
     "trust_tier": "unverified",
     "typology": "geography",
+    "url": "https://www.planning.data.gov.uk/dataset/ancient-woodland",
     "wikidata": "Q3078732"
   },
   {
@@ -424,7 +468,9 @@
     },
     "collection": "ancient-woodland",
     "confidence": "observed",
+    "core_role": "concept",
     "description": "The status assigned to an area of [ancient woodland](/dataset/ancient-woodland) by Natural England.",
+    "documentation": "https://www.planning.data.gov.uk/dataset/ancient-woodland-status",
     "documentation_url": "https://www.planning.data.gov.uk/dataset/ancient-woodland-status",
     "entity_count": 2,
     "generated": {
@@ -434,6 +480,11 @@
     "id": "ancient-woodland-status",
     "licence_id": "ogl3",
     "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "license_id": "ogl3",
+    "license_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "lifecycle_status": "draft",
+    "metadata_created": "2026-07-25T11:25:00Z",
+    "metadata_modified": "2026-07-25T11:25:00Z",
     "name": "ancient-woodland-status",
     "node_json": {
       "@id": "https://chris-page-gov.github.io/okf-planning/dataset/ancient-woodland-status",
@@ -451,6 +502,7 @@
       "okf:typology": "category",
       "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
     },
+    "notes": "The status assigned to an area of [ancient woodland](/dataset/ancient-woodland) by Natural England.",
     "open": "dataset/ancient-woodland-status",
     "phase": "beta",
     "provenance": {
@@ -465,6 +517,7 @@
     "publisher_title": "Planning Data England / MHCLG",
     "publisher_url": "https://www.planning.data.gov.uk/",
     "record_type": "category",
+    "resource_count": 1,
     "resources": [
       {
         "dcat_type": "landing-page",
@@ -479,6 +532,7 @@
     ],
     "route": "dataset/ancient-woodland-status",
     "source": "planning-data-gov-uk",
+    "source_adapter": "planning-data-gov-uk",
     "source_url": "https://www.planning.data.gov.uk/dataset/ancient-woodland-status",
     "sources": [
       {
@@ -502,6 +556,7 @@
     "title": "Ancient woodland status",
     "trust_tier": "unverified",
     "typology": "category",
+    "url": "https://www.planning.data.gov.uk/dataset/ancient-woodland-status",
     "wikidata": ""
   },
   {
@@ -525,7 +580,9 @@
     },
     "collection": "archaeological-priority-area",
     "confidence": "observed",
+    "core_role": "concept",
     "description": "Areas of Greater London where there is significant known archaeological interest or potential for new discoveries",
+    "documentation": "https://www.planning.data.gov.uk/dataset/archaeological-priority-area",
     "documentation_url": "https://www.planning.data.gov.uk/dataset/archaeological-priority-area",
     "entity_count": 796,
     "generated": {
@@ -535,6 +592,11 @@
     "id": "archaeological-priority-area",
     "licence_id": "ogl3",
     "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "license_id": "ogl3",
+    "license_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "lifecycle_status": "draft",
+    "metadata_created": "2026-07-25T11:25:00Z",
+    "metadata_modified": "2026-07-25T11:25:00Z",
     "name": "archaeological-priority-area",
     "node_json": {
       "@id": "https://chris-page-gov.github.io/okf-planning/dataset/archaeological-priority-area",
@@ -553,6 +615,7 @@
       "okf:typology": "geography",
       "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
     },
+    "notes": "Areas of Greater London where there is significant known archaeological interest or potential for new discoveries",
     "open": "dataset/archaeological-priority-area",
     "phase": "live",
     "provenance": {
@@ -567,6 +630,7 @@
     "publisher_title": "Planning Data England / MHCLG",
     "publisher_url": "https://www.planning.data.gov.uk/",
     "record_type": "geography",
+    "resource_count": 1,
     "resources": [
       {
         "dcat_type": "landing-page",
@@ -581,6 +645,7 @@
     ],
     "route": "dataset/archaeological-priority-area",
     "source": "planning-data-gov-uk",
+    "source_adapter": "planning-data-gov-uk",
     "source_url": "https://www.planning.data.gov.uk/dataset/archaeological-priority-area",
     "sources": [
       {
@@ -606,6 +671,7 @@
     "title": "Archaeological priority area",
     "trust_tier": "unverified",
     "typology": "geography",
+    "url": "https://www.planning.data.gov.uk/dataset/archaeological-priority-area",
     "wikidata": ""
   },
   {
@@ -629,7 +695,9 @@
     },
     "collection": "area-of-outstanding-natural-beauty",
     "confidence": "observed",
+    "core_role": "concept",
     "description": "Land protected by law to conserve and enhance its natural beauty",
+    "documentation": "https://www.planning.data.gov.uk/dataset/area-of-outstanding-natural-beauty",
     "documentation_url": "https://www.planning.data.gov.uk/dataset/area-of-outstanding-natural-beauty",
     "entity_count": 34,
     "generated": {
@@ -639,6 +707,11 @@
     "id": "area-of-outstanding-natural-beauty",
     "licence_id": "ogl3",
     "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "license_id": "ogl3",
+    "license_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "lifecycle_status": "draft",
+    "metadata_created": "2026-07-25T11:25:00Z",
+    "metadata_modified": "2026-07-25T11:25:00Z",
     "name": "area-of-outstanding-natural-beauty",
     "node_json": {
       "@id": "https://chris-page-gov.github.io/okf-planning/dataset/area-of-outstanding-natural-beauty",
@@ -656,6 +729,7 @@
       "okf:typology": "geography",
       "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
     },
+    "notes": "Land protected by law to conserve and enhance its natural beauty",
     "open": "dataset/area-of-outstanding-natural-beauty",
     "phase": "live",
     "provenance": {
@@ -670,6 +744,7 @@
     "publisher_title": "Planning Data England / MHCLG",
     "publisher_url": "https://www.planning.data.gov.uk/",
     "record_type": "geography",
+    "resource_count": 1,
     "resources": [
       {
         "dcat_type": "landing-page",
@@ -684,6 +759,7 @@
     ],
     "route": "dataset/area-of-outstanding-natural-beauty",
     "source": "planning-data-gov-uk",
+    "source_adapter": "planning-data-gov-uk",
     "source_url": "https://www.planning.data.gov.uk/dataset/area-of-outstanding-natural-beauty",
     "sources": [
       {
@@ -707,6 +783,7 @@
     "title": "Area of outstanding natural beauty",
     "trust_tier": "unverified",
     "typology": "geography",
+    "url": "https://www.planning.data.gov.uk/dataset/area-of-outstanding-natural-beauty",
     "wikidata": "Q174945"
   },
   {
@@ -730,7 +807,9 @@
     },
     "collection": "article-4-direction",
     "confidence": "observed",
+    "core_role": "concept",
     "description": "A local planning authority may create an [article 4 direction](https://www.gov.uk/guidance/when-is-permission-required#article-4-direction) to alter or remove [permitted development rights](https://www.gov.uk/government/publications/permitted-development-rights-for-householders-technical-guidance) from a building or area.\n\nEach direction may apply to one or more [article 4 direction areas](/dataset/article-4-direction-area), each with one or more [article 4 direction rules](/dataset/article-4-direction-rule).\n\nThis dataset contains data from [a small group of local planning authorities](/about/) who we are working with to develop a [data specification for article 4 directions](https://www.digital-land.info/guidance/specifications/article-4-direction).",
+    "documentation": "https://www.planning.data.gov.uk/dataset/article-4-direction",
     "documentation_url": "https://www.planning.data.gov.uk/dataset/article-4-direction",
     "entity_count": 3167,
     "generated": {
@@ -740,6 +819,11 @@
     "id": "article-4-direction",
     "licence_id": "ogl3",
     "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "license_id": "ogl3",
+    "license_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "lifecycle_status": "draft",
+    "metadata_created": "2026-07-25T11:25:00Z",
+    "metadata_modified": "2026-07-25T11:25:00Z",
     "name": "article-4-direction",
     "node_json": {
       "@id": "https://chris-page-gov.github.io/okf-planning/dataset/article-4-direction",
@@ -757,6 +841,7 @@
       "okf:typology": "legal-instrument",
       "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
     },
+    "notes": "A local planning authority may create an [article 4 direction](https://www.gov.uk/guidance/when-is-permission-required#article-4-direction) to alter or remove [permitted development rights](https://www.gov.uk/government/publications/permitted-development-rights-for-householders-technical-guidance) from a building or area.\n\nEach direction may apply to one or more [article 4 direction areas](/dataset/article-4-direction-area), each with one or more [article 4 direction rules](/dataset/article-4-direction-rule).\n\nThis dataset contains data from [a small group of local planning authorities](/about/) who we are working with to develop a [data specification for article 4 directions](https://www.digital-land.info/guidance/specifications/article-4-direction).",
     "open": "dataset/article-4-direction",
     "phase": "beta",
     "provenance": {
@@ -771,6 +856,7 @@
     "publisher_title": "Planning Data England / MHCLG",
     "publisher_url": "https://www.planning.data.gov.uk/",
     "record_type": "legal-instrument",
+    "resource_count": 1,
     "resources": [
       {
         "dcat_type": "landing-page",
@@ -785,6 +871,7 @@
     ],
     "route": "dataset/article-4-direction",
     "source": "planning-data-gov-uk",
+    "source_adapter": "planning-data-gov-uk",
     "source_url": "https://www.planning.data.gov.uk/dataset/article-4-direction",
     "sources": [
       {
@@ -808,6 +895,7 @@
     "title": "Article 4 direction",
     "trust_tier": "unverified",
     "typology": "legal-instrument",
+    "url": "https://www.planning.data.gov.uk/dataset/article-4-direction",
     "wikidata": "Q16962063"
   },
   {
@@ -831,7 +919,9 @@
     },
     "collection": "article-4-direction",
     "confidence": "observed",
+    "core_role": "concept",
     "description": "Orders made by the local planning authority to remove all or some of the permitted development rights on a site in order to protect it",
+    "documentation": "https://www.planning.data.gov.uk/dataset/article-4-direction-area",
     "documentation_url": "https://www.planning.data.gov.uk/dataset/article-4-direction-area",
     "entity_count": 7152,
     "generated": {
@@ -841,6 +931,11 @@
     "id": "article-4-direction-area",
     "licence_id": "ogl3",
     "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "license_id": "ogl3",
+    "license_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "lifecycle_status": "draft",
+    "metadata_created": "2026-07-25T11:25:00Z",
+    "metadata_modified": "2026-07-25T11:25:00Z",
     "name": "article-4-direction-area",
     "node_json": {
       "@id": "https://chris-page-gov.github.io/okf-planning/dataset/article-4-direction-area",
@@ -858,6 +953,7 @@
       "okf:typology": "geography",
       "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
     },
+    "notes": "Orders made by the local planning authority to remove all or some of the permitted development rights on a site in order to protect it",
     "open": "dataset/article-4-direction-area",
     "phase": "beta",
     "provenance": {
@@ -872,6 +968,7 @@
     "publisher_title": "Planning Data England / MHCLG",
     "publisher_url": "https://www.planning.data.gov.uk/",
     "record_type": "geography",
+    "resource_count": 1,
     "resources": [
       {
         "dcat_type": "landing-page",
@@ -886,6 +983,7 @@
     ],
     "route": "dataset/article-4-direction-area",
     "source": "planning-data-gov-uk",
+    "source_adapter": "planning-data-gov-uk",
     "source_url": "https://www.planning.data.gov.uk/dataset/article-4-direction-area",
     "sources": [
       {
@@ -909,6 +1007,7 @@
     "title": "Article 4 direction area",
     "trust_tier": "unverified",
     "typology": "geography",
+    "url": "https://www.planning.data.gov.uk/dataset/article-4-direction-area",
     "wikidata": ""
   },
   {
@@ -932,7 +1031,9 @@
     },
     "collection": "planning-data",
     "confidence": "observed",
+    "core_role": "concept",
     "description": "the set of changes to permitted development rights affecting an article 4 direction area",
+    "documentation": "https://www.planning.data.gov.uk/dataset/article-4-direction-rule",
     "documentation_url": "https://www.planning.data.gov.uk/dataset/article-4-direction-rule",
     "entity_count": 0,
     "generated": {
@@ -942,6 +1043,11 @@
     "id": "article-4-direction-rule",
     "licence_id": "ogl3",
     "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "license_id": "ogl3",
+    "license_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "lifecycle_status": "draft",
+    "metadata_created": "2026-07-25T11:25:00Z",
+    "metadata_modified": "2026-07-25T11:25:00Z",
     "name": "article-4-direction-rule",
     "node_json": {
       "@id": "https://chris-page-gov.github.io/okf-planning/dataset/article-4-direction-rule",
@@ -959,6 +1065,7 @@
       "okf:typology": "category",
       "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
     },
+    "notes": "the set of changes to permitted development rights affecting an article 4 direction area",
     "open": "dataset/article-4-direction-rule",
     "phase": "beta",
     "provenance": {
@@ -973,6 +1080,7 @@
     "publisher_title": "Planning Data England / MHCLG",
     "publisher_url": "https://www.planning.data.gov.uk/",
     "record_type": "category",
+    "resource_count": 1,
     "resources": [
       {
         "dcat_type": "landing-page",
@@ -987,6 +1095,7 @@
     ],
     "route": "dataset/article-4-direction-rule",
     "source": "planning-data-gov-uk",
+    "source_adapter": "planning-data-gov-uk",
     "source_url": "https://www.planning.data.gov.uk/dataset/article-4-direction-rule",
     "sources": [
       {
@@ -1010,6 +1119,7 @@
     "title": "Article 4 direction rule",
     "trust_tier": "unverified",
     "typology": "category",
+    "url": "https://www.planning.data.gov.uk/dataset/article-4-direction-rule",
     "wikidata": ""
   },
   {
@@ -1033,7 +1143,9 @@
     },
     "collection": "asset-of-community-value",
     "confidence": "observed",
+    "core_role": "concept",
     "description": "Buildings or pieces of land that are used for the social wellbeing and interests of the local community",
+    "documentation": "https://www.planning.data.gov.uk/dataset/asset-of-community-value",
     "documentation_url": "https://www.planning.data.gov.uk/dataset/asset-of-community-value",
     "entity_count": 101,
     "generated": {
@@ -1043,6 +1155,11 @@
     "id": "asset-of-community-value",
     "licence_id": "ogl3",
     "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "license_id": "ogl3",
+    "license_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "lifecycle_status": "draft",
+    "metadata_created": "2026-07-25T11:25:00Z",
+    "metadata_modified": "2026-07-25T11:25:00Z",
     "name": "asset-of-community-value",
     "node_json": {
       "@id": "https://chris-page-gov.github.io/okf-planning/dataset/asset-of-community-value",
@@ -1060,6 +1177,7 @@
       "okf:typology": "geography",
       "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
     },
+    "notes": "Buildings or pieces of land that are used for the social wellbeing and interests of the local community",
     "open": "dataset/asset-of-community-value",
     "phase": "alpha",
     "provenance": {
@@ -1074,6 +1192,7 @@
     "publisher_title": "Planning Data England / MHCLG",
     "publisher_url": "https://www.planning.data.gov.uk/",
     "record_type": "geography",
+    "resource_count": 1,
     "resources": [
       {
         "dcat_type": "landing-page",
@@ -1088,6 +1207,7 @@
     ],
     "route": "dataset/asset-of-community-value",
     "source": "planning-data-gov-uk",
+    "source_adapter": "planning-data-gov-uk",
     "source_url": "https://www.planning.data.gov.uk/dataset/asset-of-community-value",
     "sources": [
       {
@@ -1111,6 +1231,7 @@
     "title": "Asset of community value",
     "trust_tier": "unverified",
     "typology": "geography",
+    "url": "https://www.planning.data.gov.uk/dataset/asset-of-community-value",
     "wikidata": "Q16971076"
   },
   {
@@ -1134,7 +1255,9 @@
     },
     "collection": "planning-data",
     "confidence": "observed",
+    "core_role": "concept",
     "description": "Planning metadata record for Attribution.",
+    "documentation": "https://www.planning.data.gov.uk/dataset/attribution",
     "documentation_url": "https://www.planning.data.gov.uk/dataset/attribution",
     "entity_count": 0,
     "generated": {
@@ -1144,6 +1267,11 @@
     "id": "attribution",
     "licence_id": "ogl3",
     "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "license_id": "ogl3",
+    "license_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "lifecycle_status": "draft",
+    "metadata_created": "2026-07-25T11:25:00Z",
+    "metadata_modified": "2026-07-25T11:25:00Z",
     "name": "attribution",
     "node_json": {
       "@id": "https://chris-page-gov.github.io/okf-planning/dataset/attribution",
@@ -1161,6 +1289,7 @@
       "okf:typology": "category",
       "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
     },
+    "notes": "Planning metadata record for Attribution.",
     "open": "dataset/attribution",
     "phase": "alpha",
     "provenance": {
@@ -1175,6 +1304,7 @@
     "publisher_title": "Planning Data England / MHCLG",
     "publisher_url": "https://www.planning.data.gov.uk/",
     "record_type": "category",
+    "resource_count": 1,
     "resources": [
       {
         "dcat_type": "landing-page",
@@ -1189,6 +1319,7 @@
     ],
     "route": "dataset/attribution",
     "source": "planning-data-gov-uk",
+    "source_adapter": "planning-data-gov-uk",
     "source_url": "https://www.planning.data.gov.uk/dataset/attribution",
     "sources": [
       {
@@ -1212,6 +1343,7 @@
     "title": "Attribution",
     "trust_tier": "unverified",
     "typology": "category",
+    "url": "https://www.planning.data.gov.uk/dataset/attribution",
     "wikidata": "Q2132119"
   },
   {
@@ -1235,7 +1367,9 @@
     },
     "collection": "historic-england",
     "confidence": "observed",
+    "core_role": "concept",
     "description": "Battlefields as designated by [Historic England](https://historicengland.org.uk) in their [Register of Historic Battlefields](https://historicengland.org.uk/listing/what-is-designation/registered-battlefields/).",
+    "documentation": "https://www.planning.data.gov.uk/dataset/battlefield",
     "documentation_url": "https://www.planning.data.gov.uk/dataset/battlefield",
     "entity_count": 94,
     "generated": {
@@ -1245,6 +1379,11 @@
     "id": "battlefield",
     "licence_id": "ogl3",
     "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "license_id": "ogl3",
+    "license_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "lifecycle_status": "draft",
+    "metadata_created": "2026-07-25T11:25:00Z",
+    "metadata_modified": "2026-07-25T11:25:00Z",
     "name": "battlefield",
     "node_json": {
       "@id": "https://chris-page-gov.github.io/okf-planning/dataset/battlefield",
@@ -1262,6 +1401,7 @@
       "okf:typology": "geography",
       "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
     },
+    "notes": "Battlefields as designated by [Historic England](https://historicengland.org.uk) in their [Register of Historic Battlefields](https://historicengland.org.uk/listing/what-is-designation/registered-battlefields/).",
     "open": "dataset/battlefield",
     "phase": "live",
     "provenance": {
@@ -1276,6 +1416,7 @@
     "publisher_title": "Planning Data England / MHCLG",
     "publisher_url": "https://www.planning.data.gov.uk/",
     "record_type": "geography",
+    "resource_count": 1,
     "resources": [
       {
         "dcat_type": "landing-page",
@@ -1290,6 +1431,7 @@
     ],
     "route": "dataset/battlefield",
     "source": "planning-data-gov-uk",
+    "source_adapter": "planning-data-gov-uk",
     "source_url": "https://www.planning.data.gov.uk/dataset/battlefield",
     "sources": [
       {
@@ -1313,6 +1455,7 @@
     "title": "Battlefield",
     "trust_tier": "unverified",
     "typology": "geography",
+    "url": "https://www.planning.data.gov.uk/dataset/battlefield",
     "wikidata": "Q4895508"
   },
   {
@@ -1336,7 +1479,9 @@
     },
     "collection": "planning-data",
     "confidence": "observed",
+    "core_role": "concept",
     "description": "Planning metadata record for Best and most versatile agricultural land.",
+    "documentation": "https://www.planning.data.gov.uk/dataset/best-and-most-versatile-agricultural-land",
     "documentation_url": "https://www.planning.data.gov.uk/dataset/best-and-most-versatile-agricultural-land",
     "entity_count": 0,
     "generated": {
@@ -1346,6 +1491,11 @@
     "id": "best-and-most-versatile-agricultural-land",
     "licence_id": "ogl3",
     "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "license_id": "ogl3",
+    "license_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "lifecycle_status": "draft",
+    "metadata_created": "2026-07-25T11:25:00Z",
+    "metadata_modified": "2026-07-25T11:25:00Z",
     "name": "best-and-most-versatile-agricultural-land",
     "node_json": {
       "@id": "https://chris-page-gov.github.io/okf-planning/dataset/best-and-most-versatile-agricultural-land",
@@ -1363,6 +1513,7 @@
       "okf:typology": "geography",
       "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
     },
+    "notes": "Planning metadata record for Best and most versatile agricultural land.",
     "open": "dataset/best-and-most-versatile-agricultural-land",
     "phase": "alpha",
     "provenance": {
@@ -1377,6 +1528,7 @@
     "publisher_title": "Planning Data England / MHCLG",
     "publisher_url": "https://www.planning.data.gov.uk/",
     "record_type": "geography",
+    "resource_count": 1,
     "resources": [
       {
         "dcat_type": "landing-page",
@@ -1391,6 +1543,7 @@
     ],
     "route": "dataset/best-and-most-versatile-agricultural-land",
     "source": "planning-data-gov-uk",
+    "source_adapter": "planning-data-gov-uk",
     "source_url": "https://www.planning.data.gov.uk/dataset/best-and-most-versatile-agricultural-land",
     "sources": [
       {
@@ -1414,6 +1567,7 @@
     "title": "Best and most versatile agricultural land",
     "trust_tier": "unverified",
     "typology": "geography",
+    "url": "https://www.planning.data.gov.uk/dataset/best-and-most-versatile-agricultural-land",
     "wikidata": ""
   },
   {
@@ -1437,7 +1591,9 @@
     },
     "collection": "planning-data",
     "confidence": "observed",
+    "core_role": "concept",
     "description": "Planning metadata record for Biodiversity net gain assesment.",
+    "documentation": "https://www.planning.data.gov.uk/dataset/biodiversity-net-gain-assessment",
     "documentation_url": "https://www.planning.data.gov.uk/dataset/biodiversity-net-gain-assessment",
     "entity_count": 0,
     "generated": {
@@ -1447,6 +1603,11 @@
     "id": "biodiversity-net-gain-assessment",
     "licence_id": "ogl3",
     "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "license_id": "ogl3",
+    "license_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "lifecycle_status": "draft",
+    "metadata_created": "2026-07-25T11:25:00Z",
+    "metadata_modified": "2026-07-25T11:25:00Z",
     "name": "biodiversity-net-gain-assessment",
     "node_json": {
       "@id": "https://chris-page-gov.github.io/okf-planning/dataset/biodiversity-net-gain-assessment",
@@ -1464,6 +1625,7 @@
       "okf:typology": "document",
       "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
     },
+    "notes": "Planning metadata record for Biodiversity net gain assesment.",
     "open": "dataset/biodiversity-net-gain-assessment",
     "phase": "alpha",
     "provenance": {
@@ -1478,6 +1640,7 @@
     "publisher_title": "Planning Data England / MHCLG",
     "publisher_url": "https://www.planning.data.gov.uk/",
     "record_type": "document",
+    "resource_count": 1,
     "resources": [
       {
         "dcat_type": "landing-page",
@@ -1492,6 +1655,7 @@
     ],
     "route": "dataset/biodiversity-net-gain-assessment",
     "source": "planning-data-gov-uk",
+    "source_adapter": "planning-data-gov-uk",
     "source_url": "https://www.planning.data.gov.uk/dataset/biodiversity-net-gain-assessment",
     "sources": [
       {
@@ -1515,6 +1679,7 @@
     "title": "Biodiversity net gain assesment",
     "trust_tier": "unverified",
     "typology": "document",
+    "url": "https://www.planning.data.gov.uk/dataset/biodiversity-net-gain-assessment",
     "wikidata": ""
   },
   {
@@ -1538,7 +1703,9 @@
     },
     "collection": "border",
     "confidence": "observed",
+    "core_role": "concept",
     "description": "The boundary of England as provided by the ONS for the purposes of producing statistics.",
+    "documentation": "https://www.planning.data.gov.uk/dataset/border",
     "documentation_url": "https://www.planning.data.gov.uk/dataset/border",
     "entity_count": 1,
     "generated": {
@@ -1548,6 +1715,11 @@
     "id": "border",
     "licence_id": "ogl3",
     "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "license_id": "ogl3",
+    "license_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "lifecycle_status": "draft",
+    "metadata_created": "2026-07-25T11:25:00Z",
+    "metadata_modified": "2026-07-25T11:25:00Z",
     "name": "border",
     "node_json": {
       "@id": "https://chris-page-gov.github.io/okf-planning/dataset/border",
@@ -1565,6 +1737,7 @@
       "okf:typology": "geography",
       "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
     },
+    "notes": "The boundary of England as provided by the ONS for the purposes of producing statistics.",
     "open": "dataset/border",
     "phase": "beta",
     "provenance": {
@@ -1579,6 +1752,7 @@
     "publisher_title": "Planning Data England / MHCLG",
     "publisher_url": "https://www.planning.data.gov.uk/",
     "record_type": "geography",
+    "resource_count": 1,
     "resources": [
       {
         "dcat_type": "landing-page",
@@ -1593,6 +1767,7 @@
     ],
     "route": "dataset/border",
     "source": "planning-data-gov-uk",
+    "source_adapter": "planning-data-gov-uk",
     "source_url": "https://www.planning.data.gov.uk/dataset/border",
     "sources": [
       {
@@ -1616,6 +1791,7 @@
     "title": "Border",
     "trust_tier": "unverified",
     "typology": "geography",
+    "url": "https://www.planning.data.gov.uk/dataset/border",
     "wikidata": ""
   },
   {
@@ -1639,7 +1815,9 @@
     },
     "collection": "brownfield-land",
     "confidence": "observed",
+    "core_role": "concept",
     "description": "land that has been previously been developed",
+    "documentation": "https://www.planning.data.gov.uk/dataset/brownfield-land",
     "documentation_url": "https://www.planning.data.gov.uk/dataset/brownfield-land",
     "entity_count": 37671,
     "generated": {
@@ -1649,6 +1827,11 @@
     "id": "brownfield-land",
     "licence_id": "ogl3",
     "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "license_id": "ogl3",
+    "license_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "lifecycle_status": "draft",
+    "metadata_created": "2026-07-25T11:25:00Z",
+    "metadata_modified": "2026-07-25T11:25:00Z",
     "name": "brownfield-land",
     "node_json": {
       "@id": "https://chris-page-gov.github.io/okf-planning/dataset/brownfield-land",
@@ -1666,6 +1849,7 @@
       "okf:typology": "geography",
       "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
     },
+    "notes": "land that has been previously been developed",
     "open": "dataset/brownfield-land",
     "phase": "live",
     "provenance": {
@@ -1680,6 +1864,7 @@
     "publisher_title": "Planning Data England / MHCLG",
     "publisher_url": "https://www.planning.data.gov.uk/",
     "record_type": "geography",
+    "resource_count": 1,
     "resources": [
       {
         "dcat_type": "landing-page",
@@ -1694,6 +1879,7 @@
     ],
     "route": "dataset/brownfield-land",
     "source": "planning-data-gov-uk",
+    "source_adapter": "planning-data-gov-uk",
     "source_url": "https://www.planning.data.gov.uk/dataset/brownfield-land",
     "sources": [
       {
@@ -1717,6 +1903,7 @@
     "title": "Brownfield land",
     "trust_tier": "unverified",
     "typology": "geography",
+    "url": "https://www.planning.data.gov.uk/dataset/brownfield-land",
     "wikidata": "Q896586"
   },
   {
@@ -1740,7 +1927,9 @@
     },
     "collection": "brownfield-site",
     "confidence": "observed",
+    "core_role": "concept",
     "description": "This is an experimental dataset of the boundaries of brownfield sites found on [data.gov.uk](https://www.data.gov.uk/search?q=brownfield)\nand local planning authority web sites.\nWe expect to combine this dataset with the [brownfield land](/dataset/brownfield-land) dataset in the near future.",
+    "documentation": "https://www.planning.data.gov.uk/dataset/brownfield-site",
     "documentation_url": "https://www.planning.data.gov.uk/dataset/brownfield-site",
     "entity_count": 2916,
     "generated": {
@@ -1750,6 +1939,11 @@
     "id": "brownfield-site",
     "licence_id": "ogl3",
     "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "license_id": "ogl3",
+    "license_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "lifecycle_status": "draft",
+    "metadata_created": "2026-07-25T11:25:00Z",
+    "metadata_modified": "2026-07-25T11:25:00Z",
     "name": "brownfield-site",
     "node_json": {
       "@id": "https://chris-page-gov.github.io/okf-planning/dataset/brownfield-site",
@@ -1767,6 +1961,7 @@
       "okf:typology": "geography",
       "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
     },
+    "notes": "This is an experimental dataset of the boundaries of brownfield sites found on [data.gov.uk](https://www.data.gov.uk/search?q=brownfield)\nand local planning authority web sites.\nWe expect to combine this dataset with the [brownfield land](/dataset/brownfield-land) dataset in the near future.",
     "open": "dataset/brownfield-site",
     "phase": "alpha",
     "provenance": {
@@ -1781,6 +1976,7 @@
     "publisher_title": "Planning Data England / MHCLG",
     "publisher_url": "https://www.planning.data.gov.uk/",
     "record_type": "geography",
+    "resource_count": 1,
     "resources": [
       {
         "dcat_type": "landing-page",
@@ -1795,6 +1991,7 @@
     ],
     "route": "dataset/brownfield-site",
     "source": "planning-data-gov-uk",
+    "source_adapter": "planning-data-gov-uk",
     "source_url": "https://www.planning.data.gov.uk/dataset/brownfield-site",
     "sources": [
       {
@@ -1818,6 +2015,7 @@
     "title": "Brownfield site",
     "trust_tier": "unverified",
     "typology": "geography",
+    "url": "https://www.planning.data.gov.uk/dataset/brownfield-site",
     "wikidata": "Q896586"
   },
   {
@@ -1841,7 +2039,9 @@
     },
     "collection": "planning-data",
     "confidence": "observed",
+    "core_role": "concept",
     "description": "Planning metadata record for Buffer zone.",
+    "documentation": "https://www.planning.data.gov.uk/dataset/buffer-zone",
     "documentation_url": "https://www.planning.data.gov.uk/dataset/buffer-zone",
     "entity_count": 0,
     "generated": {
@@ -1851,6 +2051,11 @@
     "id": "buffer-zone",
     "licence_id": "ogl3",
     "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "license_id": "ogl3",
+    "license_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "lifecycle_status": "draft",
+    "metadata_created": "2026-07-25T11:25:00Z",
+    "metadata_modified": "2026-07-25T11:25:00Z",
     "name": "buffer-zone",
     "node_json": {
       "@id": "https://chris-page-gov.github.io/okf-planning/dataset/buffer-zone",
@@ -1868,6 +2073,7 @@
       "okf:typology": "geography",
       "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
     },
+    "notes": "Planning metadata record for Buffer zone.",
     "open": "dataset/buffer-zone",
     "phase": "alpha",
     "provenance": {
@@ -1882,6 +2088,7 @@
     "publisher_title": "Planning Data England / MHCLG",
     "publisher_url": "https://www.planning.data.gov.uk/",
     "record_type": "geography",
+    "resource_count": 1,
     "resources": [
       {
         "dcat_type": "landing-page",
@@ -1896,6 +2103,7 @@
     ],
     "route": "dataset/buffer-zone",
     "source": "planning-data-gov-uk",
+    "source_adapter": "planning-data-gov-uk",
     "source_url": "https://www.planning.data.gov.uk/dataset/buffer-zone",
     "sources": [
       {
@@ -1919,6 +2127,7 @@
     "title": "Buffer zone",
     "trust_tier": "unverified",
     "typology": "geography",
+    "url": "https://www.planning.data.gov.uk/dataset/buffer-zone",
     "wikidata": ""
   },
   {
@@ -1942,7 +2151,9 @@
     },
     "collection": "historic-england",
     "confidence": "observed",
+    "core_role": "concept",
     "description": "Local planning authorities can serve a Building Preservation Notice (BPN) on a building owner if they consider a building\nis in danger of demolition or alteration in a way that might affect its special character.\nBPN's take effect immediately, protecting the building for a limited time period, as if it were listed.\n\nThe local planning authority must make an application to [Historic England](https://historicengland.org.uk/)\nto list the building at the same time that the BPN is served.\n\nWe expect to develop a data specification to help LPAs to publish their building preservation notices to supplement this data from Historic England.",
+    "documentation": "https://www.planning.data.gov.uk/dataset/building-preservation-notice",
     "documentation_url": "https://www.planning.data.gov.uk/dataset/building-preservation-notice",
     "entity_count": 9,
     "generated": {
@@ -1952,6 +2163,11 @@
     "id": "building-preservation-notice",
     "licence_id": "ogl3",
     "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "license_id": "ogl3",
+    "license_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "lifecycle_status": "draft",
+    "metadata_created": "2026-07-25T11:25:00Z",
+    "metadata_modified": "2026-07-25T11:25:00Z",
     "name": "building-preservation-notice",
     "node_json": {
       "@id": "https://chris-page-gov.github.io/okf-planning/dataset/building-preservation-notice",
@@ -1969,6 +2185,7 @@
       "okf:typology": "geography",
       "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
     },
+    "notes": "Local planning authorities can serve a Building Preservation Notice (BPN) on a building owner if they consider a building\nis in danger of demolition or alteration in a way that might affect its special character.\nBPN's take effect immediately, protecting the building for a limited time period, as if it were listed.\n\nThe local planning authority must make an application to [Historic England](https://historicengland.org.uk/)\nto list the building at the same time that the BPN is served.\n\nWe expect to develop a data specification to help LPAs to publish their building preservation notices to supplement this data from Historic England.",
     "open": "dataset/building-preservation-notice",
     "phase": "alpha",
     "provenance": {
@@ -1983,6 +2200,7 @@
     "publisher_title": "Planning Data England / MHCLG",
     "publisher_url": "https://www.planning.data.gov.uk/",
     "record_type": "geography",
+    "resource_count": 1,
     "resources": [
       {
         "dcat_type": "landing-page",
@@ -1997,6 +2215,7 @@
     ],
     "route": "dataset/building-preservation-notice",
     "source": "planning-data-gov-uk",
+    "source_adapter": "planning-data-gov-uk",
     "source_url": "https://www.planning.data.gov.uk/dataset/building-preservation-notice",
     "sources": [
       {
@@ -2020,6 +2239,7 @@
     "title": "Building preservation notice",
     "trust_tier": "unverified",
     "typology": "geography",
+    "url": "https://www.planning.data.gov.uk/dataset/building-preservation-notice",
     "wikidata": "Q98785867"
   },
   {
@@ -2043,7 +2263,9 @@
     },
     "collection": "built-up-area",
     "confidence": "observed",
+    "core_role": "concept",
     "description": "built-up areas equal to or greater than 20 hectares",
+    "documentation": "https://www.planning.data.gov.uk/dataset/built-up-area",
     "documentation_url": "https://www.planning.data.gov.uk/dataset/built-up-area",
     "entity_count": 7157,
     "generated": {
@@ -2053,6 +2275,11 @@
     "id": "built-up-area",
     "licence_id": "ogl3",
     "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "license_id": "ogl3",
+    "license_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "lifecycle_status": "draft",
+    "metadata_created": "2026-07-25T11:25:00Z",
+    "metadata_modified": "2026-07-25T11:25:00Z",
     "name": "built-up-area",
     "node_json": {
       "@id": "https://chris-page-gov.github.io/okf-planning/dataset/built-up-area",
@@ -2070,6 +2297,7 @@
       "okf:typology": "geography",
       "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
     },
+    "notes": "built-up areas equal to or greater than 20 hectares",
     "open": "dataset/built-up-area",
     "phase": "beta",
     "provenance": {
@@ -2084,6 +2312,7 @@
     "publisher_title": "Planning Data England / MHCLG",
     "publisher_url": "https://www.planning.data.gov.uk/",
     "record_type": "geography",
+    "resource_count": 1,
     "resources": [
       {
         "dcat_type": "landing-page",
@@ -2098,6 +2327,7 @@
     ],
     "route": "dataset/built-up-area",
     "source": "planning-data-gov-uk",
+    "source_adapter": "planning-data-gov-uk",
     "source_url": "https://www.planning.data.gov.uk/dataset/built-up-area",
     "sources": [
       {
@@ -2121,6 +2351,7 @@
     "title": "Built up area",
     "trust_tier": "unverified",
     "typology": "geography",
+    "url": "https://www.planning.data.gov.uk/dataset/built-up-area",
     "wikidata": ""
   },
   {
@@ -2144,7 +2375,9 @@
     },
     "collection": "planning-data",
     "confidence": "observed",
+    "core_role": "concept",
     "description": "Planning metadata record for Category.",
+    "documentation": "https://www.planning.data.gov.uk/dataset/category",
     "documentation_url": "https://www.planning.data.gov.uk/dataset/category",
     "entity_count": 0,
     "generated": {
@@ -2154,6 +2387,11 @@
     "id": "category",
     "licence_id": "ogl3",
     "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "license_id": "ogl3",
+    "license_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "lifecycle_status": "draft",
+    "metadata_created": "2026-07-25T11:25:00Z",
+    "metadata_modified": "2026-07-25T11:25:00Z",
     "name": "category",
     "node_json": {
       "@id": "https://chris-page-gov.github.io/okf-planning/dataset/category",
@@ -2171,6 +2409,7 @@
       "okf:typology": "category",
       "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
     },
+    "notes": "Planning metadata record for Category.",
     "open": "dataset/category",
     "phase": "alpha",
     "provenance": {
@@ -2185,6 +2424,7 @@
     "publisher_title": "Planning Data England / MHCLG",
     "publisher_url": "https://www.planning.data.gov.uk/",
     "record_type": "category",
+    "resource_count": 1,
     "resources": [
       {
         "dcat_type": "landing-page",
@@ -2199,6 +2439,7 @@
     ],
     "route": "dataset/category",
     "source": "planning-data-gov-uk",
+    "source_adapter": "planning-data-gov-uk",
     "source_url": "https://www.planning.data.gov.uk/dataset/category",
     "sources": [
       {
@@ -2222,6 +2463,7 @@
     "title": "Category",
     "trust_tier": "unverified",
     "typology": "category",
+    "url": "https://www.planning.data.gov.uk/dataset/category",
     "wikidata": ""
   },
   {
@@ -2245,7 +2487,9 @@
     },
     "collection": "central-activities-zone",
     "confidence": "observed",
+    "core_role": "concept",
     "description": "The [Greater London Authority](https://www.london.gov.uk/) (GLA) designates a central area of London with [implications for planning](https://www.london.gov.uk/what-we-do/planning/implementing-london-plan/london-plan-guidance-and-spgs/central-activities-zone)\nThis dataset combines data provided by the GLA with the boundary from the individual London boroughs.",
+    "documentation": "https://www.planning.data.gov.uk/dataset/central-activities-zone",
     "documentation_url": "https://www.planning.data.gov.uk/dataset/central-activities-zone",
     "entity_count": 10,
     "generated": {
@@ -2255,6 +2499,11 @@
     "id": "central-activities-zone",
     "licence_id": "ogl3",
     "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "license_id": "ogl3",
+    "license_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "lifecycle_status": "draft",
+    "metadata_created": "2026-07-25T11:25:00Z",
+    "metadata_modified": "2026-07-25T11:25:00Z",
     "name": "central-activities-zone",
     "node_json": {
       "@id": "https://chris-page-gov.github.io/okf-planning/dataset/central-activities-zone",
@@ -2272,6 +2521,7 @@
       "okf:typology": "geography",
       "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
     },
+    "notes": "The [Greater London Authority](https://www.london.gov.uk/) (GLA) designates a central area of London with [implications for planning](https://www.london.gov.uk/what-we-do/planning/implementing-london-plan/london-plan-guidance-and-spgs/central-activities-zone)\nThis dataset combines data provided by the GLA with the boundary from the individual London boroughs.",
     "open": "dataset/central-activities-zone",
     "phase": "beta",
     "provenance": {
@@ -2286,6 +2536,7 @@
     "publisher_title": "Planning Data England / MHCLG",
     "publisher_url": "https://www.planning.data.gov.uk/",
     "record_type": "geography",
+    "resource_count": 1,
     "resources": [
       {
         "dcat_type": "landing-page",
@@ -2300,6 +2551,7 @@
     ],
     "route": "dataset/central-activities-zone",
     "source": "planning-data-gov-uk",
+    "source_adapter": "planning-data-gov-uk",
     "source_url": "https://www.planning.data.gov.uk/dataset/central-activities-zone",
     "sources": [
       {
@@ -2323,6 +2575,7 @@
     "title": "Central activities zone",
     "trust_tier": "unverified",
     "typology": "geography",
+    "url": "https://www.planning.data.gov.uk/dataset/central-activities-zone",
     "wikidata": ""
   },
   {
@@ -2346,7 +2599,9 @@
     },
     "collection": "historic-england",
     "confidence": "observed",
+    "core_role": "concept",
     "description": "Planning metadata record for Certificate of immunity.",
+    "documentation": "https://www.planning.data.gov.uk/dataset/certificate-of-immunity",
     "documentation_url": "https://www.planning.data.gov.uk/dataset/certificate-of-immunity",
     "entity_count": 254,
     "generated": {
@@ -2356,6 +2611,11 @@
     "id": "certificate-of-immunity",
     "licence_id": "ogl3",
     "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "license_id": "ogl3",
+    "license_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "lifecycle_status": "draft",
+    "metadata_created": "2026-07-25T11:25:00Z",
+    "metadata_modified": "2026-07-25T11:25:00Z",
     "name": "certificate-of-immunity",
     "node_json": {
       "@id": "https://chris-page-gov.github.io/okf-planning/dataset/certificate-of-immunity",
@@ -2373,6 +2633,7 @@
       "okf:typology": "geography",
       "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
     },
+    "notes": "Planning metadata record for Certificate of immunity.",
     "open": "dataset/certificate-of-immunity",
     "phase": "beta",
     "provenance": {
@@ -2387,6 +2648,7 @@
     "publisher_title": "Planning Data England / MHCLG",
     "publisher_url": "https://www.planning.data.gov.uk/",
     "record_type": "geography",
+    "resource_count": 1,
     "resources": [
       {
         "dcat_type": "landing-page",
@@ -2401,6 +2663,7 @@
     ],
     "route": "dataset/certificate-of-immunity",
     "source": "planning-data-gov-uk",
+    "source_adapter": "planning-data-gov-uk",
     "source_url": "https://www.planning.data.gov.uk/dataset/certificate-of-immunity",
     "sources": [
       {
@@ -2424,6 +2687,7 @@
     "title": "Certificate of immunity",
     "trust_tier": "unverified",
     "typology": "geography",
+    "url": "https://www.planning.data.gov.uk/dataset/certificate-of-immunity",
     "wikidata": "Q5065092"
   },
   {
@@ -2447,7 +2711,9 @@
     },
     "collection": "planning-data",
     "confidence": "observed",
+    "core_role": "concept",
     "description": "Planning metadata record for Coastal change management area.",
+    "documentation": "https://www.planning.data.gov.uk/dataset/coastal-change-management-area",
     "documentation_url": "https://www.planning.data.gov.uk/dataset/coastal-change-management-area",
     "entity_count": 0,
     "generated": {
@@ -2457,6 +2723,11 @@
     "id": "coastal-change-management-area",
     "licence_id": "ogl3",
     "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "license_id": "ogl3",
+    "license_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "lifecycle_status": "draft",
+    "metadata_created": "2026-07-25T11:25:00Z",
+    "metadata_modified": "2026-07-25T11:25:00Z",
     "name": "coastal-change-management-area",
     "node_json": {
       "@id": "https://chris-page-gov.github.io/okf-planning/dataset/coastal-change-management-area",
@@ -2474,6 +2745,7 @@
       "okf:typology": "geography",
       "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
     },
+    "notes": "Planning metadata record for Coastal change management area.",
     "open": "dataset/coastal-change-management-area",
     "phase": "alpha",
     "provenance": {
@@ -2488,6 +2760,7 @@
     "publisher_title": "Planning Data England / MHCLG",
     "publisher_url": "https://www.planning.data.gov.uk/",
     "record_type": "geography",
+    "resource_count": 1,
     "resources": [
       {
         "dcat_type": "landing-page",
@@ -2502,6 +2775,7 @@
     ],
     "route": "dataset/coastal-change-management-area",
     "source": "planning-data-gov-uk",
+    "source_adapter": "planning-data-gov-uk",
     "source_url": "https://www.planning.data.gov.uk/dataset/coastal-change-management-area",
     "sources": [
       {
@@ -2525,6 +2799,7 @@
     "title": "Coastal change management area",
     "trust_tier": "unverified",
     "typology": "geography",
+    "url": "https://www.planning.data.gov.uk/dataset/coastal-change-management-area",
     "wikidata": ""
   },
   {
@@ -2548,7 +2823,9 @@
     },
     "collection": "planning-data",
     "confidence": "observed",
+    "core_role": "concept",
     "description": "Map resource column name to dataset field",
+    "documentation": "https://www.planning.data.gov.uk/dataset/column",
     "documentation_url": "https://www.planning.data.gov.uk/dataset/column",
     "entity_count": 0,
     "generated": {
@@ -2558,6 +2835,11 @@
     "id": "column",
     "licence_id": "ogl3",
     "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "license_id": "ogl3",
+    "license_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "lifecycle_status": "draft",
+    "metadata_created": "2026-07-25T11:25:00Z",
+    "metadata_modified": "2026-07-25T11:25:00Z",
     "name": "column",
     "node_json": {
       "@id": "https://chris-page-gov.github.io/okf-planning/dataset/column",
@@ -2576,6 +2858,7 @@
       "okf:typology": "pipeline",
       "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
     },
+    "notes": "Map resource column name to dataset field",
     "open": "dataset/column",
     "phase": "alpha",
     "provenance": {
@@ -2590,6 +2873,7 @@
     "publisher_title": "Planning Data England / MHCLG",
     "publisher_url": "https://www.planning.data.gov.uk/",
     "record_type": "pipeline",
+    "resource_count": 1,
     "resources": [
       {
         "dcat_type": "landing-page",
@@ -2604,6 +2888,7 @@
     ],
     "route": "dataset/column",
     "source": "planning-data-gov-uk",
+    "source_adapter": "planning-data-gov-uk",
     "source_url": "https://www.planning.data.gov.uk/dataset/column",
     "sources": [
       {
@@ -2628,6 +2913,7 @@
     "title": "Pipeline column",
     "trust_tier": "unverified",
     "typology": "pipeline",
+    "url": "https://www.planning.data.gov.uk/dataset/column",
     "wikidata": ""
   },
   {
@@ -2651,7 +2937,9 @@
     },
     "collection": "planning-data",
     "confidence": "observed",
+    "core_role": "concept",
     "description": "Planning metadata record for Common land and village green.",
+    "documentation": "https://www.planning.data.gov.uk/dataset/common-land-and-village-green",
     "documentation_url": "https://www.planning.data.gov.uk/dataset/common-land-and-village-green",
     "entity_count": 0,
     "generated": {
@@ -2661,6 +2949,11 @@
     "id": "common-land-and-village-green",
     "licence_id": "ogl3",
     "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "license_id": "ogl3",
+    "license_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "lifecycle_status": "draft",
+    "metadata_created": "2026-07-25T11:25:00Z",
+    "metadata_modified": "2026-07-25T11:25:00Z",
     "name": "common-land-and-village-green",
     "node_json": {
       "@id": "https://chris-page-gov.github.io/okf-planning/dataset/common-land-and-village-green",
@@ -2678,6 +2971,7 @@
       "okf:typology": "geography",
       "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
     },
+    "notes": "Planning metadata record for Common land and village green.",
     "open": "dataset/common-land-and-village-green",
     "phase": "alpha",
     "provenance": {
@@ -2692,6 +2986,7 @@
     "publisher_title": "Planning Data England / MHCLG",
     "publisher_url": "https://www.planning.data.gov.uk/",
     "record_type": "geography",
+    "resource_count": 1,
     "resources": [
       {
         "dcat_type": "landing-page",
@@ -2706,6 +3001,7 @@
     ],
     "route": "dataset/common-land-and-village-green",
     "source": "planning-data-gov-uk",
+    "source_adapter": "planning-data-gov-uk",
     "source_url": "https://www.planning.data.gov.uk/dataset/common-land-and-village-green",
     "sources": [
       {
@@ -2729,6 +3025,7 @@
     "title": "Common land and village green",
     "trust_tier": "unverified",
     "typology": "geography",
+    "url": "https://www.planning.data.gov.uk/dataset/common-land-and-village-green",
     "wikidata": "Q2259176"
   },
   {
@@ -2752,7 +3049,9 @@
     },
     "collection": "community-infrastructure-levy-schedule",
     "confidence": "observed",
+    "core_role": "concept",
     "description": "Planning metadata record for Community infrastructure levy schedule.",
+    "documentation": "https://www.planning.data.gov.uk/dataset/community-infrastructure-levy-schedule",
     "documentation_url": "https://www.planning.data.gov.uk/dataset/community-infrastructure-levy-schedule",
     "entity_count": 139,
     "generated": {
@@ -2762,6 +3061,11 @@
     "id": "community-infrastructure-levy-schedule",
     "licence_id": "ogl3",
     "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "license_id": "ogl3",
+    "license_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "lifecycle_status": "draft",
+    "metadata_created": "2026-07-25T11:25:00Z",
+    "metadata_modified": "2026-07-25T11:25:00Z",
     "name": "community-infrastructure-levy-schedule",
     "node_json": {
       "@id": "https://chris-page-gov.github.io/okf-planning/dataset/community-infrastructure-levy-schedule",
@@ -2780,6 +3084,7 @@
       "okf:typology": "document",
       "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
     },
+    "notes": "Planning metadata record for Community infrastructure levy schedule.",
     "open": "dataset/community-infrastructure-levy-schedule",
     "phase": "alpha",
     "provenance": {
@@ -2794,6 +3099,7 @@
     "publisher_title": "Planning Data England / MHCLG",
     "publisher_url": "https://www.planning.data.gov.uk/",
     "record_type": "document",
+    "resource_count": 1,
     "resources": [
       {
         "dcat_type": "landing-page",
@@ -2808,6 +3114,7 @@
     ],
     "route": "dataset/community-infrastructure-levy-schedule",
     "source": "planning-data-gov-uk",
+    "source_adapter": "planning-data-gov-uk",
     "source_url": "https://www.planning.data.gov.uk/dataset/community-infrastructure-levy-schedule",
     "sources": [
       {
@@ -2833,6 +3140,7 @@
     "title": "Community infrastructure levy schedule",
     "trust_tier": "unverified",
     "typology": "document",
+    "url": "https://www.planning.data.gov.uk/dataset/community-infrastructure-levy-schedule",
     "wikidata": ""
   },
   {
@@ -2856,7 +3164,9 @@
     },
     "collection": "planning-data",
     "confidence": "observed",
+    "core_role": "concept",
     "description": "Planning metadata record for Company.",
+    "documentation": "https://www.planning.data.gov.uk/dataset/company",
     "documentation_url": "https://www.planning.data.gov.uk/dataset/company",
     "entity_count": 0,
     "generated": {
@@ -2866,6 +3176,11 @@
     "id": "company",
     "licence_id": "ogl3",
     "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "license_id": "ogl3",
+    "license_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "lifecycle_status": "draft",
+    "metadata_created": "2026-07-25T11:25:00Z",
+    "metadata_modified": "2026-07-25T11:25:00Z",
     "name": "company",
     "node_json": {
       "@id": "https://chris-page-gov.github.io/okf-planning/dataset/company",
@@ -2883,6 +3198,7 @@
       "okf:typology": "organisation",
       "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
     },
+    "notes": "Planning metadata record for Company.",
     "open": "dataset/company",
     "phase": "alpha",
     "provenance": {
@@ -2897,6 +3213,7 @@
     "publisher_title": "Planning Data England / MHCLG",
     "publisher_url": "https://www.planning.data.gov.uk/",
     "record_type": "organisation",
+    "resource_count": 1,
     "resources": [
       {
         "dcat_type": "landing-page",
@@ -2911,6 +3228,7 @@
     ],
     "route": "dataset/company",
     "source": "planning-data-gov-uk",
+    "source_adapter": "planning-data-gov-uk",
     "source_url": "https://www.planning.data.gov.uk/dataset/company",
     "sources": [
       {
@@ -2934,6 +3252,7 @@
     "title": "Company",
     "trust_tier": "unverified",
     "typology": "organisation",
+    "url": "https://www.planning.data.gov.uk/dataset/company",
     "wikidata": ""
   },
   {
@@ -2971,7 +3290,9 @@
     },
     "collection": "conservation-area",
     "confidence": "observed",
+    "core_role": "concept",
     "description": "areas of special architectural or historic interest, the character or appearance of which it is desirable to preserve or enhance",
+    "documentation": "https://www.planning.data.gov.uk/dataset/conservation-area",
     "documentation_url": "https://www.planning.data.gov.uk/dataset/conservation-area",
     "entity_count": 11007,
     "generated": {
@@ -2981,6 +3302,11 @@
     "id": "conservation-area",
     "licence_id": "ogl3",
     "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "license_id": "ogl3",
+    "license_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "lifecycle_status": "draft",
+    "metadata_created": "2026-07-25T11:25:00Z",
+    "metadata_modified": "2026-07-25T11:25:00Z",
     "name": "conservation-area",
     "node_json": {
       "@id": "https://chris-page-gov.github.io/okf-planning/dataset/conservation-area",
@@ -2998,6 +3324,7 @@
       "okf:typology": "geography",
       "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
     },
+    "notes": "areas of special architectural or historic interest, the character or appearance of which it is desirable to preserve or enhance",
     "open": "dataset/conservation-area",
     "phase": "beta",
     "provenance": {
@@ -3012,6 +3339,7 @@
     "publisher_title": "Planning Data England / MHCLG",
     "publisher_url": "https://www.planning.data.gov.uk/",
     "record_type": "geography",
+    "resource_count": 1,
     "resources": [
       {
         "dcat_type": "landing-page",
@@ -3026,6 +3354,7 @@
     ],
     "route": "dataset/conservation-area",
     "source": "planning-data-gov-uk",
+    "source_adapter": "planning-data-gov-uk",
     "source_url": "https://www.planning.data.gov.uk/dataset/conservation-area",
     "sources": [
       {
@@ -3049,6 +3378,7 @@
     "title": "Conservation area",
     "trust_tier": "unverified",
     "typology": "geography",
+    "url": "https://www.planning.data.gov.uk/dataset/conservation-area",
     "wikidata": "Q5162904"
   },
   {
@@ -3086,7 +3416,9 @@
     },
     "collection": "conservation-area",
     "confidence": "observed",
+    "core_role": "concept",
     "description": "Planning metadata record for Conservation area document.",
+    "documentation": "https://www.planning.data.gov.uk/dataset/conservation-area-document",
     "documentation_url": "https://www.planning.data.gov.uk/dataset/conservation-area-document",
     "entity_count": 13874,
     "generated": {
@@ -3096,6 +3428,11 @@
     "id": "conservation-area-document",
     "licence_id": "ogl3",
     "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "license_id": "ogl3",
+    "license_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "lifecycle_status": "draft",
+    "metadata_created": "2026-07-25T11:25:00Z",
+    "metadata_modified": "2026-07-25T11:25:00Z",
     "name": "conservation-area-document",
     "node_json": {
       "@id": "https://chris-page-gov.github.io/okf-planning/dataset/conservation-area-document",
@@ -3113,6 +3450,7 @@
       "okf:typology": "document",
       "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
     },
+    "notes": "Planning metadata record for Conservation area document.",
     "open": "dataset/conservation-area-document",
     "phase": "beta",
     "provenance": {
@@ -3127,6 +3465,7 @@
     "publisher_title": "Planning Data England / MHCLG",
     "publisher_url": "https://www.planning.data.gov.uk/",
     "record_type": "document",
+    "resource_count": 1,
     "resources": [
       {
         "dcat_type": "landing-page",
@@ -3141,6 +3480,7 @@
     ],
     "route": "dataset/conservation-area-document",
     "source": "planning-data-gov-uk",
+    "source_adapter": "planning-data-gov-uk",
     "source_url": "https://www.planning.data.gov.uk/dataset/conservation-area-document",
     "sources": [
       {
@@ -3164,6 +3504,7 @@
     "title": "Conservation area document",
     "trust_tier": "unverified",
     "typology": "document",
+    "url": "https://www.planning.data.gov.uk/dataset/conservation-area-document",
     "wikidata": ""
   },
   {
@@ -3201,7 +3542,9 @@
     },
     "collection": "conservation-area",
     "confidence": "observed",
+    "core_role": "concept",
     "description": "Planning metadata record for Conservation area document type.",
+    "documentation": "https://www.planning.data.gov.uk/dataset/conservation-area-document-type",
     "documentation_url": "https://www.planning.data.gov.uk/dataset/conservation-area-document-type",
     "entity_count": 6,
     "generated": {
@@ -3211,6 +3554,11 @@
     "id": "conservation-area-document-type",
     "licence_id": "ogl3",
     "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "license_id": "ogl3",
+    "license_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "lifecycle_status": "draft",
+    "metadata_created": "2026-07-25T11:25:00Z",
+    "metadata_modified": "2026-07-25T11:25:00Z",
     "name": "conservation-area-document-type",
     "node_json": {
       "@id": "https://chris-page-gov.github.io/okf-planning/dataset/conservation-area-document-type",
@@ -3228,6 +3576,7 @@
       "okf:typology": "category",
       "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
     },
+    "notes": "Planning metadata record for Conservation area document type.",
     "open": "dataset/conservation-area-document-type",
     "phase": "beta",
     "provenance": {
@@ -3242,6 +3591,7 @@
     "publisher_title": "Planning Data England / MHCLG",
     "publisher_url": "https://www.planning.data.gov.uk/",
     "record_type": "category",
+    "resource_count": 1,
     "resources": [
       {
         "dcat_type": "landing-page",
@@ -3256,6 +3606,7 @@
     ],
     "route": "dataset/conservation-area-document-type",
     "source": "planning-data-gov-uk",
+    "source_adapter": "planning-data-gov-uk",
     "source_url": "https://www.planning.data.gov.uk/dataset/conservation-area-document-type",
     "sources": [
       {
@@ -3279,6 +3630,7 @@
     "title": "Conservation area document type",
     "trust_tier": "unverified",
     "typology": "category",
+    "url": "https://www.planning.data.gov.uk/dataset/conservation-area-document-type",
     "wikidata": ""
   },
   {
@@ -3302,7 +3654,9 @@
     },
     "collection": "planning-data",
     "confidence": "observed",
+    "core_role": "concept",
     "description": "Planning metadata record for Contaminated land.",
+    "documentation": "https://www.planning.data.gov.uk/dataset/contaminated-land",
     "documentation_url": "https://www.planning.data.gov.uk/dataset/contaminated-land",
     "entity_count": 0,
     "generated": {
@@ -3312,6 +3666,11 @@
     "id": "contaminated-land",
     "licence_id": "ogl3",
     "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "license_id": "ogl3",
+    "license_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "lifecycle_status": "draft",
+    "metadata_created": "2026-07-25T11:25:00Z",
+    "metadata_modified": "2026-07-25T11:25:00Z",
     "name": "contaminated-land",
     "node_json": {
       "@id": "https://chris-page-gov.github.io/okf-planning/dataset/contaminated-land",
@@ -3329,6 +3688,7 @@
       "okf:typology": "geography",
       "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
     },
+    "notes": "Planning metadata record for Contaminated land.",
     "open": "dataset/contaminated-land",
     "phase": "alpha",
     "provenance": {
@@ -3343,6 +3703,7 @@
     "publisher_title": "Planning Data England / MHCLG",
     "publisher_url": "https://www.planning.data.gov.uk/",
     "record_type": "geography",
+    "resource_count": 1,
     "resources": [
       {
         "dcat_type": "landing-page",
@@ -3357,6 +3718,7 @@
     ],
     "route": "dataset/contaminated-land",
     "source": "planning-data-gov-uk",
+    "source_adapter": "planning-data-gov-uk",
     "source_url": "https://www.planning.data.gov.uk/dataset/contaminated-land",
     "sources": [
       {
@@ -3380,6 +3742,7 @@
     "title": "Contaminated land",
     "trust_tier": "unverified",
     "typology": "geography",
+    "url": "https://www.planning.data.gov.uk/dataset/contaminated-land",
     "wikidata": ""
   },
   {
@@ -3403,7 +3766,9 @@
     },
     "collection": "developer-contributions",
     "confidence": "observed",
+    "core_role": "concept",
     "description": "Planning metadata record for Contribution funding status.",
+    "documentation": "https://www.planning.data.gov.uk/dataset/contribution-funding-status",
     "documentation_url": "https://www.planning.data.gov.uk/dataset/contribution-funding-status",
     "entity_count": 6,
     "generated": {
@@ -3413,6 +3778,11 @@
     "id": "contribution-funding-status",
     "licence_id": "ogl3",
     "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "license_id": "ogl3",
+    "license_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "lifecycle_status": "draft",
+    "metadata_created": "2026-07-25T11:25:00Z",
+    "metadata_modified": "2026-07-25T11:25:00Z",
     "name": "contribution-funding-status",
     "node_json": {
       "@id": "https://chris-page-gov.github.io/okf-planning/dataset/contribution-funding-status",
@@ -3430,6 +3800,7 @@
       "okf:typology": "category",
       "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
     },
+    "notes": "Planning metadata record for Contribution funding status.",
     "open": "dataset/contribution-funding-status",
     "phase": "live",
     "provenance": {
@@ -3444,6 +3815,7 @@
     "publisher_title": "Planning Data England / MHCLG",
     "publisher_url": "https://www.planning.data.gov.uk/",
     "record_type": "category",
+    "resource_count": 1,
     "resources": [
       {
         "dcat_type": "landing-page",
@@ -3458,6 +3830,7 @@
     ],
     "route": "dataset/contribution-funding-status",
     "source": "planning-data-gov-uk",
+    "source_adapter": "planning-data-gov-uk",
     "source_url": "https://www.planning.data.gov.uk/dataset/contribution-funding-status",
     "sources": [
       {
@@ -3481,6 +3854,7 @@
     "title": "Contribution funding status",
     "trust_tier": "unverified",
     "typology": "category",
+    "url": "https://www.planning.data.gov.uk/dataset/contribution-funding-status",
     "wikidata": ""
   },
   {
@@ -3504,7 +3878,9 @@
     },
     "collection": "developer-contributions",
     "confidence": "observed",
+    "core_role": "concept",
     "description": "Planning metadata record for Contribution purpose.",
+    "documentation": "https://www.planning.data.gov.uk/dataset/contribution-purpose",
     "documentation_url": "https://www.planning.data.gov.uk/dataset/contribution-purpose",
     "entity_count": 22,
     "generated": {
@@ -3514,6 +3890,11 @@
     "id": "contribution-purpose",
     "licence_id": "ogl3",
     "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "license_id": "ogl3",
+    "license_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "lifecycle_status": "draft",
+    "metadata_created": "2026-07-25T11:25:00Z",
+    "metadata_modified": "2026-07-25T11:25:00Z",
     "name": "contribution-purpose",
     "node_json": {
       "@id": "https://chris-page-gov.github.io/okf-planning/dataset/contribution-purpose",
@@ -3531,6 +3912,7 @@
       "okf:typology": "category",
       "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
     },
+    "notes": "Planning metadata record for Contribution purpose.",
     "open": "dataset/contribution-purpose",
     "phase": "live",
     "provenance": {
@@ -3545,6 +3927,7 @@
     "publisher_title": "Planning Data England / MHCLG",
     "publisher_url": "https://www.planning.data.gov.uk/",
     "record_type": "category",
+    "resource_count": 1,
     "resources": [
       {
         "dcat_type": "landing-page",
@@ -3559,6 +3942,7 @@
     ],
     "route": "dataset/contribution-purpose",
     "source": "planning-data-gov-uk",
+    "source_adapter": "planning-data-gov-uk",
     "source_url": "https://www.planning.data.gov.uk/dataset/contribution-purpose",
     "sources": [
       {
@@ -3582,6 +3966,7 @@
     "title": "Contribution purpose",
     "trust_tier": "unverified",
     "typology": "category",
+    "url": "https://www.planning.data.gov.uk/dataset/contribution-purpose",
     "wikidata": ""
   },
   {
@@ -3605,7 +3990,9 @@
     },
     "collection": "planning-data",
     "confidence": "observed",
+    "core_role": "concept",
     "description": "Planning metadata record for Control of major accident hazards site.",
+    "documentation": "https://www.planning.data.gov.uk/dataset/control-of-major-accident-hazards-site",
     "documentation_url": "https://www.planning.data.gov.uk/dataset/control-of-major-accident-hazards-site",
     "entity_count": 0,
     "generated": {
@@ -3615,6 +4002,11 @@
     "id": "control-of-major-accident-hazards-site",
     "licence_id": "ogl3",
     "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "license_id": "ogl3",
+    "license_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "lifecycle_status": "draft",
+    "metadata_created": "2026-07-25T11:25:00Z",
+    "metadata_modified": "2026-07-25T11:25:00Z",
     "name": "control-of-major-accident-hazards-site",
     "node_json": {
       "@id": "https://chris-page-gov.github.io/okf-planning/dataset/control-of-major-accident-hazards-site",
@@ -3632,6 +4024,7 @@
       "okf:typology": "geography",
       "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
     },
+    "notes": "Planning metadata record for Control of major accident hazards site.",
     "open": "dataset/control-of-major-accident-hazards-site",
     "phase": "alpha",
     "provenance": {
@@ -3646,6 +4039,7 @@
     "publisher_title": "Planning Data England / MHCLG",
     "publisher_url": "https://www.planning.data.gov.uk/",
     "record_type": "geography",
+    "resource_count": 1,
     "resources": [
       {
         "dcat_type": "landing-page",
@@ -3660,6 +4054,7 @@
     ],
     "route": "dataset/control-of-major-accident-hazards-site",
     "source": "planning-data-gov-uk",
+    "source_adapter": "planning-data-gov-uk",
     "source_url": "https://www.planning.data.gov.uk/dataset/control-of-major-accident-hazards-site",
     "sources": [
       {
@@ -3683,6 +4078,7 @@
     "title": "Control of major accident hazards site",
     "trust_tier": "unverified",
     "typology": "geography",
+    "url": "https://www.planning.data.gov.uk/dataset/control-of-major-accident-hazards-site",
     "wikidata": ""
   },
   {
@@ -3706,7 +4102,9 @@
     },
     "collection": "planning-data",
     "confidence": "observed",
+    "core_role": "concept",
     "description": "Take a missing field default value from another field",
+    "documentation": "https://www.planning.data.gov.uk/dataset/default",
     "documentation_url": "https://www.planning.data.gov.uk/dataset/default",
     "entity_count": 0,
     "generated": {
@@ -3716,6 +4114,11 @@
     "id": "default",
     "licence_id": "ogl3",
     "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "license_id": "ogl3",
+    "license_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "lifecycle_status": "draft",
+    "metadata_created": "2026-07-25T11:25:00Z",
+    "metadata_modified": "2026-07-25T11:25:00Z",
     "name": "default",
     "node_json": {
       "@id": "https://chris-page-gov.github.io/okf-planning/dataset/default",
@@ -3734,6 +4137,7 @@
       "okf:typology": "pipeline",
       "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
     },
+    "notes": "Take a missing field default value from another field",
     "open": "dataset/default",
     "phase": "alpha",
     "provenance": {
@@ -3748,6 +4152,7 @@
     "publisher_title": "Planning Data England / MHCLG",
     "publisher_url": "https://www.planning.data.gov.uk/",
     "record_type": "pipeline",
+    "resource_count": 1,
     "resources": [
       {
         "dcat_type": "landing-page",
@@ -3762,6 +4167,7 @@
     ],
     "route": "dataset/default",
     "source": "planning-data-gov-uk",
+    "source_adapter": "planning-data-gov-uk",
     "source_url": "https://www.planning.data.gov.uk/dataset/default",
     "sources": [
       {
@@ -3786,6 +4192,7 @@
     "title": "Pipeline default field",
     "trust_tier": "unverified",
     "typology": "pipeline",
+    "url": "https://www.planning.data.gov.uk/dataset/default",
     "wikidata": ""
   },
   {
@@ -3809,7 +4216,9 @@
     },
     "collection": "planning-data",
     "confidence": "observed",
+    "core_role": "concept",
     "description": "provide a default value for a missing or empty field",
+    "documentation": "https://www.planning.data.gov.uk/dataset/default-value",
     "documentation_url": "https://www.planning.data.gov.uk/dataset/default-value",
     "entity_count": 0,
     "generated": {
@@ -3819,6 +4228,11 @@
     "id": "default-value",
     "licence_id": "ogl3",
     "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "license_id": "ogl3",
+    "license_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "lifecycle_status": "draft",
+    "metadata_created": "2026-07-25T11:25:00Z",
+    "metadata_modified": "2026-07-25T11:25:00Z",
     "name": "default-value",
     "node_json": {
       "@id": "https://chris-page-gov.github.io/okf-planning/dataset/default-value",
@@ -3837,6 +4251,7 @@
       "okf:typology": "pipeline",
       "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
     },
+    "notes": "provide a default value for a missing or empty field",
     "open": "dataset/default-value",
     "phase": "alpha",
     "provenance": {
@@ -3851,6 +4266,7 @@
     "publisher_title": "Planning Data England / MHCLG",
     "publisher_url": "https://www.planning.data.gov.uk/",
     "record_type": "pipeline",
+    "resource_count": 1,
     "resources": [
       {
         "dcat_type": "landing-page",
@@ -3865,6 +4281,7 @@
     ],
     "route": "dataset/default-value",
     "source": "planning-data-gov-uk",
+    "source_adapter": "planning-data-gov-uk",
     "source_url": "https://www.planning.data.gov.uk/dataset/default-value",
     "sources": [
       {
@@ -3889,6 +4306,7 @@
     "title": "Pipeline default value",
     "trust_tier": "unverified",
     "typology": "pipeline",
+    "url": "https://www.planning.data.gov.uk/dataset/default-value",
     "wikidata": ""
   },
   {
@@ -3912,7 +4330,9 @@
     },
     "collection": "design-code",
     "confidence": "observed",
+    "core_role": "concept",
     "description": "Planning metadata record for Design code.",
+    "documentation": "https://www.planning.data.gov.uk/dataset/design-code",
     "documentation_url": "https://www.planning.data.gov.uk/dataset/design-code",
     "entity_count": 21,
     "generated": {
@@ -3922,6 +4342,11 @@
     "id": "design-code",
     "licence_id": "ogl3",
     "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "license_id": "ogl3",
+    "license_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "lifecycle_status": "draft",
+    "metadata_created": "2026-07-25T11:25:00Z",
+    "metadata_modified": "2026-07-25T11:25:00Z",
     "name": "design-code",
     "node_json": {
       "@id": "https://chris-page-gov.github.io/okf-planning/dataset/design-code",
@@ -3939,6 +4364,7 @@
       "okf:typology": "policy",
       "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
     },
+    "notes": "Planning metadata record for Design code.",
     "open": "dataset/design-code",
     "phase": "alpha",
     "provenance": {
@@ -3953,6 +4379,7 @@
     "publisher_title": "Planning Data England / MHCLG",
     "publisher_url": "https://www.planning.data.gov.uk/",
     "record_type": "policy",
+    "resource_count": 1,
     "resources": [
       {
         "dcat_type": "landing-page",
@@ -3967,6 +4394,7 @@
     ],
     "route": "dataset/design-code",
     "source": "planning-data-gov-uk",
+    "source_adapter": "planning-data-gov-uk",
     "source_url": "https://www.planning.data.gov.uk/dataset/design-code",
     "sources": [
       {
@@ -3990,6 +4418,7 @@
     "title": "Design code",
     "trust_tier": "unverified",
     "typology": "policy",
+    "url": "https://www.planning.data.gov.uk/dataset/design-code",
     "wikidata": ""
   },
   {
@@ -4013,7 +4442,9 @@
     },
     "collection": "design-code",
     "confidence": "observed",
+    "core_role": "concept",
     "description": "Geographical areas covered by a [design code](/dataset/design-code).",
+    "documentation": "https://www.planning.data.gov.uk/dataset/design-code-area",
     "documentation_url": "https://www.planning.data.gov.uk/dataset/design-code-area",
     "entity_count": 11,
     "generated": {
@@ -4023,6 +4454,11 @@
     "id": "design-code-area",
     "licence_id": "ogl3",
     "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "license_id": "ogl3",
+    "license_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "lifecycle_status": "draft",
+    "metadata_created": "2026-07-25T11:25:00Z",
+    "metadata_modified": "2026-07-25T11:25:00Z",
     "name": "design-code-area",
     "node_json": {
       "@id": "https://chris-page-gov.github.io/okf-planning/dataset/design-code-area",
@@ -4040,6 +4476,7 @@
       "okf:typology": "geography",
       "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
     },
+    "notes": "Geographical areas covered by a [design code](/dataset/design-code).",
     "open": "dataset/design-code-area",
     "phase": "alpha",
     "provenance": {
@@ -4054,6 +4491,7 @@
     "publisher_title": "Planning Data England / MHCLG",
     "publisher_url": "https://www.planning.data.gov.uk/",
     "record_type": "geography",
+    "resource_count": 1,
     "resources": [
       {
         "dcat_type": "landing-page",
@@ -4068,6 +4506,7 @@
     ],
     "route": "dataset/design-code-area",
     "source": "planning-data-gov-uk",
+    "source_adapter": "planning-data-gov-uk",
     "source_url": "https://www.planning.data.gov.uk/dataset/design-code-area",
     "sources": [
       {
@@ -4091,6 +4530,7 @@
     "title": "Design code area",
     "trust_tier": "unverified",
     "typology": "geography",
+    "url": "https://www.planning.data.gov.uk/dataset/design-code-area",
     "wikidata": ""
   },
   {
@@ -4114,7 +4554,9 @@
     },
     "collection": "design-code",
     "confidence": "observed",
+    "core_role": "concept",
     "description": "Planning metadata record for Design code area type.",
+    "documentation": "https://www.planning.data.gov.uk/dataset/design-code-area-type",
     "documentation_url": "https://www.planning.data.gov.uk/dataset/design-code-area-type",
     "entity_count": 10,
     "generated": {
@@ -4124,6 +4566,11 @@
     "id": "design-code-area-type",
     "licence_id": "ogl3",
     "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "license_id": "ogl3",
+    "license_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "lifecycle_status": "draft",
+    "metadata_created": "2026-07-25T11:25:00Z",
+    "metadata_modified": "2026-07-25T11:25:00Z",
     "name": "design-code-area-type",
     "node_json": {
       "@id": "https://chris-page-gov.github.io/okf-planning/dataset/design-code-area-type",
@@ -4141,6 +4588,7 @@
       "okf:typology": "category",
       "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
     },
+    "notes": "Planning metadata record for Design code area type.",
     "open": "dataset/design-code-area-type",
     "phase": "alpha",
     "provenance": {
@@ -4155,6 +4603,7 @@
     "publisher_title": "Planning Data England / MHCLG",
     "publisher_url": "https://www.planning.data.gov.uk/",
     "record_type": "category",
+    "resource_count": 1,
     "resources": [
       {
         "dcat_type": "landing-page",
@@ -4169,6 +4618,7 @@
     ],
     "route": "dataset/design-code-area-type",
     "source": "planning-data-gov-uk",
+    "source_adapter": "planning-data-gov-uk",
     "source_url": "https://www.planning.data.gov.uk/dataset/design-code-area-type",
     "sources": [
       {
@@ -4192,6 +4642,7 @@
     "title": "Design code area type",
     "trust_tier": "unverified",
     "typology": "category",
+    "url": "https://www.planning.data.gov.uk/dataset/design-code-area-type",
     "wikidata": ""
   },
   {
@@ -4215,7 +4666,9 @@
     },
     "collection": "design-code",
     "confidence": "observed",
+    "core_role": "concept",
     "description": "Planning metadata record for Design code characteristic.",
+    "documentation": "https://www.planning.data.gov.uk/dataset/design-code-characteristic",
     "documentation_url": "https://www.planning.data.gov.uk/dataset/design-code-characteristic",
     "entity_count": 11,
     "generated": {
@@ -4225,6 +4678,11 @@
     "id": "design-code-characteristic",
     "licence_id": "ogl3",
     "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "license_id": "ogl3",
+    "license_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "lifecycle_status": "draft",
+    "metadata_created": "2026-07-25T11:25:00Z",
+    "metadata_modified": "2026-07-25T11:25:00Z",
     "name": "design-code-characteristic",
     "node_json": {
       "@id": "https://chris-page-gov.github.io/okf-planning/dataset/design-code-characteristic",
@@ -4242,6 +4700,7 @@
       "okf:typology": "category",
       "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
     },
+    "notes": "Planning metadata record for Design code characteristic.",
     "open": "dataset/design-code-characteristic",
     "phase": "alpha",
     "provenance": {
@@ -4256,6 +4715,7 @@
     "publisher_title": "Planning Data England / MHCLG",
     "publisher_url": "https://www.planning.data.gov.uk/",
     "record_type": "category",
+    "resource_count": 1,
     "resources": [
       {
         "dcat_type": "landing-page",
@@ -4270,6 +4730,7 @@
     ],
     "route": "dataset/design-code-characteristic",
     "source": "planning-data-gov-uk",
+    "source_adapter": "planning-data-gov-uk",
     "source_url": "https://www.planning.data.gov.uk/dataset/design-code-characteristic",
     "sources": [
       {
@@ -4293,6 +4754,7 @@
     "title": "Design code characteristic",
     "trust_tier": "unverified",
     "typology": "category",
+    "url": "https://www.planning.data.gov.uk/dataset/design-code-characteristic",
     "wikidata": ""
   },
   {
@@ -4316,7 +4778,9 @@
     },
     "collection": "design-code",
     "confidence": "observed",
+    "core_role": "concept",
     "description": "the set of design code rules affecting a design code area",
+    "documentation": "https://www.planning.data.gov.uk/dataset/design-code-rule",
     "documentation_url": "https://www.planning.data.gov.uk/dataset/design-code-rule",
     "entity_count": 999,
     "generated": {
@@ -4326,6 +4790,11 @@
     "id": "design-code-rule",
     "licence_id": "ogl3",
     "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "license_id": "ogl3",
+    "license_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "lifecycle_status": "draft",
+    "metadata_created": "2026-07-25T11:25:00Z",
+    "metadata_modified": "2026-07-25T11:25:00Z",
     "name": "design-code-rule",
     "node_json": {
       "@id": "https://chris-page-gov.github.io/okf-planning/dataset/design-code-rule",
@@ -4343,6 +4812,7 @@
       "okf:typology": "policy",
       "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
     },
+    "notes": "the set of design code rules affecting a design code area",
     "open": "dataset/design-code-rule",
     "phase": "alpha",
     "provenance": {
@@ -4357,6 +4827,7 @@
     "publisher_title": "Planning Data England / MHCLG",
     "publisher_url": "https://www.planning.data.gov.uk/",
     "record_type": "policy",
+    "resource_count": 1,
     "resources": [
       {
         "dcat_type": "landing-page",
@@ -4371,6 +4842,7 @@
     ],
     "route": "dataset/design-code-rule",
     "source": "planning-data-gov-uk",
+    "source_adapter": "planning-data-gov-uk",
     "source_url": "https://www.planning.data.gov.uk/dataset/design-code-rule",
     "sources": [
       {
@@ -4394,6 +4866,7 @@
     "title": "Design code rule",
     "trust_tier": "unverified",
     "typology": "policy",
+    "url": "https://www.planning.data.gov.uk/dataset/design-code-rule",
     "wikidata": ""
   },
   {
@@ -4417,7 +4890,9 @@
     },
     "collection": "design-code",
     "confidence": "observed",
+    "core_role": "concept",
     "description": "Planning metadata record for Design code rule category.",
+    "documentation": "https://www.planning.data.gov.uk/dataset/design-code-rule-category",
     "documentation_url": "https://www.planning.data.gov.uk/dataset/design-code-rule-category",
     "entity_count": 78,
     "generated": {
@@ -4427,6 +4902,11 @@
     "id": "design-code-rule-category",
     "licence_id": "ogl3",
     "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "license_id": "ogl3",
+    "license_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "lifecycle_status": "draft",
+    "metadata_created": "2026-07-25T11:25:00Z",
+    "metadata_modified": "2026-07-25T11:25:00Z",
     "name": "design-code-rule-category",
     "node_json": {
       "@id": "https://chris-page-gov.github.io/okf-planning/dataset/design-code-rule-category",
@@ -4444,6 +4924,7 @@
       "okf:typology": "category",
       "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
     },
+    "notes": "Planning metadata record for Design code rule category.",
     "open": "dataset/design-code-rule-category",
     "phase": "alpha",
     "provenance": {
@@ -4458,6 +4939,7 @@
     "publisher_title": "Planning Data England / MHCLG",
     "publisher_url": "https://www.planning.data.gov.uk/",
     "record_type": "category",
+    "resource_count": 1,
     "resources": [
       {
         "dcat_type": "landing-page",
@@ -4472,6 +4954,7 @@
     ],
     "route": "dataset/design-code-rule-category",
     "source": "planning-data-gov-uk",
+    "source_adapter": "planning-data-gov-uk",
     "source_url": "https://www.planning.data.gov.uk/dataset/design-code-rule-category",
     "sources": [
       {
@@ -4495,6 +4978,7 @@
     "title": "Design code rule category",
     "trust_tier": "unverified",
     "typology": "category",
+    "url": "https://www.planning.data.gov.uk/dataset/design-code-rule-category",
     "wikidata": ""
   },
   {
@@ -4518,7 +5002,9 @@
     },
     "collection": "design-code",
     "confidence": "observed",
+    "core_role": "concept",
     "description": "Planning metadata record for Design code status.",
+    "documentation": "https://www.planning.data.gov.uk/dataset/design-code-status",
     "documentation_url": "https://www.planning.data.gov.uk/dataset/design-code-status",
     "entity_count": 5,
     "generated": {
@@ -4528,6 +5014,11 @@
     "id": "design-code-status",
     "licence_id": "ogl3",
     "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "license_id": "ogl3",
+    "license_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "lifecycle_status": "draft",
+    "metadata_created": "2026-07-25T11:25:00Z",
+    "metadata_modified": "2026-07-25T11:25:00Z",
     "name": "design-code-status",
     "node_json": {
       "@id": "https://chris-page-gov.github.io/okf-planning/dataset/design-code-status",
@@ -4545,6 +5036,7 @@
       "okf:typology": "category",
       "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
     },
+    "notes": "Planning metadata record for Design code status.",
     "open": "dataset/design-code-status",
     "phase": "alpha",
     "provenance": {
@@ -4559,6 +5051,7 @@
     "publisher_title": "Planning Data England / MHCLG",
     "publisher_url": "https://www.planning.data.gov.uk/",
     "record_type": "category",
+    "resource_count": 1,
     "resources": [
       {
         "dcat_type": "landing-page",
@@ -4573,6 +5066,7 @@
     ],
     "route": "dataset/design-code-status",
     "source": "planning-data-gov-uk",
+    "source_adapter": "planning-data-gov-uk",
     "source_url": "https://www.planning.data.gov.uk/dataset/design-code-status",
     "sources": [
       {
@@ -4596,6 +5090,7 @@
     "title": "Design code status",
     "trust_tier": "unverified",
     "typology": "category",
+    "url": "https://www.planning.data.gov.uk/dataset/design-code-status",
     "wikidata": ""
   },
   {
@@ -4619,7 +5114,9 @@
     },
     "collection": "developer-contributions",
     "confidence": "observed",
+    "core_role": "concept",
     "description": "Planning metadata record for Developer agreement.",
+    "documentation": "https://www.planning.data.gov.uk/dataset/developer-agreement",
     "documentation_url": "https://www.planning.data.gov.uk/dataset/developer-agreement",
     "entity_count": 12775,
     "generated": {
@@ -4629,6 +5126,11 @@
     "id": "developer-agreement",
     "licence_id": "ogl3",
     "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "license_id": "ogl3",
+    "license_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "lifecycle_status": "draft",
+    "metadata_created": "2026-07-25T11:25:00Z",
+    "metadata_modified": "2026-07-25T11:25:00Z",
     "name": "developer-agreement",
     "node_json": {
       "@id": "https://chris-page-gov.github.io/okf-planning/dataset/developer-agreement",
@@ -4646,6 +5148,7 @@
       "okf:typology": "document",
       "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
     },
+    "notes": "Planning metadata record for Developer agreement.",
     "open": "dataset/developer-agreement",
     "phase": "beta",
     "provenance": {
@@ -4660,6 +5163,7 @@
     "publisher_title": "Planning Data England / MHCLG",
     "publisher_url": "https://www.planning.data.gov.uk/",
     "record_type": "document",
+    "resource_count": 1,
     "resources": [
       {
         "dcat_type": "landing-page",
@@ -4674,6 +5178,7 @@
     ],
     "route": "dataset/developer-agreement",
     "source": "planning-data-gov-uk",
+    "source_adapter": "planning-data-gov-uk",
     "source_url": "https://www.planning.data.gov.uk/dataset/developer-agreement",
     "sources": [
       {
@@ -4697,6 +5202,7 @@
     "title": "Developer agreement",
     "trust_tier": "unverified",
     "typology": "document",
+    "url": "https://www.planning.data.gov.uk/dataset/developer-agreement",
     "wikidata": ""
   },
   {
@@ -4720,7 +5226,9 @@
     },
     "collection": "developer-contributions",
     "confidence": "observed",
+    "core_role": "concept",
     "description": "Planning metadata record for Developer agreement contribution.",
+    "documentation": "https://www.planning.data.gov.uk/dataset/developer-agreement-contribution",
     "documentation_url": "https://www.planning.data.gov.uk/dataset/developer-agreement-contribution",
     "entity_count": 39325,
     "generated": {
@@ -4730,6 +5238,11 @@
     "id": "developer-agreement-contribution",
     "licence_id": "ogl3",
     "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "license_id": "ogl3",
+    "license_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "lifecycle_status": "draft",
+    "metadata_created": "2026-07-25T11:25:00Z",
+    "metadata_modified": "2026-07-25T11:25:00Z",
     "name": "developer-agreement-contribution",
     "node_json": {
       "@id": "https://chris-page-gov.github.io/okf-planning/dataset/developer-agreement-contribution",
@@ -4747,6 +5260,7 @@
       "okf:typology": "metric",
       "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
     },
+    "notes": "Planning metadata record for Developer agreement contribution.",
     "open": "dataset/developer-agreement-contribution",
     "phase": "beta",
     "provenance": {
@@ -4761,6 +5275,7 @@
     "publisher_title": "Planning Data England / MHCLG",
     "publisher_url": "https://www.planning.data.gov.uk/",
     "record_type": "metric",
+    "resource_count": 1,
     "resources": [
       {
         "dcat_type": "landing-page",
@@ -4775,6 +5290,7 @@
     ],
     "route": "dataset/developer-agreement-contribution",
     "source": "planning-data-gov-uk",
+    "source_adapter": "planning-data-gov-uk",
     "source_url": "https://www.planning.data.gov.uk/dataset/developer-agreement-contribution",
     "sources": [
       {
@@ -4798,6 +5314,7 @@
     "title": "Developer agreement contribution",
     "trust_tier": "unverified",
     "typology": "metric",
+    "url": "https://www.planning.data.gov.uk/dataset/developer-agreement-contribution",
     "wikidata": ""
   },
   {
@@ -4821,7 +5338,9 @@
     },
     "collection": "developer-contributions",
     "confidence": "observed",
+    "core_role": "concept",
     "description": "Planning metadata record for Developer agreement transaction.",
+    "documentation": "https://www.planning.data.gov.uk/dataset/developer-agreement-transaction",
     "documentation_url": "https://www.planning.data.gov.uk/dataset/developer-agreement-transaction",
     "entity_count": 49891,
     "generated": {
@@ -4831,6 +5350,11 @@
     "id": "developer-agreement-transaction",
     "licence_id": "ogl3",
     "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "license_id": "ogl3",
+    "license_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "lifecycle_status": "draft",
+    "metadata_created": "2026-07-25T11:25:00Z",
+    "metadata_modified": "2026-07-25T11:25:00Z",
     "name": "developer-agreement-transaction",
     "node_json": {
       "@id": "https://chris-page-gov.github.io/okf-planning/dataset/developer-agreement-transaction",
@@ -4848,6 +5372,7 @@
       "okf:typology": "metric",
       "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
     },
+    "notes": "Planning metadata record for Developer agreement transaction.",
     "open": "dataset/developer-agreement-transaction",
     "phase": "beta",
     "provenance": {
@@ -4862,6 +5387,7 @@
     "publisher_title": "Planning Data England / MHCLG",
     "publisher_url": "https://www.planning.data.gov.uk/",
     "record_type": "metric",
+    "resource_count": 1,
     "resources": [
       {
         "dcat_type": "landing-page",
@@ -4876,6 +5402,7 @@
     ],
     "route": "dataset/developer-agreement-transaction",
     "source": "planning-data-gov-uk",
+    "source_adapter": "planning-data-gov-uk",
     "source_url": "https://www.planning.data.gov.uk/dataset/developer-agreement-transaction",
     "sources": [
       {
@@ -4899,6 +5426,7 @@
     "title": "Developer agreement transaction",
     "trust_tier": "unverified",
     "typology": "metric",
+    "url": "https://www.planning.data.gov.uk/dataset/developer-agreement-transaction",
     "wikidata": ""
   },
   {
@@ -4922,7 +5450,9 @@
     },
     "collection": "developer-contributions",
     "confidence": "observed",
+    "core_role": "concept",
     "description": "Planning metadata record for Developer agreement type.",
+    "documentation": "https://www.planning.data.gov.uk/dataset/developer-agreement-type",
     "documentation_url": "https://www.planning.data.gov.uk/dataset/developer-agreement-type",
     "entity_count": 3,
     "generated": {
@@ -4932,6 +5462,11 @@
     "id": "developer-agreement-type",
     "licence_id": "ogl3",
     "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "license_id": "ogl3",
+    "license_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "lifecycle_status": "draft",
+    "metadata_created": "2026-07-25T11:25:00Z",
+    "metadata_modified": "2026-07-25T11:25:00Z",
     "name": "developer-agreement-type",
     "node_json": {
       "@id": "https://chris-page-gov.github.io/okf-planning/dataset/developer-agreement-type",
@@ -4949,6 +5484,7 @@
       "okf:typology": "category",
       "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
     },
+    "notes": "Planning metadata record for Developer agreement type.",
     "open": "dataset/developer-agreement-type",
     "phase": "live",
     "provenance": {
@@ -4963,6 +5499,7 @@
     "publisher_title": "Planning Data England / MHCLG",
     "publisher_url": "https://www.planning.data.gov.uk/",
     "record_type": "category",
+    "resource_count": 1,
     "resources": [
       {
         "dcat_type": "landing-page",
@@ -4977,6 +5514,7 @@
     ],
     "route": "dataset/developer-agreement-type",
     "source": "planning-data-gov-uk",
+    "source_adapter": "planning-data-gov-uk",
     "source_url": "https://www.planning.data.gov.uk/dataset/developer-agreement-type",
     "sources": [
       {
@@ -5000,6 +5538,7 @@
     "title": "Developer agreement type",
     "trust_tier": "unverified",
     "typology": "category",
+    "url": "https://www.planning.data.gov.uk/dataset/developer-agreement-type",
     "wikidata": ""
   },
   {
@@ -5023,7 +5562,9 @@
     },
     "collection": "organisation",
     "confidence": "observed",
+    "core_role": "concept",
     "description": "A development corporation may have powers to create development policies,\nand make planning decisions for a [local planning authority](/dataset/local-planning-authority) area.\nWe keep and maintain this dataset to help us identify the organisations which provide planning and housing data.",
+    "documentation": "https://www.planning.data.gov.uk/dataset/development-corporation",
     "documentation_url": "https://www.planning.data.gov.uk/dataset/development-corporation",
     "entity_count": 31,
     "generated": {
@@ -5033,6 +5574,11 @@
     "id": "development-corporation",
     "licence_id": "ogl3",
     "licence_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "license_id": "ogl3",
+    "license_title": "Licensed under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).",
+    "lifecycle_status": "draft",
+    "metadata_created": "2026-07-25T11:25:00Z",
+    "metadata_modified": "2026-07-25T11:25:00Z",
     "name": "development-corporation",
     "node_json": {
       "@id": "https://chris-page-gov.github.io/okf-planning/dataset/development-corporation",
@@ -5050,6 +5596,7 @@
       "okf:typology": "organisation",
       "prov:wasAttributedTo": "https://www.planning.data.gov.uk/"
     },
+    "notes": "A development corporation may have powers to create development policies,\nand make planning decisions for a [local planning authority](/dataset/local-planning-authority) area.\nWe keep and maintain this dataset to help us identify the organisations which provide planning and housing data.",
     "open": "dataset/development-corporation",
     "phase": "beta",
     "provenance": {
@@ -5064,6 +5611,7 @@
     "publisher_title": "Planning Data England / MHCLG",
     "publisher_url": "https://www.planning.data.gov.uk/",
     "record_type": "organisation",
+    "resource_count": 1,
     "resources": [
       {
         "dcat_type": "landing-page",
@@ -5078,6 +5626,7 @@
     ],
     "route": "dataset/development-corporation",
     "source": "planning-data-gov-uk",
+    "source_adapter": "planning-data-gov-uk",
     "source_url": "https://www.planning.data.gov.uk/dataset/development-corporation",
     "sources": [
       {
@@ -5100,6 +5649,7 @@
     "title": "Development corporation",
     "trust_tier": "unverified",
     "typology": "organisation",
+    "url": "https://www.planning.data.gov.uk/dataset/development-corporation",
     "wikidata": "Q5266682"
   }
 ]

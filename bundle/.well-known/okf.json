@@ -1,0 +1,9 @@
+{
+  "ai_context": "https://chris-page-gov.github.io/okf-planning/ai-context.json",
+  "descriptor": "https://chris-page-gov.github.io/okf-planning/okf-explorer.json",
+  "execution_available": false,
+  "okf_version": "0.3",
+  "schema": "okf-planning-discovery.v1",
+  "semantic_profile": "https://chris-page-gov.github.io/okf-planning/profile/planning-metadata/v1/",
+  "walkthrough": "https://chris-page-gov.github.io/okf-planning/walkthrough.html"
+}

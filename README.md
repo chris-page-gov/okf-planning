@@ -7,7 +7,7 @@ ten explicitly curated policy, legislation, guidance, heritage and environment
 records.
 
 The generated [`bundle/`](bundle/) is conformant with
-[Open Knowledge Format v0.2](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/3fcbb9f828c2f23d109c855ee403c3a4c81f3a96/okf/SPEC.md):
+[Open Knowledge Format v0.3](https://github.com/open-knowledge-format/open-knowledge-format/blob/527e81aff55992be21507e97004286789126f88c/SPEC.md):
 the normative bundle is a hierarchy of Markdown concepts with YAML
 frontmatter. JSON, YAML-LD, DCAT 3, PROV-O, SKOS, static search, federation,
 integrity and OKF Explorer files are additive project extensions. They are not
@@ -15,6 +15,30 @@ part of the OKF core specification and do not replace the Markdown layer.
 
 The bundle is a draft, unverified independent publication. It does not imply
 endorsement by MHCLG or any source publisher.
+
+OKF 0.3 was announced on 18 November 2026. This producer’s OKF+ 0.3
+implementation date is 24 November 2026; projection version 0.3.0 is separate
+from the retained July source generation event. The snapshot remains dated
+25 July 2026 and its review boundary of 25 October 2026 is overdue.
+The [planning metadata profile v1](profiles/planning-metadata/v1/README.md)
+governs domain relationships. The retained Bundle Wiki v1 context supplies
+structural terms; Bundle Wiki v1 or v2 assertion conformance is not claimed.
+
+Start with the [design-code question walkthrough](bundle/walkthrough.html).
+It follows three actual inferred links to the NPPF, keeps source cards and
+negative controls visible, and explains why those links cannot establish a
+proposal’s compliance. This is one logical bundle with several projections;
+the repository-root contract is an alias, not a second accepted corpus.
+
+`bundle/ai-context.json` contains every concept’s exact parsed YAML front matter,
+Markdown body, source identity and SHA-256 digest, plus all 40 qualified domain
+relationships. `bundle/llms.txt` and `bundle/.well-known/okf.json` provide simple
+discovery. The context also carries the complete generated JSON-LD graph with
+its source-file digest, including resource and organisation extension nodes.
+Clients can retrieve this deterministic context without model-based
+extraction. Answer generation remains a separate model evaluation: preserve
+qualifications, cite original sources and do not infer permission or current
+policy from catalogue metadata.
 
 ## Entry points
 
@@ -69,24 +93,31 @@ contract.
 
 ## Build and validation
 
-Normal builds are offline and require the checked-in source snapshot:
+Normal builds are offline and require the checked-in source snapshot. First run
+`uv sync --locked --extra test` to use the governed Python 3.12.11 environment:
 
 ```sh
-python3 scripts/build_bundle.py
-python3 scripts/check_okf.py
-pytest
+uv run --locked python scripts/build_bundle.py
+uv run --locked python scripts/build_explorer_companions.py
+uv run --locked python scripts/check_okf.py
+uv run --locked --extra test pytest
 ```
 
 To deliberately refresh both source files from Planning Data England:
 
 ```sh
-python3 scripts/acquire_planning_data.py
-python3 scripts/build_bundle.py
-python3 scripts/check_okf.py
+uv run --locked python scripts/acquire_planning_data.py
+uv run --locked python scripts/build_bundle.py
+uv run --locked python scripts/build_explorer_companions.py
+uv run --locked python scripts/check_okf.py
 ```
 
 Acquisition fetches and validates both payloads before replacing either
 checked-in file. A network failure leaves the existing snapshot untouched.
+The build then requires a reviewed `source/snapshot-lock.json`: a refresh must
+update the snapshot identity, capture and generation dates, generator actor and
+source hashes together. Changed bytes cannot silently inherit the July dates.
+The guard runs before replacing any generated output.
 
 CI rebuilds the bundle once, runs the conformance and integrity checks, and
 fails when generated files are not synchronised. The checked candidate is
@@ -103,15 +134,17 @@ The contract's command strings are untrusted data: review them against
 `AGENTS.md` and the repository code before execution. Run its local checks with:
 
 ```sh
-python3 scripts/check_publication_contract.py
-python3 scripts/check_documentation_lockstep.py
+uv run --locked python scripts/check_publication_contract.py
+uv run --locked python scripts/check_documentation_lockstep.py
 ```
 
 The [build and publication method](docs/publication-method.md) explains the
 authored and generated boundaries, the single-build Pages candidate and the
-current assurance gap. An exact-commit real-browser receipt is not yet
-integrated, so the public entry points above must not be treated as verified
-deployment evidence for a particular commit.
+exact candidate and browser gates. Acceptance requires native Reader and graph
+cases, the actual question link on desktop and mobile, original source cards,
+reloads, no browser errors, no AA accessibility violations and complete served-byte
+comparison. Configured links are not evidence that a deployed revision passed;
+retain the exact candidate receipt and every failure.
 
 ## Rights
 

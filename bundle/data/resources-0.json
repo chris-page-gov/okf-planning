@@ -1,5 +1,6 @@
 [
   {
+    "core_role": "extension",
     "dataset": "address",
     "dataset_id": "address",
     "dataset_route": "dataset/address",
@@ -18,6 +19,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/address"
   },
   {
+    "core_role": "extension",
     "dataset": "agricultural-land-classification",
     "dataset_id": "agricultural-land-classification",
     "dataset_route": "dataset/agricultural-land-classification",
@@ -36,6 +38,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/agricultural-land-classification"
   },
   {
+    "core_role": "extension",
     "dataset": "air-quality-management-area",
     "dataset_id": "air-quality-management-area",
     "dataset_route": "dataset/air-quality-management-area",
@@ -54,6 +57,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/air-quality-management-area"
   },
   {
+    "core_role": "extension",
     "dataset": "ancient-woodland",
     "dataset_id": "ancient-woodland",
     "dataset_route": "dataset/ancient-woodland",
@@ -72,6 +76,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/ancient-woodland"
   },
   {
+    "core_role": "extension",
     "dataset": "ancient-woodland-status",
     "dataset_id": "ancient-woodland-status",
     "dataset_route": "dataset/ancient-woodland-status",
@@ -90,6 +95,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/ancient-woodland-status"
   },
   {
+    "core_role": "extension",
     "dataset": "archaeological-priority-area",
     "dataset_id": "archaeological-priority-area",
     "dataset_route": "dataset/archaeological-priority-area",
@@ -108,6 +114,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/archaeological-priority-area"
   },
   {
+    "core_role": "extension",
     "dataset": "area-of-outstanding-natural-beauty",
     "dataset_id": "area-of-outstanding-natural-beauty",
     "dataset_route": "dataset/area-of-outstanding-natural-beauty",
@@ -126,6 +133,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/area-of-outstanding-natural-beauty"
   },
   {
+    "core_role": "extension",
     "dataset": "article-4-direction",
     "dataset_id": "article-4-direction",
     "dataset_route": "dataset/article-4-direction",
@@ -144,6 +152,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/article-4-direction"
   },
   {
+    "core_role": "extension",
     "dataset": "article-4-direction-area",
     "dataset_id": "article-4-direction-area",
     "dataset_route": "dataset/article-4-direction-area",
@@ -162,6 +171,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/article-4-direction-area"
   },
   {
+    "core_role": "extension",
     "dataset": "article-4-direction-rule",
     "dataset_id": "article-4-direction-rule",
     "dataset_route": "dataset/article-4-direction-rule",
@@ -180,6 +190,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/article-4-direction-rule"
   },
   {
+    "core_role": "extension",
     "dataset": "asset-of-community-value",
     "dataset_id": "asset-of-community-value",
     "dataset_route": "dataset/asset-of-community-value",
@@ -198,6 +209,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/asset-of-community-value"
   },
   {
+    "core_role": "extension",
     "dataset": "attribution",
     "dataset_id": "attribution",
     "dataset_route": "dataset/attribution",
@@ -216,6 +228,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/attribution"
   },
   {
+    "core_role": "extension",
     "dataset": "battlefield",
     "dataset_id": "battlefield",
     "dataset_route": "dataset/battlefield",
@@ -234,6 +247,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/battlefield"
   },
   {
+    "core_role": "extension",
     "dataset": "best-and-most-versatile-agricultural-land",
     "dataset_id": "best-and-most-versatile-agricultural-land",
     "dataset_route": "dataset/best-and-most-versatile-agricultural-land",
@@ -252,6 +266,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/best-and-most-versatile-agricultural-land"
   },
   {
+    "core_role": "extension",
     "dataset": "biodiversity-net-gain-assessment",
     "dataset_id": "biodiversity-net-gain-assessment",
     "dataset_route": "dataset/biodiversity-net-gain-assessment",
@@ -270,6 +285,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/biodiversity-net-gain-assessment"
   },
   {
+    "core_role": "extension",
     "dataset": "border",
     "dataset_id": "border",
     "dataset_route": "dataset/border",
@@ -288,6 +304,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/border"
   },
   {
+    "core_role": "extension",
     "dataset": "brownfield-land",
     "dataset_id": "brownfield-land",
     "dataset_route": "dataset/brownfield-land",
@@ -306,6 +323,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/brownfield-land"
   },
   {
+    "core_role": "extension",
     "dataset": "brownfield-site",
     "dataset_id": "brownfield-site",
     "dataset_route": "dataset/brownfield-site",
@@ -324,6 +342,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/brownfield-site"
   },
   {
+    "core_role": "extension",
     "dataset": "buffer-zone",
     "dataset_id": "buffer-zone",
     "dataset_route": "dataset/buffer-zone",
@@ -342,6 +361,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/buffer-zone"
   },
   {
+    "core_role": "extension",
     "dataset": "building-preservation-notice",
     "dataset_id": "building-preservation-notice",
     "dataset_route": "dataset/building-preservation-notice",
@@ -360,6 +380,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/building-preservation-notice"
   },
   {
+    "core_role": "extension",
     "dataset": "built-up-area",
     "dataset_id": "built-up-area",
     "dataset_route": "dataset/built-up-area",
@@ -378,6 +399,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/built-up-area"
   },
   {
+    "core_role": "extension",
     "dataset": "category",
     "dataset_id": "category",
     "dataset_route": "dataset/category",
@@ -396,6 +418,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/category"
   },
   {
+    "core_role": "extension",
     "dataset": "central-activities-zone",
     "dataset_id": "central-activities-zone",
     "dataset_route": "dataset/central-activities-zone",
@@ -414,6 +437,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/central-activities-zone"
   },
   {
+    "core_role": "extension",
     "dataset": "certificate-of-immunity",
     "dataset_id": "certificate-of-immunity",
     "dataset_route": "dataset/certificate-of-immunity",
@@ -432,6 +456,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/certificate-of-immunity"
   },
   {
+    "core_role": "extension",
     "dataset": "coastal-change-management-area",
     "dataset_id": "coastal-change-management-area",
     "dataset_route": "dataset/coastal-change-management-area",
@@ -450,6 +475,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/coastal-change-management-area"
   },
   {
+    "core_role": "extension",
     "dataset": "column",
     "dataset_id": "column",
     "dataset_route": "dataset/column",
@@ -468,6 +494,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/column"
   },
   {
+    "core_role": "extension",
     "dataset": "common-land-and-village-green",
     "dataset_id": "common-land-and-village-green",
     "dataset_route": "dataset/common-land-and-village-green",
@@ -486,6 +513,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/common-land-and-village-green"
   },
   {
+    "core_role": "extension",
     "dataset": "community-infrastructure-levy-schedule",
     "dataset_id": "community-infrastructure-levy-schedule",
     "dataset_route": "dataset/community-infrastructure-levy-schedule",
@@ -504,6 +532,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/community-infrastructure-levy-schedule"
   },
   {
+    "core_role": "extension",
     "dataset": "company",
     "dataset_id": "company",
     "dataset_route": "dataset/company",
@@ -522,6 +551,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/company"
   },
   {
+    "core_role": "extension",
     "dataset": "conservation-area",
     "dataset_id": "conservation-area",
     "dataset_route": "dataset/conservation-area",
@@ -540,6 +570,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/conservation-area"
   },
   {
+    "core_role": "extension",
     "dataset": "conservation-area-document",
     "dataset_id": "conservation-area-document",
     "dataset_route": "dataset/conservation-area-document",
@@ -558,6 +589,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/conservation-area-document"
   },
   {
+    "core_role": "extension",
     "dataset": "conservation-area-document-type",
     "dataset_id": "conservation-area-document-type",
     "dataset_route": "dataset/conservation-area-document-type",
@@ -576,6 +608,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/conservation-area-document-type"
   },
   {
+    "core_role": "extension",
     "dataset": "contaminated-land",
     "dataset_id": "contaminated-land",
     "dataset_route": "dataset/contaminated-land",
@@ -594,6 +627,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/contaminated-land"
   },
   {
+    "core_role": "extension",
     "dataset": "contribution-funding-status",
     "dataset_id": "contribution-funding-status",
     "dataset_route": "dataset/contribution-funding-status",
@@ -612,6 +646,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/contribution-funding-status"
   },
   {
+    "core_role": "extension",
     "dataset": "contribution-purpose",
     "dataset_id": "contribution-purpose",
     "dataset_route": "dataset/contribution-purpose",
@@ -630,6 +665,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/contribution-purpose"
   },
   {
+    "core_role": "extension",
     "dataset": "control-of-major-accident-hazards-site",
     "dataset_id": "control-of-major-accident-hazards-site",
     "dataset_route": "dataset/control-of-major-accident-hazards-site",
@@ -648,6 +684,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/control-of-major-accident-hazards-site"
   },
   {
+    "core_role": "extension",
     "dataset": "default",
     "dataset_id": "default",
     "dataset_route": "dataset/default",
@@ -666,6 +703,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/default"
   },
   {
+    "core_role": "extension",
     "dataset": "default-value",
     "dataset_id": "default-value",
     "dataset_route": "dataset/default-value",
@@ -684,6 +722,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/default-value"
   },
   {
+    "core_role": "extension",
     "dataset": "design-code",
     "dataset_id": "design-code",
     "dataset_route": "dataset/design-code",
@@ -702,6 +741,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/design-code"
   },
   {
+    "core_role": "extension",
     "dataset": "design-code-area",
     "dataset_id": "design-code-area",
     "dataset_route": "dataset/design-code-area",
@@ -720,6 +760,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/design-code-area"
   },
   {
+    "core_role": "extension",
     "dataset": "design-code-area-type",
     "dataset_id": "design-code-area-type",
     "dataset_route": "dataset/design-code-area-type",
@@ -738,6 +779,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/design-code-area-type"
   },
   {
+    "core_role": "extension",
     "dataset": "design-code-characteristic",
     "dataset_id": "design-code-characteristic",
     "dataset_route": "dataset/design-code-characteristic",
@@ -756,6 +798,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/design-code-characteristic"
   },
   {
+    "core_role": "extension",
     "dataset": "design-code-rule",
     "dataset_id": "design-code-rule",
     "dataset_route": "dataset/design-code-rule",
@@ -774,6 +817,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/design-code-rule"
   },
   {
+    "core_role": "extension",
     "dataset": "design-code-rule-category",
     "dataset_id": "design-code-rule-category",
     "dataset_route": "dataset/design-code-rule-category",
@@ -792,6 +836,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/design-code-rule-category"
   },
   {
+    "core_role": "extension",
     "dataset": "design-code-status",
     "dataset_id": "design-code-status",
     "dataset_route": "dataset/design-code-status",
@@ -810,6 +855,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/design-code-status"
   },
   {
+    "core_role": "extension",
     "dataset": "developer-agreement",
     "dataset_id": "developer-agreement",
     "dataset_route": "dataset/developer-agreement",
@@ -828,6 +874,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/developer-agreement"
   },
   {
+    "core_role": "extension",
     "dataset": "developer-agreement-contribution",
     "dataset_id": "developer-agreement-contribution",
     "dataset_route": "dataset/developer-agreement-contribution",
@@ -846,6 +893,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/developer-agreement-contribution"
   },
   {
+    "core_role": "extension",
     "dataset": "developer-agreement-transaction",
     "dataset_id": "developer-agreement-transaction",
     "dataset_route": "dataset/developer-agreement-transaction",
@@ -864,6 +912,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/developer-agreement-transaction"
   },
   {
+    "core_role": "extension",
     "dataset": "developer-agreement-type",
     "dataset_id": "developer-agreement-type",
     "dataset_route": "dataset/developer-agreement-type",
@@ -882,6 +931,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/developer-agreement-type"
   },
   {
+    "core_role": "extension",
     "dataset": "development-corporation",
     "dataset_id": "development-corporation",
     "dataset_route": "dataset/development-corporation",
@@ -900,6 +950,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/development-corporation"
   },
   {
+    "core_role": "extension",
     "dataset": "development-corporation-boundary",
     "dataset_id": "development-corporation-boundary",
     "dataset_route": "dataset/development-corporation-boundary",
@@ -918,6 +969,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/development-corporation-boundary"
   },
   {
+    "core_role": "extension",
     "dataset": "development-metric",
     "dataset_id": "development-metric",
     "dataset_route": "dataset/development-metric",
@@ -936,6 +988,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/development-metric"
   },
   {
+    "core_role": "extension",
     "dataset": "development-plan",
     "dataset_id": "development-plan",
     "dataset_route": "dataset/development-plan",
@@ -954,6 +1007,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/development-plan"
   },
   {
+    "core_role": "extension",
     "dataset": "development-plan-boundary",
     "dataset_id": "development-plan-boundary",
     "dataset_route": "dataset/development-plan-boundary",
@@ -972,6 +1026,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/development-plan-boundary"
   },
   {
+    "core_role": "extension",
     "dataset": "development-plan-boundary-type",
     "dataset_id": "development-plan-boundary-type",
     "dataset_route": "dataset/development-plan-boundary-type",
@@ -990,6 +1045,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/development-plan-boundary-type"
   },
   {
+    "core_role": "extension",
     "dataset": "development-plan-document",
     "dataset_id": "development-plan-document",
     "dataset_route": "dataset/development-plan-document",
@@ -1008,6 +1064,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/development-plan-document"
   },
   {
+    "core_role": "extension",
     "dataset": "development-plan-document-type",
     "dataset_id": "development-plan-document-type",
     "dataset_route": "dataset/development-plan-document-type",
@@ -1026,6 +1083,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/development-plan-document-type"
   },
   {
+    "core_role": "extension",
     "dataset": "development-plan-geography",
     "dataset_id": "development-plan-geography",
     "dataset_route": "dataset/development-plan-geography",
@@ -1044,6 +1102,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/development-plan-geography"
   },
   {
+    "core_role": "extension",
     "dataset": "development-plan-geography-type",
     "dataset_id": "development-plan-geography-type",
     "dataset_route": "dataset/development-plan-geography-type",
@@ -1062,6 +1121,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/development-plan-geography-type"
   },
   {
+    "core_role": "extension",
     "dataset": "development-plan-status",
     "dataset_id": "development-plan-status",
     "dataset_route": "dataset/development-plan-status",
@@ -1080,6 +1140,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/development-plan-status"
   },
   {
+    "core_role": "extension",
     "dataset": "development-plan-timetable",
     "dataset_id": "development-plan-timetable",
     "dataset_route": "dataset/development-plan-timetable",
@@ -1098,6 +1159,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/development-plan-timetable"
   },
   {
+    "core_role": "extension",
     "dataset": "development-plan-type",
     "dataset_id": "development-plan-type",
     "dataset_route": "dataset/development-plan-type",
@@ -1116,6 +1178,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/development-plan-type"
   },
   {
+    "core_role": "extension",
     "dataset": "development-policy",
     "dataset_id": "development-policy",
     "dataset_route": "dataset/development-policy",
@@ -1134,6 +1197,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/development-policy"
   },
   {
+    "core_role": "extension",
     "dataset": "development-policy-area",
     "dataset_id": "development-policy-area",
     "dataset_route": "dataset/development-policy-area",
@@ -1152,6 +1216,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/development-policy-area"
   },
   {
+    "core_role": "extension",
     "dataset": "development-policy-category",
     "dataset_id": "development-policy-category",
     "dataset_route": "dataset/development-policy-category",
@@ -1170,6 +1235,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/development-policy-category"
   },
   {
+    "core_role": "extension",
     "dataset": "development-policy-metric",
     "dataset_id": "development-policy-metric",
     "dataset_route": "dataset/development-policy-metric",
@@ -1188,6 +1254,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/development-policy-metric"
   },
   {
+    "core_role": "extension",
     "dataset": "document",
     "dataset_id": "document",
     "dataset_route": "dataset/document",
@@ -1206,6 +1273,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/document"
   },
   {
+    "core_role": "extension",
     "dataset": "document-type",
     "dataset_id": "document-type",
     "dataset_route": "dataset/document-type",
@@ -1224,6 +1292,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/document-type"
   },
   {
+    "core_role": "extension",
     "dataset": "educational-establishment",
     "dataset_id": "educational-establishment",
     "dataset_route": "dataset/educational-establishment",
@@ -1242,6 +1311,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/educational-establishment"
   },
   {
+    "core_role": "extension",
     "dataset": "employment-allocation",
     "dataset_id": "employment-allocation",
     "dataset_route": "dataset/employment-allocation",
@@ -1260,6 +1330,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/employment-allocation"
   },
   {
+    "core_role": "extension",
     "dataset": "entity",
     "dataset_id": "entity",
     "dataset_route": "dataset/entity",
@@ -1278,6 +1349,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/entity"
   },
   {
+    "core_role": "extension",
     "dataset": "entity-organisation",
     "dataset_id": "entity-organisation",
     "dataset_route": "dataset/entity-organisation",
@@ -1296,6 +1368,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/entity-organisation"
   },
   {
+    "core_role": "extension",
     "dataset": "environment-agency-flood-risk-zones",
     "dataset_id": "environment-agency-flood-risk-zones",
     "dataset_route": "dataset/environment-agency-flood-risk-zones",
@@ -1314,6 +1387,7 @@
     "url": "https://environment.data.gov.uk/dataset/flood-map-for-planning-rivers-and-sea-flood-zone-2"
   },
   {
+    "core_role": "extension",
     "dataset": "environment-agency-flood-risk-zones",
     "dataset_id": "environment-agency-flood-risk-zones",
     "dataset_route": "dataset/environment-agency-flood-risk-zones",
@@ -1332,6 +1406,7 @@
     "url": "https://www.gov.uk/guidance/flood-risk-and-coastal-change"
   },
   {
+    "core_role": "extension",
     "dataset": "expect",
     "dataset_id": "expect",
     "dataset_route": "dataset/expect",
@@ -1350,6 +1425,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/expect"
   },
   {
+    "core_role": "extension",
     "dataset": "expectation",
     "dataset_id": "expectation",
     "dataset_route": "dataset/expectation",
@@ -1368,6 +1444,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/expectation"
   },
   {
+    "core_role": "extension",
     "dataset": "fact",
     "dataset_id": "fact",
     "dataset_route": "dataset/fact",
@@ -1386,6 +1463,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/fact"
   },
   {
+    "core_role": "extension",
     "dataset": "fact-resource",
     "dataset_id": "fact-resource",
     "dataset_route": "dataset/fact-resource",
@@ -1404,6 +1482,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/fact-resource"
   },
   {
+    "core_role": "extension",
     "dataset": "flood-risk-level",
     "dataset_id": "flood-risk-level",
     "dataset_route": "dataset/flood-risk-level",
@@ -1422,6 +1501,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/flood-risk-level"
   },
   {
+    "core_role": "extension",
     "dataset": "flood-risk-type",
     "dataset_id": "flood-risk-type",
     "dataset_route": "dataset/flood-risk-type",
@@ -1440,6 +1520,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/flood-risk-type"
   },
   {
+    "core_role": "extension",
     "dataset": "flood-risk-zone",
     "dataset_id": "flood-risk-zone",
     "dataset_route": "dataset/flood-risk-zone",
@@ -1458,6 +1539,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/flood-risk-zone"
   },
   {
+    "core_role": "extension",
     "dataset": "flood-storage-area",
     "dataset_id": "flood-storage-area",
     "dataset_route": "dataset/flood-storage-area",
@@ -1476,6 +1558,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/flood-storage-area"
   },
   {
+    "core_role": "extension",
     "dataset": "forest-inventory",
     "dataset_id": "forest-inventory",
     "dataset_route": "dataset/forest-inventory",
@@ -1494,6 +1577,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/forest-inventory"
   },
   {
+    "core_role": "extension",
     "dataset": "government-organisation",
     "dataset_id": "government-organisation",
     "dataset_route": "dataset/government-organisation",
@@ -1512,6 +1596,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/government-organisation"
   },
   {
+    "core_role": "extension",
     "dataset": "green-belt",
     "dataset_id": "green-belt",
     "dataset_route": "dataset/green-belt",
@@ -1530,6 +1615,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/green-belt"
   },
   {
+    "core_role": "extension",
     "dataset": "green-belt-core",
     "dataset_id": "green-belt-core",
     "dataset_route": "dataset/green-belt-core",
@@ -1548,6 +1634,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/green-belt-core"
   },
   {
+    "core_role": "extension",
     "dataset": "guardianship-site-and-english-heritage-site",
     "dataset_id": "guardianship-site-and-english-heritage-site",
     "dataset_route": "dataset/guardianship-site-and-english-heritage-site",
@@ -1566,6 +1653,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/guardianship-site-and-english-heritage-site"
   },
   {
+    "core_role": "extension",
     "dataset": "gypsy-and-traveller-site",
     "dataset_id": "gypsy-and-traveller-site",
     "dataset_route": "dataset/gypsy-and-traveller-site",
@@ -1584,6 +1672,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/gypsy-and-traveller-site"
   },
   {
+    "core_role": "extension",
     "dataset": "heritage-action-zone",
     "dataset_id": "heritage-action-zone",
     "dataset_route": "dataset/heritage-action-zone",
@@ -1602,6 +1691,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/heritage-action-zone"
   },
   {
+    "core_role": "extension",
     "dataset": "heritage-at-risk",
     "dataset_id": "heritage-at-risk",
     "dataset_route": "dataset/heritage-at-risk",
@@ -1620,6 +1710,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/heritage-at-risk"
   },
   {
+    "core_role": "extension",
     "dataset": "heritage-coast",
     "dataset_id": "heritage-coast",
     "dataset_route": "dataset/heritage-coast",
@@ -1638,6 +1729,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/heritage-coast"
   },
   {
+    "core_role": "extension",
     "dataset": "historic-england-nhle-heritage",
     "dataset_id": "historic-england-nhle-heritage",
     "dataset_route": "dataset/historic-england-nhle-heritage",
@@ -1656,6 +1748,7 @@
     "url": "https://historicengland.org.uk/listing/the-list/"
   },
   {
+    "core_role": "extension",
     "dataset": "historic-england-nhle-heritage",
     "dataset_id": "historic-england-nhle-heritage",
     "dataset_route": "dataset/historic-england-nhle-heritage",
@@ -1674,6 +1767,7 @@
     "url": "https://historicengland.org.uk/services-skills/dataset-downloads/"
   },
   {
+    "core_role": "extension",
     "dataset": "historic-non-designed-rural-landscape-local-landscape-area",
     "dataset_id": "historic-non-designed-rural-landscape-local-landscape-area",
     "dataset_route": "dataset/historic-non-designed-rural-landscape-local-landscape-area",
@@ -1692,6 +1786,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/historic-non-designed-rural-landscape-local-landscape-area"
   },
   {
+    "core_role": "extension",
     "dataset": "historic-stone-quarry",
     "dataset_id": "historic-stone-quarry",
     "dataset_route": "dataset/historic-stone-quarry",
@@ -1710,6 +1805,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/historic-stone-quarry"
   },
   {
+    "core_role": "extension",
     "dataset": "hm-land-registry-inspire-index-polygons",
     "dataset_id": "hm-land-registry-inspire-index-polygons",
     "dataset_route": "dataset/hm-land-registry-inspire-index-polygons",
@@ -1728,6 +1824,7 @@
     "url": "https://use-land-property-data.service.gov.uk/datasets/inspire"
   },
   {
+    "core_role": "extension",
     "dataset": "hm-land-registry-inspire-index-polygons",
     "dataset_id": "hm-land-registry-inspire-index-polygons",
     "dataset_route": "dataset/hm-land-registry-inspire-index-polygons",
@@ -1746,6 +1843,7 @@
     "url": "https://www.gov.uk/guidance/inspire-index-polygons-spatial-data"
   },
   {
+    "core_role": "extension",
     "dataset": "hs2-safeguarded-area",
     "dataset_id": "hs2-safeguarded-area",
     "dataset_route": "dataset/hs2-safeguarded-area",
@@ -1764,6 +1862,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/hs2-safeguarded-area"
   },
   {
+    "core_role": "extension",
     "dataset": "infrastructure-funding-statement",
     "dataset_id": "infrastructure-funding-statement",
     "dataset_route": "dataset/infrastructure-funding-statement",
@@ -1782,6 +1881,7 @@
     "url": "https://www.planning.data.gov.uk/dataset/infrastructure-funding-statement"
   },
   {
+    "core_role": "extension",
     "dataset": "infrastructure-project",
     "dataset_id": "infrastructure-project",
     "dataset_route": "dataset/infrastructure-project",

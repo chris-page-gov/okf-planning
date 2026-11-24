@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 600" role="img" aria-labelledby="title desc">
+<title id="title">Design-code records and their inferred policy links</title>
+<desc id="desc">Three source records link to the same National Planning Policy Framework record. Every edge is inferred by a deterministic collection rule, not a compliance decision.</desc>
+<defs><marker id="arrow" markerUnits="userSpaceOnUse" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10Z" fill="#355a7b"/></marker></defs>
+<rect width="980" height="600" fill="#f4f7fb"/>
+<text x="20" y="35" font-family="system-ui,sans-serif" font-size="21" fill="#172b4d">Source discovery, with qualified links</text>
+<text x="20" y="70" font-family="system-ui,sans-serif" font-size="14" fill="#172b4d">July 2026 snapshot · October review overdue</text>
+<rect x="20" y="125" width="340" height="100" rx="12" fill="white" stroke="#355a7b"/>
+<text x="35" y="160" font-family="system-ui,sans-serif" font-size="18" fill="#172b4d">Design code</text>
+<path d="M365 175 H520 L575 320" stroke="#355a7b" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="375" y="148" font-family="system-ui,sans-serif" font-size="13" fill="#172b4d">derived-from-policy</text>
+<rect x="20" y="255" width="340" height="100" rx="12" fill="white" stroke="#355a7b"/>
+<text x="35" y="290" font-family="system-ui,sans-serif" font-size="18" fill="#172b4d">Design code area</text>
+<path d="M365 305 H520 L575 320" stroke="#355a7b" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="375" y="278" font-family="system-ui,sans-serif" font-size="13" fill="#172b4d">derived-from-policy</text>
+<rect x="20" y="385" width="340" height="100" rx="12" fill="white" stroke="#355a7b"/>
+<text x="35" y="420" font-family="system-ui,sans-serif" font-size="18" fill="#172b4d">Design code rule</text>
+<path d="M365 435 H520 L575 320" stroke="#355a7b" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="375" y="408" font-family="system-ui,sans-serif" font-size="13" fill="#172b4d">derived-from-policy</text>
+<rect x="585" y="260" width="375" height="140" rx="12" fill="white" stroke="#355a7b"/>
+<text x="600" y="295" font-family="system-ui,sans-serif" font-size="19" fill="#172b4d">National Planning Policy</text>
+<text x="600" y="317" font-family="system-ui,sans-serif" font-size="19" fill="#172b4d">Framework (NPPF)</text>
+<text x="600" y="370" font-family="system-ui,sans-serif" font-size="14" fill="#172b4d">All three edges are inferred</text>
+<text x="20" y="552" font-family="system-ui,sans-serif" font-size="15" fill="#172b4d">A link does not establish compliance.</text>
+<text x="20" y="575" font-family="system-ui,sans-serif" font-size="13" fill="#172b4d">Per-record sources and rights remain authoritative.</text>
+</svg>

@@ -1,10 +1,10 @@
 ---
-okf_version: "0.2"
+okf_version: "0.3"
 ---
 
 # UK Planning & Housing Data
 
-A frozen, independently generated metadata catalogue. The Markdown files are the normative OKF v0.2 layer; JSON, YAML-LD, DCAT, PROV, SKOS, federation and Explorer files are additive projections.
+A frozen, independently generated metadata catalogue. The Markdown files are the normative OKF v0.3 layer; JSON, YAML-LD, DCAT, PROV, SKOS, federation and Explorer files are additive projections.
 
 # Concepts
 

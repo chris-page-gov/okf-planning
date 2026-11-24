@@ -19,7 +19,7 @@
       "url": "https://github.com/chris-page-gov/okf-planning"
     }
   },
-  "core_conformance": "OKF v0.2 Markdown concept layer",
+  "core_conformance": "OKF v0.3 Markdown concept layer",
   "counts": {
     "datasets": 230,
     "entities": 34391082,
@@ -29,7 +29,7 @@
     "resources": 240,
     "sources": 8
   },
-  "description": "OKF v0.2 Markdown bundle for UK planning metadata with additive Explorer, YAML-LD, DCAT, PROV, SKOS and discovery extensions.",
+  "description": "OKF v0.3 Markdown bundle for UK planning metadata with additive Explorer, YAML-LD, DCAT, PROV, SKOS and discovery extensions.",
   "display": {
     "facets": {
       "default_mode": "suggested",
@@ -59,13 +59,16 @@
     "okf_root": "index.md",
     "overview_index": "data/overview.json",
     "reconciliation": "data/reconciliation/report.json",
+    "record_locator": "data/record-locator/manifest.json",
+    "relationship_adjacency": "data/adjacency/manifest.json",
     "search_manifest": "data/search/manifest.json",
+    "source_snapshot_lock": "data/governance/source-snapshot-lock.json",
     "spatial_index": "data/planning/spatial-index.json",
     "standards": "data/standards/evaluation.json",
     "viewer": "https://chris-page-gov.github.io/okf-explorer/"
   },
   "extensions": {
-    "okf-core.v0.2": {
+    "okf-core.v0.3": {
       "conformance": "data/standards/evaluation.json",
       "entrypoint": "okf_root",
       "status": "conformant",
@@ -101,20 +104,29 @@
       ]
     }
   },
+  "format_migration": {
+    "implementation_date": "2026-11-24",
+    "okf_version": "0.3",
+    "projection_version": "0.3.0",
+    "source_record_generated_at": "2026-07-25T11:25:00Z",
+    "source_record_generated_by": "okf-planning/0.2.0",
+    "source_snapshot_unchanged": true,
+    "standard_announcement_date": "2026-11-18"
+  },
   "generated": {
     "at": "2026-07-25T11:25:00Z",
     "by": "okf-planning/0.2.0"
   },
   "generated_at": "2026-07-25T11:25:00Z",
   "kind": "okf-large-corpus",
-  "okf_version": "0.2",
+  "okf_version": "0.3",
   "performance": {
     "full_record_hydration": "lazy",
     "relationship_hydration": "lazy",
     "search": "static worker-compatible shards",
     "startup_mode": "overview-first"
   },
-  "profile": "https://chris-page-gov.github.io/okf-explorer/profile/bundle-wiki/v1/",
+  "profile": "https://chris-page-gov.github.io/okf-planning/profile/planning-metadata/v1/",
   "publisher": "https://github.com/chris-page-gov/okf-planning",
   "rights": {
     "recordLevel": true,
@@ -133,7 +145,7 @@
   ],
   "status": "draft-demonstrator",
   "title": "UK Planning & Housing Data OKF",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "vocabulary": {
     "publisher_plural": "publishers",
     "publisher_singular": "publisher",

@@ -8,7 +8,11 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from okf_planning.build import build_bundle, validate_okf_v02_markdown
+from okf_planning.build import (
+    build_bundle,
+    validate_okf_v02_markdown,
+    validate_okf_v03_markdown,
+)
 from okf_planning.evaluation import evaluate_metadata_completeness
 from okf_planning.mcp_broker import PlanningMCPBroker
 
@@ -42,29 +46,54 @@ class TestBuild(unittest.TestCase):
 
             descriptor = load_json(output / "okf-explorer.json")
             self.assertEqual(descriptor["schema"], "okf-explorer-large-corpus.v1")
-            self.assertEqual(descriptor["okf_version"], "0.2")
+            self.assertEqual(descriptor["okf_version"], "0.3")
             self.assertEqual(
                 descriptor["core_conformance"],
-                "OKF v0.2 Markdown concept layer",
+                "OKF v0.3 Markdown concept layer",
+            )
+            self.assertEqual(
+                descriptor["profile"],
+                "https://chris-page-gov.github.io/okf-planning/profile/planning-metadata/v1/",
+            )
+            self.assertEqual(
+                descriptor["@context"],
+                "https://chris-page-gov.github.io/okf-explorer/profile/bundle-wiki/v1/context.jsonld",
             )
             self.assertEqual(descriptor["generated"]["by"], "okf-planning/0.2.0")
             self.assertEqual(descriptor["counts"]["datasets"], 230)
+            self.assertEqual(descriptor["counts"]["relationships"], 40)
             self.assertTrue(descriptor["authority"]["notEndorsedBySource"])
             self.assertEqual(
-                descriptor["extensions"]["okf-core.v0.2"]["status"],
+                descriptor["extensions"]["okf-core.v0.3"]["status"],
                 "conformant",
             )
             semantic = load_json(output / "okf-bundle.jsonld")
-            self.assertEqual(semantic["okfVersion"], "0.2")
+            self.assertEqual(semantic["okfVersion"], "0.3")
+            self.assertEqual(len(semantic["record"]), 230)
+            self.assertTrue(
+                all(
+                    row["https://chris-page-gov.github.io/okf-explorer/ns#coreRole"] == "concept"
+                    for row in semantic["record"]
+                )
+            )
+            manifest = load_json(output / "data/manifest.json")
+            relationships = sum(
+                (load_json(output / path) for path in manifest["chunks"]["relationships"]),
+                [],
+            )
+            self.assertEqual(len(relationships), 40)
+            self.assertTrue(all(row["confidence"] == "inferred" for row in relationships))
+            self.assertTrue(all(row["evidence_type"] == "deterministic-collection-rule" for row in relationships))
             self.assertEqual(semantic["okfEntrypoint"], "index.md")
 
-    def test_markdown_layer_is_v02_conformant(self):
+    def test_markdown_layer_is_v03_conformant(self):
         with tempfile.TemporaryDirectory() as temporary:
             output = Path(temporary)
             self.build_into(output)
-            result = validate_okf_v02_markdown(output)
+            result = validate_okf_v03_markdown(output)
             self.assertEqual(result["status"], "conformant")
             self.assertEqual(result["checked_concepts"], 230)
+            self.assertIn('okf_version: "0.3"', (output / "index.md").read_text(encoding="utf-8"))
             concept = (
                 output / "concepts/policy/nppf-framework-policy.md"
             ).read_text(encoding="utf-8")
@@ -78,6 +107,22 @@ class TestBuild(unittest.TestCase):
                 governance["freshness_policy"]["stale_after"],
                 "2026-10-25",
             )
+            self.assertEqual(governance["snapshot_id"], "planning-2026-07-25-r1")
+
+    def test_runtime_core_roles_separate_concepts_from_metadata_extensions(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            output = Path(temporary)
+            self.build_into(output)
+            manifest = load_json(output / "data/manifest.json")
+            datasets = sum((load_json(output / path) for path in manifest["chunks"]["datasets"]), [])
+            publishers = sum((load_json(output / path) for path in manifest["chunks"]["publishers"]), [])
+            resources = sum((load_json(output / path) for path in manifest["chunks"]["resources"]), [])
+            self.assertEqual(len(datasets), 230)
+            self.assertTrue(all(row["core_role"] == "concept" for row in datasets))
+            self.assertTrue(publishers)
+            self.assertTrue(all(row["core_role"] == "extension" for row in publishers))
+            self.assertTrue(resources)
+            self.assertTrue(all(row["core_role"] == "extension" for row in resources))
 
     def test_manifest_uses_top_level_array_shards(self):
         with tempfile.TemporaryDirectory() as temporary:
@@ -198,11 +243,11 @@ class TestBuild(unittest.TestCase):
             with self.assertRaisesRegex(ValueError, "pinned source cache"):
                 build_bundle(output_dir=temporary)
 
-    def test_v02_validation_rejects_invented_actor_conventions(self):
+    def test_v03_validation_rejects_invented_actor_conventions(self):
         with tempfile.TemporaryDirectory() as temporary:
             output = Path(temporary)
             (output / "index.md").write_text(
-                '---\nokf_version: "0.2"\n---\n\n# Test\n',
+                '---\nokf_version: "0.3"\n---\n\n# Test\n',
                 encoding="utf-8",
             )
             (output / "invalid.md").write_text(
@@ -216,13 +261,22 @@ sources: [{"resource":"scope","author":"team:publisher"}]
 """,
                 encoding="utf-8",
             )
-            result = validate_okf_v02_markdown(output)
+            result = validate_okf_v03_markdown(output)
             self.assertEqual(result["status"], "non-conformant")
             self.assertTrue(
                 any("actor convention" in error for error in result["errors"])
             )
             self.assertTrue(
                 any("sources[0].author" in error for error in result["errors"])
+            )
+
+    def test_previous_validator_name_is_a_core03_compatibility_alias(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            output = Path(temporary)
+            self.build_into(output)
+            self.assertEqual(
+                validate_okf_v02_markdown(output),
+                validate_okf_v03_markdown(output),
             )
 
     def test_standalone_ui_loads_manifest_shards_without_html_interpolation(self):

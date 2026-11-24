@@ -1,4 +1,4 @@
-"""Deterministic OKF v0.2 bundle compiler for UK planning metadata."""
+"""Deterministic OKF v0.3 bundle compiler for UK planning metadata."""
 
 from __future__ import annotations
 
@@ -29,10 +29,23 @@ SOURCE_CAPTURED_AT = "2026-07-25T08:00:00Z"
 GENERATED_AT = "2026-07-25T11:25:00Z"
 STALE_AFTER = "2026-10-25"
 GENERATOR_ACTOR = "okf-planning/0.2.0"
+PROJECTION_VERSION = "0.3.0"
+FORMAT_MIGRATION = {
+    "okf_version": "0.3",
+    "standard_announcement_date": "2026-11-18",
+    "implementation_date": "2026-11-24",
+    "source_snapshot_unchanged": True,
+    "source_record_generated_by": GENERATOR_ACTOR,
+    "source_record_generated_at": GENERATED_AT,
+    "projection_version": PROJECTION_VERSION,
+}
 OKF_SPEC = (
-    "https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/"
-    "3fcbb9f828c2f23d109c855ee403c3a4c81f3a96/okf/SPEC.md"
+    "https://github.com/open-knowledge-format/open-knowledge-format/blob/"
+    "527e81aff55992be21507e97004286789126f88c/SPEC.md"
 )
+CORE_VERSION = "0.3"
+CORE_ROLE_IRI = "https://chris-page-gov.github.io/okf-explorer/ns#coreRole"
+PLANNING_PROFILE = "https://chris-page-gov.github.io/okf-planning/profile/planning-metadata/v1/"
 ACTOR_PATTERN = re.compile(
     r"^(?:(?:human|process):[^\s:]+|[^/\s:]+/[^/\s]+)$"
 )
@@ -470,7 +483,7 @@ def build_okf_static_search(
 
 
 def _frontmatter(fields: dict[str, Any]) -> str:
-    """Serialize a human-readable YAML subset whose values are valid JSON."""
+    """Serialise a human-readable YAML subset whose values are valid JSON."""
     lines = ["---"]
     for key, value in fields.items():
         lines.append(
@@ -485,7 +498,7 @@ def _concept_path(record: OKFPlanningRecord) -> str:
 
 
 def _write_markdown_bundle(bundle_dir: Path, records: list[OKFPlanningRecord]) -> None:
-    """Write the normative OKF v0.2 Markdown layer."""
+    """Write the normative OKF v0.3 Markdown layer."""
     groups: dict[str, list[OKFPlanningRecord]] = {}
     for record in records:
         groups.setdefault(record.typology, []).append(record)
@@ -539,12 +552,12 @@ not imply endorsement by the source publisher.
         _write_text(bundle_dir / _concept_path(record), body)
 
     root_lines = [
-        _frontmatter({"okf_version": "0.2"}),
+        _frontmatter({"okf_version": CORE_VERSION}),
         "",
         "# UK Planning & Housing Data",
         "",
         "A frozen, independently generated metadata catalogue. The Markdown files "
-        "are the normative OKF v0.2 layer; JSON, YAML-LD, DCAT, PROV, SKOS, "
+        "are the normative OKF v0.3 layer; JSON, YAML-LD, DCAT, PROV, SKOS, "
         "federation and Explorer files are additive projections.",
         "",
         "# Concepts",
@@ -562,6 +575,12 @@ not imply endorsement by the source publisher.
     _write_text(
         bundle_dir / "log.md",
         """# Bundle Update Log
+
+## 2026-11-24
+
+* **Migration**: Declared the existing Markdown concept layer as OKF v0.3.
+  The frozen 25 July 2026 source snapshot, concept identities and historical
+  generation dates remain unchanged.
 
 ## 2026-07-25
 
@@ -589,8 +608,8 @@ not imply endorsement by the source publisher.
     _write_text(bundle_dir / "concepts/index.md", "\n".join(concept_index))
 
 
-def validate_okf_v02_markdown(bundle_dir: str | Path) -> dict[str, Any]:
-    """Validate core structure and every optional v0.2 family we emit."""
+def validate_okf_v03_markdown(bundle_dir: str | Path) -> dict[str, Any]:
+    """Validate generated Core 0.3 Markdown and the optional families emitted here."""
     root = Path(bundle_dir)
     markdown_files = sorted(root.rglob("*.md"))
     errors: list[str] = []
@@ -604,8 +623,8 @@ def validate_okf_v02_markdown(bundle_dir: str | Path) -> dict[str, Any]:
                     errors.append("index.md: invalid version frontmatter")
                     continue
                 block, body = text[4:].split("\n---\n", 1)
-                if block.strip() != 'okf_version: "0.2"':
-                    errors.append("index.md: root frontmatter may only declare v0.2")
+                if block.strip() != 'okf_version: "0.3"':
+                    errors.append("index.md: root frontmatter must declare OKF 0.3")
             elif text.startswith("---"):
                 errors.append(
                     f"{path.relative_to(root)}: reserved file must not have frontmatter"
@@ -730,16 +749,21 @@ def validate_okf_v02_markdown(bundle_dir: str | Path) -> dict[str, Any]:
                             f"{path.relative_to(root)}: invalid verified[{index}].at"
                         )
     root_index = root / "index.md"
-    if not root_index.exists() or 'okf_version: "0.2"' not in root_index.read_text(
+    if not root_index.exists() or 'okf_version: "0.3"' not in root_index.read_text(
         encoding="utf-8"
     ):
-        errors.append("index.md: missing okf_version 0.2 declaration")
+        errors.append("index.md: missing okf_version 0.3 declaration")
     return {
         "checked_concepts": checked,
         "errors": errors,
-        "okf_version": "0.2",
+        "okf_version": CORE_VERSION,
         "status": "conformant" if not errors else "non-conformant",
     }
+
+
+def validate_okf_v02_markdown(bundle_dir: str | Path) -> dict[str, Any]:
+    """Compatibility alias for callers of the former validator name."""
+    return validate_okf_v03_markdown(bundle_dir)
 
 
 def _write_shards(
@@ -902,14 +926,37 @@ def _generated_files(bundle_dir: Path) -> list[Path]:
     return sorted(files, key=lambda path: path.relative_to(bundle_dir).as_posix())
 
 
+def validate_source_snapshot(source_root: Path) -> dict[str, Any]:
+    """Reject changed inputs before attributing them to this frozen snapshot."""
+    lock_path = source_root / "snapshot-lock.json"
+    if not lock_path.is_file() or lock_path.is_symlink():
+        raise ValueError("A reviewed source snapshot lock is required")
+    lock = json.loads(lock_path.read_text(encoding="utf-8"))
+    expected = {
+        "schema": "okf-planning-source-snapshot.v1", "snapshot": SNAPSHOT_ID,
+        "source_captured_at": SOURCE_CAPTURED_AT, "record_generated_at": GENERATED_AT,
+        "record_generated_by": GENERATOR_ACTOR,
+    }
+    if any(lock.get(key) != value for key, value in expected.items()):
+        raise ValueError("Source snapshot identity must be reviewed with the generator constants")
+    if set(lock.get("files", {})) != {"dataset.json", "organisation.json"}:
+        raise ValueError("Source snapshot lock must name the two exact frozen inputs")
+    for name, digest in lock["files"].items():
+        path = source_root / name
+        if path.is_symlink() or compute_sha256(path) != digest:
+            raise ValueError("Source bytes differ from the reviewed snapshot: " + name)
+    return lock
+
+
 def build_bundle(
     output_dir: str,
     base_url: str = DEFAULT_BASE_URL,
     cache_dir: str | None = None,
 ) -> dict[str, str]:
-    """Build the normative v0.2 Markdown bundle and all extension projections."""
+    """Build the normative v0.3 Markdown bundle and all extension projections."""
     if not cache_dir:
         raise ValueError("A pinned source cache is required for an offline-safe build")
+    source_lock = validate_source_snapshot(Path(cache_dir))
     base_url = base_url.rstrip("/") + "/"
     bundle_dir = Path(output_dir).resolve()
     bundle_dir.mkdir(parents=True, exist_ok=True)
@@ -920,13 +967,13 @@ def build_bundle(
     if not records:
         raise ValueError("The pinned source snapshot produced no planning records")
     logger.info(
-        "Normalized %d records and %d rule-derived relationships",
+        "Normalised %d records and %d rule-derived relationships",
         len(records),
         len(relationships),
     )
 
     _write_markdown_bundle(bundle_dir, records)
-    conformance = validate_okf_v02_markdown(bundle_dir)
+    conformance = validate_okf_v03_markdown(bundle_dir)
     if conformance["status"] != "conformant":
         raise ValueError(f"Generated non-conformant OKF bundle: {conformance['errors']}")
 
@@ -980,25 +1027,39 @@ def build_bundle(
         ],
         "contextSet": "data/governance/context-set.json",
         "okfEntrypoint": "index.md",
-        "okfVersion": "0.2",
+        "okfVersion": CORE_VERSION,
         "description": (
-            "Additive YAML-LD/JSON-LD projection of the normative OKF v0.2 "
+            "Additive YAML-LD/JSON-LD projection of the normative OKF v0.3 "
             "Markdown planning catalogue."
         ),
-        "record": [record.to_yaml_ld_dict(base_url) for record in records],
+        "record": [
+            {
+                **record.to_yaml_ld_dict(base_url),
+                CORE_ROLE_IRI: "concept",
+            }
+            for record in records
+        ],
         "semanticAuthority": base_url,
         "title": "UK Planning & Housing Data semantic projection",
     }
     _write_json(bundle_dir / "okf-bundle.yamlld", semantic_graph)
     _write_json(bundle_dir / "okf-bundle.jsonld", semantic_graph)
 
-    dataset_rows = [record.to_explorer_dict(base_url) for record in records]
-    resource_rows = _resource_rows(records)
-    publisher_rows = _publisher_rows(records)
+    dataset_rows = [
+        {**record.to_explorer_dict(base_url), "core_role": "concept"}
+        for record in records
+    ]
+    resource_rows = [
+        {**row, "core_role": "extension"} for row in _resource_rows(records)
+    ]
+    publisher_rows = [
+        {**row, "core_role": "extension"} for row in _publisher_rows(records)
+    ]
     relationship_rows = [
         relationship.to_explorer_dict() for relationship in relationships
     ]
     data_dir = bundle_dir / "data"
+    _write_json(data_dir / "governance/source-snapshot-lock.json", source_lock)
     dataset_shards = _write_shards(data_dir, "datasets", dataset_rows, 50)
     resource_shards = _write_shards(data_dir, "resources", resource_rows, 100)
     publisher_shards = _write_shards(data_dir, "publishers", publisher_rows, 100)
@@ -1006,6 +1067,52 @@ def build_bundle(
         data_dir, "relationships", relationship_rows, 100
     )
     build_okf_static_search(records, data_dir / "search", SNAPSHOT_ID)
+
+    # Targeted routes must resolve independently of overview/full-index loading.
+    # The locator points into the unchanged, ordered record shards.
+    locator_buckets: dict[str, dict[str, list[int]]] = {}
+    for ordinal, row in enumerate(dataset_rows):
+        bucket = f"{fnv1a_32(row['route']) >> 24:02x}"
+        locator_buckets.setdefault(bucket, {})[row['route']] = [ordinal // 50, ordinal % 50]
+    locator_references = {}
+    for bucket, locations in sorted(locator_buckets.items()):
+        relative = f"data/record-locator/{bucket}.json"
+        _write_json(bundle_dir / relative, locations)
+        locator_references[bucket] = relative
+    _write_json(data_dir / "record-locator/manifest.json", {
+        "schema": "okf-record-locator-sharded.v1", "algorithm": "fnv1a32-prefix-2",
+        "snapshot": SNAPSHOT_ID, "records": len(dataset_rows), "chunk_size": 50,
+        "record_chunks": dataset_shards, "bucket_count": len(locator_references),
+        "buckets": locator_references,
+    })
+    facet_rows = {}
+    for key, field in (("typology", "typology"), ("collection", "collection"),
+                       ("phase", "phase"), ("publisher", "publisher"), ("licence", "licence_id")):
+        values = Counter(row[field] for row in dataset_rows if row.get(field))
+        facet_rows[key] = [{"value": value, "count": count} for value, count in sorted(values.items())]
+    _write_json(data_dir / "facets.json", facet_rows)
+    adjacency_buckets: dict[str, dict[str, list[dict[str, Any]]]] = {}
+    for relationship in relationship_rows:
+        projected = {
+            **relationship,
+            "authority": "derived",
+            "derivation": relationship["evidence_type"],
+            "rule": relationship.get("note", "deterministic collection rule"),
+        }
+        for route in sorted({relationship['source'], relationship['target']}):
+            bucket = f"{fnv1a_32(route) >> 24:02x}"
+            adjacency_buckets.setdefault(bucket, {}).setdefault(route, []).append(projected)
+    adjacency_references = {}
+    for bucket, routes in sorted(adjacency_buckets.items()):
+        relative = f"data/adjacency/{bucket}.json"
+        _write_json(bundle_dir / relative, routes)
+        adjacency_references[bucket] = relative
+    _write_json(data_dir / "adjacency/manifest.json", {
+        "schema": "okf-relationship-adjacency.v1", "algorithm": "fnv1a32-prefix-2",
+        "snapshot": SNAPSHOT_ID, "relationships": len(relationship_rows),
+        "routes": sum(len(routes) for routes in adjacency_buckets.values()),
+        "buckets": adjacency_references,
+    })
 
     typology_counts = Counter(record.typology for record in records)
     collection_counts = Counter(record.collection for record in records)
@@ -1057,7 +1164,7 @@ def build_bundle(
             "resource_shards": len(resource_shards),
         },
         "generated": {"at": GENERATED_AT, "by": GENERATOR_ACTOR},
-        "okf_version": "0.2",
+        "okf_version": CORE_VERSION,
         "indexes": {
             "analysis": "data/analysis/overview.json",
             "context_set": "data/governance/context-set.json",
@@ -1068,6 +1175,9 @@ def build_bundle(
             "overview": "data/overview.json",
             "reconciliation": "data/reconciliation/report.json",
             "search": "data/search/manifest.json",
+            "record_locator": "data/record-locator/manifest.json",
+            "relationship_adjacency": "data/adjacency/manifest.json",
+            "facets": "data/facets.json",
         },
         "schema": "okf-explorer-data-manifest.v1",
         "snapshot": SNAPSHOT_ID,
@@ -1185,7 +1295,7 @@ def build_bundle(
         "sourceCounts": overview["sourceCounts"],
         "summary": {
             "description": (
-                "Metadata-only discovery layer with a normative OKF v0.2 "
+                "Metadata-only discovery layer with a normative OKF v0.3 "
                 "Markdown core and additive Explorer/semantic projections."
             ),
             "record_count": len(records),
@@ -1213,7 +1323,7 @@ def build_bundle(
                 "status": "mapped-not-certified",
                 "evidence": "okf-bundle.jsonld",
             },
-            "okf_0_2": conformance,
+            "okf_0_3": conformance,
             "prov_o": {
                 "status": "mapped-not-certified",
                 "evidence": "okf-bundle.jsonld",
@@ -1324,7 +1434,7 @@ def build_bundle(
             ],
             "warning": (
                 "This file is discovery metadata, not an MCP server or executable "
-                "binding. It declares no transport, endpoint or authorization."
+                "binding. It declares no transport, endpoint or authorisation."
             ),
         },
     )
@@ -1374,7 +1484,7 @@ def build_bundle(
         },
         "counts": counts,
         "description": (
-            "OKF v0.2 Markdown bundle for UK planning metadata with additive "
+            "OKF v0.3 Markdown bundle for UK planning metadata with additive "
             "Explorer, YAML-LD, DCAT, PROV, SKOS and discovery extensions."
         ),
         "display": {
@@ -1389,6 +1499,9 @@ def build_bundle(
             "context_set": "data/governance/context-set.json",
             "coverage": "data/coverage/ledger.json",
             "data_manifest": "data/manifest.json",
+            "source_snapshot_lock": "data/governance/source-snapshot-lock.json",
+            "record_locator": "data/record-locator/manifest.json",
+            "relationship_adjacency": "data/adjacency/manifest.json",
             "evaluation": "data/evaluation/report.json",
             "governance": "data/governance/release.json",
             "integrity": "checksums.json",
@@ -1402,7 +1515,7 @@ def build_bundle(
             "viewer": "https://chris-page-gov.github.io/okf-explorer/",
         },
         "extensions": {
-            "okf-core.v0.2": {
+            "okf-core.v0.3": {
                 "conformance": "data/standards/evaluation.json",
                 "entrypoint": "okf_root",
                 "status": conformance["status"],
@@ -1435,8 +1548,8 @@ def build_bundle(
         "generated": {"at": GENERATED_AT, "by": GENERATOR_ACTOR},
         "generated_at": GENERATED_AT,
         "kind": "okf-large-corpus",
-        "okf_version": "0.2",
-        "core_conformance": "OKF v0.2 Markdown concept layer",
+        "okf_version": CORE_VERSION,
+        "core_conformance": "OKF v0.3 Markdown concept layer",
         "performance": {
             "full_record_hydration": "lazy",
             "relationship_hydration": "lazy",
@@ -1444,8 +1557,7 @@ def build_bundle(
             "startup_mode": "overview-first",
         },
         "profile": (
-            "https://chris-page-gov.github.io/okf-explorer/"
-            "profile/bundle-wiki/v1/"
+            PLANNING_PROFILE
         ),
         "publisher": "https://github.com/chris-page-gov/okf-planning",
         "rights": {
@@ -1470,7 +1582,8 @@ def build_bundle(
         ],
         "status": "draft-demonstrator",
         "title": "UK Planning & Housing Data OKF",
-        "version": "0.2.0",
+        "version": PROJECTION_VERSION,
+        "format_migration": FORMAT_MIGRATION,
         "vocabulary": {
             "publisher_plural": "publishers",
             "publisher_singular": "publisher",
