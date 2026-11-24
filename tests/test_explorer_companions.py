@@ -2,6 +2,7 @@
 
 import importlib.util
 import json
+import xml.etree.ElementTree as ET
 from hashlib import sha256
 from pathlib import Path
 
@@ -60,3 +61,16 @@ def test_guide_has_real_reader_source_and_no_root_icon_fallback():
     assert evidence["primary_source_url"] == "https://www.planning.data.gov.uk/dataset/design-code"
     assert "data:image/svg+xml" in html and "Review overdue" in html
     assert len(evidence["question_edges"]) == 3 and len(evidence["source_concepts"]) == 230
+
+
+def test_graph_connectors_cannot_default_to_filled_polygons():
+    files = module.build()
+    for name in ("walkthrough-desktop.svg", "walkthrough-mobile.svg"):
+        root = ET.fromstring(files[name])
+        connectors = [
+            node
+            for node in root.iter("{http://www.w3.org/2000/svg}path")
+            if "marker-end" in node.attrib
+        ]
+        assert len(connectors) == 3
+        assert all(node.attrib.get("fill") == "none" for node in connectors)

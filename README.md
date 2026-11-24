@@ -17,7 +17,7 @@ The bundle is a draft, unverified independent publication. It does not imply
 endorsement by MHCLG or any source publisher.
 
 OKF 0.3 was announced on 18 November 2026. This producer’s OKF+ 0.3
-implementation date is 24 November 2026; projection version 0.3.0 is separate
+implementation date is 24 November 2026; projection version 0.3.1 is separate
 from the retained July source generation event. The snapshot remains dated
 25 July 2026 and its review boundary of 25 October 2026 is overdue.
 The [planning metadata profile v1](profiles/planning-metadata/v1/README.md)
