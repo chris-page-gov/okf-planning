@@ -1,0 +1,14 @@
+{
+  "dataset/locally-listed-building": [
+    2,
+    30
+  ],
+  "dataset/planning-application-category": [
+    3,
+    17
+  ],
+  "dataset/planning-application-condition": [
+    3,
+    18
+  ]
+}

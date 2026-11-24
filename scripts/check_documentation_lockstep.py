@@ -76,15 +76,18 @@ def lockstep_errors(
 ) -> tuple[list[str], list[str], list[str]]:
     files = set(changed)
     policy = contract["lockstep"]
+    declared=[row['path']for group in ('authored','generated')for row in contract['boundaries'][group]]
+    unknown=sorted(path for path in files if not matches_any(path,declared))
+    unknown_errors=['Changed paths lack a declared lifecycle boundary: '+', '.join(unknown)]if unknown and policy['unknown_path_policy']=='fail-closed'else[]
     controlled = sorted(
         path for path in files if matches_any(path, policy["controlled_paths"])
     )
     if not controlled:
-        return [], [], []
+        return unknown_errors, [], []
     documentation = sorted(
         path for path in files if matches_any(path, policy["documentation_paths"])
     )
-    errors: list[str] = []
+    errors: list[str] = list(unknown_errors)
     if not documentation:
         errors.append(
             "controlled publication files changed without a contract-declared documentation change"

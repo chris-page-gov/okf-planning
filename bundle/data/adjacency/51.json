@@ -1,0 +1,15 @@
+{
+  "dataset/design-code-area-type": [
+    {
+      "authority": "derived",
+      "confidence": "inferred",
+      "derivation": "deterministic-collection-rule",
+      "evidence_type": "deterministic-collection-rule",
+      "kind": "derived-from-policy",
+      "note": "Rule-based linkage for design-code catalogue records.",
+      "rule": "Rule-based linkage for design-code catalogue records.",
+      "source": "dataset/design-code-area-type",
+      "target": "dataset/nppf-framework-policy"
+    }
+  ]
+}

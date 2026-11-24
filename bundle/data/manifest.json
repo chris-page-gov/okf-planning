@@ -48,13 +48,16 @@
     "context_set": "data/governance/context-set.json",
     "coverage": "data/coverage/ledger.json",
     "evaluation": "data/evaluation/report.json",
+    "facets": "data/facets.json",
     "governance": "data/governance/release.json",
     "integrity": "checksums.json",
     "overview": "data/overview.json",
     "reconciliation": "data/reconciliation/report.json",
+    "record_locator": "data/record-locator/manifest.json",
+    "relationship_adjacency": "data/adjacency/manifest.json",
     "search": "data/search/manifest.json"
   },
-  "okf_version": "0.2",
+  "okf_version": "0.3",
   "schema": "okf-explorer-data-manifest.v1",
   "snapshot": "planning-2026-07-25-r1",
   "title": "UK Planning & Housing Data Manifest"

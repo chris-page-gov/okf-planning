@@ -1,0 +1,15 @@
+{
+  "dataset/building-preservation-notice": [
+    {
+      "authority": "derived",
+      "confidence": "inferred",
+      "derivation": "deterministic-collection-rule",
+      "evidence_type": "deterministic-collection-rule",
+      "kind": "governed-by",
+      "note": "Rule-based catalogue linkage to the principal planning legislation represented in this bundle.",
+      "rule": "Rule-based catalogue linkage to the principal planning legislation represented in this bundle.",
+      "source": "dataset/building-preservation-notice",
+      "target": "dataset/town-and-country-planning-act-1990"
+    }
+  ]
+}

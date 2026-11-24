@@ -1,0 +1,1683 @@
+{
+  "answer": "The frozen catalogue links Design code, Design code area and Design code rule to the National Planning Policy Framework through three inferred derived-from-policy links. These links provide a route to source material for further investigation. They do not assess a particular proposal, establish current policy wording or prove compliance. The same qualification applies to all 40 rule-derived links in this bundle.",
+  "coverage": {
+    "concepts": 230,
+    "core_assertions": 0,
+    "domain_relationships": 40
+  },
+  "descriptor_sha256": "b7fafe073ca57d6d8cba8687d9194a2280d776fc5409914dee7772d91546478a",
+  "format_migration": {
+    "implementation_date": "2026-11-24",
+    "okf_version": "0.3",
+    "projection_version": "0.3.0",
+    "source_record_generated_at": "2026-07-25T11:25:00Z",
+    "source_record_generated_by": "okf-planning/0.2.0",
+    "source_snapshot_unchanged": true,
+    "standard_announcement_date": "2026-11-18"
+  },
+  "id": "design-code-policy-discovery",
+  "kind": "derived-from-policy",
+  "limitations": [
+    "The source snapshot is dated 25 July 2026. The review date of 25 October 2026 is overdue and has not been extended by format migration.",
+    "All 230 concepts are draft records. They have not been recorded as human-verified; source endorsement is not claimed.",
+    "The 40 domain links are inferred deterministic collection rules. They are not OKF Core assertions or qualified Bundle Wiki assertions.",
+    "The 34,391,082 entity figure is catalogue metadata, not a count independently acquired or verified by this pilot.",
+    "Per-record rights and attribution apply. MCP bindings describe discovery metadata and do not provide executable services or access permission."
+  ],
+  "negative_controls": [
+    "Do not conclude that a proposal complies with the NPPF from a derived-from-policy link.",
+    "Do not treat a July snapshot as current policy or a November format migration as source review.",
+    "Do not interpret a dataset record, entity count or MCP binding as permission, live availability or executable access."
+  ],
+  "primary_route": "dataset/design-code",
+  "primary_source_url": "https://www.planning.data.gov.uk/dataset/design-code",
+  "primary_title": "Design code",
+  "question": "Which design-code records should a planner inspect alongside the National Planning Policy Framework, and what can this bundle establish about a proposal’s compliance?",
+  "question_edges": [
+    {
+      "confidence": "inferred",
+      "evidence_type": "deterministic-collection-rule",
+      "kind": "derived-from-policy",
+      "note": "Rule-based linkage for design-code catalogue records.",
+      "source": "dataset/design-code",
+      "target": "dataset/nppf-framework-policy"
+    },
+    {
+      "confidence": "inferred",
+      "evidence_type": "deterministic-collection-rule",
+      "kind": "derived-from-policy",
+      "note": "Rule-based linkage for design-code catalogue records.",
+      "source": "dataset/design-code-area",
+      "target": "dataset/nppf-framework-policy"
+    },
+    {
+      "confidence": "inferred",
+      "evidence_type": "deterministic-collection-rule",
+      "kind": "derived-from-policy",
+      "note": "Rule-based linkage for design-code catalogue records.",
+      "source": "dataset/design-code-rule",
+      "target": "dataset/nppf-framework-policy"
+    }
+  ],
+  "reader_url": "https://chris-page-gov.github.io/okf-explorer/explore/?bundle=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-planning%2Fokf-explorer.json&view=reader#dataset/design-code",
+  "schema": "okf-planning-walkthrough-evidence.v1",
+  "source_concepts": [
+    {
+      "path": "concepts/category/ancient-woodland-status.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/ancient-woodland-status",
+      "route": "dataset/ancient-woodland-status",
+      "sha256": "300f2bdc301b07a27e9b277d0c6ec2f78769ab2706137caddfb1972d50c4a17d",
+      "title": "Ancient woodland status"
+    },
+    {
+      "path": "concepts/category/article-4-direction-rule.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/article-4-direction-rule",
+      "route": "dataset/article-4-direction-rule",
+      "sha256": "9a4c30ea5757e72d6fcb59aa7c24fc7b7a7dadc31c8f732a8c8a0fc171b2b45b",
+      "title": "Article 4 direction rule"
+    },
+    {
+      "path": "concepts/category/attribution.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/attribution",
+      "route": "dataset/attribution",
+      "sha256": "628d166d73e68a92f8ac22642dabf535a2e75306457e576b562e58613efbf557",
+      "title": "Attribution"
+    },
+    {
+      "path": "concepts/category/category.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/category",
+      "route": "dataset/category",
+      "sha256": "dd9ef903bc40776be7f8191c88d57dc027959e118999bc3cfb71fe3c315cd991",
+      "title": "Category"
+    },
+    {
+      "path": "concepts/category/conservation-area-document-type.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/conservation-area-document-type",
+      "route": "dataset/conservation-area-document-type",
+      "sha256": "c14d621b4f70526933d6f42bf5725909d318d771deda8034ac6c291905458a80",
+      "title": "Conservation area document type"
+    },
+    {
+      "path": "concepts/category/contribution-funding-status.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/contribution-funding-status",
+      "route": "dataset/contribution-funding-status",
+      "sha256": "4ddadc870ef573fc2bc6c7fa913912541164e7cc0101994b41d373199d1cfc3b",
+      "title": "Contribution funding status"
+    },
+    {
+      "path": "concepts/category/contribution-purpose.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/contribution-purpose",
+      "route": "dataset/contribution-purpose",
+      "sha256": "768057155fa5f64d6ff718aeebb065125bc24adf4d74f3f88472cec18f46a486",
+      "title": "Contribution purpose"
+    },
+    {
+      "path": "concepts/category/design-code-area-type.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/design-code-area-type",
+      "route": "dataset/design-code-area-type",
+      "sha256": "b3b5a098dcb837611ad171fbf67039a42ba9da330ae77b21987a72709567bc62",
+      "title": "Design code area type"
+    },
+    {
+      "path": "concepts/category/design-code-characteristic.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/design-code-characteristic",
+      "route": "dataset/design-code-characteristic",
+      "sha256": "9c23b589c03a4ed4afcbc33d2d8a711f833ea431685140a18e59c89c977e893d",
+      "title": "Design code characteristic"
+    },
+    {
+      "path": "concepts/category/design-code-rule-category.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/design-code-rule-category",
+      "route": "dataset/design-code-rule-category",
+      "sha256": "b54abb42f756f8498a16a2f87e1614494c625781a92029f76d48122d6445b9c1",
+      "title": "Design code rule category"
+    },
+    {
+      "path": "concepts/category/design-code-status.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/design-code-status",
+      "route": "dataset/design-code-status",
+      "sha256": "ec9e55ce86bd74f59da6e35240084540976cbab12f7ace6078d8e24351f9ad1f",
+      "title": "Design code status"
+    },
+    {
+      "path": "concepts/category/developer-agreement-type.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/developer-agreement-type",
+      "route": "dataset/developer-agreement-type",
+      "sha256": "8c6532675c39c66393345f341834156c7927627902145cb93a101591e6414316",
+      "title": "Developer agreement type"
+    },
+    {
+      "path": "concepts/category/development-metric.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/development-metric",
+      "route": "dataset/development-metric",
+      "sha256": "d757f6548224acf7cb47d909cb46342dc53d9de04d4a0aeae9d36e170eb7ed8a",
+      "title": "Development metric"
+    },
+    {
+      "path": "concepts/category/development-plan-boundary-type.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/development-plan-boundary-type",
+      "route": "dataset/development-plan-boundary-type",
+      "sha256": "390613bac411e33a59cc317a90a3b2cd06537e17abd20924103491c13ab83302",
+      "title": "Development plan boundary type"
+    },
+    {
+      "path": "concepts/category/development-plan-document-type.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/development-plan-document-type",
+      "route": "dataset/development-plan-document-type",
+      "sha256": "25a46604cc039397de285f208698d270c539a6bd9f33a51bb7fdd472ef8b78a5",
+      "title": "Development plan document type"
+    },
+    {
+      "path": "concepts/category/development-plan-geography-type.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/development-plan-geography-type",
+      "route": "dataset/development-plan-geography-type",
+      "sha256": "44eff1026e86511454d64afba6fd95af597af676855eb9762b541238d5e668a8",
+      "title": "Development plan geography type"
+    },
+    {
+      "path": "concepts/category/development-plan-status.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/development-plan-status",
+      "route": "dataset/development-plan-status",
+      "sha256": "54122b11c4b5daa2bbed27b62427d4b2d672870306d5a5e8870606ac7289201d",
+      "title": "Development plan status"
+    },
+    {
+      "path": "concepts/category/development-plan-type.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/development-plan-type",
+      "route": "dataset/development-plan-type",
+      "sha256": "a1ef17542a07029e41b015be546fbb2d94127ad4c1ca51dcd288b78e9dc060a7",
+      "title": "Development plan type"
+    },
+    {
+      "path": "concepts/category/development-policy-category.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/development-policy-category",
+      "route": "dataset/development-policy-category",
+      "sha256": "630b82026d03166a7057f263e209aa451c273a1ad308718b32f393b9bb19ea73",
+      "title": "Development policy category"
+    },
+    {
+      "path": "concepts/category/document-type.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/document-type",
+      "route": "dataset/document-type",
+      "sha256": "8cfdbedc123d6e825daf56d4fb8e021f05a1a4025160594e64dce47493645c81",
+      "title": "Document type"
+    },
+    {
+      "path": "concepts/category/flood-risk-level.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/flood-risk-level",
+      "route": "dataset/flood-risk-level",
+      "sha256": "5d9cfeca4ca7b377e15472471f25a5f2fae25e7d97b65825ef8e16a27b63828b",
+      "title": "Flood risk level"
+    },
+    {
+      "path": "concepts/category/flood-risk-type.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/flood-risk-type",
+      "route": "dataset/flood-risk-type",
+      "sha256": "839ada5965cd1061b6214b378877e29a7eda2eb3cc3b0142cfd0d1c6550e831c",
+      "title": "Flood risk type"
+    },
+    {
+      "path": "concepts/category/green-belt-core.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/green-belt-core",
+      "route": "dataset/green-belt-core",
+      "sha256": "1f3338ee4d2ba3008f731b2db674c87d98ccf618fec140ebd196504d74760f60",
+      "title": "Green belt core"
+    },
+    {
+      "path": "concepts/category/infrastructure-project-decision.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/infrastructure-project-decision",
+      "route": "dataset/infrastructure-project-decision",
+      "sha256": "9461a957835897946763ce316e628b63290d28ce05d91848310ce710851c7f87",
+      "title": "Infrastructure project decision"
+    },
+    {
+      "path": "concepts/category/infrastructure-project-document-type.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/infrastructure-project-document-type",
+      "route": "dataset/infrastructure-project-document-type",
+      "sha256": "43e273ededcdb44474abed8cdf22d0d01ecfbe6466ce88aa698ef4a1c6ec2c9b",
+      "title": "Infrastructure project document type"
+    },
+    {
+      "path": "concepts/category/infrastructure-project-event.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/infrastructure-project-event",
+      "route": "dataset/infrastructure-project-event",
+      "sha256": "075d10882ae8b7f33025ad3cc5a64cc85e96282af02901d0716c50eae00aa245",
+      "title": "Infrastructure project event"
+    },
+    {
+      "path": "concepts/category/infrastructure-project-type.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/infrastructure-project-type",
+      "route": "dataset/infrastructure-project-type",
+      "sha256": "23d041774d40db531894824c03951ff4013aa239cb61fd72b7111bf586f458b0",
+      "title": "Infrastructure project type"
+    },
+    {
+      "path": "concepts/category/licence.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/licence",
+      "route": "dataset/licence",
+      "sha256": "5b532446c18b2ef5f18c6e95b9ea1e54917ffb7f4100975adf604db17efa4b76",
+      "title": "Licence"
+    },
+    {
+      "path": "concepts/category/listed-building-grade.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/listed-building-grade",
+      "route": "dataset/listed-building-grade",
+      "sha256": "0732c6a1e7de88f3e0abf19bda878a8477b36bfae7f36674ab6695ce4c6ca4e4",
+      "title": "Listed building grade"
+    },
+    {
+      "path": "concepts/category/local-authority-type.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/local-authority-type",
+      "route": "dataset/local-authority-type",
+      "sha256": "45937b817bf154a63b381a46141519a1aa33ab839f5da144930b96ff5e83b8dc",
+      "title": "Local authority type"
+    },
+    {
+      "path": "concepts/category/local-plan-document-type.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/local-plan-document-type",
+      "route": "dataset/local-plan-document-type",
+      "sha256": "4cca6e1a62e56ee410ac4bc1c18f7cd46d0263f4274fcd4b0cc793d83de76324",
+      "title": "Local plan document type"
+    },
+    {
+      "path": "concepts/category/local-plan-event.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/local-plan-event",
+      "route": "dataset/local-plan-event",
+      "sha256": "cd1b71ed8e50bbec455964006ff678a027b853edf16dcb251b781aed083b1d85",
+      "title": "Local plan event"
+    },
+    {
+      "path": "concepts/category/local-plan-process.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/local-plan-process",
+      "route": "dataset/local-plan-process",
+      "sha256": "f2e17556a1093d4a6b4c077a76e29de99265c9d61620efa88a82e038cf94fbee",
+      "title": "Local plan process"
+    },
+    {
+      "path": "concepts/category/ownership-status.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/ownership-status",
+      "route": "dataset/ownership-status",
+      "sha256": "01762fd46918a20995d011af62d624d9bcff1f09a2a2dd8a4c4b114ed2cff1c7",
+      "title": "Ownership status"
+    },
+    {
+      "path": "concepts/category/park-and-garden-grade.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/park-and-garden-grade",
+      "route": "dataset/park-and-garden-grade",
+      "sha256": "80cc23b70e8e9c0eafc7792f8fde06d9bc99a92edffd9a241ddb4f48bad7f73d",
+      "title": "Park and garden grade"
+    },
+    {
+      "path": "concepts/category/permitted-development-right-part.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/permitted-development-right-part",
+      "route": "dataset/permitted-development-right-part",
+      "sha256": "13882c794935667f586b818b2f5aa88449d30f5aa30c9fd7e1e22320e13bbeca",
+      "title": "Permitted development right part"
+    },
+    {
+      "path": "concepts/category/permitted-development-right.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/permitted-development-right",
+      "route": "dataset/permitted-development-right",
+      "sha256": "231fcb64bccf5d0005fedc95c496ef0fc80fb047e8ae696d34a1e1fea1d6872f",
+      "title": "Permitted development right"
+    },
+    {
+      "path": "concepts/category/phase.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/phase",
+      "route": "dataset/phase",
+      "sha256": "cc0587bd4558d9ef31f2a7f12bebfdded23adce76f9edebdf38be39ad8115cdf",
+      "title": "Phase"
+    },
+    {
+      "path": "concepts/category/plan-event.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/plan-event",
+      "route": "dataset/plan-event",
+      "sha256": "48c8af4f0c715920f1c75f750b84bf31311f14e35c0816738c027c9474a68ec5",
+      "title": "Plan event"
+    },
+    {
+      "path": "concepts/category/planning-application-category.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/planning-application-category",
+      "route": "dataset/planning-application-category",
+      "sha256": "a60e407635af9663180c927a8cfc296178c27788f8b40b835b14d6729ec17430",
+      "title": "Planning application category"
+    },
+    {
+      "path": "concepts/category/planning-application-status.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/planning-application-status",
+      "route": "dataset/planning-application-status",
+      "sha256": "253c47aa92408d27280072111dee43dae4950ff42f78bd032ff2fc3a81d3b433",
+      "title": "Planning application status"
+    },
+    {
+      "path": "concepts/category/planning-application-type.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/planning-application-type",
+      "route": "dataset/planning-application-type",
+      "sha256": "44ce82590b7576d334302f1e755c857be19188c8c54f2bb8bf84bfaed1d13219",
+      "title": "Planning application type"
+    },
+    {
+      "path": "concepts/category/planning-condition-purpose.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/planning-condition-purpose",
+      "route": "dataset/planning-condition-purpose",
+      "sha256": "87bc5daa5d3b0e505e3ab7ccc08ce6b91c1b08f36ccbefe5c3947766022646ac",
+      "title": "Planning condition purpose"
+    },
+    {
+      "path": "concepts/category/planning-condition-target.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/planning-condition-target",
+      "route": "dataset/planning-condition-target",
+      "sha256": "1092b42056807c7063a3036324397b54827e0d5df9d8d1485e1010930efbe088",
+      "title": "Planning condition target"
+    },
+    {
+      "path": "concepts/category/planning-condition-type.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/planning-condition-type",
+      "route": "dataset/planning-condition-type",
+      "sha256": "bf328ebde765cd216d9ffef54cd2cd8fb12d9811b1283b2fd4650176e7230e1b",
+      "title": "Planning condition type"
+    },
+    {
+      "path": "concepts/category/planning-decision-type.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/planning-decision-type",
+      "route": "dataset/planning-decision-type",
+      "sha256": "02efb906a99ceb86810ed975c412f06710dc21bdba825f231a28c0f2215747c5",
+      "title": "Planning decision type"
+    },
+    {
+      "path": "concepts/category/planning-decision.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/planning-decision",
+      "route": "dataset/planning-decision",
+      "sha256": "dece2b6601ef992c43cb3ee9144f00afaef34cdb88bfeb4ed249df03eb854490",
+      "title": "Planning decision"
+    },
+    {
+      "path": "concepts/category/planning-development-category.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/planning-development-category",
+      "route": "dataset/planning-development-category",
+      "sha256": "2dd893ca4b531363de9108b07818f46d2b4a8b534dd80dafd818cf1e8dd7bd4f",
+      "title": "Planning development category"
+    },
+    {
+      "path": "concepts/category/planning-permission-status.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/planning-permission-status",
+      "route": "dataset/planning-permission-status",
+      "sha256": "192491c93f7b6daeb9219853767df09577f0ea201eca924f4abdc775d709c767",
+      "title": "Planning permission status"
+    },
+    {
+      "path": "concepts/category/planning-permission-type.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/planning-permission-type",
+      "route": "dataset/planning-permission-type",
+      "sha256": "bbce21a3fd93bd10e89b103258d84882983f25bf5a2a4f120a55dec6f59353f8",
+      "title": "Planning permission type"
+    },
+    {
+      "path": "concepts/category/realm.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/realm",
+      "route": "dataset/realm",
+      "sha256": "2490b5127b346f8cb3a171371a079734970e01dca6c3c4398396eac7c21c108d",
+      "title": "Realm"
+    },
+    {
+      "path": "concepts/category/requirement-level.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/requirement-level",
+      "route": "dataset/requirement-level",
+      "sha256": "1b1056bb288c7bd22a7478ab27d65516834bca9fb1e0bcc37b11c27e71146cd3",
+      "title": "Requirement level"
+    },
+    {
+      "path": "concepts/category/site-category.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/site-category",
+      "route": "dataset/site-category",
+      "sha256": "ce1c0001999785fe86e103ebb90e2b77e0b80075cd8e82902038d1ff60d47723",
+      "title": "Site category"
+    },
+    {
+      "path": "concepts/category/tree-preservation-zone-type.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/tree-preservation-zone-type",
+      "route": "dataset/tree-preservation-zone-type",
+      "sha256": "fc0b65afdaf5003ba715c4828ffbf1cc4ce7da1d7b4c9c84bd3a5898669b21cf",
+      "title": "Tree preservation zone type"
+    },
+    {
+      "path": "concepts/document/biodiversity-net-gain-assessment.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/biodiversity-net-gain-assessment",
+      "route": "dataset/biodiversity-net-gain-assessment",
+      "sha256": "34540722bbd30b09bad498c0e144d6b5118f81c9ed99095355792d7865ab6aae",
+      "title": "Biodiversity net gain assesment"
+    },
+    {
+      "path": "concepts/document/community-infrastructure-levy-schedule.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/community-infrastructure-levy-schedule",
+      "route": "dataset/community-infrastructure-levy-schedule",
+      "sha256": "497ea0f63e6d660a0785f397cda2b820c29bec1bfc668873a9d96012863cbdb2",
+      "title": "Community infrastructure levy schedule"
+    },
+    {
+      "path": "concepts/document/conservation-area-document.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/conservation-area-document",
+      "route": "dataset/conservation-area-document",
+      "sha256": "b971cda7e0c2e6b785a19578d51142c1043c94fb2bc8773e50f426974f0e98f6",
+      "title": "Conservation area document"
+    },
+    {
+      "path": "concepts/document/developer-agreement.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/developer-agreement",
+      "route": "dataset/developer-agreement",
+      "sha256": "4f4e2ac8c56effdc37245fd297b331a8744e09387a233295e8502bfaf8a91627",
+      "title": "Developer agreement"
+    },
+    {
+      "path": "concepts/document/development-plan-document.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/development-plan-document",
+      "route": "dataset/development-plan-document",
+      "sha256": "5e16f09d6ee94f1a98367ff11e298e8ffd22806665611c6fa5a7374df1fce03c",
+      "title": "Development plan document"
+    },
+    {
+      "path": "concepts/document/document.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/document",
+      "route": "dataset/document",
+      "sha256": "7c3ba0fdf5f0959cac0a524dd11369d741b18105f9b1c78214e807b0873877bd",
+      "title": "Document"
+    },
+    {
+      "path": "concepts/document/infrastructure-funding-statement.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/infrastructure-funding-statement",
+      "route": "dataset/infrastructure-funding-statement",
+      "sha256": "e78fa332bf83d8acf6d79a18ebe25c9ead1103b9c2bbafa8fdf7bda4636d1b81",
+      "title": "Infrastructure funding statement"
+    },
+    {
+      "path": "concepts/document/infrastructure-project-document.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/infrastructure-project-document",
+      "route": "dataset/infrastructure-project-document",
+      "sha256": "eca764d4b878d42f6a0f417217e2827c0c49f58fa49381611163a0945fe687c0",
+      "title": "Infrastructure project document"
+    },
+    {
+      "path": "concepts/document/local-area-requirements.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/local-area-requirements",
+      "route": "dataset/local-area-requirements",
+      "sha256": "7efd6f15d77460311e01aac572d6d646aba3e5f36727b977eab7f3cb5839485b",
+      "title": "Local area requirements"
+    },
+    {
+      "path": "concepts/document/local-plan-document.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/local-plan-document",
+      "route": "dataset/local-plan-document",
+      "sha256": "81c55719ecb262f988ccecdf127decb6c189813c2cfc4502805d7d67bb8351f2",
+      "title": "Local plan document"
+    },
+    {
+      "path": "concepts/document/planning-application-document.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/planning-application-document",
+      "route": "dataset/planning-application-document",
+      "sha256": "f5dfc7a01e5220b90e1b7b37daefee9656df5e06112ccc03c06da447477eef2e",
+      "title": "Planning application document"
+    },
+    {
+      "path": "concepts/document/planning-inspectorate-appeals-data.md",
+      "resource": "https://www.gov.uk/government/organisations/planning-inspectorate",
+      "route": "dataset/planning-inspectorate-appeals-data",
+      "sha256": "23e7c886d38b8059f0040a79284de3aa1f421cc5fc2fbdbf2d1316f2ad9e7344",
+      "title": "Planning Inspectorate Appeals & NSIP Register"
+    },
+    {
+      "path": "concepts/entity/entity-organisation.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/entity-organisation",
+      "route": "dataset/entity-organisation",
+      "sha256": "6837a5b2a9746a2750116ad7d2324f4358aaab87a928b1c6417361434e49d4f9",
+      "title": "Entity organisation"
+    },
+    {
+      "path": "concepts/entity/entity.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/entity",
+      "route": "dataset/entity",
+      "sha256": "89b9fb1a8c5cfdcc0a3033d5637e90edb4e553388dfd3faf2b6ed7f351f14f77",
+      "title": "Entity"
+    },
+    {
+      "path": "concepts/entity/prefix.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/prefix",
+      "route": "dataset/prefix",
+      "sha256": "cddb868aa841b69adc0e80e968ce14661677133317c9a6e1d29da875b3e8f03e",
+      "title": "Prefix"
+    },
+    {
+      "path": "concepts/geography/address.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/address",
+      "route": "dataset/address",
+      "sha256": "c52d9ea63385a94b92b05444f0095eef6653bbf6b027b5447fe149ca7f64ad14",
+      "title": "Address"
+    },
+    {
+      "path": "concepts/geography/agricultural-land-classification.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/agricultural-land-classification",
+      "route": "dataset/agricultural-land-classification",
+      "sha256": "ebeea48a524813eaa9d2ae308fe55677874ab4eec52e332acf670e3d22b0921b",
+      "title": "Agricultural land classification"
+    },
+    {
+      "path": "concepts/geography/air-quality-management-area.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/air-quality-management-area",
+      "route": "dataset/air-quality-management-area",
+      "sha256": "07d8366a78ba45a30a7950245fd4ec24433d036678afb49076bcd31a424ba422",
+      "title": "Air quality management area"
+    },
+    {
+      "path": "concepts/geography/ancient-woodland.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/ancient-woodland",
+      "route": "dataset/ancient-woodland",
+      "sha256": "e1122b742022d88dd534d8f6fbcc5eef7302bef8d19645e88e1c5f17f76b4780",
+      "title": "Ancient woodland"
+    },
+    {
+      "path": "concepts/geography/archaeological-priority-area.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/archaeological-priority-area",
+      "route": "dataset/archaeological-priority-area",
+      "sha256": "7ad28d3c8ac62fbb22a30dd8d7f10bb58b8392c06912118b08131c642b0d62c6",
+      "title": "Archaeological priority area"
+    },
+    {
+      "path": "concepts/geography/area-of-outstanding-natural-beauty.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/area-of-outstanding-natural-beauty",
+      "route": "dataset/area-of-outstanding-natural-beauty",
+      "sha256": "14c1a4912392da6eb57ab12386255f1ed1f2ca83bf188f3c7459a0334d69d781",
+      "title": "Area of outstanding natural beauty"
+    },
+    {
+      "path": "concepts/geography/article-4-direction-area.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/article-4-direction-area",
+      "route": "dataset/article-4-direction-area",
+      "sha256": "ced25118342b6d968345441dd62e86306f91bd74283656a9f587bbc557e781e9",
+      "title": "Article 4 direction area"
+    },
+    {
+      "path": "concepts/geography/asset-of-community-value.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/asset-of-community-value",
+      "route": "dataset/asset-of-community-value",
+      "sha256": "92ef929f12d52f6bc3da72aeaf21a336becb74cb3689a1dafd04a26ade1fc572",
+      "title": "Asset of community value"
+    },
+    {
+      "path": "concepts/geography/battlefield.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/battlefield",
+      "route": "dataset/battlefield",
+      "sha256": "8918a19895c15d8b90a59c1b951418caeb412ce7ce27ecc5cfc840d64aaa4a6b",
+      "title": "Battlefield"
+    },
+    {
+      "path": "concepts/geography/best-and-most-versatile-agricultural-land.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/best-and-most-versatile-agricultural-land",
+      "route": "dataset/best-and-most-versatile-agricultural-land",
+      "sha256": "41dc3960b0dd270c5b78e92098e0078f0ec1185febc77522a189c21b589850bb",
+      "title": "Best and most versatile agricultural land"
+    },
+    {
+      "path": "concepts/geography/border.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/border",
+      "route": "dataset/border",
+      "sha256": "62cedd1aab86028f8706241f62cbf85671401ee12ec44489f584274ed8195c36",
+      "title": "Border"
+    },
+    {
+      "path": "concepts/geography/brownfield-land.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/brownfield-land",
+      "route": "dataset/brownfield-land",
+      "sha256": "bec1614bc96dbcfe60bb6ed8fc5ed04b516617d78562ebeda24acd9a744a0973",
+      "title": "Brownfield land"
+    },
+    {
+      "path": "concepts/geography/brownfield-site.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/brownfield-site",
+      "route": "dataset/brownfield-site",
+      "sha256": "c11881e889ea1556d08a2b544d110da77717a6acf72d2cd211c90852b49fd9bd",
+      "title": "Brownfield site"
+    },
+    {
+      "path": "concepts/geography/buffer-zone.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/buffer-zone",
+      "route": "dataset/buffer-zone",
+      "sha256": "ba423f5e2cefe425a487a477350bf511640443cd38e56ff455483859e0d90144",
+      "title": "Buffer zone"
+    },
+    {
+      "path": "concepts/geography/building-preservation-notice.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/building-preservation-notice",
+      "route": "dataset/building-preservation-notice",
+      "sha256": "3d6163d526330b70b855c6a2b0e5cd473a0b8829ddb6ede255819d45e7752e9f",
+      "title": "Building preservation notice"
+    },
+    {
+      "path": "concepts/geography/built-up-area.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/built-up-area",
+      "route": "dataset/built-up-area",
+      "sha256": "56ee03bdc6b49d341b993a0f1e4ea7709862428e7124512e746149108bda0fb2",
+      "title": "Built up area"
+    },
+    {
+      "path": "concepts/geography/central-activities-zone.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/central-activities-zone",
+      "route": "dataset/central-activities-zone",
+      "sha256": "4db9ffe81bd097984a30038e9023c82e22e50d664400b1a01ee94321a6a08df3",
+      "title": "Central activities zone"
+    },
+    {
+      "path": "concepts/geography/certificate-of-immunity.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/certificate-of-immunity",
+      "route": "dataset/certificate-of-immunity",
+      "sha256": "e9a3e3f302a69cdb1d74d615f8c091e447308a579b4bb4cf3d4ebd50cd39e9f2",
+      "title": "Certificate of immunity"
+    },
+    {
+      "path": "concepts/geography/coastal-change-management-area.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/coastal-change-management-area",
+      "route": "dataset/coastal-change-management-area",
+      "sha256": "7c2223e91e511be73b87f8b4f3223efc5a1c5d5e00877015f9bf7f81358cb0f6",
+      "title": "Coastal change management area"
+    },
+    {
+      "path": "concepts/geography/common-land-and-village-green.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/common-land-and-village-green",
+      "route": "dataset/common-land-and-village-green",
+      "sha256": "3bc26fff483fa926fb92353382ab8d50ffb2777dd0d425a99264dde00254a4fa",
+      "title": "Common land and village green"
+    },
+    {
+      "path": "concepts/geography/conservation-area.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/conservation-area",
+      "route": "dataset/conservation-area",
+      "sha256": "9e10de1309433fe65fb51966ae3a45738b379884e3a906446a6ac67bda0e7ea8",
+      "title": "Conservation area"
+    },
+    {
+      "path": "concepts/geography/contaminated-land.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/contaminated-land",
+      "route": "dataset/contaminated-land",
+      "sha256": "ae7f29ffdce5c682a9ca826d169c8f6a515ef9381257dc6f8bd64ce712940b11",
+      "title": "Contaminated land"
+    },
+    {
+      "path": "concepts/geography/control-of-major-accident-hazards-site.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/control-of-major-accident-hazards-site",
+      "route": "dataset/control-of-major-accident-hazards-site",
+      "sha256": "716403141067bdf9b1c792978257f3e992bcbc1a339cb95e20f1d87debde8cbc",
+      "title": "Control of major accident hazards site"
+    },
+    {
+      "path": "concepts/geography/design-code-area.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/design-code-area",
+      "route": "dataset/design-code-area",
+      "sha256": "794179ccd8a8fa9916ee6b7206312fd80b072dc067eeaa6c6c86098b27dbf250",
+      "title": "Design code area"
+    },
+    {
+      "path": "concepts/geography/development-corporation-boundary.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/development-corporation-boundary",
+      "route": "dataset/development-corporation-boundary",
+      "sha256": "f093b250f46ad0e2ee91cb5c4ae1b0319c05d5d65d36789da086be9e811e1726",
+      "title": "Development corporation boundary"
+    },
+    {
+      "path": "concepts/geography/development-plan-boundary.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/development-plan-boundary",
+      "route": "dataset/development-plan-boundary",
+      "sha256": "621e16d21ee1317c4e207702356cbf3fc4c7573e462ea810bbfe8b2874f5036d",
+      "title": "Development plan boundary"
+    },
+    {
+      "path": "concepts/geography/development-plan-geography.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/development-plan-geography",
+      "route": "dataset/development-plan-geography",
+      "sha256": "2a4182fd227332a379cf7d90e9c4f17f9c59fec9e040e41fd016d5c73a2106c9",
+      "title": "Development plan geography"
+    },
+    {
+      "path": "concepts/geography/development-policy-area.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/development-policy-area",
+      "route": "dataset/development-policy-area",
+      "sha256": "c786e89cfebb8bf39fbd1fe8a0a3089cd40d017bcf81953fd97763c02366533d",
+      "title": "Development policy area"
+    },
+    {
+      "path": "concepts/geography/educational-establishment.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/educational-establishment",
+      "route": "dataset/educational-establishment",
+      "sha256": "8c6f56f5f150a38fae976e0019f551fd97c3f287f5b57ad4d39bcd1c233b788e",
+      "title": "Educational establishment"
+    },
+    {
+      "path": "concepts/geography/employment-allocation.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/employment-allocation",
+      "route": "dataset/employment-allocation",
+      "sha256": "8325a4d0961f05b7d2ee9a5200421c92fb05b6016bdf325a91a8f39d69261a24",
+      "title": "Employment allocation"
+    },
+    {
+      "path": "concepts/geography/environment-agency-flood-risk-zones.md",
+      "resource": "https://environment.data.gov.uk/dataset/flood-map-for-planning-rivers-and-sea-flood-zone-2",
+      "route": "dataset/environment-agency-flood-risk-zones",
+      "sha256": "72f8a4021ac2bf0cee42d7cb30b09c0f1438de2666d8b1612fd3f29d20ecc1a8",
+      "title": "Environment Agency Flood Risk Zones 2 & 3"
+    },
+    {
+      "path": "concepts/geography/flood-risk-zone.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/flood-risk-zone",
+      "route": "dataset/flood-risk-zone",
+      "sha256": "426093687936931782089d44e69316ef7342beedc9c8edd10218659e63fada44",
+      "title": "Flood risk zone"
+    },
+    {
+      "path": "concepts/geography/flood-storage-area.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/flood-storage-area",
+      "route": "dataset/flood-storage-area",
+      "sha256": "164d5bb2fc5ad11baecad314a356ccba5e5b67488a72687cbc135b8ff6e090a2",
+      "title": "Flood storage area"
+    },
+    {
+      "path": "concepts/geography/forest-inventory.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/forest-inventory",
+      "route": "dataset/forest-inventory",
+      "sha256": "d1f8d885401a25d09b2b364ee63f809f39a7354891a23ed9eb18e5f49b0c114d",
+      "title": "Forest inventory"
+    },
+    {
+      "path": "concepts/geography/green-belt.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/green-belt",
+      "route": "dataset/green-belt",
+      "sha256": "d1ced00c42c872ffeb568f6d3bd56abc17d4cdde3195e7bada3bff288a37dc7f",
+      "title": "Green belt"
+    },
+    {
+      "path": "concepts/geography/guardianship-site-and-english-heritage-site.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/guardianship-site-and-english-heritage-site",
+      "route": "dataset/guardianship-site-and-english-heritage-site",
+      "sha256": "e5eb7c007524fe32c11d213564ca75a8c72313aa09a3d2bf4b78997ef23a2c90",
+      "title": "Guardianship site and English heritage site"
+    },
+    {
+      "path": "concepts/geography/gypsy-and-traveller-site.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/gypsy-and-traveller-site",
+      "route": "dataset/gypsy-and-traveller-site",
+      "sha256": "b880e062d95b8ade80ce45a030b8dbf675b1bc263170be7e11c58e6cf9e73bdf",
+      "title": "Gypsy and traveller site"
+    },
+    {
+      "path": "concepts/geography/heritage-action-zone.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/heritage-action-zone",
+      "route": "dataset/heritage-action-zone",
+      "sha256": "3176f18b121e499a4bea34f02325c02f93122a686edc2d6345bb2a460a7819e6",
+      "title": "Heritage action zone"
+    },
+    {
+      "path": "concepts/geography/heritage-at-risk.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/heritage-at-risk",
+      "route": "dataset/heritage-at-risk",
+      "sha256": "0a060cf8a50345ab044e5bd717082fccbc96228c1e65e21a943bd1f9b6b88f79",
+      "title": "Heritage at risk"
+    },
+    {
+      "path": "concepts/geography/heritage-coast.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/heritage-coast",
+      "route": "dataset/heritage-coast",
+      "sha256": "6557305c54f33174115cdab65ee49d1ecefbbcda5105b42183c08fbff0b3937d",
+      "title": "Heritage coast"
+    },
+    {
+      "path": "concepts/geography/historic-england-nhle-heritage.md",
+      "resource": "https://historicengland.org.uk/listing/the-list/",
+      "route": "dataset/historic-england-nhle-heritage",
+      "sha256": "900ae55936b800c48f9e1879505d53036a4092e540682c2aa7a225222f163d82",
+      "title": "National Heritage List for England (NHLE)"
+    },
+    {
+      "path": "concepts/geography/historic-non-designed-rural-landscape-local-landscape-area.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/historic-non-designed-rural-landscape-local-landscape-area",
+      "route": "dataset/historic-non-designed-rural-landscape-local-landscape-area",
+      "sha256": "4d6820200e04825639d7fe93873cc37fe01c1fbabc88a387726e3a07edc6c2b6",
+      "title": "Historic (non-designed) rural landscape/local landscape area"
+    },
+    {
+      "path": "concepts/geography/historic-stone-quarry.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/historic-stone-quarry",
+      "route": "dataset/historic-stone-quarry",
+      "sha256": "d438509fc4a0a63e5a8dc7a65b530f7d87550e1ff8640f5010d260ee4f9762b8",
+      "title": "Historic stone quarry"
+    },
+    {
+      "path": "concepts/geography/hm-land-registry-inspire-index-polygons.md",
+      "resource": "https://use-land-property-data.service.gov.uk/datasets/inspire",
+      "route": "dataset/hm-land-registry-inspire-index-polygons",
+      "sha256": "aa3d48d27aedf788946ee7caf6994d8fab1524b7ef788a66dd56aab0993c2ebc",
+      "title": "HM Land Registry INSPIRE Index Polygons"
+    },
+    {
+      "path": "concepts/geography/hs2-safeguarded-area.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/hs2-safeguarded-area",
+      "route": "dataset/hs2-safeguarded-area",
+      "sha256": "585aff27373cd680f47ab0f3e87ab7bcbf06649f62012a3fe3ceaa9cafad2236",
+      "title": "HS2 safeguarded area"
+    },
+    {
+      "path": "concepts/geography/infrastructure-project.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/infrastructure-project",
+      "route": "dataset/infrastructure-project",
+      "sha256": "e742802b8ce39ab384a431bf2e1d2046ae97848b3cb7330c6ecf4f41a784739c",
+      "title": "Infrastructure project"
+    },
+    {
+      "path": "concepts/geography/internal-drainage-district.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/internal-drainage-district",
+      "route": "dataset/internal-drainage-district",
+      "sha256": "a4de3f3fa0e5f1dac955ad86989a00ef3dfd3b8884b4bd3502062aeec2c73ec2",
+      "title": "Internal drainage district"
+    },
+    {
+      "path": "concepts/geography/listed-building-outline.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/listed-building-outline",
+      "route": "dataset/listed-building-outline",
+      "sha256": "22c5b6fa128dd99da3399a57c479ecc84e1af1f247369f8daadababa44646217",
+      "title": "Listed building outline"
+    },
+    {
+      "path": "concepts/geography/listed-building.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/listed-building",
+      "route": "dataset/listed-building",
+      "sha256": "4f40379c0a6b09ae85f7676bd1ad450e645349c1c4e64495ddab0e42803aa5df",
+      "title": "Listed building"
+    },
+    {
+      "path": "concepts/geography/local-authority-district.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/local-authority-district",
+      "route": "dataset/local-authority-district",
+      "sha256": "bf22e6bebb2d642541f1cb34066570100c7961c52862cb12d0cec9e923469ef7",
+      "title": "Local authority district"
+    },
+    {
+      "path": "concepts/geography/local-green-space.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/local-green-space",
+      "route": "dataset/local-green-space",
+      "sha256": "2914423a8f474d582436c86ff7d279283eb3bffa1cc87bd0a2a931c5cce0136f",
+      "title": "Local green space"
+    },
+    {
+      "path": "concepts/geography/local-nature-recovery-strategy.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/local-nature-recovery-strategy",
+      "route": "dataset/local-nature-recovery-strategy",
+      "sha256": "6f0a279f05971daa936298799b20bfcc6bb9d29531a04959ea54fa7924488035",
+      "title": "Local nature recovery strategy"
+    },
+    {
+      "path": "concepts/geography/local-nature-reserve.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/local-nature-reserve",
+      "route": "dataset/local-nature-reserve",
+      "sha256": "5c1aec1b510e6b991fbb806efdf165fc977fbb7ee4d3b34b4154591d91331ac0",
+      "title": "Local nature reserve"
+    },
+    {
+      "path": "concepts/geography/local-plan-boundary.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/local-plan-boundary",
+      "route": "dataset/local-plan-boundary",
+      "sha256": "dc30da23e3d19c3c9f489d3c4a1367215983a93dcc839ab531de825dfe5f9bea",
+      "title": "Local plan boundary"
+    },
+    {
+      "path": "concepts/geography/local-planning-authority.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/local-planning-authority",
+      "route": "dataset/local-planning-authority",
+      "sha256": "97a268e20a7d7df0f11a285e7132c2adfa343fed45fd0d7b21498e36c94f9ab2",
+      "title": "Local Planning Authority"
+    },
+    {
+      "path": "concepts/geography/local-resilience-forum-boundary.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/local-resilience-forum-boundary",
+      "route": "dataset/local-resilience-forum-boundary",
+      "sha256": "55f52c06ff7ef0be87535342d8e26527382514a7107cc299931d960add7aa4d8",
+      "title": "Local resilience forum boundary"
+    },
+    {
+      "path": "concepts/geography/locally-listed-building.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/locally-listed-building",
+      "route": "dataset/locally-listed-building",
+      "sha256": "4a0796976214852901afbd16ad6d213611c192b40e59d1c45e7e23860cde974a",
+      "title": "Locally listed building"
+    },
+    {
+      "path": "concepts/geography/london-square.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/london-square",
+      "route": "dataset/london-square",
+      "sha256": "bf2f20c982f443e33cf794b23e852c86e75ee873728cd7f9cf0491f83dffc465",
+      "title": "London square"
+    },
+    {
+      "path": "concepts/geography/long-established-woodland.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/long-established-woodland",
+      "route": "dataset/long-established-woodland",
+      "sha256": "2553ec8fd056a8ac69080213836b1357136bc234da08624a09b0ba7cb9260a4a",
+      "title": "Long established woodland"
+    },
+    {
+      "path": "concepts/geography/long-protected-woodland.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/long-protected-woodland",
+      "route": "dataset/long-protected-woodland",
+      "sha256": "f98d7ce7ba32d21536e30f94b6f32d3923b12543f1d501edc9c299801042295f",
+      "title": "Long protected woodland"
+    },
+    {
+      "path": "concepts/geography/main-river.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/main-river",
+      "route": "dataset/main-river",
+      "sha256": "169104942f3bf5594183fc05e94d36e9747df9837a51a496523e19bfdcdf7344",
+      "title": "Main river"
+    },
+    {
+      "path": "concepts/geography/metropolitan-open-land.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/metropolitan-open-land",
+      "route": "dataset/metropolitan-open-land",
+      "sha256": "65110bb87ac864c95b3c529427edf8eafa3e3ee1650a1765128264c2bc2db1ee",
+      "title": "Metropolitan open land"
+    },
+    {
+      "path": "concepts/geography/mineral-safeguarding-area.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/mineral-safeguarding-area",
+      "route": "dataset/mineral-safeguarding-area",
+      "sha256": "5d61d40e81d36e0fe5381b22174f432799cb1d5d4e6f3ad532f6dd31eb886c77",
+      "title": "Mineral safeguarding area"
+    },
+    {
+      "path": "concepts/geography/minerals-and-waste-planning-authority.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/minerals-and-waste-planning-authority",
+      "route": "dataset/minerals-and-waste-planning-authority",
+      "sha256": "a9a74f7a781f6c7d498e29936b4e1be4465000773e1d0aed20cf350b40415c08",
+      "title": "Minerals and Waste Local Planning Authority"
+    },
+    {
+      "path": "concepts/geography/minerals-plan-boundary.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/minerals-plan-boundary",
+      "route": "dataset/minerals-plan-boundary",
+      "sha256": "f8ccb212745f181d383bf998ef46dcfc19e2e8558b716022ec06e701ff091699",
+      "title": "Minerals plan boundary"
+    },
+    {
+      "path": "concepts/geography/national-nature-reserve.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/national-nature-reserve",
+      "route": "dataset/national-nature-reserve",
+      "sha256": "885fc12d28be31f20c42601b5b00bcc201490b071f86609dd780487cb30b4b7a",
+      "title": "National nature reserve"
+    },
+    {
+      "path": "concepts/geography/national-park.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/national-park",
+      "route": "dataset/national-park",
+      "sha256": "dc2f5ff171c98cf3b17b883d1c71a9c3e4c4d979e419d8d0f9990a32f25a06de",
+      "title": "National park"
+    },
+    {
+      "path": "concepts/geography/natural-england-protected-sites-and-bng.md",
+      "resource": "https://naturalengland-defra.opendata.arcgis.com/",
+      "route": "dataset/natural-england-protected-sites-and-bng",
+      "sha256": "dec5e1cdb15db8d10ce8e751565eef58287c855e2dc7316594a80c2e92309432",
+      "title": "Natural England Statutory Protected Sites & BNG Register"
+    },
+    {
+      "path": "concepts/geography/nature-improvement-area.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/nature-improvement-area",
+      "route": "dataset/nature-improvement-area",
+      "sha256": "b4ce45b3fc00fda77ee2a8379179b70afe0809792e42f757726389ed38e1a227",
+      "title": "Nature improvement area"
+    },
+    {
+      "path": "concepts/geography/non-designated-and-locally-listed-historic-asset.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/non-designated-and-locally-listed-historic-asset",
+      "route": "dataset/non-designated-and-locally-listed-historic-asset",
+      "sha256": "6329b7a53e70fc4497f4d6f36b6d08e1bfbe5d4047f19793a97fdd0842d73e0a",
+      "title": "Non-designated and locally listed historic asset"
+    },
+    {
+      "path": "concepts/geography/non-designated-archeology-asset-of-national-importance.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/non-designated-archeology-asset-of-national-importance",
+      "route": "dataset/non-designated-archeology-asset-of-national-importance",
+      "sha256": "46f5b87fd49274749a7c585919a18331bb60a84b7febe38b0fa609141552af82",
+      "title": "Non-designated archeology asset of national importance"
+    },
+    {
+      "path": "concepts/geography/nuclear-safety-zone.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/nuclear-safety-zone",
+      "route": "dataset/nuclear-safety-zone",
+      "sha256": "377a0b5a500eb9e7f0ffc68ccfbc835c4106be5e344a7e14e4d11797337d6e31",
+      "title": "Nuclear safety zone"
+    },
+    {
+      "path": "concepts/geography/nutrient-neutrality-catchment.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/nutrient-neutrality-catchment",
+      "route": "dataset/nutrient-neutrality-catchment",
+      "sha256": "5651295236a2a6dad9697f7b4497bab7b88e15b017cf55bd3c67c6d3f7a122c0",
+      "title": "Nutrient neutrality catchment"
+    },
+    {
+      "path": "concepts/geography/open-space.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/open-space",
+      "route": "dataset/open-space",
+      "sha256": "783491d00ed8bef25ca580b3a07f6cb216279853eb9c9c5f3a26bafafd82b324",
+      "title": "Open space"
+    },
+    {
+      "path": "concepts/geography/parish.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/parish",
+      "route": "dataset/parish",
+      "sha256": "5903d91d39038e13d6b4f29433e4fc16367b90b52ac4ef4a2464717cdfdf183e",
+      "title": "Civil parish"
+    },
+    {
+      "path": "concepts/geography/park-and-garden.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/park-and-garden",
+      "route": "dataset/park-and-garden",
+      "sha256": "1f928446eaa0902a3714f02748649283fd1c353bda211acdb0fc511b1ee8d08f",
+      "title": "Historic parks and gardens"
+    },
+    {
+      "path": "concepts/geography/planning-application.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/planning-application",
+      "route": "dataset/planning-application",
+      "sha256": "bcc9ac4692eaaa93e5e769486650a84132fbe2035b24079b4a2987cb742330e6",
+      "title": "Planning application"
+    },
+    {
+      "path": "concepts/geography/postcode.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/postcode",
+      "route": "dataset/postcode",
+      "sha256": "f8cafac2477ff2444b5a69ccdb42a0025545102510472e3ec94e78711b22de45",
+      "title": "Postcode"
+    },
+    {
+      "path": "concepts/geography/proposed-ramsar-site.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/proposed-ramsar-site",
+      "route": "dataset/proposed-ramsar-site",
+      "sha256": "f73400b54acfb5277175e9ef469de5fa18c51b46255cf7149fd795d315958bf0",
+      "title": "Proposed ramsar site"
+    },
+    {
+      "path": "concepts/geography/protected-land.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/protected-land",
+      "route": "dataset/protected-land",
+      "sha256": "25b3e32dcb36e57c5e647bb0214c3a0a75d3533d93852b3d2e725f1e0c8a2cc0",
+      "title": "Protected land"
+    },
+    {
+      "path": "concepts/geography/protected-view.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/protected-view",
+      "route": "dataset/protected-view",
+      "sha256": "53de612d419dd5a3d0781e7f38ff4e8c0999ca083708bad0fbfb8afc67c83766",
+      "title": "Protected view"
+    },
+    {
+      "path": "concepts/geography/protected-wreck-site.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/protected-wreck-site",
+      "route": "dataset/protected-wreck-site",
+      "sha256": "4def734f942e5a57237a4cb6d96cf2e86d516b6060740a9f99a07200d736559a",
+      "title": "Protected wreck site"
+    },
+    {
+      "path": "concepts/geography/public-safety-zone-around-airport.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/public-safety-zone-around-airport",
+      "route": "dataset/public-safety-zone-around-airport",
+      "sha256": "4a26cadcd997d75024aa4c8ca4a5047dfebcd840f46c2e2944e20173f054c734",
+      "title": "Public safety zone around airport"
+    },
+    {
+      "path": "concepts/geography/ramsar.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/ramsar",
+      "route": "dataset/ramsar",
+      "sha256": "ae0e413403573cf987169fd872da344ff9c3bc9c66aae002266dee5b8e8f4ca8",
+      "title": "Ramsar site"
+    },
+    {
+      "path": "concepts/geography/region.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/region",
+      "route": "dataset/region",
+      "sha256": "41f89afa1ee44508f33483fd4b1172b17f4f377ef47f991c2052f0f9a39a4754",
+      "title": "Region"
+    },
+    {
+      "path": "concepts/geography/safeguarded-aerodrome.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/safeguarded-aerodrome",
+      "route": "dataset/safeguarded-aerodrome",
+      "sha256": "092723e5209b79e57cd915a5222aa6e0592744370fc56c05ef7ec32fded8af62",
+      "title": "Safeguarded aerodrome"
+    },
+    {
+      "path": "concepts/geography/safeguarded-military-explosives-site.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/safeguarded-military-explosives-site",
+      "route": "dataset/safeguarded-military-explosives-site",
+      "sha256": "6d8ff3664fc1137bf30bab4e7757ff94bd365423cd83c66c69bbbf6677df47b1",
+      "title": "Safeguarded military explosives site"
+    },
+    {
+      "path": "concepts/geography/safeguarded-wharf.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/safeguarded-wharf",
+      "route": "dataset/safeguarded-wharf",
+      "sha256": "889cb3b8457e35f4366a29d5a4a1ff55a12704abf8b3fd829587537ec0dd3f41",
+      "title": "Safeguarded wharf"
+    },
+    {
+      "path": "concepts/geography/safety-hazard-area.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/safety-hazard-area",
+      "route": "dataset/safety-hazard-area",
+      "sha256": "dcd34fcf299f182e1b14af8cfe4e78e104594534d1060c9a671ea8ad7381e127",
+      "title": "Safety hazard area"
+    },
+    {
+      "path": "concepts/geography/scheduled-monument.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/scheduled-monument",
+      "route": "dataset/scheduled-monument",
+      "sha256": "ad9adfb3e1dd21d97b339b7abab7fb39d305c71183f885c05470278249b48cc2",
+      "title": "Scheduled monument"
+    },
+    {
+      "path": "concepts/geography/self-and-custom-buildarea.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/self-and-custom-buildarea",
+      "route": "dataset/self-and-custom-buildarea",
+      "sha256": "2be3ef113aa385c774ab66aa0647d7ff2827cfd4bbbf1e65dd803daff74b0a83",
+      "title": "Self and custom build area"
+    },
+    {
+      "path": "concepts/geography/site-of-special-scientific-interest.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/site-of-special-scientific-interest",
+      "route": "dataset/site-of-special-scientific-interest",
+      "sha256": "81c81d43e109327e0cd01a60443469174ae07886f54be0f980ded9bbc680055a",
+      "title": "Site of special scientific interest"
+    },
+    {
+      "path": "concepts/geography/special-area-of-conservation.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/special-area-of-conservation",
+      "route": "dataset/special-area-of-conservation",
+      "sha256": "3b8fca6e5cfdd0bcee3345c47a1d7e3bc0d4854dd46a56d2020b9110b352462c",
+      "title": "Special area of conservation"
+    },
+    {
+      "path": "concepts/geography/special-protection-area.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/special-protection-area",
+      "route": "dataset/special-protection-area",
+      "sha256": "843fe31a33e85f16176b90b82d2118ba9ad4de507cac00e3b34dde9a66b8e9d5",
+      "title": "Special protection area"
+    },
+    {
+      "path": "concepts/geography/street.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/street",
+      "route": "dataset/street",
+      "sha256": "754f2f2fcd0ac8eb732a69996ce2f5f5e97a32c40e7ef1eac00f671021146f92",
+      "title": "Street"
+    },
+    {
+      "path": "concepts/geography/suitable-alternative-green-space.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/suitable-alternative-green-space",
+      "route": "dataset/suitable-alternative-green-space",
+      "sha256": "c2bf998b37aeacfa2058fe5b96aca82c262e3be46395cabd1588beab60f83f0f",
+      "title": "Suitable alternative green space"
+    },
+    {
+      "path": "concepts/geography/title-boundary.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/title-boundary",
+      "route": "dataset/title-boundary",
+      "sha256": "eb7dc487642357aad83bca03d47165a7b79634d1ebda592f03be1b83e9314c40",
+      "title": "Title boundary"
+    },
+    {
+      "path": "concepts/geography/transport-access-node.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/transport-access-node",
+      "route": "dataset/transport-access-node",
+      "sha256": "fbaab808e7589912b26a1bf52812f8dde2087da22b0f65c73f14c14252e75818",
+      "title": "Public transport access node"
+    },
+    {
+      "path": "concepts/geography/transport-under-tcpa-route.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/transport-under-tcpa-route",
+      "route": "dataset/transport-under-tcpa-route",
+      "sha256": "90500784013e3ca1a4df61c97da9585d56625f3a41ea2f9c993df3353a93f686",
+      "title": "Transport (under TCPA route)"
+    },
+    {
+      "path": "concepts/geography/tree-preservation-zone.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/tree-preservation-zone",
+      "route": "dataset/tree-preservation-zone",
+      "sha256": "70b659aa1b6b910a0074e850aa6b81447e0896008999ca00839bfea8283b9b7d",
+      "title": "Tree preservation zone"
+    },
+    {
+      "path": "concepts/geography/tree.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/tree",
+      "route": "dataset/tree",
+      "sha256": "3abfa5685b600273f19f03d339bdad33ff2b8b3cfac90f0e74fa8fa4629d5d9c",
+      "title": "Tree"
+    },
+    {
+      "path": "concepts/geography/uprn.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/uprn",
+      "route": "dataset/uprn",
+      "sha256": "922d87311e3123592c4203da5bf5374990af364faf6ed49d7df65fd19da926ca",
+      "title": "UPRN"
+    },
+    {
+      "path": "concepts/geography/ward.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/ward",
+      "route": "dataset/ward",
+      "sha256": "831796499726a142cc0bc3779189ed0819bdb7b0bb5b4ee5bd02b42a9001d524",
+      "title": "Ward"
+    },
+    {
+      "path": "concepts/geography/waste-plan-boundary.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/waste-plan-boundary",
+      "route": "dataset/waste-plan-boundary",
+      "sha256": "ca44a6147beb09bd2bb316893ed97dd144b2f03164d0aa64d9d7ffd0ead24fe8",
+      "title": "Waste plan boundary"
+    },
+    {
+      "path": "concepts/geography/wildbelt.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/wildbelt",
+      "route": "dataset/wildbelt",
+      "sha256": "e36c73d0e20d58a2743dd98f475cdb8dceb639e83124be565fcd32d27046ab7f",
+      "title": "Wildbelt"
+    },
+    {
+      "path": "concepts/geography/wildlife.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/wildlife",
+      "route": "dataset/wildlife",
+      "sha256": "733a445351453daf77d18ac1362237e7595ce7e717f61f2d80dbf009eb5aa534",
+      "title": "Wildlife"
+    },
+    {
+      "path": "concepts/geography/world-heritage-site-buffer-zone.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/world-heritage-site-buffer-zone",
+      "route": "dataset/world-heritage-site-buffer-zone",
+      "sha256": "d6981b68f78b6129cede2fff9e8dcf9d9cab41f1358b29267ba8db1f2b51eae4",
+      "title": "World heritage site buffer zone"
+    },
+    {
+      "path": "concepts/geography/world-heritage-site.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/world-heritage-site",
+      "route": "dataset/world-heritage-site",
+      "sha256": "b4638d8763caa8bb5613e8b017ee8e0908bd1ff7de6d322b6cb70f3d836f41c6",
+      "title": "World heritage site"
+    },
+    {
+      "path": "concepts/legal-instrument/article-4-direction.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/article-4-direction",
+      "route": "dataset/article-4-direction",
+      "sha256": "25e88fb10fec57be4a10db3b93cb379fd2d64177a26fade635de5207e970b923",
+      "title": "Article 4 direction"
+    },
+    {
+      "path": "concepts/legal-instrument/development-plan.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/development-plan",
+      "route": "dataset/development-plan",
+      "sha256": "a7fdf75d2a3fcb447d36a1e999dac0d4d574b836f3c8bdb9e65677b46a8935a0",
+      "title": "development plan"
+    },
+    {
+      "path": "concepts/legal-instrument/levelling-up-and-regeneration-act-2023.md",
+      "resource": "https://www.legislation.gov.uk/ukpga/2023/55/contents",
+      "route": "dataset/levelling-up-and-regeneration-act-2023",
+      "sha256": "4d4f77acaeca091494fac0e223fda2085917829f4c55a2775bc544fcc5af34df",
+      "title": "Levelling-up and Regeneration Act 2023 (LURA)"
+    },
+    {
+      "path": "concepts/legal-instrument/local-plan-housing.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/local-plan-housing",
+      "route": "dataset/local-plan-housing",
+      "sha256": "e0ed8347ef457331ce1e9a75c36d8b5ae6bf2b8e998c8df2d3bdebc84ec620cf",
+      "title": "local plan housing number"
+    },
+    {
+      "path": "concepts/legal-instrument/local-plan.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/local-plan",
+      "route": "dataset/local-plan",
+      "sha256": "f963c573ad3915768beba8c6942beced7027e5ba4ea0ff34512aa1d04cfdbf1b",
+      "title": "Local plan"
+    },
+    {
+      "path": "concepts/legal-instrument/minerals-plan.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/minerals-plan",
+      "route": "dataset/minerals-plan",
+      "sha256": "606dce24d05198f41977558aecd0ef4f3cc39a8f7bc183b32deb3712d19df9cf",
+      "title": "minerals plan"
+    },
+    {
+      "path": "concepts/legal-instrument/plan.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/plan",
+      "route": "dataset/plan",
+      "sha256": "6e77bef4f8410bb2a950bac1c3077dac90cee310c0d800aa002745e49428c5ee",
+      "title": "plan"
+    },
+    {
+      "path": "concepts/legal-instrument/supplementary-plan.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/supplementary-plan",
+      "route": "dataset/supplementary-plan",
+      "sha256": "37bac2785f5506e272aab3dd4a6f1c526a8a773234ec59db75e0ea51e0a237c8",
+      "title": "supplementary plan"
+    },
+    {
+      "path": "concepts/legal-instrument/town-and-country-planning-act-1990.md",
+      "resource": "https://www.legislation.gov.uk/ukpga/1990/8/contents",
+      "route": "dataset/town-and-country-planning-act-1990",
+      "sha256": "6cbf348f929772afb60fa2c831341dff1d8aeb0c7d6bc0077ab9c9052a6b9575",
+      "title": "Town and Country Planning Act 1990"
+    },
+    {
+      "path": "concepts/legal-instrument/tree-preservation-order.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/tree-preservation-order",
+      "route": "dataset/tree-preservation-order",
+      "sha256": "dc1a1608f3a0a64653d13474da8d37ea301b835d574730c139b3d6e06a1d21bc",
+      "title": "Tree preservation order"
+    },
+    {
+      "path": "concepts/legal-instrument/use-classes-order-1987.md",
+      "resource": "https://www.legislation.gov.uk/uksi/1987/764/contents",
+      "route": "dataset/use-classes-order-1987",
+      "sha256": "99f34df6c0075b269dd35adbadc1c16a70520de24569e142b4ab0e54ea10c303",
+      "title": "Town and Country Planning (Use Classes) Order 1987 (as amended)"
+    },
+    {
+      "path": "concepts/legal-instrument/waste-plan.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/waste-plan",
+      "route": "dataset/waste-plan",
+      "sha256": "e77ac92d32dd112dc14d3fadde9cb640d6b72b9c265d3910b2237ab74cc47f50",
+      "title": "waste plan"
+    },
+    {
+      "path": "concepts/metric/developer-agreement-contribution.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/developer-agreement-contribution",
+      "route": "dataset/developer-agreement-contribution",
+      "sha256": "2124fa02b45f4dea30a1394ecc86e363fd3b261825be2923716e117e087a8e56",
+      "title": "Developer agreement contribution"
+    },
+    {
+      "path": "concepts/metric/developer-agreement-transaction.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/developer-agreement-transaction",
+      "route": "dataset/developer-agreement-transaction",
+      "sha256": "90bb9fd3723f67a60750ddc53adf315c807915647a55d06a2cce5cb917e3ce16",
+      "title": "Developer agreement transaction"
+    },
+    {
+      "path": "concepts/metric/development-policy-metric.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/development-policy-metric",
+      "route": "dataset/development-policy-metric",
+      "sha256": "e0e6e2df40455d82745ee8319b5092ed01345589ff820288b899c3ed8be17176",
+      "title": "Development policy metric"
+    },
+    {
+      "path": "concepts/organisation/company.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/company",
+      "route": "dataset/company",
+      "sha256": "f7f0e291b10e67cf5e9a5cd94265fd3ea09dff8a8abc8fb621333b3bb550ace5",
+      "title": "Company"
+    },
+    {
+      "path": "concepts/organisation/development-corporation.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/development-corporation",
+      "route": "dataset/development-corporation",
+      "sha256": "a6f538f794e381e4bed5e0e6c060dbb82309e1426848408d95a82b898f8a737e",
+      "title": "Development corporation"
+    },
+    {
+      "path": "concepts/organisation/government-organisation.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/government-organisation",
+      "route": "dataset/government-organisation",
+      "sha256": "ed95dea2214068f0e4900cf2e467d1b24076d27a5a622714e34fc8b329f1fdd6",
+      "title": "Government organisation"
+    },
+    {
+      "path": "concepts/organisation/internal-drainage-board.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/internal-drainage-board",
+      "route": "dataset/internal-drainage-board",
+      "sha256": "9298b1d1ff07fb6ec3b58ce6f2025e3dfa66c186a258b4ef4fdc5e92350ec030",
+      "title": "Internal drainage board"
+    },
+    {
+      "path": "concepts/organisation/local-authority.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/local-authority",
+      "route": "dataset/local-authority",
+      "sha256": "25f6e0b04b49353cb56e35aec4bc46b7df7d152f887ac85b46e7349682855870",
+      "title": "Local authority"
+    },
+    {
+      "path": "concepts/organisation/local-enterprise-partnership.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/local-enterprise-partnership",
+      "route": "dataset/local-enterprise-partnership",
+      "sha256": "566419f459398f593199498038a613c7f756912bca518d6a9c41bd6a0b1fe788",
+      "title": "Local Enterprise Partnership"
+    },
+    {
+      "path": "concepts/organisation/local-planning-group.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/local-planning-group",
+      "route": "dataset/local-planning-group",
+      "sha256": "ced5cd34e5b040fc4866892b7f30cfa12b74437e99d9c9f93a6324c6edfaa1c4",
+      "title": "Local planning group"
+    },
+    {
+      "path": "concepts/organisation/local-resilience-forum.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/local-resilience-forum",
+      "route": "dataset/local-resilience-forum",
+      "sha256": "ac259b21f07967f0d781b03280fcbf962f75af9b85b5d547c52434d0da7fd5fa",
+      "title": "Local resilience forum"
+    },
+    {
+      "path": "concepts/organisation/national-park-authority.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/national-park-authority",
+      "route": "dataset/national-park-authority",
+      "sha256": "506bf810b0550c6da73cafaf477f538f84cdd6695ecb4c16001e09b2da5a2e54",
+      "title": "National park authority"
+    },
+    {
+      "path": "concepts/organisation/neighbourhood-forum.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/neighbourhood-forum",
+      "route": "dataset/neighbourhood-forum",
+      "sha256": "4b466d33ad51c189f87f0cb33acb3ae914511b2ebcc4a51d9f31b66d887a3f75",
+      "title": "Designated neighbourhood forum"
+    },
+    {
+      "path": "concepts/organisation/nonprofit.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/nonprofit",
+      "route": "dataset/nonprofit",
+      "sha256": "0f07c94c9027a127a32fc088d00c76712d7a7d3ecd5dc7b1cd83ffe3c0c57412",
+      "title": "Nonprofit organisation"
+    },
+    {
+      "path": "concepts/organisation/passenger-transport-executive.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/passenger-transport-executive",
+      "route": "dataset/passenger-transport-executive",
+      "sha256": "dbfac2ecd930a4c127b8010ca7ac77610212fe2275b341eea94cc1e5416b47cc",
+      "title": "Passenger transport executive"
+    },
+    {
+      "path": "concepts/organisation/public-authority.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/public-authority",
+      "route": "dataset/public-authority",
+      "sha256": "968e80b3cb0abcf46e44247e444de426057c0a6d9502633b5f65aa8520f0a986",
+      "title": "Public authority"
+    },
+    {
+      "path": "concepts/organisation/regional-park-authority.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/regional-park-authority",
+      "route": "dataset/regional-park-authority",
+      "sha256": "529b94b08f5e1f8eac2029226ab8d213ac65ff8d7110dc826e734a5ea09334cc",
+      "title": "Regional park authority"
+    },
+    {
+      "path": "concepts/organisation/waste-authority.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/waste-authority",
+      "route": "dataset/waste-authority",
+      "sha256": "21d338c451e72793ed4b9a79f1df5b93c91dee6346b71c8c67bda190b160804f",
+      "title": "Waste disposal authority"
+    },
+    {
+      "path": "concepts/pipeline/column.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/column",
+      "route": "dataset/column",
+      "sha256": "89a381eab36ca358da77cae01248a0bd8105aeb7e39683ceb5335dea07b763f1",
+      "title": "Pipeline column"
+    },
+    {
+      "path": "concepts/pipeline/default-value.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/default-value",
+      "route": "dataset/default-value",
+      "sha256": "6d62e02af802b4bc1e61e42abe1fd555fdba4a801899fa34eff1f6717072195f",
+      "title": "Pipeline default value"
+    },
+    {
+      "path": "concepts/pipeline/default.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/default",
+      "route": "dataset/default",
+      "sha256": "7014fd959093990fd8e8390f16c179643dfbd82c1da2ee388d966b4eb17f7950",
+      "title": "Pipeline default field"
+    },
+    {
+      "path": "concepts/pipeline/expect.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/expect",
+      "route": "dataset/expect",
+      "sha256": "b865b28a6e31a59658c7fa7f5a1319c8a908729b3a25c07b727bd2adeb5d8bcd",
+      "title": "Expectation Rule"
+    },
+    {
+      "path": "concepts/pipeline/expectation.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/expectation",
+      "route": "dataset/expectation",
+      "sha256": "0e4d7b861106ecd0c055c73da55919d54b682858b0e358bd5e40c9c919adb655",
+      "title": "Expectation Log"
+    },
+    {
+      "path": "concepts/pipeline/task.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/task",
+      "route": "dataset/task",
+      "sha256": "da844b3b9a1937628dd295375d1a5d5e409ee7fc6fe244012aee736b157ffde6",
+      "title": "Task"
+    },
+    {
+      "path": "concepts/policy/design-code-rule.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/design-code-rule",
+      "route": "dataset/design-code-rule",
+      "sha256": "5e78516c2507c7c4170dd3f72ed9c869f700c1e46e9df66dce922e2840b93bcb",
+      "title": "Design code rule"
+    },
+    {
+      "path": "concepts/policy/design-code.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/design-code",
+      "route": "dataset/design-code",
+      "sha256": "2f537970e81d3a4e2e6a597c5fdf03094c30bc74b9416ec8b71401a2c40f5a87",
+      "title": "Design code"
+    },
+    {
+      "path": "concepts/policy/development-policy.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/development-policy",
+      "route": "dataset/development-policy",
+      "sha256": "0e282be02963303d4f2243374545c50d17107809be0a55a8886ade01b13db467",
+      "title": "Development policy"
+    },
+    {
+      "path": "concepts/policy/nppf-framework-policy.md",
+      "resource": "https://www.gov.uk/government/publications/national-planning-policy-framework--2",
+      "route": "dataset/nppf-framework-policy",
+      "sha256": "e09ccfbde2b0a64f9456ed51f93497e265810cd3fe21b9ea801e09da7f117544",
+      "title": "National Planning Policy Framework (NPPF)"
+    },
+    {
+      "path": "concepts/policy/planning-application-condition.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/planning-application-condition",
+      "route": "dataset/planning-application-condition",
+      "sha256": "92db0485bbdc45a8651f4c830ccf2657b27852ec868da4648240cfd08cc2936c",
+      "title": "Planning application condition"
+    },
+    {
+      "path": "concepts/policy/planning-condition.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/planning-condition",
+      "route": "dataset/planning-condition",
+      "sha256": "0a2cce221280a27506aa7ddbf177af3e3725edfeaa352c887c28f5c6e11b0b92",
+      "title": "Planning condition"
+    },
+    {
+      "path": "concepts/policy/planning-practice-guidance.md",
+      "resource": "https://www.gov.uk/government/collections/planning-practice-guidance",
+      "route": "dataset/planning-practice-guidance",
+      "sha256": "dd993036d2c9ea31aa10ae70f3ba1d5f137b153de949e4f7f7393d87b6f896c0",
+      "title": "Planning Practice Guidance (PPG)"
+    },
+    {
+      "path": "concepts/policy/policy.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/policy",
+      "route": "dataset/policy",
+      "sha256": "8df80af1960f797d47c19eb0c4c3da69d79a7b5ec03037dcb7809953e9088368",
+      "title": "Policy"
+    },
+    {
+      "path": "concepts/timetable/development-plan-timetable.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/development-plan-timetable",
+      "route": "dataset/development-plan-timetable",
+      "sha256": "b233ca7dd539b6a47e08cf088e9d8ff037e932626176903954679922cbbbe468",
+      "title": "development plan timetable"
+    },
+    {
+      "path": "concepts/timetable/infrastructure-project-log.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/infrastructure-project-log",
+      "route": "dataset/infrastructure-project-log",
+      "sha256": "967e09536a90dd2691c9cf5a29490992e93acdee77c0669ea5a876815695b6eb",
+      "title": "Infrastructure project log"
+    },
+    {
+      "path": "concepts/timetable/local-plan-timetable.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/local-plan-timetable",
+      "route": "dataset/local-plan-timetable",
+      "sha256": "9b2ec37951b8c6bd1d3516debd5e6f64d83ba070bfc856fa4591dfdec4c2a42b",
+      "title": "Local plan timetable"
+    },
+    {
+      "path": "concepts/timetable/plan-timetable.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/plan-timetable",
+      "route": "dataset/plan-timetable",
+      "sha256": "5fbe4fe4e2132dfbbedf06f18f71e923be9734815478f8a86efc3e3b37ae7ed5",
+      "title": "plan timetable"
+    },
+    {
+      "path": "concepts/timetable/planning-application-log.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/planning-application-log",
+      "route": "dataset/planning-application-log",
+      "sha256": "d850ca5c266fff0edce53dfdb2cce8d4c86ddc4799bb96955f60393dc3ba32c7",
+      "title": "Planning application log"
+    },
+    {
+      "path": "concepts/value/fact-resource.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/fact-resource",
+      "route": "dataset/fact-resource",
+      "sha256": "75d70eb4e0e1240ef86efc36d2f6fb3374813b62247d0be0674903e4daf50c36",
+      "title": "Fact resource"
+    },
+    {
+      "path": "concepts/value/fact.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/fact",
+      "route": "dataset/fact",
+      "sha256": "528b429fb8da9cb5c4346394af9b9a0784520779367ec47eb26cbf7166298cd8",
+      "title": "Fact"
+    },
+    {
+      "path": "concepts/value/old-entity.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/old-entity",
+      "route": "dataset/old-entity",
+      "sha256": "fd223fbecbb3727df4a7014c944712c090ce110bb6a7c189aa1678582716f070",
+      "title": "Entity redirection"
+    },
+    {
+      "path": "concepts/value/old-resource.md",
+      "resource": "https://www.planning.data.gov.uk/dataset/old-resource",
+      "route": "dataset/old-resource",
+      "sha256": "ee5be7a77ebc92b2e906caba16993f2346f31298443198cadf4940518a83042b",
+      "title": "Resource redirection"
+    }
+  ],
+  "source_routes": [
+    "dataset/design-code",
+    "dataset/design-code-area",
+    "dataset/design-code-rule"
+  ],
+  "source_snapshot": "planning-2026-07-25-r1",
+  "target_route": "dataset/nppf-framework-policy"
+}

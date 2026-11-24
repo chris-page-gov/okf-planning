@@ -4,13 +4,20 @@
 from __future__ import annotations
 
 import json
+from hashlib import sha256
 import sys
 from pathlib import Path
 from typing import Any
+from jsonschema import Draft202012Validator,FormatChecker
+from referencing import Registry,Resource
 
 
 ROOT = Path(__file__).resolve().parents[1]
 CONTRACT = ROOT / "okf.publication.json"
+SCHEMA_HASHES={
+    'repository-publication.schema.json':'04c5d229a2900616d7a194d256ae1edb162d2c18beec7e2354723ce711b4eec3',
+    'source-family.schema.json':'8c4734f554920fd34157ce90172a53ced492198d3761e7a62ebebf51036b3f6b',
+}
 REQUIRED_KEYS = {
     "schema",
     "modified",
@@ -41,6 +48,20 @@ def validate_document(document: dict[str, Any], root: Path = ROOT) -> list[str]:
     missing = sorted(REQUIRED_KEYS - document.keys())
     if missing:
         return [f"missing top-level keys: {', '.join(missing)}"]
+    try:
+        directory=root/'profiles/publication-method/v1'
+        lock=json.loads((directory/'lock.json').read_bytes())
+        if lock['files']!=SCHEMA_HASHES:raise ValueError('Publication schema lock differs from reviewed pin')
+        registry=Registry();schemas=[]
+        for name,digest in SCHEMA_HASHES.items():
+            raw=(directory/name).read_bytes()
+            if sha256(raw).hexdigest()!=digest:raise ValueError('Publication schema bytes changed: '+name)
+            schema=json.loads(raw);Draft202012Validator.check_schema(schema)
+            registry=registry.with_resource(schema['$id'],Resource.from_contents(schema));schemas.append(schema)
+        validator=Draft202012Validator(schemas[0],registry=registry,format_checker=FormatChecker())
+        errors.extend('Publication schema '+str(list(error.path))+': '+error.message for error in validator.iter_errors(document))
+    except (OSError,ValueError,KeyError)as error:
+        errors.append(str(error))
     if document.get("schema") != "okf-repository-publication-contract.v1":
         errors.append("schema must be okf-repository-publication-contract.v1")
     if (document.get("locale"), document.get("time_zone")) != (

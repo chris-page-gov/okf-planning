@@ -581,7 +581,7 @@
     "planning-inspectorate": 1
   },
   "summary": {
-    "description": "Metadata-only discovery layer with a normative OKF v0.2 Markdown core and additive Explorer/semantic projections.",
+    "description": "Metadata-only discovery layer with a normative OKF v0.3 Markdown core and additive Explorer/semantic projections.",
     "record_count": 230,
     "relationship_count": 40,
     "resource_count": 240,

@@ -1,0 +1,26 @@
+{
+  "dataset/development-plan-document": [
+    {
+      "authority": "derived",
+      "confidence": "inferred",
+      "derivation": "deterministic-collection-rule",
+      "evidence_type": "deterministic-collection-rule",
+      "kind": "governed-by",
+      "note": "Rule-based linkage for local-plan catalogue records.",
+      "rule": "Rule-based linkage for local-plan catalogue records.",
+      "source": "dataset/development-plan-document",
+      "target": "dataset/levelling-up-and-regeneration-act-2023"
+    },
+    {
+      "authority": "derived",
+      "confidence": "inferred",
+      "derivation": "deterministic-collection-rule",
+      "evidence_type": "deterministic-collection-rule",
+      "kind": "conforms-to-policy",
+      "note": "Rule-based linkage for local-plan catalogue records.",
+      "rule": "Rule-based linkage for local-plan catalogue records.",
+      "source": "dataset/development-plan-document",
+      "target": "dataset/nppf-framework-policy"
+    }
+  ]
+}

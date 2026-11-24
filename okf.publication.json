@@ -1,6 +1,6 @@
 {
   "schema": "okf-repository-publication-contract.v1",
-  "modified": "2026-08-18",
+  "modified": "2026-11-24",
   "locale": "en-GB",
   "time_zone": "Europe/London",
   "repository": {
@@ -8,11 +8,11 @@
     "url": "https://github.com/chris-page-gov/okf-planning",
     "role": "large-corpus-producer",
     "root_index": "bundle/index.md",
-    "lifecycle": "migration"
+    "lifecycle": "active"
   },
   "semantic_contract": {
     "path": "okf.semantic.json",
-    "profile": "https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/3fcbb9f828c2f23d109c855ee403c3a4c81f3a96/okf/SPEC.md"
+    "profile": "https://chris-page-gov.github.io/okf-planning/profile/planning-metadata/v1/"
   },
   "source_families": [
     {
@@ -149,6 +149,42 @@
       {
         "path": ".github/workflows/**",
         "role": "workflow"
+      },
+      {
+        "path": ".python-version",
+        "role": "policy"
+      },
+      {
+        "path": "pyproject.toml",
+        "role": "policy"
+      },
+      {
+        "path": "uv.lock",
+        "role": "policy"
+      },
+      {
+        "path": "profiles/**",
+        "role": "profile"
+      },
+      {
+        "path": "SECURITY.md",
+        "role": "policy"
+      },
+      {
+        "path": "LICENSE_DECISIONS.md",
+        "role": "policy"
+      },
+      {
+        "path": "REPOSITORY_STATUS.md",
+        "role": "documentation"
+      },
+      {
+        "path": ".gitignore",
+        "role": "policy"
+      },
+      {
+        "path": "walkthroughs/**",
+        "role": "content"
       }
     ],
     "generated": [
@@ -231,7 +267,85 @@
         ]
       },
       {
-        "path": "bundle/.nojekyll",
+        "path": "bundle/walkthrough*",
+        "role": "site",
+        "plane": "application",
+        "required": true,
+        "build_command_ids": [
+          "build-companions"
+        ],
+        "check_command_ids": [
+          "check-companions",
+          "check-browser"
+        ]
+      },
+      {
+        "path": "bundle/ai-context.json",
+        "role": "site",
+        "plane": "application",
+        "required": true,
+        "build_command_ids": [
+          "build-companions"
+        ],
+        "check_command_ids": [
+          "check-companions",
+          "check-browser"
+        ]
+      },
+      {
+        "path": "bundle/llms.txt",
+        "role": "site",
+        "plane": "application",
+        "required": true,
+        "build_command_ids": [
+          "build-companions"
+        ],
+        "check_command_ids": [
+          "check-companions",
+          "check-browser"
+        ]
+      },
+      {
+        "path": "bundle/.well-known/**",
+        "role": "site",
+        "plane": "application",
+        "required": true,
+        "build_command_ids": [
+          "build-companions"
+        ],
+        "check_command_ids": [
+          "check-companions",
+          "check-browser"
+        ]
+      },
+      {
+        "path": "bundle/reader-journeys.json",
+        "role": "site",
+        "plane": "application",
+        "required": true,
+        "build_command_ids": [
+          "build-companions"
+        ],
+        "check_command_ids": [
+          "check-companions",
+          "check-browser"
+        ]
+      },
+      {
+        "path": "bundle/profile/**",
+        "role": "site",
+        "plane": "application",
+        "required": true,
+        "build_command_ids": [
+          "build-companions"
+        ],
+        "check_command_ids": [
+          "check-companions",
+          "check-browser"
+        ]
+      },
+      {
+        "path": "_site/**",
         "role": "site",
         "plane": "deployment",
         "required": true,
@@ -239,7 +353,34 @@
           "package-pages"
         ],
         "check_command_ids": [
-          "check-pages-candidate"
+          "check-pages-candidate",
+          "verify-pages"
+        ]
+      },
+      {
+        "path": "bundle/index.md",
+        "role": "other",
+        "plane": "semantic",
+        "required": true,
+        "build_command_ids": [
+          "build-bundle"
+        ],
+        "check_command_ids": [
+          "check-okf",
+          "test-suite"
+        ]
+      },
+      {
+        "path": "bundle/log.md",
+        "role": "other",
+        "plane": "semantic",
+        "required": true,
+        "build_command_ids": [
+          "build-bundle"
+        ],
+        "check_command_ids": [
+          "check-okf",
+          "test-suite"
         ]
       }
     ]
@@ -279,7 +420,8 @@
       "command_ids": [
         "build-bundle",
         "check-okf",
-        "test-suite"
+        "test-suite",
+        "check-planning-profile"
       ]
     },
     {
@@ -322,12 +464,24 @@
         "bundle/data/search/**",
         "bundle/index.html",
         "bundle/app.js",
-        "bundle/styles.css"
+        "bundle/styles.css",
+        "walkthroughs/**",
+        "profiles/**",
+        "bundle/walkthrough*",
+        "bundle/ai-context.json",
+        "bundle/llms.txt",
+        "bundle/.well-known/**",
+        "bundle/reader-journeys.json",
+        "bundle/profile/**"
       ],
       "command_ids": [
         "build-bundle",
         "check-pages-candidate",
-        "test-suite"
+        "test-suite",
+        "build-companions",
+        "check-companions",
+        "check-native",
+        "check-browser"
       ]
     },
     {
@@ -357,11 +511,12 @@
       ],
       "paths": [
         ".github/workflows/**",
-        "bundle/.nojekyll"
+        "_site/**"
       ],
       "command_ids": [
         "package-pages",
-        "check-pages-candidate"
+        "check-pages-candidate",
+        "verify-pages"
       ]
     }
   ],
@@ -373,7 +528,7 @@
         "planes": [
           "source"
         ],
-        "command": "python3 scripts/acquire_planning_data.py",
+        "command": "uv run --locked python scripts/acquire_planning_data.py",
         "source": "README.md",
         "review_status": "reviewed-local-guidance",
         "network": "acquisition",
@@ -389,7 +544,7 @@
           "application",
           "release"
         ],
-        "command": "python3 scripts/build_bundle.py",
+        "command": "uv run --locked python scripts/build_bundle.py",
         "source": "AGENTS.md",
         "review_status": "reviewed-local-guidance",
         "network": "none",
@@ -403,7 +558,7 @@
           "semantic",
           "runtime"
         ],
-        "command": "python3 scripts/check_okf.py",
+        "command": "uv run --locked python scripts/check_okf.py",
         "source": "AGENTS.md",
         "review_status": "reviewed-local-guidance",
         "network": "none",
@@ -417,7 +572,7 @@
           "source",
           "documentation"
         ],
-        "command": "python3 scripts/check_publication_contract.py",
+        "command": "uv run --locked python scripts/check_publication_contract.py",
         "source": "AGENTS.md",
         "review_status": "reviewed-local-guidance",
         "network": "none",
@@ -431,7 +586,7 @@
           "documentation",
           "release"
         ],
-        "command": "python3 scripts/check_documentation_lockstep.py",
+        "command": "uv run --locked python scripts/check_documentation_lockstep.py",
         "source": "AGENTS.md",
         "review_status": "reviewed-local-guidance",
         "network": "none",
@@ -447,7 +602,7 @@
           "application",
           "release"
         ],
-        "command": "pytest",
+        "command": "uv run --locked --extra test pytest",
         "source": "AGENTS.md",
         "review_status": "reviewed-local-guidance",
         "network": "none",
@@ -473,8 +628,8 @@
         "planes": [
           "deployment"
         ],
-        "command": "touch bundle/.nojekyll",
-        "source": ".github/workflows/pages.yml",
+        "command": "uv run --locked python scripts/package_pages.py --output _site",
+        "source": "scripts/package_pages.py",
         "review_status": "reviewed-local-guidance",
         "network": "none",
         "mutates": "generated-only",
@@ -487,12 +642,90 @@
           "application",
           "deployment"
         ],
-        "command": "python3 scripts/check_pages_candidate.py --require-nojekyll",
+        "command": "uv run --locked python scripts/check_pages_candidate.py --require-nojekyll",
         "source": ".github/workflows/pages.yml",
         "review_status": "reviewed-local-guidance",
         "network": "none",
         "mutates": "none",
         "timeout_minutes": 2
+      },
+      {
+        "id": "check-planning-profile",
+        "kind": "check",
+        "planes": [
+          "semantic"
+        ],
+        "command": "uv run --locked python scripts/check_planning_profile.py",
+        "source": "AGENTS.md",
+        "review_status": "reviewed-local-guidance",
+        "network": "none",
+        "mutates": "none",
+        "timeout_minutes": 2
+      },
+      {
+        "id": "build-companions",
+        "kind": "build",
+        "planes": [
+          "application"
+        ],
+        "command": "uv run --locked python scripts/build_explorer_companions.py",
+        "source": "scripts/build_explorer_companions.py",
+        "review_status": "reviewed-local-guidance",
+        "network": "none",
+        "mutates": "generated-only",
+        "timeout_minutes": 2
+      },
+      {
+        "id": "check-companions",
+        "kind": "check",
+        "planes": [
+          "application"
+        ],
+        "command": "uv run --locked python scripts/build_explorer_companions.py --check",
+        "source": "scripts/build_explorer_companions.py",
+        "review_status": "reviewed-local-guidance",
+        "network": "none",
+        "mutates": "none",
+        "timeout_minutes": 2
+      },
+      {
+        "id": "check-native",
+        "kind": "test",
+        "planes": [
+          "application"
+        ],
+        "command": "uv run --locked python scripts/check_native.py",
+        "source": "scripts/check_native.py",
+        "review_status": "reviewed-local-guidance",
+        "network": "none",
+        "mutates": "generated-only",
+        "timeout_minutes": 15
+      },
+      {
+        "id": "check-browser",
+        "kind": "test",
+        "planes": [
+          "application"
+        ],
+        "command": "node scripts/check_walkthrough_browser.mjs",
+        "source": "scripts/check_walkthrough_browser.mjs",
+        "review_status": "reviewed-local-guidance",
+        "network": "bounded-read",
+        "mutates": "generated-only",
+        "timeout_minutes": 5
+      },
+      {
+        "id": "verify-pages",
+        "kind": "verify",
+        "planes": [
+          "deployment"
+        ],
+        "command": "uv run --locked python scripts/verify_pages.py",
+        "source": "scripts/verify_pages.py",
+        "review_status": "reviewed-local-guidance",
+        "network": "bounded-read",
+        "mutates": "none",
+        "timeout_minutes": 1
       }
     ]
   },
@@ -506,12 +739,19 @@
       "tests/**",
       "bundle/**",
       "pyproject.toml",
-      ".github/workflows/**"
+      ".github/workflows/**",
+      ".python-version",
+      "uv.lock",
+      "profiles/**",
+      "LICENSE_DECISIONS.md",
+      "walkthroughs/**",
+      ".gitignore"
     ],
     "documentation_paths": [
       "README.md",
       "docs/**",
-      "AGENTS.md"
+      "AGENTS.md",
+      "REPOSITORY_STATUS.md"
     ],
     "changelog_path": "CHANGELOG.md",
     "check_command_id": "check-lockstep",
@@ -524,13 +764,18 @@
       ".github/workflows/pages.yml"
     ],
     "impact_routing": "full-suite",
-    "parallelism": "serial",
+    "parallelism": "independent-planes",
     "unknown_path_policy": "full-suite",
     "browser": {
       "ordinary": {
-        "policy": "not-applicable",
-        "engines": [],
-        "command_ids": []
+        "policy": "installed-chrome",
+        "engines": [
+          "chrome"
+        ],
+        "command_ids": [
+          "check-native",
+          "check-browser"
+        ]
       },
       "cross_engine": {
         "policy": "not-applicable",
@@ -547,10 +792,11 @@
     "mode": "automatic-protected-main",
     "scope": "bounded-demonstrator",
     "authority": {
-      "decision": "Protected main publishes the independent, draft and unverified planning metadata snapshot described by the README and generated release record.",
+      "decision": "Protected main publishes the frozen draft snapshot after core and browser acceptance. An owner-authorised formal release freezes only the exact public-verified candidate under docs/publication-method.md.",
       "evidence_paths": [
         "README.md",
-        "bundle/data/governance/release.json"
+        "bundle/data/governance/release.json",
+        "docs/publication-method.md"
       ]
     },
     "candidate_policy": "promote-exact-assured-bytes-without-rebuild",
@@ -562,23 +808,64 @@
         "public_base_url": "https://chris-page-gov.github.io/okf-planning/",
         "exact_commit_required": true,
         "promote_without_rebuild": true
+      },
+      {
+        "id": "github-release",
+        "kind": "github-release",
+        "workflow_path": ".github/workflows/pages.yml",
+        "exact_commit_required": true,
+        "promote_without_rebuild": true,
+        "public_base_url": "https://github.com/chris-page-gov/okf-planning/releases/"
       }
     ]
   },
   "verification": {
-    "required": false,
-    "browser": "not-applicable",
+    "required": true,
+    "browser": "real-browser",
     "exact_commit_required": true,
-    "identity_checks": [],
-    "journeys": [],
-    "console_policy": "not-applicable",
-    "command_ids": []
+    "identity_checks": [
+      "commit",
+      "descriptor",
+      "snapshot",
+      "sha256",
+      "record-count",
+      "route"
+    ],
+    "journeys": [
+      {
+        "id": "design-code-question-desktop",
+        "url": "https://chris-page-gov.github.io/okf-planning/walkthrough.html",
+        "expected_identity": "Design code in the frozen 230-record planning metadata bundle",
+        "steps": [
+          "Read the question, source dates, inferred links and limits.",
+          "Follow the actual Reader link, open Details and expand Overview to see the original source card and draft lifecycle.",
+          "Follow the inferred graph link to the NPPF record.",
+          "Reload and retain the same record and source."
+        ]
+      },
+      {
+        "id": "design-code-question-mobile",
+        "url": "https://chris-page-gov.github.io/okf-planning/walkthrough.html",
+        "expected_identity": "Design code in the frozen 230-record planning metadata bundle",
+        "steps": [
+          "Read the question, source dates, inferred links and limits.",
+          "Follow the actual Reader link, open Details and expand Overview to see the original source card and draft lifecycle.",
+          "Follow the inferred graph link to the NPPF record.",
+          "Reload and retain the same record and source."
+        ]
+      }
+    ],
+    "console_policy": "no-errors",
+    "command_ids": [
+      "check-browser",
+      "verify-pages"
+    ]
   },
   "limitations": [
-    "The repository is migrating to publication-method v1: Pages promotes one generated and diff-checked candidate without a second bundle build, but an exact-commit real-browser receipt is not yet integrated.",
-    "The checksum catalogue covers generator-owned outputs and not the hand-authored index.html, app.js, styles.css or the packaging-only .nojekyll marker; the Git commit remains their current identity boundary.",
-    "The publication remains a draft, unverified independent catalogue and does not imply source-publisher endorsement or live upstream freshness.",
-    "The acquisition command mutates only checked-in source files; the contract's broader source-and-generated mutation category requires a separate reviewed build before publication.",
-    "Declared command strings are untrusted metadata and must be reviewed against repository guidance before execution."
+    "The source snapshot remains 25 July 2026 and the 25 October 2026 review boundary is overdue; format migration did not refresh source material.",
+    "The custom domain profile retains 40 inferred collection-rule links. No Bundle Wiki assertion profile, official legal application, proposal compliance or source endorsement is claimed.",
+    "The core checksum file covers core generator outputs; the separate packaging manifest binds every served file, authored UI and companion to the exact candidate commit.",
+    "Formal acceptance requires separate exact public browser receipts and release read-back; a configured workflow or green local test does not establish publication acceptance.",
+    "Declared commands are untrusted data and must be reviewed against guidance and code before execution."
   ]
 }

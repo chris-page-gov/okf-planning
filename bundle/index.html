@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-GB">
 <head>
   <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%231b5e4b'/%3E%3Ctext x='32' y='41' text-anchor='middle' font-size='24' font-family='sans-serif' font-weight='700' fill='white'%3EOKF%3C/text%3E%3C/svg%3E">
-  <title>UK Planning & Housing Data — Open Knowledge Format (OKF) Bundle v0.2</title>
-  <meta name="description" content="Open Knowledge Format v0.2 Markdown bundle for UK Planning and Housing metadata, with additive Explorer and semantic projections.">
+  <title>UK Planning & Housing Data — Open Knowledge Format (OKF) Bundle v0.3</title>
+  <meta name="description" content="Open Knowledge Format v0.3 Markdown bundle for UK Planning and Housing metadata, with additive Explorer and semantic projections.">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -15,9 +15,11 @@
       <div class="brand">
         <div class="brand-icon">OKF</div>
         <div class="brand-title">UK Planning & Housing Data</div>
-        <span class="brand-badge">v0.2.0</span>
+        <span class="brand-badge">v0.3.0</span>
       </div>
       <div class="header-actions">
+        <a href="walkthrough.html" class="btn-secondary">Follow a planning question</a>
+        <a href="llms.txt" class="btn-secondary">AI client access</a>
         <a href="okf-explorer.json" target="_blank" class="btn-secondary">Descriptor JSON</a>
         <a href="https://chris-page-gov.github.io/okf-explorer/?bundle=https%3A%2F%2Fchris-page-gov.github.io%2Fokf-planning%2Fokf-explorer.json" target="_blank" class="btn-primary">
           <span>Open in OKF Explorer</span>
@@ -32,36 +34,36 @@
     <section class="hero">
       <h1 class="hero-title">Open Knowledge Format (OKF) Bundle for UK Planning</h1>
       <p class="hero-subtitle">
-        A frozen metadata discovery layer combining the Planning Data England catalogue with selected source-published policy, legislation, guidance, environmental and heritage records. It is independently generated and does not imply source endorsement.
+        A frozen metadata discovery layer combining the Planning Data England catalogue with selected source-published policy, legislation, guidance, environmental and heritage records. It is independently generated and does not imply source endorsement. Source snapshot: 25 July 2026. Review overdue since 25 October 2026; format migration did not refresh the source.
       </p>
       
       <div class="stats-grid">
         <div class="stat-card">
           <div class="stat-value" id="stat-records">…</div>
-          <div class="stat-label">Metadata Records</div>
+          <div class="stat-label">Metadata records</div>
         </div>
         <div class="stat-card">
           <div class="stat-value" id="stat-entities">…</div>
-          <div class="stat-label">Planning Entities</div>
+          <div class="stat-label">Planning entities</div>
         </div>
         <div class="stat-card">
           <div class="stat-value" id="stat-relationships">…</div>
-          <div class="stat-label">Rule-derived Relationships</div>
+          <div class="stat-label">Rule-derived relationships</div>
         </div>
         <div class="stat-card">
           <div class="stat-value" id="stat-publishers">…</div>
-          <div class="stat-label">Public Publishers</div>
+          <div class="stat-label">Public publishers</div>
         </div>
       </div>
     </section>
 
     <!-- Navigation Tabs -->
     <nav class="nav-tabs" aria-label="View selection">
-      <button class="tab-btn active" id="tab-explorer" onclick="switchTab('explorer')">Dataset Explorer</button>
-      <button class="tab-btn" id="tab-markdown" onclick="switchTab('markdown')">OKF v0.2 Markdown</button>
-      <button class="tab-btn" id="tab-descriptor" onclick="switchTab('descriptor')">OKF Descriptor (JSON)</button>
-      <button class="tab-btn" id="tab-yamlld" onclick="switchTab('yamlld')">Semantic YAML-LD Extension</button>
-      <button class="tab-btn" id="tab-checksums" onclick="switchTab('checksums')">Checksums & Integrity</button>
+      <button class="tab-btn active" id="tab-explorer" onclick="switchTab('explorer')">Dataset explorer</button>
+      <button class="tab-btn" id="tab-markdown" onclick="switchTab('markdown')">OKF v0.3 Markdown</button>
+      <button class="tab-btn" id="tab-descriptor" onclick="switchTab('descriptor')">OKF descriptor (JSON)</button>
+      <button class="tab-btn" id="tab-yamlld" onclick="switchTab('yamlld')">Semantic YAML-LD extension</button>
+      <button class="tab-btn" id="tab-checksums" onclick="switchTab('checksums')">Checksums and integrity</button>
     </nav>
 
     <!-- Tab 1: Dataset Explorer -->
@@ -102,7 +104,7 @@
   </main>
 
   <footer>
-    <p>OKF Planning Bundle v0.2.0 • Draft, unverified independent metadata publication • Source-specific rights and attribution apply • Bundle code licensed under MIT</p>
+    <p>OKF Planning Bundle v0.3.0 • Draft, unverified independent metadata publication • Source-specific rights and attribution apply • Bundle code licensed under MIT</p>
   </footer>
 
   <script src="app.js"></script>

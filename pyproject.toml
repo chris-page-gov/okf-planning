@@ -4,13 +4,13 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "okf-planning"
-version = "0.2.0"
+version = "0.3.0"
 description = "Metadata-only Open Knowledge Format bundle for UK Planning & Housing Data in England"
 readme = "README.md"
 requires-python = ">=3.11"
 license = {text = "MIT"}
 authors = [{name = "Chris Page"}]
-dependencies = []
+dependencies = ["jsonschema==4.26.0", "PyYAML==6.0.3"]
 
 [project.optional-dependencies]
 test = ["pytest>=8.0", "ruff>=0.6"]
@@ -21,6 +21,10 @@ where = ["src"]
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 addopts = "-ra"
+pythonpath = ["src"]
+
+[tool.uv]
+package = false
 
 [tool.ruff]
 line-length = 100

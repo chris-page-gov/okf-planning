@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""CLI build entrypoint for OKF Planning Bundle v0.2."""
+"""Build the frozen planning catalogue as an OKF Core 0.3 projection."""
 
 import logging
 import os
@@ -20,7 +20,7 @@ def main():
 
     cache_dir = source_dir if os.path.exists(os.path.join(source_dir, "dataset.json")) else None
 
-    logging.info("Starting OKF Planning Bundle build v0.2.0...")
+    logging.info("Starting OKF Planning Bundle build v0.3.0...")
     checksums = build_bundle(output_dir=bundle_dir, cache_dir=cache_dir)
     logging.info(
         "OKF Planning Bundle build successful! Generated %d checksum entries in %s",

@@ -18,5 +18,5 @@
       "status": "candidate-only"
     }
   ],
-  "warning": "This file is discovery metadata, not an MCP server or executable binding. It declares no transport, endpoint or authorization."
+  "warning": "This file is discovery metadata, not an MCP server or executable binding. It declares no transport, endpoint or authorisation."
 }

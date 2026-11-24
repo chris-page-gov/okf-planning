@@ -1,0 +1,9 @@
+# UK planning metadata bundle
+
+Core: 0.3. Profile: https://chris-page-gov.github.io/okf-planning/profile/planning-metadata/v1/
+Descriptor: https://chris-page-gov.github.io/okf-planning/okf-explorer.json
+Complete context: https://chris-page-gov.github.io/okf-planning/ai-context.json
+YAML-LD graph: https://chris-page-gov.github.io/okf-planning/okf-bundle.yamlld
+Walkthrough: https://chris-page-gov.github.io/okf-planning/walkthrough.html
+
+230 draft concepts; 0 Core assertions; 40 inferred domain relationships. Source: 25 July 2026. Review overdue: 25 October 2026. No policy compliance, source endorsement, executable service or access permission is established. Cite exact source paths and keep all qualifications.

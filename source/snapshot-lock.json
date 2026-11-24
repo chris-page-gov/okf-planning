@@ -1,0 +1,12 @@
+{
+  "files": {
+    "dataset.json": "6590c2c875c050848966686193dac5f43a9644fb0a479f5c34bac0612234bd89",
+    "organisation.json": "2ca0121c348bc6e202895683e8736eb9146d56ea3783ac069586a72b882c7500"
+  },
+  "record_generated_at": "2026-07-25T11:25:00Z",
+  "record_generated_by": "okf-planning/0.2.0",
+  "schema": "okf-planning-source-snapshot.v1",
+  "snapshot": "planning-2026-07-25-r1",
+  "source_captured_at": "2026-07-25T08:00:00Z",
+  "source_captured_at_basis": "project-declared historical snapshot, not a new upstream observation"
+}

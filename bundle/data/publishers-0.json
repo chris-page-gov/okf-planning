@@ -1,5 +1,6 @@
 [
   {
+    "core_role": "extension",
     "dataset_count": 1,
     "description": "Source publisher attribution carried from frozen metadata. It does not imply endorsement of this OKF bundle.",
     "id": "environment-agency",
@@ -10,6 +11,7 @@
     "url": "https://www.gov.uk/government/organisations/environment-agency"
   },
   {
+    "core_role": "extension",
     "dataset_count": 1,
     "description": "Source publisher attribution carried from frozen metadata. It does not imply endorsement of this OKF bundle.",
     "id": "historic-england",
@@ -20,6 +22,7 @@
     "url": "https://historicengland.org.uk/"
   },
   {
+    "core_role": "extension",
     "dataset_count": 1,
     "description": "Source publisher attribution carried from frozen metadata. It does not imply endorsement of this OKF bundle.",
     "id": "hm-land-registry",
@@ -30,6 +33,7 @@
     "url": "https://www.gov.uk/government/organisations/land-registry"
   },
   {
+    "core_role": "extension",
     "dataset_count": 2,
     "description": "Source publisher attribution carried from frozen metadata. It does not imply endorsement of this OKF bundle.",
     "id": "ministry-of-housing-communities-and-local-government",
@@ -40,6 +44,7 @@
     "url": "https://www.gov.uk/government/organisations/ministry-of-housing-communities-and-local-government"
   },
   {
+    "core_role": "extension",
     "dataset_count": 1,
     "description": "Source publisher attribution carried from frozen metadata. It does not imply endorsement of this OKF bundle.",
     "id": "natural-england",
@@ -50,6 +55,7 @@
     "url": "https://www.gov.uk/government/organisations/natural-england"
   },
   {
+    "core_role": "extension",
     "dataset_count": 220,
     "description": "Source publisher attribution carried from frozen metadata. It does not imply endorsement of this OKF bundle.",
     "id": "planning-data-england",
@@ -60,6 +66,7 @@
     "url": "https://www.planning.data.gov.uk/"
   },
   {
+    "core_role": "extension",
     "dataset_count": 1,
     "description": "Source publisher attribution carried from frozen metadata. It does not imply endorsement of this OKF bundle.",
     "id": "planning-inspectorate",
@@ -70,6 +77,7 @@
     "url": "https://www.gov.uk/government/organisations/planning-inspectorate"
   },
   {
+    "core_role": "extension",
     "dataset_count": 3,
     "description": "Source publisher attribution carried from frozen metadata. It does not imply endorsement of this OKF bundle.",
     "id": "the-national-archives",

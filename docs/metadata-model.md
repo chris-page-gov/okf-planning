@@ -1,13 +1,13 @@
 # OKF Planning metadata model
 
-## Normative OKF v0.2 layer
+## Normative OKF v0.3 layer
 
 The files under [`bundle/concepts/`](../bundle/concepts/) are the knowledge
 concepts. Every non-reserved Markdown file has parseable YAML frontmatter and a
 non-empty `type`. The root [`bundle/index.md`](../bundle/index.md) declares
-`okf_version: "0.2"`.
+`okf_version: "0.3"`.
 
-Each planning concept uses the v0.2 provenance, trust and lifecycle fields:
+Each planning concept uses the v0.3 provenance, trust and lifecycle fields:
 
 | Field | Planning producer rule |
 | --- | --- |
@@ -20,7 +20,7 @@ Each planning concept uses the v0.2 provenance, trust and lifecycle fields:
 | `stale_after` | Project-declared quarterly review boundary for the independent frozen snapshot; not an upstream freshness claim |
 | `okf_explorer` | Preserved producer extension used by the Explorer projection |
 
-Unknown fields and types are valid in OKF v0.2. Consumers must preserve them
+Unknown fields and types are valid in OKF v0.3. Consumers must preserve them
 when round-tripping and must not reject a concept because optional trust
 families are absent.
 
@@ -29,7 +29,7 @@ families are absent.
 [`okf-bundle.yamlld`](../bundle/okf-bundle.yamlld) and
 [`okf-bundle.jsonld`](../bundle/okf-bundle.jsonld) map the catalogue to selected
 DCAT 3 and PROV-O terms and publish a local context containing SKOS. These are
-extension representations, not the OKF v0.2 core and not external
+extension representations, not the OKF v0.3 core and not external
 certifications.
 
 | Extension field | RDF predicate |
@@ -78,3 +78,29 @@ The build deletes only its allowlisted generated paths, sorts source records,
 tokens, filters and JSON keys, and checksums the exact generated output set.
 Hand-authored `index.html`, `app.js` and `styles.css` remain outside generator
 cleanup and the checksum scope.
+
+
+## Core migration and targeted delivery
+
+The 24 November 2026 migration retains the 25 July source snapshot, historical
+`okf-planning/0.2.0` record generator, all 230 concept files and all 40 original
+domain link records. Explicit Core roles distinguish concepts from extension
+resources and organisations. The Core import contains 230 concepts and no Core
+assertions; the 40 inferred domain relationships are a separate profile plane.
+The [planning metadata profile](../profiles/planning-metadata/v1/README.md) and
+its offline JSON schema validate those links without claiming either Bundle
+Wiki assertion profile.
+
+Targeted Reader routes use a FNV-1a prefix locator into the unchanged ordered
+record shards. Every one of the 230 routes must resolve to its exact row.
+Facet indexes and additive field aliases (`url`, `notes`, `license_id`,
+`lifecycle_status` and original metadata dates) implement Explorer’s runtime
+contract without replacing the producer’s original fields or rights. Exact
+code identifiers retain their required spelling. The packaging manifest covers
+every served file, including authored UI, companions, profile documentation
+and the `.nojekyll` control marker.
+
+Bounded relationship adjacency retains every original field and adds compatible
+`authority: derived`, `derivation` and `rule` aliases. They expose the existing
+inferred collection-rule qualification in the Reader inspector without changing
+the original 40 relationship records or promoting them to official authority.

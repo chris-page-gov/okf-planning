@@ -1,0 +1,153 @@
+{
+  "bundle_descriptor": "okf-explorer.json",
+  "expected_identity": {
+    "id": "https://chris-page-gov.github.io/okf-planning/okf-explorer.json",
+    "schema": "okf-explorer-large-corpus.v1",
+    "snapshot": "planning-2026-07-25-r1",
+    "version": "0.3.0"
+  },
+  "journeys": [
+    {
+      "actions": [
+        {
+          "hash": "#dataset/design-code",
+          "params": {
+            "view": "reader"
+          },
+          "type": "goto"
+        },
+        {
+          "selector": ".right-panel h2:text-is(\"Design code\")",
+          "type": "wait_for"
+        }
+      ],
+      "assertions": [
+        {
+          "includes": "Design code",
+          "selector": ".right-panel",
+          "type": "text"
+        },
+        {
+          "type": "console_clean"
+        }
+      ],
+      "id": "dataset-design-code"
+    },
+    {
+      "actions": [
+        {
+          "hash": "#dataset/nppf-framework-policy",
+          "params": {
+            "view": "reader"
+          },
+          "type": "goto"
+        },
+        {
+          "selector": ".right-panel h2:text-is(\"National Planning Policy Framework (NPPF)\")",
+          "type": "wait_for"
+        }
+      ],
+      "assertions": [
+        {
+          "includes": "National Planning Policy Framework (NPPF)",
+          "selector": ".right-panel",
+          "type": "text"
+        },
+        {
+          "type": "console_clean"
+        }
+      ],
+      "id": "dataset-nppf-framework-policy"
+    },
+    {
+      "actions": [
+        {
+          "hash": "#dataset/design-code",
+          "params": {
+            "graph.workspace": "1",
+            "view": "graph"
+          },
+          "type": "goto"
+        },
+        {
+          "selector": "svg.graph [data-route=\"dataset/nppf-framework-policy\"] .node-hit",
+          "type": "wait_for"
+        },
+        {
+          "selector": "svg.graph [data-route=\"dataset/nppf-framework-policy\"] .node-hit",
+          "type": "click"
+        },
+        {
+          "selector": "button:has-text(\"Exit expanded graph\")",
+          "type": "click"
+        }
+      ],
+      "assertions": [
+        {
+          "equals": "#dataset/nppf-framework-policy",
+          "type": "url_hash"
+        },
+        {
+          "type": "console_clean"
+        }
+      ],
+      "id": "inferred-policy-graph-traversal"
+    },
+    {
+      "actions": [
+        {
+          "hash": "#dataset/design-code",
+          "params": {
+            "graph.workspace": "1",
+            "view": "graph"
+          },
+          "type": "goto"
+        },
+        {
+          "selector": "svg.graph .edge-hit[data-edge^=\"dataset/design-code>dataset/nppf-framework-policy:\"]",
+          "type": "wait_for"
+        },
+        {
+          "selector": "svg.graph .edge-hit[data-edge^=\"dataset/design-code>dataset/nppf-framework-policy:\"]",
+          "type": "click"
+        },
+        {
+          "selector": "button:has-text(\"Exit expanded graph\")",
+          "type": "click"
+        },
+        {
+          "selector": ".right-panel [role=\"tab\"]:text-is(\"Relationship\")",
+          "type": "click"
+        }
+      ],
+      "assertions": [
+        {
+          "equals": "derived",
+          "name": "data-relationship-authority",
+          "selector": ".right-panel [data-relationship-authority]",
+          "type": "attribute"
+        },
+        {
+          "includes": "inferred",
+          "selector": ".right-panel",
+          "type": "text"
+        },
+        {
+          "includes": "deterministic-collection-rule",
+          "selector": ".right-panel",
+          "type": "text"
+        },
+        {
+          "includes": "Rule-based linkage for design-code catalogue records.",
+          "selector": ".right-panel",
+          "type": "text"
+        },
+        {
+          "type": "console_clean"
+        }
+      ],
+      "id": "policy-edge-keeps-inferred-derivation"
+    }
+  ],
+  "schema": "okf-explorer-journeys.v1"
+}

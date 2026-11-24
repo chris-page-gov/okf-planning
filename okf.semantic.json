@@ -6,12 +6,12 @@
     "root_index": "bundle/index.md"
   },
   "okf_core": {
-    "version": "0.2",
+    "version": "0.3",
     "status": "conformant",
-    "specification": "https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/3fcbb9f828c2f23d109c855ee403c3a4c81f3a96/okf/SPEC.md"
+    "specification": "https://github.com/open-knowledge-format/open-knowledge-format/blob/527e81aff55992be21507e97004286789126f88c/SPEC.md"
   },
   "semantic_layer": {
-    "profile": "https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/3fcbb9f828c2f23d109c855ee403c3a4c81f3a96/okf/SPEC.md",
+    "profile": "https://chris-page-gov.github.io/okf-planning/profile/planning-metadata/v1/",
     "state": "generated-json-ld-with-byte-equivalent-yaml-ld-projection",
     "authoritative_inputs": [
       "source/dataset.json",
@@ -50,7 +50,7 @@
     ],
     "limitations": [
       "The publication is a draft, unverified independent catalogue snapshot and does not imply endorsement by MHCLG or any source publisher.",
-      "Relationships are inferred by deterministic collection rules and do not use the additive Bundle Wiki v1 evidence-bearing assertion profile.",
+      "Relationships remain deterministic collection rules under the producer-owned planning metadata profile, with inferred confidence and no Bundle Wiki v1 or v2 assertion adoption claim.",
       "The YAML-LD file is the byte-equivalent JSON representation already produced by this repository; compatibility with every YAML-LD consumer is not claimed."
     ]
   },
@@ -78,15 +78,26 @@
       "confidence",
       "evidence_type"
     ],
-    "schema": "https://github.com/chris-page-gov/okf-planning/blob/de342fbfd43f7320a7de0b0af71a22286d86e7a7/docs/metadata-model.md"
+    "schema": "https://chris-page-gov.github.io/okf-planning/profile/planning-metadata/v1/relationship.schema.json"
   },
   "tooling": {
     "build": [
-      "python3 scripts/build_bundle.py"
+      "uv run --locked python scripts/build_bundle.py"
     ],
     "check": [
-      "python3 scripts/check_okf.py",
-      "pytest"
+      "uv run --locked python scripts/check_okf.py",
+      "uv run --locked python scripts/check_planning_profile.py",
+      "uv run --locked --extra test pytest"
     ]
+  },
+  "historical_core": {
+    "version": "0.2",
+    "specification": "https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/3fcbb9f828c2f23d109c855ee403c3a4c81f3a96/okf/SPEC.md",
+    "baseline_commit": "0b7e89ba1e19eb67dd54def55aaa222dc708a207"
+  },
+  "format_migration": {
+    "implementation_date": "2026-11-24",
+    "standard_announcement_date": "2026-11-18",
+    "source_snapshot_unchanged": true
   }
 }

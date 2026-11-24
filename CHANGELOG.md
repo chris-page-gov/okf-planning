@@ -1,5 +1,22 @@
 # Changelog
 
+## 0.3.0 — 24 November 2026
+
+- Adopt OKF Core 0.3, announced on 18 November 2026, with a pinned current
+  specification, explicit roles and a producer-owned planning metadata profile.
+  Retain July sources, the overdue October review boundary, all 230 concept
+  identities and 40 inferred links.
+- Add a source-linked design-code question with three actual policy edges,
+  responsive diagrams, original source cards, negative controls, complete
+  deterministic AI context and discovery entry points.
+- Repair targeted Explorer record loading, facets and compatible source,
+  licence and lifecycle mappings while preserving original producer fields.
+- Govern Python with locked uv tooling and require native Reader, graph,
+  responsive browser and complete candidate-byte checks before promotion.
+  Add missing security, rights and status foundations without source acquisition.
+- Reject dirty-source publication packages and changed source payloads that do
+  not match their reviewed snapshot identity, before replacing generated output.
+
 ## Unreleased — standards references
 
 - Link the central current and historical OKF standards register and public bundle catalogue.

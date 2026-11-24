@@ -1,0 +1,10 @@
+{
+  "dataset/buffer-zone": [
+    0,
+    18
+  ],
+  "dataset/flood-risk-level": [
+    1,
+    27
+  ]
+}

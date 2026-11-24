@@ -1,0 +1,15 @@
+{
+  "dataset/certificate-of-immunity": [
+    {
+      "authority": "derived",
+      "confidence": "inferred",
+      "derivation": "deterministic-collection-rule",
+      "evidence_type": "deterministic-collection-rule",
+      "kind": "governed-by",
+      "note": "Rule-based catalogue linkage to the principal planning legislation represented in this bundle.",
+      "rule": "Rule-based catalogue linkage to the principal planning legislation represented in this bundle.",
+      "source": "dataset/certificate-of-immunity",
+      "target": "dataset/town-and-country-planning-act-1990"
+    }
+  ]
+}
