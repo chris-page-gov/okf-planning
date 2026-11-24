@@ -107,7 +107,7 @@
   "format_migration": {
     "implementation_date": "2026-11-24",
     "okf_version": "0.3",
-    "projection_version": "0.3.0",
+    "projection_version": "0.3.1",
     "source_record_generated_at": "2026-07-25T11:25:00Z",
     "source_record_generated_by": "okf-planning/0.2.0",
     "source_snapshot_unchanged": true,
@@ -145,7 +145,7 @@
   ],
   "status": "draft-demonstrator",
   "title": "UK Planning & Housing Data OKF",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "vocabulary": {
     "publisher_plural": "publishers",
     "publisher_singular": "publisher",

@@ -8,6 +8,7 @@ from html import escape
 import json
 from pathlib import Path
 import textwrap
+import tomllib
 from urllib.parse import quote
 
 import yaml
@@ -108,7 +109,7 @@ def diagram(spec: dict, concepts: dict, edges: list, *, mobile: bool) -> bytes:
             text(35, y + 32, source, 32, 17)
             text(35, y + 181, target, 34, 15)
             out.append(
-                f'<path d="M195 {y + 96} V{y + 147}" stroke="#355a7b" stroke-width="2" marker-end="url(#arrow)"/>'
+                f'<path d="M195 {y + 96} V{y + 147}" fill="none" stroke="#355a7b" stroke-width="2" marker-end="url(#arrow)"/>'
             )
             text(22, y + 120, "derived-from-policy", 30, 13)
             text(22, y + 141, "inferred · collection rule", 31, 12)
@@ -119,7 +120,7 @@ def diagram(spec: dict, concepts: dict, edges: list, *, mobile: bool) -> bytes:
             )
             text(35, y + 35, source, 31, 18)
             out.append(
-                f'<path d="M365 {y + 50} H520 L575 320" stroke="#355a7b" stroke-width="2" marker-end="url(#arrow)"/>'
+                f'<path d="M365 {y + 50} H520 L575 320" fill="none" stroke="#355a7b" stroke-width="2" marker-end="url(#arrow)"/>'
             )
             text(375, y + 23, "derived-from-policy", 28, 13)
     if not mobile:
@@ -152,7 +153,8 @@ def build(bundle: Path = BUNDLE) -> dict[str, bytes]:
     spec = json.loads((ROOT / "walkthroughs/design-code.json").read_bytes())
     descriptor_raw = (bundle / "okf-explorer.json").read_bytes()
     descriptor = json.loads(descriptor_raw)
-    assert descriptor["okf_version"] == "0.3" and descriptor["version"] == "0.3.0"
+    project_version = tomllib.loads((ROOT / "pyproject.toml").read_text())["project"]["version"]
+    assert descriptor["okf_version"] == "0.3" and descriptor["version"] == project_version
     concepts = read_concepts(bundle)
     edges = [
         row

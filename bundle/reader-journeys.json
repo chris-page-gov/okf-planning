@@ -4,7 +4,7 @@
     "id": "https://chris-page-gov.github.io/okf-planning/okf-explorer.json",
     "schema": "okf-explorer-large-corpus.v1",
     "snapshot": "planning-2026-07-25-r1",
-    "version": "0.3.0"
+    "version": "0.3.1"
   },
   "journeys": [
     {

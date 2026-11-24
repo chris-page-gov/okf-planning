@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.3.1 — 24 November 2026
+
+- Render diagram connectors as unfilled lines so desktop bends cannot become
+  black wedges that obscure edge labels. Check actual SVG connector fill and
+  inspect both viewport images before release.
+- Preserve the immutable 0.3.0 release, all source and graph identities, July
+  provenance and the overdue review boundary. This is a visual correction.
+
 ## 0.3.0 — 24 November 2026
 
 - Adopt OKF Core 0.3, announced on 18 November 2026, with a pinned current

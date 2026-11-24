@@ -5,11 +5,11 @@
     "core_assertions": 0,
     "domain_relationships": 40
   },
-  "descriptor_sha256": "b7fafe073ca57d6d8cba8687d9194a2280d776fc5409914dee7772d91546478a",
+  "descriptor_sha256": "607a4c675a2c5c0c158802c6d338c704e9df79dfb5a08514a6fd87c2084c3b38",
   "format_migration": {
     "implementation_date": "2026-11-24",
     "okf_version": "0.3",
-    "projection_version": "0.3.0",
+    "projection_version": "0.3.1",
     "source_record_generated_at": "2026-07-25T11:25:00Z",
     "source_record_generated_by": "okf-planning/0.2.0",
     "source_snapshot_unchanged": true,
