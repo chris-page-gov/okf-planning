@@ -87,6 +87,22 @@ class PublicationMethodTests(unittest.TestCase):
     def test_checked_in_pages_entrypoints_exist(self) -> None:
         self.assertEqual([], pages.candidate_errors(ROOT / "bundle"))
 
+    def test_packaged_candidate_preflight_checks_revision_and_bytes(self) -> None:
+        with tempfile.TemporaryDirectory(prefix="okf-planning-preflight-") as directory:
+            output = Path(directory) / "candidate"
+            commit = "1" * 40
+            with patch("package_pages.subprocess.check_output", side_effect=["", commit]):
+                package = package_pages.package(output)
+            digest = package["manifest_sha256"]
+            self.assertEqual([], pages.identity_errors(output, commit, digest))
+            self.assertIn("manifest SHA-256 differs", pages.identity_errors(output, commit, "0" * 64)[0])
+            self.assertIn("expected clean OKF 0.3", pages.identity_errors(output, "2" * 40, digest)[0])
+            (output / "index.html").write_bytes(b"changed")
+            self.assertEqual(
+                ["Pages candidate file SHA-256 differs: index.html"],
+                pages.identity_errors(output, commit, digest),
+            )
+
     def test_contract_is_named_in_lockstep_surfaces(self) -> None:
         for path in ("README.md", "AGENTS.md", "CHANGELOG.md"):
             self.assertIn(
@@ -104,6 +120,10 @@ class PublicationMethodTests(unittest.TestCase):
         )
         self.assertIn("group: pages-publication", workflow)
         self.assertIn("cancel-in-progress: ${{ github.event_name == 'pull_request' }}", workflow)
+        self.assertLess(
+            workflow.index("Preflight the exact packaged candidate"),
+            workflow.index("Check out the reviewed Reader"),
+        )
         self.assertGreaterEqual(workflow.count("timeout-minutes:"), 2)
         actions = re.findall(r"uses: ([^\s]+)", workflow)
         self.assertTrue(actions)
