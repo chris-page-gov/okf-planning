@@ -82,6 +82,17 @@ jobs:
         with:
           version: '0.13.4'
       - run: uv python install 3.12.11 && uv sync --locked --extra test
+      - uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8
+        with:
+          name: planning-pages-${{ github.sha }}
+          path: _site
+      - name: Preflight the exact packaged candidate
+        env:
+          EXPECTED_COMMIT: ${{ github.sha }}
+          EXPECTED_MANIFEST_SHA256: ${{ needs.core.outputs.manifest_sha256 }}
+        run: >-
+          uv run --locked python scripts/check_pages_candidate.py --bundle _site --require-nojekyll
+          --expected-commit "$EXPECTED_COMMIT" --manifest-sha256 "$EXPECTED_MANIFEST_SHA256"
       - name: Check out the reviewed Reader
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
         with:
@@ -101,10 +112,6 @@ jobs:
       - name: Install the declared native acceptance browser
         timeout-minutes: 5
         run: pnpm --dir consumer/apps/okf-explorer exec playwright install chromium
-      - uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8
-        with:
-          name: planning-pages-${{ github.sha }}
-          path: _site
       - name: Verify every native record and inferred graph journey
         env:
           OKF_EXPLORER_ROOT: ${{ github.workspace }}/consumer

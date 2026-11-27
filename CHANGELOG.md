@@ -1,5 +1,10 @@
 # Changelog
 
+## Unreleased
+
+- Check the exact packaged candidate and its file digests before installing
+  the Reader or browser for acceptance.
+
 ## 0.3.1 — 24 November 2026
 
 - Render diagram connectors as unfilled lines so desktop bends cannot become

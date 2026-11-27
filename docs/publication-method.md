@@ -40,7 +40,9 @@ for local diagnostics and marks the manifest ineligible for release.
 1. Sync locked Python 3.12.11 and run the offline core and companion builds.
    Check Core conformance, roles, relationship profile, integrity, full source
    identity, documentation and changelog lockstep.
-2. Verify the pinned Explorer revision and deterministic runtime tree. Run all
+2. Check the downloaded candidate's original manifest digest, source revision,
+   OKF version and declared file bytes before installing the Reader or browser.
+   Verify the pinned Explorer revision and deterministic runtime tree. Run all
    four native record, graph and derivation cases and the actual question link on desktop
    and mobile, including original source cards and reloads.
 3. Require zero browser errors, no AA accessibility violations, no horizontal
